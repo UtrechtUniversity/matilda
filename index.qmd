@@ -1,0 +1,20 @@
+---
+title: "MATILDA"
+toc: false
+---
+
+## Measurement and Theory for Intensive Longitudinal Data
+
+::: callout-caution
+## This website serves as an example and any content may be subject to change.
+:::
+
+MATILDA is a guide that helps you align your research questions and intensive longitudinal measurements.
+
+How you set up your measurement design has implications for your substantive theory, thus substantive theory has implications for how you should design your measurements. You need to align both well in order to answer your research questions.
+
+MATILDA helps you do this by making the connection between substantive theory and measurement design explicit: We explain relevant topics in research aim, substantive theory, and measurement theory. The content on this website is curated by experts in the field, and peer-reviewed.
+
+|                               |                                   |
+|:---------------------:|:------------------------:|
+| [Getting started](/quiz.html) | [Meet our experts](/experts.html) |
