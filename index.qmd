@@ -3,6 +3,34 @@ title: "MATILDA"
 toc: false
 ---
 
+```{r}
+#| echo: false
+#| include: false
+#| fig-height: 1
+#| fig-width: 12
+#| fig-dpi: 2800
+
+set.seed(1)
+Nt <- 100
+Nv <- 3
+Y <- matrix(0, nrow = Nv, ncol = Nt)
+B <- matrix(0.3, nrow = Nv, ncol = Nv)
+U <- matrix(rnorm(Nt * Nv), nrow = Nv, ncol = Nt, byrow = TRUE)
+
+for (t in 2:Nt) {
+  Y[, t] <- B %*% Y[, t - 1] + U[, t]
+}
+df <- as.data.frame(t(Y))
+df$t <- 1:Nt
+df_long <- tidyr::pivot_longer(df, cols = tidyr::starts_with("V"))
+# y <- rnorm(100)
+# df <- data.frame(y = y, t = 1:length(y))
+p <- ggplot2::ggplot(df_long, ggplot2::aes(y = value, x = t, color = name)) + ggplot2::geom_line() + ggplot2::theme_void() + ggplot2::scale_color_manual(values = c("#FFCD00", "#C00A35", "#000000"), guide = "none")
+ggplot2::ggsave("images/banner.svg")
+```
+
+![](images/banner.svg)
+
 ## Measurement and Theory for Intensive Longitudinal Data
 
 ::: callout-caution
@@ -15,6 +43,14 @@ How you set up your measurement design has implications for your substantive the
 
 MATILDA helps you do this by making the connection between substantive theory and measurement design explicit: We explain relevant topics in research aim, substantive theory, and measurement theory. The content on this website is curated by experts in the field, and peer-reviewed.
 
-|                               |                                   |
-|:---------------------:|:------------------------:|
-| [Getting started](/quiz.html) | [Meet our experts](/experts.html) |
+</br>
+
+::: grid
+::: g-col-6
+<center>[Get started](/quiz.html){.btn .btn-outline-primary .btn role="button"}</center>
+:::
+
+::: g-col-6
+<center>[Meet our experts](/experts.html){.btn .btn-outline-primary .btn role="button"}</center>
+:::
+:::

@@ -13,3 +13,7 @@
     max-height: 61px;
     margin-left: 29px;
 }
+
+.navbar-nav {
+  margin-left: -225px;
+}

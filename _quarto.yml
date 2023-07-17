@@ -4,6 +4,7 @@ project:
 website:
   navbar:
     logo: resources/uu_blacktext.png
+    logo-href: "https://www.uu.nl/"
     left:
       - href: index.qmd
         text: MATILDA
