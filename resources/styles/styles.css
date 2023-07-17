@@ -2,6 +2,7 @@
 /*
 very hacky way to get the uu logo on top of the
 navigation bar.
+this does not work when the browser width is small, e.g. on phones...
 */
 
 .navbar-brand {
