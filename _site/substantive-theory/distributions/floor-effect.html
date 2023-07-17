@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Noémi Schuurman">
+<meta name="dcterms.date" content="2023-06-21">
+
+<title>Floor and Ceiling Effects</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../resources/styles/styles.css">
+<meta name="citation_title" content="Floor and Ceiling Effects">
+<meta name="citation_author" content="Noémi Schuurman">
+<meta name="citation_publication_date" content="2023-06-21">
+<meta name="citation_cover_date" content="2023-06-21">
+<meta name="citation_year" content="2023">
+<meta name="citation_online_date" content="2023-06-21">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Skewness and staging: Does the floor effect induce bias in multilevel AR(1) models?;,citation_author=MH Manuel Haqiqatkhah;,citation_author=Oisín Ryan;,citation_author=Ellen L. Hamaker;,citation_doi=10.31234/osf.io/myuvr;,citation_language=en-us;">
+<meta name="citation_reference" content="citation_title=A note on the use of the Tobit approach for tests scores with floor or ceiling effects;,citation_author=Edwin J. C. G. Oord;,citation_author=L. Andries Ark;,citation_publication_date=1997;,citation_cover_date=1997;,citation_year=1997;,citation_fulltext_html_url=http://onlinelibrary.wiley.com/doi/abs/10.1111/j.2044-8317.1997.tb01150.x;,citation_issue=2;,citation_doi=10.1111/j.2044-8317.1997.tb01150.x;,citation_volume=50;,citation_language=en;,citation_journal_title=British Journal of Mathematical and Statistical Psychology;">
+<meta name="citation_reference" content="citation_title=Measuring health status in chronic airflow limitation;,citation_author=G. Guyatt;,citation_publication_date=1988-06-01;,citation_cover_date=1988-06-01;,citation_year=1988;,citation_fulltext_html_url=https://erj.ersjournals.com/content/1/6/560;,citation_issue=6;,citation_doi=10.1183/09031936.93.01060560;,citation_volume=1;,citation_language=en;,citation_journal_title=European Respiratory Journal;">
+<meta name="citation_reference" content="citation_title=Outcome Questionnaire: Item Sensitivity to Change;,citation_author=David A. Vermeersch;,citation_author=Michael J. Lambert;,citation_author=Gary M. Burlingame;,citation_publication_date=2000-04;,citation_cover_date=2000-04;,citation_year=2000;,citation_fulltext_html_url=http://www.tandfonline.com/doi/abs/10.1207/S15327752JPA7402_6;,citation_issue=2;,citation_doi=10.1207/S15327752JPA7402_6;,citation_volume=74;,citation_language=en;,citation_journal_title=Journal of Personality Assessment;">
+<meta name="citation_reference" content="citation_title=Hundred days of cognitive training enhance broad cognitive abilities in adulthood: Findings from the COGITO study;,citation_author=Florian Schmiedek;,citation_author=Martin Lövdén;,citation_author=Ulman Lindenberger;,citation_publication_date=2010;,citation_cover_date=2010;,citation_year=2010;,citation_fulltext_html_url=https://www.frontiersin.org/articles/10.3389/fnagi.2010.00027/full;,citation_doi=10.3389/fnagi.2010.00027;,citation_volume=2;,citation_language=en-US;,citation_journal_title=Frontiers in Aging Neuroscience;">
+<meta name="citation_reference" content="citation_title=Analysing censored longitudinal data with non-ignorable missing values: depression in older age;,citation_author=Milena Falcaro;,citation_author=Neil Pendleton;,citation_author=Andrew Pickles;,citation_publication_date=2013;,citation_cover_date=2013;,citation_year=2013;,citation_fulltext_html_url=https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-985X.2011.01034.x;,citation_issue=2;,citation_doi=10.1111/j.1467-985X.2011.01034.x;,citation_volume=176;,citation_language=en;,citation_journal_title=Journal of the Royal Statistical Society: Series A (Statistics in Society);">
+<meta name="citation_reference" content="citation_title=Measuring reliable change of emotional and behavioural problems in children;,citation_author=Maria Iachina;,citation_author=Niels Bilenberg;,citation_publication_date=2012-12-30;,citation_cover_date=2012-12-30;,citation_year=2012;,citation_fulltext_html_url=https://www.sciencedirect.com/science/article/pii/S0165178112003344;,citation_issue=2;,citation_doi=10.1016/j.psychres.2012.06.023;,citation_volume=200;,citation_language=en;,citation_journal_title=Psychiatry Research;">
+<meta name="citation_reference" content="citation_title=Studying dietary intake in daily life through multilevel two-part modelling: A novel analytical approach and its practical application;,citation_author=Alea Ruf;,citation_author=Andreas B. Neubauer;,citation_author=Ulrich Ebner-Priemer;,citation_author=Andreas Reif;,citation_author=Silke Matura;,citation_publication_date=2021-09-27;,citation_cover_date=2021-09-27;,citation_year=2021;,citation_fulltext_html_url=https://doi.org/10.1186/s12966-021-01187-8;,citation_issue=1;,citation_doi=10.1186/s12966-021-01187-8;,citation_volume=18;,citation_journal_title=International Journal of Behavioral Nutrition and Physical Activity;">
+<meta name="citation_reference" content="citation_title=Growth curve models for zero-inflated count data: An application to smoking behavior;,citation_author=Hui Liu;,citation_publication_date=2007-05-01;,citation_cover_date=2007-05-01;,citation_year=2007;,citation_fulltext_html_url=https://doi.org/10.1080/10705510709336746;,citation_issue=2;,citation_doi=10.1080/10705510709336746;,citation_volume=14;,citation_journal_title=Structural Equation Modeling: A Multidisciplinary Journal;">
+<meta name="citation_reference" content="citation_title=Zero-Inflated Regime-Switching Stochastic Differential Equation Models for Highly Unbalanced Multivariate, Multi-Subject Time-Series Data;,citation_author=Zhao-Hua Lu;,citation_author=Sy-Miin Chow;,citation_author=Nilam Ram;,citation_author=Pamela M. Cole;,citation_publication_date=2019-06-01;,citation_cover_date=2019-06-01;,citation_year=2019;,citation_fulltext_html_url=https://doi.org/10.1007/s11336-019-09664-7;,citation_issue=2;,citation_doi=10.1007/s11336-019-09664-7;,citation_volume=84;,citation_language=en;,citation_journal_title=Psychometrika;">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="https://www.uu.nl/" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/images/uu_blacktext.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">MATILDA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../navigation.html" rel="" target="">
+ <span class="menu-text">Where do I start?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../experts.html" rel="" target="">
+ <span class="menu-text">Our experts</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Floor and Ceiling Effects</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Research Question/Aim</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+ <span class="menu-text">[Different Goals - Description, Prediction, Causation, Understanding]</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">[Intraindividal Differences vs Interindividual Differences]</span>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Substantive Theory</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/time-scales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Time Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+ <span class="menu-text">[Context and Events]</span>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Measurement Theory</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+ <span class="menu-text">[Conceptually Defining your Variable]</span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/item-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Item Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+ <span class="menu-text">[Measurement Modeling]</span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/validation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Validation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Template Page</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sec-what-is-floor-effect" id="toc-sec-what-is-floor-effect" class="nav-link active" data-scroll-target="#sec-what-is-floor-effect">What are floor effects?</a></li>
+  <li><a href="#sec-how-floor-effect-emerges" id="toc-sec-how-floor-effect-emerges" class="nav-link" data-scroll-target="#sec-how-floor-effect-emerges">Why Do Floor Effects Occur?</a>
+  <ul class="collapse">
+  <li><a href="#floor-effects-due-to-the-measurement-design-or-intrument" id="toc-floor-effects-due-to-the-measurement-design-or-intrument" class="nav-link" data-scroll-target="#floor-effects-due-to-the-measurement-design-or-intrument">Floor effects due to the measurement design or intrument</a>
+  <ul class="collapse">
+  <li><a href="#a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale" id="toc-a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale" class="nav-link" data-scroll-target="#a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale">A. Censoring as a result of coarse-grained categories at the bottom of the scale</a></li>
+  <li><a href="#b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale" id="toc-b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale" class="nav-link" data-scroll-target="#b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale">B. Censoring as a result of measuring a bipolar construct with a unipolar scale</a></li>
+  <li><a href="#c.-censoring-by-participants" id="toc-c.-censoring-by-participants" class="nav-link" data-scroll-target="#c.-censoring-by-participants">C. Censoring by participants</a></li>
+  <li><a href="#d.-sampling-issues-or-non-at-random-missing-observations." id="toc-d.-sampling-issues-or-non-at-random-missing-observations." class="nav-link" data-scroll-target="#d.-sampling-issues-or-non-at-random-missing-observations.">D. Sampling issues or non-at random missing observations.</a></li>
+  </ul></li>
+  <li><a href="#floor-effects-due-to-the-nature-of-the-measured-construct-or-process" id="toc-floor-effects-due-to-the-nature-of-the-measured-construct-or-process" class="nav-link" data-scroll-target="#floor-effects-due-to-the-nature-of-the-measured-construct-or-process">Floor effects due to the nature of the measured construct or process</a></li>
+  <li><a href="#e.-processes-with-specific-distributional-nature" id="toc-e.-processes-with-specific-distributional-nature" class="nav-link" data-scroll-target="#e.-processes-with-specific-distributional-nature">E. Processes with specific distributional nature</a></li>
+  <li><a href="#f.-processes-consisting-of-two-sub-processes-zero-inflation" id="toc-f.-processes-consisting-of-two-sub-processes-zero-inflation" class="nav-link" data-scroll-target="#f.-processes-consisting-of-two-sub-processes-zero-inflation">F. Processes consisting of two sub-processes (zero-inflation)</a></li>
+  </ul></li>
+  <li><a href="#related-pages" id="toc-related-pages" class="nav-link" data-scroll-target="#related-pages">Related pages</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Floor and Ceiling Effects</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Mohammadhossein Manuel Haqiqatkhah <a href="https://orcid.org/0000-0002-2513-3761" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Methods &amp; Statistics Department, Utrecht University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Noémi Schuurman <a href="https://orcid.org/0000-0002-6437-5966" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Methods &amp; Statistics Department, Utrecht University
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-06-21</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2023-07-17</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+This page has not been peer-reviewed yet.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This article builds on <span class="citation" data-cites="haqiqatkhah_2022_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2022_SkewnessStagingDoes" role="doc-biblioref">n.d.</a>)</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Want to cite this page? See <a href="#citation">citation info</a>.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>This page is about floor and ceiling effects in empirical psychological data, which occur when the measurement instrument has a lower or upper bound.</p>
+<p>For example, floor effects are common in ILD collected for ‘Negative Affect’: Healthy people often experience failry little positive affect, and hence a lot of their scores will be equal or close to zero.</p>
+<p>It is important to consider these effects, because:</p>
+<ol type="a">
+<li><p>Understanding how and why these effects occur are an important part of understanding and controlling the measurement process (measurement theory);</p></li>
+<li><p>Understanding how and why these effects occur are an important part of understanding the substantive process under study (substantive theory);</p></li>
+<li><p>These effects may have consequences for analyzing and modeling the resulting ILD. Understanding when, how and why these effects occur allow you to find optimal ways to do the analysis/modeling.</p></li>
+</ol>
+<p>On this page we discuss what floor and ceiling effects are; theories on the possible mechanisms leading to floor and ceiling effects; ways of detecting these effects in a given dataset; implications and consequences of these effects for common models used in psychological research; and possible ways to deal with these effects.</p>
+<!-- I think this page should discuss both floor and ceiling effects in the end.
+-->
+<!-- This content for now may be a bit much/ not enough on measurement theoretical level. Maybe we need to split this into multiple pages, for example a basic one of floor/ceiling effects, another on the staging effect, another on consequences/modeling (maybe the latter is more for a modeling site). For now, I have removed a lot from this page. 
+-->
+<section id="sec-what-is-floor-effect" class="level1">
+<h1>What are floor effects?</h1>
+<p>Many scales used in psychological research have a lower bound. This means that individuals cannot or do not score less than a certain value on the scale.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Count Variables
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Count variables - variables that measure how many times something occurs - often have a clear lower bound:</p>
+<ul>
+<li><p>Hours of sleep - a person cannot sleep less than zero hours.</p></li>
+<li><p>Smoking frequency - a person cannot sleep less than zero cigarettes.</p></li>
+<li><p>Stressfull events - a person cannot face less than zero stressful events in a day.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Some individuals may typically score at or close to the lower bound of the scale for a given construct. This results in a clustering of measurements around the lower bound of the scale, which results in a positively skewed distribution of responses, with relatively small variability for that construct. This phenomenon is often referred to as a <em>floor effect</em>.</p>
+<p>In interindividual difference variables, floor effects occur when many of the participants score at the lower bound. In intra-individual difference variables, floor effects occur for single participants, when many of the repeated measures of that participant are at the lower bound.</p>
+<p>Floor effect can arise for both discrete and continuous variables, and for various types of scales, including likert and sliding scales.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Floor effects in distress measurements
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<!-- Think about credit/copyright of the figure, and openness of the data -->
+<p><a href="#fig-cogito-distress-histograms">Figure&nbsp;1</a> shows histograms for each participants’ repeated measures of distress, from the COGITO dataset <span class="citation" data-cites="schmiedek_2010_HundredDaysCognitive">(<a href="#ref-schmiedek_2010_HundredDaysCognitive" role="doc-biblioref">Schmiedek et al., 2010</a>)</span>. Participants’ distress was measured for about 100 consecutive days.</p>
+<p>The histograms are sorted by the mean distress scores of the individuals, from low to high means. A strong floor effect is evident for more than half of the individuals.</p>
+<!-- note that for the last participant there is a ceiling effect -->
+<div id="fig-cogito-distress-histograms" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/cogito-distress-histograms.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Individual histograms of distress scores of individuals in the COGITO dataset, sorted by individual mean. Figure is adapted from <span class="citation" data-cites="haqiqatkhah_2022_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2022_SkewnessStagingDoes" role="doc-biblioref">n.d.</a>)</span>.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-how-floor-effect-emerges" class="level1">
+<h1>Why Do Floor Effects Occur?</h1>
+<p>Multiple factors may induce the floor effect in empirical data.</p>
+<p>It can be due to the properties of the measurement design or instrument, due to the nature of measured construct and process — or due to a combination of these factors.</p>
+<!-- I think we should link these reasons to known jargon in the literature, also related to distributions.
+That is, censoring -->
+<section id="floor-effects-due-to-the-measurement-design-or-intrument" class="level2">
+<h2 class="anchored" data-anchor-id="floor-effects-due-to-the-measurement-design-or-intrument">Floor effects due to the measurement design or intrument</h2>
+<section id="a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale" class="level3">
+<h3 class="anchored" data-anchor-id="a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale">A. Censoring as a result of coarse-grained categories at the bottom of the scale</h3>
+<!-- Explain what this means in general terms, then do the headache example in an example box 
+Note: I think this is actually censoring as well, because you essentially make a '> slight headache' bound -->
+<p>Imagine a scale with the lowest item being “No headache at all or very slight headache”. The item will be selected by those who are experiencing no headache at all as well as those who have a small amount of headache, meaning that the item has low resolution and low sensitivity in measuring those with small amount of headache. For a more elaborate account, see <span class="citation" data-cites="vermeersch_2000_OutcomeQuestionnaireItem">Vermeersch et al. (<a href="#ref-vermeersch_2000_OutcomeQuestionnaireItem" role="doc-biblioref">2000</a>)</span>.</p>
+<!-- why is the below relevant for floor/ceiling effects? Either remove or make that link explicit and clear 
+From a psychometric perspective, such lack of sensitivity may also arise due to extreme formulation of the items, causing the *difficulty parameter* (or *threshold*) of the item to become high[@vandenoord_1997_NoteUseTobit], thus making it difficult accurately to distinguish between levels of the construct across individuals or its change over time within an individual [@guyatt_1988_MeasuringHealthStatus].
+
+-->
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Response options
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>[Censored data]</li>
+<li>[Continuous or discrete answer options, variables, and items]</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale" class="level3">
+<h3 class="anchored" data-anchor-id="b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale">B. Censoring as a result of measuring a bipolar construct with a unipolar scale</h3>
+<!-- Explain what this means in general terms, then do the happy/sad example in an example box -->
+<p>Some affect and mood items, like <em>sad</em>, can be thought of as measuring one half of a bipolar latent continuum, say, <em>happy–sad</em>. As such, being <em>not at all sad</em> is equivalent to being <em>neither happy nor sad</em>. In this case, measuring one half of the latent construct with a unipolar scale can be thought of as systematically left-sensoring the data. As <span class="citation" data-cites="falcaro_2013_AnalysingCensoredLongitudinal">Falcaro et al. (<a href="#ref-falcaro_2013_AnalysingCensoredLongitudinal" role="doc-biblioref">2013, p. 12</a>)</span> put it:</p>
+<blockquote class="blockquote">
+<p>The depression score variable in this study suffered a marked floor effect at 0. We decided to treat this as a special case of interval censoring. Under this model we are assuming that those who score at the floor of the test could have been further differentiated into varying levels of non-depression if there had been appropriate additional items. Most people would call such variation in non-depression variation in happiness but, in the absence of actual happiness items and evidence of their tapping the same dimension as the depression items, the labelling of any such implicit variability is best left open.</p>
+</blockquote>
+</section>
+<section id="c.-censoring-by-participants" class="level3">
+<h3 class="anchored" data-anchor-id="c.-censoring-by-participants">C. Censoring by participants</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is a stub.</p>
+</div>
+</div>
+<p>Participants give meaning to the start/end of a scale which turns out not extreme enough - later on they experience more extreme emotions, but they are bounded by the initial interpretation they gave to the start/end of a scale.</p>
+</section>
+<section id="d.-sampling-issues-or-non-at-random-missing-observations." class="level3">
+<h3 class="anchored" data-anchor-id="d.-sampling-issues-or-non-at-random-missing-observations.">D. Sampling issues or non-at random missing observations.</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is a stub.</p>
+</div>
+</div>
+<p>People only fill out questionnaires when they are at the lower end of the scale. Either participant induced: Missing non-at random observations. (tending to miss extreme scores at the end of the scale, e.g., for feeling anger) Or by design: Could for example happen if you do event-contingent sampling and only observe variables in the context of relative extreme events (you only measure people when they have a panic attack, resulting in seeming ceiling effects for anxiety).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Sampling Design
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>[Event-contingent Designs]</li>
+<li><a href="../../substantive-theory/time-scales/event-relations.html">Event-Relation in ILD Measurement</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="floor-effects-due-to-the-nature-of-the-measured-construct-or-process" class="level2">
+<h2 class="anchored" data-anchor-id="floor-effects-due-to-the-nature-of-the-measured-construct-or-process">Floor effects due to the nature of the measured construct or process</h2>
+</section>
+<section id="e.-processes-with-specific-distributional-nature" class="level2">
+<h2 class="anchored" data-anchor-id="e.-processes-with-specific-distributional-nature">E. Processes with specific distributional nature</h2>
+<!-- This can use some polishing -->
+<!-- First explain in general terms, than use examples in separate example boxes. -->
+<!-- Some ideas for sensible examples: 
+E.g., maybe strong emotions like 'inspired' only occur with specific relatively rare events, then you would expect ceiling effects if you have a sampling design that measures throughout the day rather than only those events.
+
+Most healthy people simply don't experience a lot of symptoms throughout the day.
+
+Count variables would again be a good example box
+-->
+<p>It is possible that some psychological processes, in nature, produce data with non-symmetric distributions, such that they have a higher density (or mass) near zero. Such processes, especially when dealing with counts—or constructs that can be approximated with counts—may follow, for instance, the binomial distribution <span class="citation" data-cites="iachina_2012_MeasuringReliableChange">(see <a href="#ref-iachina_2012_MeasuringReliableChange" role="doc-biblioref">Iachina &amp; Bilenberg, 2012</a>)</span>, Poisson distribution, or skewed distributions akin to the <span class="math inline">\(\chi^2\)</span> distribution.</p>
+<!-- Maybe add this ref below in a read more box, and also cite it in the previous sentence -->
+<p>See <span class="citation" data-cites="haqiqatkhah_2022_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2022_SkewnessStagingDoes" role="doc-biblioref">n.d.</a>)</span> for an elaborated account of three plausible processes.</p>
+</section>
+<section id="f.-processes-consisting-of-two-sub-processes-zero-inflation" class="level2">
+<h2 class="anchored" data-anchor-id="f.-processes-consisting-of-two-sub-processes-zero-inflation">F. Processes consisting of two sub-processes (zero-inflation)</h2>
+<!-- This can use some polishing -->
+<!-- First explain in general terms, than use examples (diet/smoking/etc in separate example boxes) -->
+<p>Some behavioral and psychological processes can be thought of as a mixture of two processes: One acting as an on–off switch (determining whether the process is active or not), and another process generating non-zero values. It has been suggested that dietary intake <span class="citation" data-cites="ruf_2021_StudyingDietaryIntake">(<a href="#ref-ruf_2021_StudyingDietaryIntake" role="doc-biblioref">Ruf et al., 2021</a>)</span>, smoking behavior <span class="citation" data-cites="liu_2007_GrowthCurveModels">(<a href="#ref-liu_2007_GrowthCurveModels" role="doc-biblioref">Liu, 2007</a>)</span>, and certain affective processes <span class="citation" data-cites="lu_2019_ZeroInflatedRegimeSwitchingStochastic">(<a href="#ref-lu_2019_ZeroInflatedRegimeSwitchingStochastic" role="doc-biblioref">Lu et al., 2019</a>)</span> might be better explained in this framework. It is worth noting that such processes can explain the excess number of zero values (or zero inflation) in the data; if the data skewed beyond zero inflation, the “on” process still needs to account for a “floor effect” that is present above zero.</p>
+</section>
+</section>
+<section id="related-pages" class="level1">
+<h1>Related pages</h1>
+<ul>
+<li>[Event-contingent Designs]</li>
+<li><a href="../../substantive-theory/time-scales/event-relations.html">Event-Relation in ILD Measurement</a></li>
+</ul>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-falcaro_2013_AnalysingCensoredLongitudinal" class="csl-entry" role="listitem">
+Falcaro, M., Pendleton, N., &amp; Pickles, A. (2013). Analysing censored longitudinal data with non-ignorable missing values: depression in older age. <em>Journal of the Royal Statistical Society: Series A (Statistics in Society)</em>, <em>176</em>(2), 415–430. <a href="https://doi.org/10.1111/j.1467-985X.2011.01034.x">https://doi.org/10.1111/j.1467-985X.2011.01034.x</a>
+</div>
+<div id="ref-haqiqatkhah_2022_SkewnessStagingDoes" class="csl-entry" role="listitem">
+Haqiqatkhah, M. M., Ryan, O., &amp; Hamaker, E. L. (n.d.). <em>Skewness and staging: Does the floor effect induce bias in multilevel AR(1) models?</em> <a href="https://doi.org/10.31234/osf.io/myuvr">https://doi.org/10.31234/osf.io/myuvr</a>
+</div>
+<div id="ref-iachina_2012_MeasuringReliableChange" class="csl-entry" role="listitem">
+Iachina, M., &amp; Bilenberg, N. (2012). Measuring reliable change of emotional and behavioural problems in children. <em>Psychiatry Research</em>, <em>200</em>(2), 867–871. <a href="https://doi.org/10.1016/j.psychres.2012.06.023">https://doi.org/10.1016/j.psychres.2012.06.023</a>
+</div>
+<div id="ref-liu_2007_GrowthCurveModels" class="csl-entry" role="listitem">
+Liu, H. (2007). Growth curve models for zero-inflated count data: An application to smoking behavior. <em>Structural Equation Modeling: A Multidisciplinary Journal</em>, <em>14</em>(2), 247–279. <a href="https://doi.org/10.1080/10705510709336746">https://doi.org/10.1080/10705510709336746</a>
+</div>
+<div id="ref-lu_2019_ZeroInflatedRegimeSwitchingStochastic" class="csl-entry" role="listitem">
+Lu, Z.-H., Chow, S.-M., Ram, N., &amp; Cole, P. M. (2019). Zero-Inflated Regime-Switching Stochastic Differential Equation Models for Highly Unbalanced Multivariate, Multi-Subject Time-Series Data. <em>Psychometrika</em>, <em>84</em>(2), 611–645. <a href="https://doi.org/10.1007/s11336-019-09664-7">https://doi.org/10.1007/s11336-019-09664-7</a>
+</div>
+<div id="ref-ruf_2021_StudyingDietaryIntake" class="csl-entry" role="listitem">
+Ruf, A., Neubauer, A. B., Ebner-Priemer, U., Reif, A., &amp; Matura, S. (2021). Studying dietary intake in daily life through multilevel two-part modelling: A novel analytical approach and its practical application. <em>International Journal of Behavioral Nutrition and Physical Activity</em>, <em>18</em>(1), 130. <a href="https://doi.org/10.1186/s12966-021-01187-8">https://doi.org/10.1186/s12966-021-01187-8</a>
+</div>
+<div id="ref-schmiedek_2010_HundredDaysCognitive" class="csl-entry" role="listitem">
+Schmiedek, F., Lövdén, M., &amp; Lindenberger, U. (2010). Hundred days of cognitive training enhance broad cognitive abilities in adulthood: Findings from the COGITO study. <em>Frontiers in Aging Neuroscience</em>, <em>2</em>. <a href="https://doi.org/10.3389/fnagi.2010.00027">https://doi.org/10.3389/fnagi.2010.00027</a>
+</div>
+<div id="ref-vermeersch_2000_OutcomeQuestionnaireItem" class="csl-entry" role="listitem">
+Vermeersch, D. A., Lambert, M. J., &amp; Burlingame, G. M. (2000). Outcome Questionnaire: Item Sensitivity to Change. <em>Journal of Personality Assessment</em>, <em>74</em>(2), 242–261. <a href="https://doi.org/10.1207/S15327752JPA7402_6">https://doi.org/10.1207/S15327752JPA7402_6</a>
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{haqiqatkhah2023,
+  author = {Haqiqatkhah, Mohammadhossein Manuel and Schuurman, Noémi},
+  title = {Floor and {Ceiling} {Effects}},
+  date = {2023-06-21},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-haqiqatkhah2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Haqiqatkhah, M. M., &amp; Schuurman, N. (2023, June 21). <em>Floor and
+Ceiling Effects</em>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

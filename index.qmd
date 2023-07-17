@@ -23,13 +23,11 @@ for (t in 2:Nt) {
 df <- as.data.frame(t(Y))
 df$t <- 1:Nt
 df_long <- tidyr::pivot_longer(df, cols = tidyr::starts_with("V"))
-# y <- rnorm(100)
-# df <- data.frame(y = y, t = 1:length(y))
 p <- ggplot2::ggplot(df_long, ggplot2::aes(y = value, x = t, color = name)) + ggplot2::geom_line() + ggplot2::theme_void() + ggplot2::scale_color_manual(values = c("#FFCD00", "#C00A35", "#000000"), guide = "none")
-ggplot2::ggsave("images/banner.svg")
+ggplot2::ggsave("resources/images/banner.svg", plot = p)
 ```
 
-![](images/banner.svg)
+![](resources/images/banner.svg)
 
 ## Measurement and Theory for Intensive Longitudinal Data
 
@@ -47,10 +45,10 @@ MATILDA helps you do this by making the connection between substantive theory an
 
 ::: grid
 ::: g-col-6
-<center>[Get started](/quiz.html){.btn .btn-outline-primary .btn role="button"}</center>
+<center>[Get started](navigation.qmd){.btn .btn-outline-primary .btn role="button"}</center>
 :::
 
 ::: g-col-6
-<center>[Meet our experts](/experts.html){.btn .btn-outline-primary .btn role="button"}</center>
+<center>[Meet our experts](experts.qmd){.btn .btn-outline-primary .btn role="button"}</center>
 :::
 :::

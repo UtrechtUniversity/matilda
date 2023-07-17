@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Pietje Puk">
+<meta name="author" content="Name Second Author">
+<meta name="dcterms.date" content="2023-06-26">
 
-<title>MATILDA</title>
+<title>Page title</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -63,9 +85,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="resources/styles/styles.css">
+<meta name="citation_title" content="Page title">
+<meta name="citation_author" content="Pietje Puk">
+<meta name="citation_author" content="Name Second Author">
+<meta name="citation_publication_date" content="2023-06-26">
+<meta name="citation_cover_date" content="2023-06-26">
+<meta name="citation_year" content="2023">
+<meta name="citation_online_date" content="2023-06-26">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Title of a paper.;,citation_author=P. Fado;,citation_author=P. K. Melkor;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_issue=1;,citation_volume=24;,citation_journal_title=Psychological methods;,citation_publisher=American Psychological Association;">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">MATILDA</span></a>
   </li>  
   <li class="nav-item">
@@ -105,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">MATILDA</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./template.html">Template Page</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -192,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./template.html" class="sidebar-item-text sidebar-link">
+  <a href="./template.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Template Page</span></a>
   </div>
 </li>
@@ -201,64 +232,251 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section-1-heading" id="toc-section-1-heading" class="nav-link active" data-scroll-target="#section-1-heading">Section 1 Heading</a></li>
+  <li><a href="#section-2-heading" id="toc-section-2-heading" class="nav-link" data-scroll-target="#section-2-heading">Section 2 Heading</a>
+  <ul class="collapse">
+  <li><a href="#subsection-2.1-heading" id="toc-subsection-2.1-heading" class="nav-link" data-scroll-target="#subsection-2.1-heading">Subsection 2.1 Heading</a></li>
+  <li><a href="#subsection-2.2-heading" id="toc-subsection-2.2-heading" class="nav-link" data-scroll-target="#subsection-2.2-heading">Subsection 2.2 Heading</a>
+  <ul class="collapse">
+  <li><a href="#subsubsection-2.2.1-heading" id="toc-subsubsection-2.2.1-heading" class="nav-link" data-scroll-target="#subsubsection-2.2.1-heading">Subsubsection 2.2.1 Heading</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#practical-considerations" id="toc-practical-considerations" class="nav-link" data-scroll-target="#practical-considerations">Practical Considerations</a></li>
+  <li><a href="#related-pages" id="toc-related-pages" class="nav-link" data-scroll-target="#related-pages">Related pages</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MATILDA</h1>
+<h1 class="title">Page title</h1>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Pietje Puk <a href="https://orcid.org/0000-0002-6437-5966" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Methods &amp; Statistics Department, Utrecht University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Name Second Author </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Methods &amp; Statistics Department, Utrecht University
+          </p>
+      </div>
+    </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-06-26</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2023-07-17</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p><img src="resources/images/banner.svg" class="img-fluid"></p>
-<section id="measurement-and-theory-for-intensive-longitudinal-data" class="level2">
-<h2 class="anchored" data-anchor-id="measurement-and-theory-for-intensive-longitudinal-data">Measurement and Theory for Intensive Longitudinal Data</h2>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-This website serves as an example and any content may be subject to change.
+This page has not been peer-reviewed yet.
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
-<p>MATILDA is a guide that helps you align your research questions and intensive longitudinal measurements.</p>
-<p>How you set up your measurement design has implications for your substantive theory, thus substantive theory has implications for how you should design your measurements. You need to align both well in order to answer your research questions.</p>
-<p>MATILDA helps you do this by making the connection between substantive theory and measurement design explicit: We explain relevant topics in research aim, substantive theory, and measurement theory. The content on this website is curated by experts in the field, and peer-reviewed.</p>
-<p><br></p>
-<div class="grid">
-<div class="g-col-6">
-<center>
-<a href="./navigation.html" class="btn btn-outline-primary btn" role="button">Get started</a>
-</center>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="g-col-6">
-<center>
-<a href="./experts.html" class="btn btn-outline-primary btn" role="button">Meet our experts</a>
-</center>
+<div class="callout-title-container flex-fill">
+Want to cite this page? See <a href="#citation">citation info</a>.
 </div>
 </div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>This page is about …</p>
+<p>The thing we are talking about in a few sentences is this…</p>
+<p>It is important to think about what this page is about, because …</p>
+<p>In the following we discuss…</p>
+<!-- optional: -->
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Need more background info?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>[Name related page 1]</p></li>
+<li><p>[Name related page 2]</p></li>
+</ul>
+</div>
+</div>
+</div>
+<section id="section-1-heading" class="level1">
+<h1>Section 1 Heading</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium mi sit amet ornare congue. Proin auctor tempor risus, finibus commodo mi sagittis eget. Maecenas suscipit pharetra fringilla. Donec et iaculis velit. Ut eget nisl vitae ligula facilisis pretium vitae a purus. Etiam blandit ultrices neque, et tincidunt massa feugiat <span class="citation" data-cites="bibtex_referencename">(<a href="#ref-bibtex_referencename" role="doc-biblioref">Fado &amp; Melkor, 2019</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Example title
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium mi sit amet ornare congue.</p>
+</div>
+</div>
+</div>
+<p>Nulla sed congue mi. Praesent urna mauris, pellentesque eu congue ac, varius nec est. Integer id ultricies felis. Nam ultrices ligula nec arcu egestas aliquet. Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Topic
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><a href="./">Name related page 1</a></p></li>
+<li><p><a href="./">Name related page 2</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="section-2-heading" class="level1">
+<h1>Section 2 Heading</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non vulputate eros. Maecenas luctus nulla eget enim varius, in aliquet turpis vulputate. Nam vehicula egestas risus quis aliquam. Quisque vitae sagittis odio. Duis eget neque tortor. Sed cursus, est ut gravida placerat, nibh nunc lacinia tortor, vel lobortis urna nulla sed erat. Mauris blandit mi quis luctus vehicula. Proin nec metus non nisi euismod scelerisque quis vitae urna.</p>
+<section id="subsection-2.1-heading" class="level2">
+<h2 class="anchored" data-anchor-id="subsection-2.1-heading">Subsection 2.1 Heading</h2>
+<p>Nulla sed congue mi. Praesent urna mauris, pellentesque eu congue ac, varius nec est. Integer id ultricies felis. Nam ultrices ligula nec arcu egestas aliquet. Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Example title
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In hac habitasse platea dictumst. Etiam tincidunt mi ut elit posuere vulputate. Donec dignissim, justo in sollicitudin egestas, nisl massa facilisis massa, id pellentesque arcu enim id leo. Vivamus id placerat ante, a porttitor mi. Nam tempus cursus mollis. Nunc pharetra orci eu dignissim vulputate. Cras nec augue felis. Nulla ultricies felis eros, eget egestas diam tincidunt et. In id felis.</p>
+</div>
+</div>
+</div>
+<p>Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Topic
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><a href="./">Related Page Name</a></p></li>
+<li><p><a href="./">Related Page Name</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="subsection-2.2-heading" class="level2">
+<h2 class="anchored" data-anchor-id="subsection-2.2-heading">Subsection 2.2 Heading</h2>
+<p>etc</p>
+<section id="subsubsection-2.2.1-heading" class="level3">
+<h3 class="anchored" data-anchor-id="subsubsection-2.2.1-heading">Subsubsection 2.2.1 Heading</h3>
+<p>etc</p>
+</section>
+</section>
+</section>
+<section id="practical-considerations" class="level1">
+<h1>Practical Considerations</h1>
+<p>The following practical considerations are also important for the decision about …, but are not considered further on this website.</p>
+<ul>
+<li><p>Consideration 1</p></li>
+<li><p>Consideration 2</p></li>
+</ul>
+</section>
+<section id="related-pages" class="level1">
+<h1>Related pages</h1>
+<ul>
+<li><a href="./">Related Page Name</a></li>
+</ul>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-bibtex_referencename" class="csl-entry" role="listitem">
+Fado, P., &amp; Melkor, P. K. (2019). Title of a paper. <em>Psychological Methods</em>, <em>24</em>(1), 70.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{puk2023,
+  author = {Puk, Pietje and Second Author, Name},
+  title = {Page Title},
+  date = {2023-06-26},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-puk2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Puk, P., &amp; Second Author, N. (2023, June 26). <em>Page title</em>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

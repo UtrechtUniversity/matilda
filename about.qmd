@@ -1,5 +1,0 @@
----
-title: "About"
----
-
-matilda is a project developed at Utrecht University.
