@@ -2,9 +2,9 @@
   {
     "objectID": "experts.html",
     "href": "experts.html",
-    "title": "MATILDA’s Experts",
+    "title": "Our experts",
     "section": "",
-    "text": "The MATILDA project is led by the Dynamic Modeling Lab at Utrecht University. Its content is developed and reviewed by the lab members together with other experts."
+    "text": "DML"
   },
   {
     "objectID": "experts.html#team",
@@ -317,42 +317,42 @@
   {
     "objectID": "substantive-theory/time-scales/measurement-coverage.html",
     "href": "substantive-theory/time-scales/measurement-coverage.html",
-    "title": "Time scale: Measurement coverage, time span, & granularity.",
+    "title": "Time scales: Measurement coverage, time span, & granularity",
     "section": "",
     "text": "This page has not been peer-reviewed yet.\nThis page is about how specific key design aspects determine how well our repeated measures cover a given process of interest. Two important concepts that determine this coverage are\nThe time span and granularity of a measurement design to a large extent determine at which time scales we can study a given process. In the following, we discuss three important design aspects that determine the time span and granularity of a study."
   },
   {
     "objectID": "substantive-theory/time-scales/measurement-coverage.html#time-frame-of-the-measurement-instrument",
     "href": "substantive-theory/time-scales/measurement-coverage.html#time-frame-of-the-measurement-instrument",
-    "title": "Time scale: Measurement coverage, time span, & granularity.",
+    "title": "Time scales: Measurement coverage, time span, & granularity",
     "section": "Time frame of the measurement instrument",
     "text": "Time frame of the measurement instrument\nWhen using self-report, oftentimes the participant is asked to answer questions with respect to a specific time frame. Similarly, when obtaining measurements that are not based on self-report, the researcher also has to decide with respect to what time frame to obtain the measures.\n\n\n\n\n\n\n\nExample: ESM/EMA study\n\n\n\n\n\nPia is performing an ESM/EMA study, in which participants are asked multiple times a day at (semi-)random time points about their momentary experiences. An example of an item is: ‘’How much tension are you experiencing right now?’’ Other items are making reference to an episode prior to the beep, such as: ‘’Did something stressful happen since the previous beep?’’\n\n\n\n\n\n\n\n\n\nExample: Daily diary study\n\n\n\n\n\nSophie is performing a daily diary study, in which participants are asked at the end of every day to whether or to what extent they have had certain experiences that day. Examples of the questions are: ‘’Did you go to work today?’’ and ‘’On average, how energetic did you feel today?’‘. Additionally, there are also a few questions about the most extreme experiences that day, such as:’‘…?’’\n\n\n\n\n\n\n\n\n\nExample: Panel study\n\n\n\n\n\nJennifer performed a panel study, in which she asked participants about their average experiences over a longer period of time. For instance, she asked them: ‘’How confident did you feel over the past month on average?’’. She combines this with measures that are not based on self-report, such as the participants average grade over a semester.\n\n\n\n\n\n\n\n\n\n\n\nRead more: Time frame used in measurement instruments\n\n\n\n\n\n\n[Retrospective Assessment, Ecological Retrospective Assessment, Ecological Momentary Assessment]\n[Remembering vs Experiencing Self]\n[Designing a measurement instrument to target between-person or within-person variance]"
   },
   {
     "objectID": "substantive-theory/time-scales/measurement-coverage.html#time-interval-between-measurements",
     "href": "substantive-theory/time-scales/measurement-coverage.html#time-interval-between-measurements",
-    "title": "Time scale: Measurement coverage, time span, & granularity.",
+    "title": "Time scales: Measurement coverage, time span, & granularity",
     "section": "Time interval between measurements",
     "text": "Time interval between measurements\nA second key aspect of the longitudinal design is the interval between measurements. These can we long (e.g., a year) or short (e.g., a milisecond), and they may be fixed (i.e., always the same for everyone), or (semi-)random. The latter is often used in self-report studies based on ESM/EMA, as a way to ensure participants are caught while living their daily life, rather than anticipating the next beep.\n\n\n\n\n\n\nExample: ESM/EMA study\n\n\n\n\n\nPia is performing an ESM/EMA study, in which participants are asked multiple times a day about their momentary experiences. To this end the time between 8am and 9:30pm is divided into blocks of 90 minutes, and within block, at a random time point within that block a beep is given, and the participant is asked to fill out the questionnaire. An additional constrained can be imposed, that beeps need to be at least 15 minutes apart. The resulting data are thus irregularly spaced in time, and characterized by a longer interval for the night break.\n\n\n\n\n\n\n\n\n\nExample: Panel study\n\n\n\n\n\nJennifer performed a panel study, with intervals between the measurements of 6 months.\n\n\n\n\n\n\n\n\n\n\n\nRead more: Time Intervals between Measurements\n\n\n\n\n\n\nConstructs Measured at Different Timescales\n[Theory: What happens in the intervals between my measurements?]\n[Theory: What happens during sleep?]\n[Equally Spaced vs Un-Equally Spaced measurements]"
   },
   {
     "objectID": "substantive-theory/time-scales/measurement-coverage.html#number-of-repeated-measurements",
     "href": "substantive-theory/time-scales/measurement-coverage.html#number-of-repeated-measurements",
-    "title": "Time scale: Measurement coverage, time span, & granularity.",
+    "title": "Time scales: Measurement coverage, time span, & granularity",
     "section": "Number of repeated measurements",
     "text": "Number of repeated measurements\nThe number of measurements is important on its own, as it determines the amount of information we will have to base our inferences on (i.e., it determines our sample size and hence our certainty about certain conclusions). Together with the previous two design aspects, it determines the time span of our study, and the amount of detail we get to see of our process; that is, the resolution or granularity of the study.\n\n\n\n\n\n\n\n\nExample: ESM/EMA study\n\n\n\n\n\nPia is interested in finding out whether positive affect (like: energetic, joyful) peak in the middle of the day, such that the profile looks like an inverted U-shape. This implies that enough measurements across the day are needed; if only two measurements per day were taken, this pattern could not be detected.\n\n\n\n\n\n\n\n\n\nExample: Daily diary study\n\n\n\n\n\nSophie is interested in studying whether people experience more fulfillment on days that they work than on days they do not work. Hence, she performs a daily diary study, in which people report at the end of the day whether or not they worked that day, and how fulfilled they felt that day. In this case, measuring more often (as would be the case in an ESM/EMA design) would not be beneficial.\n\n\n\n\n\n\n\n\n\nRead more: Number of Repeated Measurements\n\n\n\n\n\n\n[How many repeated measurements do I need?]"
   },
   {
     "objectID": "substantive-theory/time-scales/measurement-coverage.html#granularity-combination-of-time-frame-and-time-interval",
     "href": "substantive-theory/time-scales/measurement-coverage.html#granularity-combination-of-time-frame-and-time-interval",
-    "title": "Time scale: Measurement coverage, time span, & granularity.",
+    "title": "Time scales: Measurement coverage, time span, & granularity",
     "section": "Granularity: Combination of time frame and time interval",
     "text": "Granularity: Combination of time frame and time interval\nWhen the time frame of the measurement instrument and the time interval between measurements are the same, this implies that the time frames are spaced back to back. In that case, all parts of the ongoing process are captured by exactly one measurement frame.\n\n\nAlternatively, the time frame may be shorter than the time interval between the measurements. This tends to be the case when using the momentary time frame (i.e., ‘’right now’’), but is also quite common in panel research. In the latter case, the time frame is often determined by the instrument that is used and that has been validated with that particular specification. In these cases, there is a proportion of the process that is not covered by any of the measurements.\n\nIt also happens that the time frame is actually longer than the time interval between measurements; in that case the time frames overlap. A typical case is when participants are asked to rate themselves ‘’in general’’.\n\n\n\n\n\n\n\nExample: ESM/EMA study\n\n\n\n\n\nPia is using ESM/EMA to study fluctuations in anxiety throughout the day. She is asking participants to indicate how anxious they feel right now, at random time points throughout the day. In this case, most of the ongoing process is not covered by the measurements, although such a momentary snapshot may be representative of the levels of anxiety experience in a considerable period prior and after the specific measurement occasion.\n\n\n\n\n\n\n\n\n\nExample: Daily diary study\n\n\n\n\n\nSophie is performing a daily diary study, in which participants are asked at the end of every day questions such as: ‘’On average, how energetic did you feel today?’’. In this case, it is somewhat unclear where the participants start the interval for which they will provide an average; if they consider the start of the day when they got up, there may be a considerable part of the ongoing process (between their reporting the preceding day, and their getting op the following day) that is not captured by the measurements.\n\n\n\n\n\n\n\n\n\nExample: Panel study\n\n\n\n\n\nJack is performing a panel study in which participants are asked once every two years how happy they felt during the past week. In this case, only about 1% of the ongoing process is covered by the measurement frames.\n\n\n\n\n\n\n\n\n\n\nRead more: Aiming your Study’s Granularity\n\n\n\n\n\n\n[Measurement Burst Designs]\n[Measurement Burst Designs: Event Contingent Bursts]"
   },
   {
     "objectID": "substantive-theory/time-scales/measurement-coverage.html#time-span-combining-time-frame-of-the-measurement-instrument-time-interval-and-number-of-measurements",
     "href": "substantive-theory/time-scales/measurement-coverage.html#time-span-combining-time-frame-of-the-measurement-instrument-time-interval-and-number-of-measurements",
-    "title": "Time scale: Measurement coverage, time span, & granularity.",
+    "title": "Time scales: Measurement coverage, time span, & granularity",
     "section": "Time Span: Combining time frame of the measurement instrument, time interval, and number of measurements",
     "text": "Time Span: Combining time frame of the measurement instrument, time interval, and number of measurements\nThe combination of all three aspects determines the time span that is covered by the study. When the intervals are of a fixed length, the exact formula for the study time span is:\ntime span = (number of measurements - 1) * time interval + time frame\n\n\n\n\n\n\n\nExample: Daily diary study\n\n\n\n\n\nSophie asks participants at a daily basis about their experiences during the past day. Hence the time frame and the time interval are identical. She obtains these measurements for 28 ways; hence, the time span of her study is 28 days.\n\n\n\n\n\n\n\n\n\nExample: Panel study\n\n\n\n\n\nJennifer performed a panel study, consisting of 4 waves with intervals between the measurements of 6 months. The time frame of measurements was the past two weeks. The time span of this study is 18 months and two weeks.\n\n\n\n\n\n\n\n\n\nExample: Panel study 2\n\n\n\n\n\nJennifer performed a second panel study, consisting of 5 waves with intervals between the measurements of 2 months. The time frame of measurements was the past two months. The time span of this study is therefore 10 months.\n\n\n\n\n\n\n\n\n\nExample: Panel study 3\n\n\n\n\n\nJack performed a panel study consisting of 3 waves, with a measurement interval of 2 years, and a time frame of 1 week. Hence, the total time span of the this study is two years and one week.\n\n\n\n\n\n\n\n\n\n\nRead more: Time Span\n\n\n\n\n\n\n[Measurement Burst Designs]\n[External Validity for ILD]\nEvent-Related Constructs"
   },
@@ -434,24 +434,10 @@
     "text": "Combinations of the above\nThe different types of multiple measurements explained above generally intertwine. Implicitly lagged measurements are usually also time-aggregated, and for event-contingent measurements the event measurement or the conditional measurement may also be implicitly lagged or time-aggregated.\nhow are you feeling right now versus ‘in the last three hours’ could be an example of implicitly lagged and aggregate sleep examples\n\n\n\n\n\n\nExample: Smoking and positive affect 3\n\n\n\n\n\nKoen measures smoking multiple times a day (“Have you smoked since the last measurement?”), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking."
   },
   {
-    "objectID": "experts.html#dynamic-modeling-lab",
-    "href": "experts.html#dynamic-modeling-lab",
-    "title": "MATILDA’s Experts",
-    "section": "Dynamic Modeling Lab",
-    "text": "Dynamic Modeling Lab\n\n\n\n\n\n\nNoémi Schuurman  MATILDA role Assistant Professor  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nPia Andresen  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nSophie Berkhout  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nEllen Hamaker  MATILDA role Full Professor Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nManuel Haqiqatkhah  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nDaan de Jong  MATILDA role Phd Candidate Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nJeroen Mulder  MATILDA role Phd Candidate Utrecht University  Pages"
-  },
-  {
-    "objectID": "experts.html#external-experts",
-    "href": "experts.html#external-experts",
-    "title": "MATILDA’s Experts",
-    "section": "External Experts",
-    "text": "External Experts\n\n\n\n\n\n\nIJsbrand Leertouwer  MATILDA role  Postdoc.  Erasmus University  Pages"
-  },
-  {
-    "objectID": "experts/schuurman.html",
-    "href": "experts/schuurman.html",
-    "title": "Pages by Noémi Schuurman",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATILDA",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "&lt;div class=\"navbar-brand-container\"&gt;\n&lt;a href=\"https://www.uu.nl/\" class=\"navbar-brand navbar-brand-logo\"&gt;\n&lt;img src=\"./resources/images/uu_blacktext.png\" alt=\"\" class=\"navbar-logo\"&gt;\n&lt;/a&gt;\n\n  &lt;div id=\"quarto-search\" class=\"\" title=\"Search\"&gt;&lt;/div&gt;\n      &lt;button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" onclick=\"if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }\"&gt;"
   }
 ]

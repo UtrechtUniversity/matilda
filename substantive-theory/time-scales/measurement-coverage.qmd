@@ -1,5 +1,5 @@
 ---
-title: "Time scale: Measurement coverage, time span, & granularity."
+title: "Time scales: Measurement coverage, time span, & granularity"
 date-format: "YYYY-MM-DD"
 date: 2023-06-20
 date-modified: last-modified
