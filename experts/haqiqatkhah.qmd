@@ -1,0 +1,9 @@
+---
+title: "Pages by Mohammadhossein Manuel Haqiqatkhah"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "Mohammadhossein Manuel Haqiqatkhah"
+---

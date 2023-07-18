@@ -2,9 +2,9 @@
   {
     "objectID": "experts.html",
     "href": "experts.html",
-    "title": "Our experts",
+    "title": "MATILDA’s Experts",
     "section": "",
-    "text": "DML"
+    "text": "The MATILDA project is led by the Dynamic Modeling Lab at Utrecht University. Its content is developed and reviewed by the lab members together with other experts."
   },
   {
     "objectID": "experts.html#team",
@@ -432,5 +432,26 @@
     "title": "Measuring and Relating Multiple Constructs Measured at Different Timescales",
     "section": "Combinations of the above",
     "text": "Combinations of the above\nThe different types of multiple measurements explained above generally intertwine. Implicitly lagged measurements are usually also time-aggregated, and for event-contingent measurements the event measurement or the conditional measurement may also be implicitly lagged or time-aggregated.\nhow are you feeling right now versus ‘in the last three hours’ could be an example of implicitly lagged and aggregate sleep examples\n\n\n\n\n\n\nExample: Smoking and positive affect 3\n\n\n\n\n\nKoen measures smoking multiple times a day (“Have you smoked since the last measurement?”), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking."
+  },
+  {
+    "objectID": "experts.html#dynamic-modeling-lab",
+    "href": "experts.html#dynamic-modeling-lab",
+    "title": "MATILDA’s Experts",
+    "section": "Dynamic Modeling Lab",
+    "text": "Dynamic Modeling Lab\n\n\n\n\n\n\nNoémi Schuurman  MATILDA role Assistant Professor  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nPia Andresen  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nSophie Berkhout  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nEllen Hamaker  MATILDA role Full Professor Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nManuel Haqiqatkhah  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nDaan de Jong  MATILDA role Phd Candidate Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nJeroen Mulder  MATILDA role Phd Candidate Utrecht University  Pages"
+  },
+  {
+    "objectID": "experts.html#external-experts",
+    "href": "experts.html#external-experts",
+    "title": "MATILDA’s Experts",
+    "section": "External Experts",
+    "text": "External Experts\n\n\n\n\n\n\nIJsbrand Leertouwer  MATILDA role  Postdoc.  Erasmus University  Pages"
+  },
+  {
+    "objectID": "experts/schuurman.html",
+    "href": "experts/schuurman.html",
+    "title": "Pages by Noémi Schuurman",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

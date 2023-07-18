@@ -1,0 +1,9 @@
+---
+title: "Pages by Noémi Schuurman"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "Noémi Schuurman"
+---

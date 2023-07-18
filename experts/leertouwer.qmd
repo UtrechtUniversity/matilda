@@ -1,0 +1,9 @@
+---
+title: "Pages by IJsbrand Leertouwer"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "IJsbrand Leertouwer"
+---

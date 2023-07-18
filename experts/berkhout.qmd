@@ -1,0 +1,9 @@
+---
+title: "Pages by Sophie Berkhout"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "Sophie Berkhout"
+---

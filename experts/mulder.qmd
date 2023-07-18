@@ -1,0 +1,9 @@
+---
+title: "Pages by Jeroen Mulder"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "Jeroen Mulder"
+---

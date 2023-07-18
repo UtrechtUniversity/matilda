@@ -1,0 +1,9 @@
+---
+title: "Pages by Daan de Jong"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "Daan de Jong"
+---

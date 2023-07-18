@@ -1,0 +1,9 @@
+---
+title: "Pages by Ellen Hamaker"
+listing:
+  type: table
+  categories: cloud
+  fields: [image, title, author]
+  include:
+      author: "Ellen Hamaker"
+---
