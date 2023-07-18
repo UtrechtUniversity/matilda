@@ -37,7 +37,7 @@ It is important to think about differences in time scales and measurement freque
 Below, we discuss various examples of this, including specific common cases in which this occurs: "lagged and implicitly lagged variables", and "event-unconditional and event-contingent variables". We discuss various things to consider when studying these variables.
 
 
-# Studying Multiple constructs with different timescales
+# Studying Multiple Constructs with Different Timescales
 
 Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Time Scales: Landing Page](../time-scales.qmd)). 
 
@@ -130,7 +130,7 @@ Koen measures smoking multiple times a day ("Have you smoked since the last meas
 
 When a measurement refers to a previous interval, it usually indicates a time-aggregated behavior (e.g., "in the past hour"). Non-time-aggregated items refer to behavior at the time of the measurement occasion (i.e., "at the moment"). 
 
-When considering dynamic relations among a time-aggregated variable and a non-time-aggregated variable, it is important to consider how the aggregation effects the relations. Furthermore, the substantive interpretation should include the aggregation (e.g., "x in general relates to y"). 
+When considering dynamic relations among a time-aggregated variable and a non-time-aggregated variable, it is important to consider how the aggregation effects the relations. Furthermore, the substantive interpretation should include the aggregation (e.g., "x relates to the average of y"). 
 
 ::: {.callout-tip collapse="true"}
 ## Example: Smoking and positive affect 2
@@ -142,20 +142,11 @@ Emilie combines daily measures of smoking and momentary measures of positive aff
 
 The different types of multiple measurements explained above generally intertwine. Implicitly lagged measurements are usually also time-aggregated, and for event-contingent measurements the event measurement or the conditional measurement may also be implicitly lagged or time-aggregated.
 
-how are you feeling right now versus 'in the last three hours' could be an example of implicitly lagged and aggregate
-sleep examples
-
 ::: {.callout-tip collapse="true"}
 ## Example: Smoking and positive affect 3
 
 Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking.
-:::
-
-# Relating Constructs Measured at Different Timescales
-As discussed above, when the research aim to relate variables measured at different timescales, it is important to think about in what way the timescales differ, and in what way these constructs may interrelate exactly. 
-
-This is not only key for measuring the variables in a sensible way, but also for modeling them appropriately. Albeit (for now) out of the scope of this webpage, see refs... for modeling variables at different time scales.
- 
+::: 
 
 # Practical Considerations
 
