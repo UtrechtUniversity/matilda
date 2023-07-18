@@ -79,16 +79,16 @@
   {
     "objectID": "measurement-theory/validation.html",
     "href": "measurement-theory/validation.html",
-    "title": "Validation Landing Page",
+    "title": "Validation landing page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  validation  of measurements."
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for topics related to the  validation  of measurements.\nValidating a measurement means to evaluate whether our measurement instrument is measuring what it is supposed to measure. Validating measurement instruments is a key part of doing any study, ILD studies included: if our measures are invalid, our results may be more or less meaningless.\nThere are various approaches to validating a measurement instrument, ranging from doing qualitative studies to see what participants make of the items you designed, to using statistical models to estimate the reliability of an item. Typically, it will require multiple of these approaches together (triangulation) to ensure our measurement instrument is actually valid.\nRead more about various topics related to the validation of ILD studies below."
   },
   {
     "objectID": "measurement-theory/validation.html#think-more-about-validation",
     "href": "measurement-theory/validation.html#think-more-about-validation",
-    "title": "Validation Landing Page",
+    "title": "Validation landing page",
     "section": "Think More About Validation",
-    "text": "Think More About Validation\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Validation - Reliability\n\n\n\n\n\n\nReliability for Single Item Measures"
+    "text": "Think More About Validation\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Validation - General\n\n\n\n\n\n\n[When are my measurements good enough?]\n[Validity for ILD]\n[Reliability for ILD]\n\n\n\n\n\n\n\n\n\n\nRead more: Validation - Validity approaches\n\n\n\n\n\n\n[Face validity for ILD]\n[Content validity for ILD]\n[Predictive, convergent, and divergent validity for ILD]\n[Qualitative evaluations of measurement instruments]\n\n\n\n\n\n\n\n\n\n\nRead more: Validation - Reliability approaches\n\n\n\n\n\n\nReliability for single items\n[Reliability for Multiple Item Measures]"
   },
   {
     "objectID": "navigation.html",
@@ -466,7 +466,7 @@
     "href": "experts/schuurman.html",
     "title": "Pages by Noémi K. Schuurman",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\n\nInstrument landing page\n\n\nNoémi K. Schuurman\n\n\n\n\n\n\n\nItem landing page\n\n\nNoémi K. Schuurman\n\n\n\n\n\n\n\nMeasurement model landing page\n\n\nNoémi K. Schuurman\n\n\n\n\n\n\n\nMeasurement theory landing page\n\n\nNoémi K. Schuurman\n\n\n\n\n\n\n\nReliability for single item measures\n\n\nIJsbrand Leertouwer, Noémi K. Schuurman\n\n\n\n\n\n\n\nReliability for single item measures\n\n\nIJsbrand Leertouwer, Noémi K. Schuurman\n\n\n\n\n\n\n\nSampling landing page\n\n\nNoémi K. Schuurman\n\n\n\n\n\n\n\nSingle item or multiple item measures\n\n\nNoémi K. Schuurman, Pia K. Andresen, Sophie W. Berkhout\n\n\n\n\n\n\n\nValidation landing page\n\n\nNoémi K. Schuurman\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "experts/berkhout.html",
@@ -509,5 +509,131 @@
     "title": "Pages by Jeroen D. Mulder",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "measurement-theory/instrument.html",
+    "href": "measurement-theory/instrument.html",
+    "title": "Instrument landing page",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  measurement instrument  used for measuring your constructs of interest. Note that if you use a single item measure to measure your construct, that item is your instrument (and the item landing page may be most helpful).\nThey way your instrument is designed, from the order of your items to the length of your questionnaire, will directly impact what you measure."
+  },
+  {
+    "objectID": "measurement-theory/instrument.html#think-more-about-instrument-design",
+    "href": "measurement-theory/instrument.html#think-more-about-instrument-design",
+    "title": "Instrument landing page",
+    "section": "Think more about instrument design",
+    "text": "Think more about instrument design\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Instrument design\n\n\n\n\n\n\nUsing single item or multiple item measures\n[Questionnaire design]\n[Sum or mean scores versus measurement models]\n\n\n\n\n\n\n\n\n\n\nRead more: Instrument Validation\n\n\n\n\n\n\nValidation landing page\n[When are my measurements good enough?]\n[Qualitative assessment of your instrument]\nReliability for single items\n[Reliability for multiple item measures]"
+  },
+  {
+    "objectID": "measurement-theory/sampling.html",
+    "href": "measurement-theory/sampling.html",
+    "title": "Sampling landing page",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  sampling procedure  used for measuring your constructs of interest.\nThey way your sampling procedure is designed will directly impact what you will be able to capture about your construct."
+  },
+  {
+    "objectID": "measurement-theory/sampling.html#think-more-about-you-sampling-design",
+    "href": "measurement-theory/sampling.html#think-more-about-you-sampling-design",
+    "title": "Sampling landing page",
+    "section": "Think more about you sampling design",
+    "text": "Think more about you sampling design\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Sampling Design\n\n\n\n\n\n\n[Types of sampling designs]\n[Missing observations]\n[Ecological Momentary Assessment versus Ecological Retrospective Assessment]\n[Key design aspects related to time scales: time frame, interval, number of measurements]"
+  },
+  {
+    "objectID": "measurement-theory/measurement-model.html",
+    "href": "measurement-theory/measurement-model.html",
+    "title": "Measurement model landing page",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  measurement model  that applies to your measurement instrument.\nYour measurement model represents how the true scores of your construct result in the observations you make with your measurement instrument.\nMeasurement models are useful for gaining an in-depth understanding about your measurement procedure, which is in turn essential for knowing what you can and cannot learn based on your measurements. This understanding is attained by using the measurement model to make explicit what is known about the measurement mechanism, and what is unknown or assumed about the measurement mechanism, preferable in math.\nIf the measurement model can be fitted to your data, it can also be a useful tool for example for filtering out measurement error, or estimating the reliability of your instrument."
+  },
+  {
+    "objectID": "measurement-theory/measurement-model.html#think-more-about-you-sampling-design",
+    "href": "measurement-theory/measurement-model.html#think-more-about-you-sampling-design",
+    "title": "Measurement model landing page",
+    "section": "Think more about you sampling design",
+    "text": "Think more about you sampling design\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Measurement modeling\n\n\n\n\n\n\n[Formulating a measurement model]\n[Classical test theory]\n[Modern test theory]\n[Common measurement models: Reflective and formative measurement models]\n[Means and sum scores versus latent variable models]\n[Key design aspects related to time scales: time frame, interval, number of measurements]\nUsing single item or multiple item measures"
+  },
+  {
+    "objectID": "measurement-theory/item.html",
+    "href": "measurement-theory/item.html",
+    "title": "Item landing page",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  items  used for measuring your constructs of interest.\nThey way your items are designed, from the questions you ask to the answer options you provide, will directly impact what you measure."
+  },
+  {
+    "objectID": "measurement-theory/item.html#think-more-about-item-design",
+    "href": "measurement-theory/item.html#think-more-about-item-design",
+    "title": "Item landing page",
+    "section": "Think more about item design",
+    "text": "Think more about item design\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Item design\n\n\n\n\n\n\n[Answer option design]\n[Question design]\nFloor and ceiling effects\n\n\n\n\n\n\n\n\n\n\nRead more: Item validation\n\n\n\n\n\n\nValidation landing page\n[Qualitative assessment of your items]\n[Face validity for ILD items]\nReliability for single items"
+  },
+  {
+    "objectID": "measurement-theory/instrument/single-item-multiple-item-measures.html",
+    "href": "measurement-theory/instrument/single-item-multiple-item-measures.html",
+    "title": "Single item or multiple item measures",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis page considers several theoretical implications for deciding for single or multiple items to measure a construct.\nConsidering whether you’ll use single or multiple items is important, because your choice implies certain assumptions about the mechanism between the construct you want to measure, and the data you observe. These in turn may also affect your end conclusions and results. They may also have implications for how to validate your measurements.\nIn the following we first discuss single item measures, followed by multiple item measures."
+  },
+  {
+    "objectID": "measurement-theory/instrument/single-item-multiple-item-measures.html#multiple-items-for-reasons-of-content-validity",
+    "href": "measurement-theory/instrument/single-item-multiple-item-measures.html#multiple-items-for-reasons-of-content-validity",
+    "title": "Single item or multiple item measures",
+    "section": "Multiple items for reasons of content validity",
+    "text": "Multiple items for reasons of content validity\nAsking multiple questions, or using multiple items, to cover all relevant aspects of the construct of interest. The different items are used to measure different important aspects of the relevant construct. The responses to these multiple items are aggregated in some way to get an overall measure of the construct of interest. This aggregate may then be used for further analyses.\n\n\n\n\n\n\nExample: Social support 2\n\n\n\n\n\nMax wants to get a good impression of someone’s daily experienced received social support. To get an impression of all relevant aspects of social support for their study, Max breaks down the construct into different aspects, measured with different items.\nRather than using a single item asking ’How much social support did you receive today?“, they asked multiple questions like”Did you receive help with your job today?“,”Did you feel you could reach out for emotional support from your friends/family/colleagues today?“, and”Did you rely on financial support today?“. In this way, various distinct aspects of receiving social support are covered by the multiple items.\nTo get an overall measure of experienced social support for further use in their analyses, Max will aggregate the responses to these items; either using a mean score or a more complex latent variable model.\n\n\n\n\nIf you consider using multiple items to improve content validity, carefully consider the theoretical implications of how you should aggregrate the multiple items into a single measure to be used in your analyses.\n\n\n\n\n\n\nRead more: Aggregating multiple items for measuring a construct\n\n\n\n\n\n\n[Multiple item measures: Sum-Scores or Mean-Scores vs Latent Variable Models]\n[Formative versus Reflective Latent Variable Models]"
+  },
+  {
+    "objectID": "measurement-theory/instrument/single-item-multiple-item-measures.html#multiple-items-for-reasons-of-reliability",
+    "href": "measurement-theory/instrument/single-item-multiple-item-measures.html#multiple-items-for-reasons-of-reliability",
+    "title": "Single item or multiple item measures",
+    "section": "Multiple items for reasons of reliability",
+    "text": "Multiple items for reasons of reliability\nHaving multiple items to measure the same construct can be helpful, because it allows using internal consistency reliability approaches. For these techniques, the general idea is that the items all measure the same underlying construct. The shared variance among those items is the result of variation in the true construct, while the un-shared variance among the items is considered measurement error.\nMultiple items that measure the same construct, combined with internal consistency reliability approaches can be used…\na) to estimate the reliability of (a set of) items for measuring a construct of interest. That is, to validate a questionnaire.\nb) to account for measurement error for a construct of interest during an analysis. That is, to prevent measurement error from biasing the results of analyses.\n\n\n\n\n\n\nExample: Social support 3\n\n\n\n\n\nUme has developed a short experience-sampling questionnaire where three items are used to measure daily experienced received social support. The items are “I felt supported by others today…”, “I felt grateful to others today…” and “Other people had my back today…”. The shared variance in the items over time is considered variance in the ‘true’ received social support, and the unique variance in the items over time is considered measurement error.\n\n\n\nWell-known internal consistency approaches for interindividual (e.g., cross-sectional) studies are reliability measures such as Cronbach’s Alpha, and latent variable models such as factor models and Item Response Theory models. These techniques cannot be used directly on intensive longitudinal data, but extensions and similar alternatives are available.\n\n\n\n\n\n\nExample: Social support 4\n\n\n\n\n\nUme uses a reflective linear factor model with the three items as indicators, and one latent variable that should reflect ‘received social support’. They use the model to estimate the reliability for their short questionnaire, as part of their validation study. Reliability will be high when the items consistently increase and decrease together over the repeated measures (if they covary a lot of time).\nIf the questionnaire is deemed valid based on Ume’s study, in future studies researchers can use the same factor model to correct for measurement error in their analyses.\n\n\n\nWhen using multiple items for reliability purposes, it is important to consider\n\nthat each internal consistency reliability technique is based on theoretical assumptions, and hence has theoretical implications. It is important to carefully think about what measurement model is appropriate for your research question and context.\nit is possible to evaluate reliability and correct for measurement error with single item measures as well (see: Reliability for single item measures (for single or multiple subjects)).\n\n\n\n\n\n\n\nRead more: Aggregating multiple items for measuring a construct\n\n\n\n\n\n\n[Multiple item measures: Sum-scores or mean-scores vs latent variable models]\n[Formative versus reflective latent variable models]\n\n\n\n\n\n\n\n\n\n\nRead more: Evaluating the quality of multiple-item measures\n\n\n\n\n\n\n[When are my measurements ‘good enough’?]\n[Internal consistency reliability for ILD]\n[Qualitative assessments of measurement quality]\n[Predictive & convergent/divergent validity for ILD]"
+  },
+  {
+    "objectID": "measurement-theory/instrument/single-item-multiple-item-measures.html#multiple-items-to-mirror-interindividual-difference-questionnaires",
+    "href": "measurement-theory/instrument/single-item-multiple-item-measures.html#multiple-items-to-mirror-interindividual-difference-questionnaires",
+    "title": "Single item or multiple item measures",
+    "section": "Multiple items to mirror interindividual difference questionnaires",
+    "text": "Multiple items to mirror interindividual difference questionnaires\nResearchers may want to use constructs established in interindividual difference research for intra-individual difference studies using ILD: For example, constructs such as ‘positive affect’ or ‘introversion’. In that case, the first intuition may be to simply take the questionnaires from inter-individual difference research and adapt them to the intra-individual context.\n\n\n\n\n\n\nExample: PANAS 1\n\n\n\n\n\nA researcher wants to measure intra-individual differences in ‘Positive Affect’ and ‘Negative Affect’, constructs established in the context of individual differences research. It is commonly measured with the PANAS Schedule (Tran, 2020; Watson et al., 1988). It measures how much positive and negative affect people tend to generally experience, and is used to study trait differences between people in how much positive and negative affect the tend to experience, and how this relates to other differences between people (e.g., their sex or personality traits).\nThe researcher takes the original items of the PANAS scale, and but changes the phrasing to suit intra-individual difference research.\nFor example: The original PANAS instructions were “Indicate the extent you have felt this way over the past week.” for various adjectives (e.g., “irritable”, “guilty”, “afraid”), rated on a 5 point likert scale (“very slightly/not at all” - “extremely”). The researcher changes the instruction to “Indicate the extent you have felt this way in the last hour.”, keeping the remaining the same.\n\n\n\nIt is important to consider the following:\n\nconstructs established interindividual difference research may be less relevant, or irrelevant for studying intra-individual differences.\n\n\n\n\n\n\n\nExample PANAS 2\n\n\n\n\n\nBased on interindividual difference research, the items “irritable”, “guilty”, “afraid” (and others) are considered suitable items for establishing consistent differences in ‘overall negative affect’ among different people (Watson et al., 1988). Based on factor modeling studies (Wedderhoff et al., 2021), it has been established that people that tend to overall feel more irritable than other people, tend to also feel more guilty and afraid than other people. This property is captured in a latent variable, which is considered to capture differences in people’s overall ‘negative affect’.\nThis however doesn’t mean such a latent variable will also capture differences in a persons’ intra-individual differences well, that is, how a person’s affect fluctuates over time.\nIf we apply the ‘negative affect’ latent variable to intra-individual differences over time, using the same adjectives as the original scale, this would imply the following pattern over time: If a person feels relatively irritable at a certain occasion, that person tends to also feel relatively guilty and afraid at that same occasion.\nFor example, consider that whether a person feels irritable at a given occasion, and whether the person also feels guilty and afraid, depends mainly on the context the participant is in at that occasion - rather than this it is a result of a latent variable ‘negative affect’. For some experiences they may feel all three emotions to a large extent due to the nature of the event (participant is publicly called out on a big mistake), while for other experiences they may be inclined to feel mostly one of them (participant encounters an angry swarm of bees during a walk).\nIf so, the concept of general negative effect may not be directly relevant for studying how people’s emotions fluctuate over time (intra-individual differences); while it is very suitable for studying general tendencies of people compared to other people (interindividual differences).\n\n\n\n\nquestionnaires for intra-individual difference studies, often need to have different qualities than questionnaires on inter-individual differences.\n\n\n\n\n\n\n\nExample: PANAS 3\n\n\n\n\n\nConsider the PANAS adjective ‘guilty’, for which participants now would “Indicate the extent you have felt this way in the last hour.” If one collects relatively few repeated measures over a short time span, participants may often or even always respond ‘not at all/very slightly’ for the majority of measures. This would result in little to no within-person variance in the repeated measures of guilt, making intra-individual difference analyses difficult or impossible.\nIn comparison, for studying (stable) interindividual differences or traits, the timing of measurements is often less important compared to getting a representative varied sample of observations.\n\n\n\n\n\n\n\n\n\nExample: PANAS 4\n\n\n\n\n\nWhile the original PANAS for interindividual differences consists of 20 items, we may prefer a shorter questionnaire for an intra-individual difference study where we collect repeated measures every hour.\n\n\n\n\nvalid and reliable questionnaires from inter-individual difference research, may not be valid and reliable for intra-individual difference research.\n\n\n\n\n\n\n\nExample: PANAS 5\n\n\n\n\n\nWhile the original PANAS for interindividual differences may have a reliability between .8-.9 (refs), an adapted PANAS for intra-individual differences may have a much lower or higher reliability (Schuurman & Hamaker, 2019).\n\n\n\nHence, questionnaires or items adapted from interindividual difference research need to be completely re-validated.\nWe generally recommend to avoid copying constructs from interindividual research directly to intra-individual difference studies unless there are very good theoretical reasons to do so. That is, the constructs need to make sense for studying intra-individual differences, for the given research question, and context, preferably backed by empirical evidence. In many cases it may be necessary, and more fruitful to establish (new) constructs tailored to intra-individual differences.\n\n\n\n\n\n\nRead more: Interindividual versus intraindividual differences\n\n\n\n\n\n\n[Intra-individual versus interindividual difference studies]"
+  },
+  {
+    "objectID": "measurement-theory/instrument/single-item-multiple-item-measures.html#combining-different-reasons-for-using-multiple-items",
+    "href": "measurement-theory/instrument/single-item-multiple-item-measures.html#combining-different-reasons-for-using-multiple-items",
+    "title": "Single item or multiple item measures",
+    "section": "Combining different reasons for using multiple items",
+    "text": "Combining different reasons for using multiple items\nA researcher may want to use multiple items for more than one of the reasons discussed above, for example, they want to both cover different kinds of aspects of a construct (content validity), and use multiple items to estimate the reliability of their multiple item measure. It is important to think about for a given construct whether and how these different goals can be reconciled with each other. This will depend on the goals, the nature of the construct, the design of the items, and how the items will be aggregated.\n\n\n\n\n\n\nExample: Social support 5\n\n\n\n\n\nMax wants to get a good impression of someone’s daily experienced received social support. They care about both content validity, and they also want to evaluate the measures’ reliability, to make sure it captures as little measurement error as possible.\nTo ensure their measure is content valid, Max breaks down the construct into different aspects, measured with different items.\nRather than using a single item asking ’How much social support did you receive today?“, they asked multiple questions like”Did you receive help with your job today?“,”Did you feel you could reach out for emotional support from your friends/family/colleagues today?“, and”Did you rely on financial support today?“. In this way, various distinct aspects of receiving social support are covered by the multiple items.\nMax uses a reflective factor model to estimate the internal consistent reliability of the items. However, because this reliability estimate relies on the idea that what is reliable is the variance that is shared among the items, all the unique variability in the items is considered measurement error. Hence, all the unique contributions of the items, which is why Max used multiple items with respect to content validity, are not considered in this reliability estimate. As a result, the reliability estimate is likely to underestimate the true reliability of the measure.\nMax’ internal consistency reliability approach, does not mesh well with their approach to content validity."
+  },
+  {
+    "objectID": "measurement-theory/validation/reliability-single-item-measures.html",
+    "href": "measurement-theory/validation/reliability-single-item-measures.html",
+    "title": "Reliability for single item measures",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis page is about methods for determining the reliability of  single item measures.\nReliability is a prerequisite for the validity of your item. Unreliable measurements can lead to inaccurate and/or biased parameter estimates when you analyse them.\nSo far, the available methods for determining the reliability of single item measures are based on the test-retest framework. In the following, we first discuss this framework, followed by two methods for estimating reliability for single item measures."
+  },
+  {
+    "objectID": "measurement-theory/validation/reliability-single-item-measures.html#the-test-retest-framework-for-ild",
+    "href": "measurement-theory/validation/reliability-single-item-measures.html#the-test-retest-framework-for-ild",
+    "title": "Reliability for single item measures",
+    "section": "The test-retest framework for ILD",
+    "text": "The test-retest framework for ILD\nThe challenge for ILD is that the true score is often expected to vary over time:\n\\[\ny_{t} = \\theta_t + \\epsilon_{t}.\n\\] As such, we need a way to distinguish the variance in the true score from variance due to measurement error for a single item in our repeated measures, if we want to use a test-retest approach. This generally requires making some assumptions about how the true score and measurement error vary over time.\nBelow we will discuss two methods that do this, and that can be used for measurements of single items and single or multiple participants: The ‘measurement error autoregressive model’ and the ‘immediate test-retest method’.\n\n\n\n\n\n\nRead more: Other approaches to reliability (for muliple item measures)\n\n\n\n\n\n\n[Internal consistency reliability for ILD]"
+  },
+  {
+    "objectID": "measurement-theory/validation/reliability-single-item-measures.html#extensions-of-the-mear1-approach",
+    "href": "measurement-theory/validation/reliability-single-item-measures.html#extensions-of-the-mear1-approach",
+    "title": "Reliability for single item measures",
+    "section": "Extensions of the MEAR(1) approach",
+    "text": "Extensions of the MEAR(1) approach\nThe MEAR(1) model can be extended to capture more complicated dynamics - in essence, the idea behind it can be generalized to any dynamic model; where the dynamic model part is considered the reliable part of scores, and the remainder measurement error. So far, the MEAR(1) model has been extended to account for multiple variables with a VAR(1) model with correlated measurement errors, and to multilevel data (modeling multiple participants) (Schuurman & Hamaker, 2019).\n\n\n\n\n\n\nRead more: Practical application\n\n\n\n\n\n\n\nScripts for R and Mplus are available in the supplementary materials of Leertouwer et al. (n.d.)"
+  },
+  {
+    "objectID": "measurement-theory/measurement-theory.html",
+    "href": "measurement-theory/measurement-theory.html",
+    "title": "Measurement theory landing page",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nWith measurement theory we mean the theory that explains how the true values of your construct lead to the observed scores obtained through your measurements.\nBelow we have specified multiple topics to think about with respect to this."
+  },
+  {
+    "objectID": "measurement-theory/measurement-theory.html#think-more-about-your-research-question",
+    "href": "measurement-theory/measurement-theory.html#think-more-about-your-research-question",
+    "title": "Measurement theory landing page",
+    "section": "Think more about your research question",
+    "text": "Think more about your research question\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Measurement theory\n\n\n\n\n\n\nItem\nInstrument\nSampling\nValidation\nMeasurement Model"
   }
 ]

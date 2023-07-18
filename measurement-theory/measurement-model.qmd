@@ -1,0 +1,79 @@
+---
+title: "Measurement model landing page"
+categories: ['Measurement theory','Measurement model', 'Landing page']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-06-26
+date-modified: last-modified
+author:
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
+citation: true
+bibliography: ../resources/bibliographies/pagename_references.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](measurement-model.html#citation).
+:::
+
+This is the landing page for everything related to the <i> measurement model </i> that applies to your measurement instrument.
+
+Your measurement model represents how the true scores of your construct result in the observations you make with your measurement instrument. 
+
+Measurement models are useful for gaining an in-depth understanding about your measurement procedure, which is in turn essential for knowing what you can and cannot learn based on your measurements. This understanding is attained by using the measurement model to make explicit what is known about the measurement mechanism, and what is unknown or assumed about the measurement mechanism, preferable in math. 
+
+If the measurement model can be fitted to your data, it can also be a useful tool for example for filtering out measurement error, or estimating the reliability of your instrument.
+
+## Think more about you sampling design
+
+We have collected various topics for you to read more about below.
+
+::: {.callout-note collapse="false"}
+
+## Read more: Measurement modeling
+
+-   [Formulating a measurement model]
+-   [Classical test theory]
+-   [Modern test theory]
+-   [Common measurement models: Reflective and formative measurement models]
+-   [Means and sum scores versus latent variable models]
+-   [[Key design aspects related to time scales: time frame, interval, number of measurements](../../substantive-theory/time-scale/measurement-coverage-time-span-granularity.qmd)]
+-   [Using single item or multiple item measures](instrument/single-item-multiple-item-measures.qmd)
+
+
+:::
+
+
+<!--
+# Practical Considerations
+
+The following practical considerations are also important for the decision about item design, but are not considered further on this website.
+
+-   Practical consideration 1. -->
+
+```{=html}
+<!--
+# Related pages
+
+-   [Measurement coverage, time span, & granularity.](/TScale_MeasCoverage.html)
+
+-   [Measuring and Relating Multiple Constructs Measured at Different Timescales](/TScale_RelatingConstructs.html)
+
+-   [Capturing Regime Switches](/TScale_Switches.html)
+
+-   [Event-Relations in ILD Measurement](/EventRelations.html)
+
+-   [Measurement Burst Designs]
+-->
+```

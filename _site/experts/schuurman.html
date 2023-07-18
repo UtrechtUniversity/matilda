@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -195,28 +195,46 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Measurement Theory</span></a>
+ <span class="menu-text">Measurement theory</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">[Conceptually Defining your Variable]</span>
-  </li>
-          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../measurement-theory/item-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Item Design</span></a>
+  <a href="../measurement-theory/measurement-theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measurement theory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">[Measurement Modeling]</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/item.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Item</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/instrument.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instrument</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/sampling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sampling</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../measurement-theory/validation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Validation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/measurement-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measurement model</span></a>
   </div>
 </li>
       </ul>
@@ -235,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Instrument"><span class="quarto-category-count category-cloud-2">Instrument</span></div><div class="category" data-category="Item"><span class="quarto-category-count category-cloud-2">Item</span></div><div class="category" data-category="Item design"><span class="quarto-category-count category-cloud-2">Item design</span></div><div class="category" data-category="Landing page"><span class="quarto-category-count category-cloud-7">Landing page</span></div><div class="category" data-category="Measurement model"><span class="quarto-category-count category-cloud-2">Measurement model</span></div><div class="category" data-category="Measurement theory"><span class="quarto-category-count category-cloud-10">Measurement theory</span></div><div class="category" data-category="Multiple item measures"><span class="quarto-category-count category-cloud-2">Multiple item measures</span></div><div class="category" data-category="Reliability"><span class="quarto-category-count category-cloud-3">Reliability</span></div><div class="category" data-category="Sampling"><span class="quarto-category-count category-cloud-2">Sampling</span></div><div class="category" data-category="Single item measures"><span class="quarto-category-count category-cloud-4">Single item measures</span></div><div class="category" data-category="Validation"><span class="quarto-category-count category-cloud-4">Validation</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -295,6 +313,105 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-categories="Measurement theory,Instrument,Landing page" data-listing-date-sort="1689631200000" data-listing-file-modified-sort="1689687298837" data-listing-date-modified-sort="1689687298000" data-listing-reading-time-sort="2" data-listing-title-sort="Instrument landing page" data-listing-filename-sort="instrument.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/instrument.html" class="title listing-title">Instrument landing page</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Measurement theory,Item,Landing page" data-listing-date-sort="1689631200000" data-listing-file-modified-sort="1689687579023" data-listing-date-modified-sort="1689687579000" data-listing-reading-time-sort="1" data-listing-title-sort="Item landing page" data-listing-filename-sort="item.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/item.html" class="title listing-title">Item landing page</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="Measurement theory,Measurement model,Landing page" data-listing-date-sort="1687730400000" data-listing-file-modified-sort="1689687614148" data-listing-date-modified-sort="1689687614000" data-listing-reading-time-sort="2" data-listing-title-sort="Measurement model landing page" data-listing-filename-sort="measurement-model.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/measurement-model.html" class="title listing-title">Measurement model landing page</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Measurement theory,Landing page" data-listing-date-sort="1687730400000" data-listing-file-modified-sort="1689687041129" data-listing-date-modified-sort="1689687041000" data-listing-reading-time-sort="1" data-listing-title-sort="Measurement theory landing page" data-listing-filename-sort="measurement-theory.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/measurement-theory.html" class="title listing-title">Measurement theory landing page</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Measurement theory,Validation,Single item measures,Reliability" data-listing-date-sort="1687471200000" data-listing-file-modified-sort="1689686231456" data-listing-date-modified-sort="1689686231000" data-listing-reading-time-sort="11" data-listing-title-sort="Reliability for single item measures" data-listing-filename-sort="reliability-single-item-measures.qmd">
+<td>
+<span class="listing-image"><p class="card-img-top"><img src="..\resources\images\MEAR(1).png" style="height: 40px;"  class="thumbnail-image card-img"/></p></span>
+</td>
+<td>
+<a href="../measurement-theory/validation/reliability-single-item-measures.html" class="title listing-title">Reliability for single item measures</a>
+</td>
+<td>
+<span class="listing-author">IJsbrand Leertouwer, Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="Measurement theory,Validation,Single item measures,Reliability" data-listing-date-sort="1687471200000" data-listing-file-modified-sort="1689686058573" data-listing-date-modified-sort="1689686058000" data-listing-reading-time-sort="11" data-listing-title-sort="Reliability for single item measures" data-listing-filename-sort="reliability_single.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/validation/reliability_single.html" class="title listing-title">Reliability for single item measures</a>
+</td>
+<td>
+<span class="listing-author">IJsbrand Leertouwer, Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Measurement theory,Sampling,Landing page" data-listing-date-sort="1687730400000" data-listing-file-modified-sort="1689687642128" data-listing-date-modified-sort="1689687642000" data-listing-reading-time-sort="1" data-listing-title-sort="Sampling landing page" data-listing-filename-sort="sampling.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/sampling.html" class="title listing-title">Sampling landing page</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Measurement theory,Item design,Single item measures,Multiple item measures" data-listing-date-sort="1685052000000" data-listing-file-modified-sort="1689685685574" data-listing-date-modified-sort="1689685685000" data-listing-reading-time-sort="14" data-listing-title-sort="Single item or multiple item measures" data-listing-filename-sort="single-item-multiple-item-measures.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/instrument/single-item-multiple-item-measures.html" class="title listing-title">Single item or multiple item measures</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman, Pia K. Andresen, Sophie W. Berkhout</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="Measurement theory,Validation,Landing page" data-listing-date-sort="1687730400000" data-listing-file-modified-sort="1689687665184" data-listing-date-modified-sort="1689687665000" data-listing-reading-time-sort="2" data-listing-title-sort="Validation landing page" data-listing-filename-sort="validation.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../measurement-theory/validation.html" class="title listing-title">Validation landing page</a>
+</td>
+<td>
+<span class="listing-author">Noémi K. Schuurman</span>
+</td>
+</tr>
 </tbody>
 
 </table>

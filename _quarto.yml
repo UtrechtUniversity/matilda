@@ -26,14 +26,20 @@ website:
           - href: substantive-theory/distributions.qmd
             text: "Distributions"
           - text: "[Context and Events]"
-      - section: "Measurement Theory"
+      - section: "Measurement theory"
         contents:
-          - text: "[Conceptually Defining your Variable]"
-          - href: measurement-theory/item-design.qmd
-            text: "Item Design"
-          - text: "[Measurement Modeling]"
+          - href: measurement-theory/measurement-theory.qmd
+            text: "Measurement theory"
+          - href: measurement-theory/item.qmd
+            text: "Item"
+          - href: measurement-theory/instrument.qmd
+            text: "Instrument"
+          - href: measurement-theory/sampling.qmd
+            text: "Sampling"
           - href: measurement-theory/validation.qmd
             text: "Validation"
+          - href: measurement-theory/measurement-model.qmd
+            text: "Measurement model"
       - text: "---"
       - href: template.qmd
         text: "Template Page"

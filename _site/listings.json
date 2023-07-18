@@ -1,7 +1,17 @@
 [
   {
     "listing": "/experts/schuurman.html",
-    "items": []
+    "items": [
+      "/measurement-theory/instrument.html",
+      "/measurement-theory/item.html",
+      "/measurement-theory/measurement-model.html",
+      "/measurement-theory/measurement-theory.html",
+      "/measurement-theory/validation/reliability-single-item-measures.html",
+      "/measurement-theory/validation/reliability_single.html",
+      "/measurement-theory/sampling.html",
+      "/measurement-theory/instrument/single-item-multiple-item-measures.html",
+      "/measurement-theory/validation.html"
+    ]
   },
   {
     "listing": "/experts/andresen.html",

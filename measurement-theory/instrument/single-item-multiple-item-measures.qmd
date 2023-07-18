@@ -1,27 +1,36 @@
 ---
-title: "Measuring a Construct with Single vs. Multiple Items"
+title: "Single item or multiple item measures"
+categories: ['Measurement theory', 'Item design', 'Single item measures', 'Multiple item measures']
+title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-05-26
 date-modified: last-modified
 author: 
-  - name: Noémi Schuurman
+  - name:
+      given: Noémi K.
+      family: Schuurman
     email: n.k.schuurman@uu.nl
     corresponding: true
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
-  - name: Pia Andresen
+  - name:
+      given: Pia K.
+      family: Andresen
     email: p.k.andresen@uu.nl
     orcid: 0000-0001-8060-6448
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
-  - name: Sophie Berkhout
+  - name:
+      given: Sophie W.
+      family: Berkhout
     email: s.w.berkhout@uu.nl
     orcid: 0000-0002-4890-2754
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
+csl: ../../resources/styles/apa.csl
 citation: true
-bibliography: ../../resources/bibliographies/svmitems_references.bib
+bibliography: ../../resources/bibliographies/single-item-multiple-item-measures.bib
 google-scholar: true
 editor: 
   markdown: 
@@ -31,18 +40,19 @@ editor:
 ::: callout-caution
 ## This page has not been peer-reviewed yet.
 :::
-::: {.callout-note}
-## Want to cite this page? See [citation info](#citation).
+
+::: callout-note
+## Want to cite this page? See [citation info](single-item-multiple-item-measures.html#citation).
 :::
 
 This page considers several theoretical implications for deciding for
 single or multiple items to measure a construct.
 
-In case a single item is used, the response to this single item is used
+- In case a single item is used, the response to this single item is used
 in further analyses and results for the study. A common example of a
 construct for which single items are often used is 'age'.
 
-In case multiple items are used to measure a construct, some aggregation
+- In case multiple items are used to measure a construct, some aggregation
 is performed on the multiple items to get a single measure for usage in
 analyses and results: For example, by creating a sum score or mean
 score, or by using some statistical measurement model to do this (e.g.,
@@ -50,7 +60,11 @@ a latent variable model such as a factor model or item respons theory
 model). Common examples of constructs for which multiple items are often
 used are 'math ability', 'depression' and 'agreeableness'.
 
-Read more about using single, or multiple items, below.
+- It is also possible that both single item and multiple item measures are used in a study.
+
+Considering whether you'll use single or multiple items is important, because your choice implies certain assumptions about the mechanism between the construct you want to measure, and the data you observe. These in turn may also affect your end conclusions and results. They may also have implications for how to validate your measurements.
+
+In the following we first discuss single item measures, followed by multiple item measures.
 
 # Measuring your construct(s) with single items
 
@@ -62,17 +76,15 @@ derive (e.g., age or occupation).
 
 For ILD, researchers more often reach for single items measures even in
 the former case. Often, this is for important practical reasons, such as
-keeping the burden for participants low (see a list of practical
-considerations at the end of this page). However, considerations related
+keeping the burden for participants low. However, considerations related
 to theory can and should also play a role in this decision: For example,
 a single item may be deemed sufficient, or the most direct, or the most
 clear, way of measuring the construct of interest. Or, perhaps standard
 latent variable theory, that is usually the basis of multiple item
-measures (read more [here](/)), may be deemed unsuitable for a construct
-.
+measures (read more [here]), may be deemed unsuitable for a construct.
 
 ::: {.callout-tip collapse="true"}
-## Example: Social Support 1
+## Example: Social support 1
 
 Kim wants to get a good impression of someone's daily experienced
 received social support. They want to a) keep close to the participants
@@ -85,9 +97,7 @@ will use the responses to this item for further analyses on the
 construct experienced social support.
 :::
 
-In any case, it is key is to research and evaluate the performance of
-the measurement instrument, just like for multiple item measures. Using
-single items does not have to be problematic, if a single item gives a
+Using single items does not have to be problematic, if a single item gives a
 good enough measurement of the construct of interest for the research
 goals. As is the case for multiple item measures, it is essential to
 (find ways to) evaluate whether this is the case.
@@ -95,10 +105,10 @@ goals. As is the case for multiple item measures, it is essential to
 ::: {.callout-note collapse="true"}
 ## Read more: Evaluating the quality of single item measures
 
--   [When are my measurements 'good enough'?](/)
--   [Reliability for single item measures](/)
--   [Qualitative assessments of measurement quality](/)
--   [Predictive & convergent validity](/)
+-   [When are my measurements 'good enough'?]
+-   [Reliability for single items](..\validation\reliability-single-item-measures.qmd)
+-   [Qualitative assessments of measurement quality]
+-   [Predictive & convergent validity]
 :::
 
 # Measuring your construct(s) with multiple items
@@ -111,10 +121,7 @@ a)  content validity (measuring all relevant aspects of a construct);
 
 b)  reliability (to account for measurement error);
 
-c)  mirroring traditional/interindividual difference (e.g.,
-    cross-sectional) research (use a similar questionnaire to what is
-    used in cross-sectional or other interindividual difference
-    studies).
+c)  mirroring interindividual difference questionnaires: Use an adapted version of a gold standard questionnaire from interindividual difference studies (e.g., cross-sectional studies).
 
 It is important to realize that each of these reasons for opting for
 multiple items has theoretical implications, and these may be different,
@@ -131,28 +138,31 @@ an overall measure of the construct of interest. This aggregate may then
 be used for further analyses.
 
 ::: {.callout-tip collapse="true"}
-## Example: Social Support 2
+## Example: Social support 2
 
 Max wants to get a good impression of someone's daily experienced
 received social support. To get an impression of all relevant aspects of
 social support for their study, Max breaks down the construct into
-different aspects, measured with different items. Rather than using a
-single item asking 'How much social support did you receive today?",
-they asked multiple questions like"Did you receive help with your job
+different aspects, measured with different items. 
+
+Rather than using a single item asking 'How much social support did you receive today?",
+they asked multiple questions like "Did you receive help with your job
 today?","Did you feel you could reach out for emotional support from
-your friends/family/colleagues today?", and"Did you rely on financial
-support today?", covering various aspects of receiving social support.
+your friends/family/colleagues today?", and "Did you rely on financial
+support today?". In this way, various distinct aspects of receiving social support are covered by the multiple items. 
+
 To get an overall measure of experienced social support for further use
 in their analyses, Max will aggregate the responses to these items;
 either using a mean score or a more complex latent variable model.
 
-Note: Max may also choose to use a single item in their analyses next to
+:::
+
+<!-- Example Using both single and multiple item measures: Max may also choose to use a single item in their analyses next to
 their overall aggregated measure of social support: For example, by also
 using "Did you rely on financial support today?" as a single item
 measure of the construct received financial support. In this case, Max
 uses both single item measures, and multiple item measures in their
-study.
-:::
+study. -->
 
 If you consider using multiple items to improve content validity,
 carefully consider the theoretical implications of how you should
@@ -163,8 +173,8 @@ analyses.
 ## Read more: Aggregating multiple items for measuring a construct
 
 -   [Multiple item measures: Sum-Scores or Mean-Scores vs Latent
-    Variable Models](/)
--   [Formative versus Reflective Latent Variable Models](/)
+    Variable Models]
+-   [Formative versus Reflective Latent Variable Models]
 :::
 
 ## Multiple items for reasons of reliability
@@ -173,21 +183,21 @@ Having multiple items to measure the same construct can be helpful,
 because it allows using internal consistency reliability approaches. For
 these techniques, the general idea is that the items all measure the
 same underlying construct. The shared variance among those items is the
-result of variation in the true construct, while the unshared variance
+result of variation in the true construct, while the un-shared variance
 among the items is considered measurement error.
 
 Multiple items that measure the same construct, combined with internal
-consistency reliability approaches can be used to
+consistency reliability approaches can be used...
 
-a\) estimate the reliability of (a set of) items for measuring a
+a\) to estimate the reliability of (a set of) items for measuring a
 construct of interest. That is, to validate a questionnaire.
 
-b\) in order to account for measurement error for a construct of
+b\) to account for measurement error for a construct of
 interest during an analysis. That is, to prevent measurement error from
 biasing the results of analyses.
 
 ::: {.callout-tip collapse="true"}
-## Example: Social Support 3
+## Example: Social support 3
 
 Ume has developed a short experience-sampling questionnaire where three
 items are used to measure daily experienced received social support. The
@@ -206,7 +216,7 @@ intensive longitudinal data, but extensions and similar alternatives are
 available.
 
 ::: {.callout-tip collapse="true"}
-## Example: Social Support 4
+## Example: Social support 4
 
 Ume uses a reflective linear factor model with the three items as
 indicators, and one latent variable that should reflect 'received social
@@ -221,7 +231,7 @@ measurement error in their analyses.
 :::
 
 When using multiple items for reliability purposes, it is important to
-realize
+consider
 
 a)  that each internal consistency reliability technique is based on
     theoretical assumptions, and hence has theoretical implications. It
@@ -234,22 +244,21 @@ b)  it is possible to evaluate reliability and correct for measurement
 ::: {.callout-note collapse="true"}
 ## Read more: Aggregating multiple items for measuring a construct
 
--   [Multiple item measures: Sum-Scores or Mean-Scores vs Latent
-    Variable Models](/)
--   [Formative versus Reflective Latent Variable Models](/)
+-   [Multiple item measures: Sum-scores or mean-scores vs latent
+    variable models]
+-   [Formative versus reflective latent variable models]
 :::
 
 ::: {.callout-note collapse="true"}
 ## Read more: Evaluating the quality of multiple-item measures
 
--   [When are my measurements 'good enough'?](/)
--   [Internal Consistency Reliability for ILD](/)
--   [Test-Retest Reliability for ILD](/)
--   [Qualitative assessments of measurement quality](/)
--   [Predictive & Convergent/Divergent validity for ILD](/)
+-   [When are my measurements 'good enough'?]
+-   [Internal consistency reliability for ILD]
+-   [Qualitative assessments of measurement quality]
+-   [Predictive & convergent/divergent validity for ILD]
 :::
 
-## Multiple Items to Mirror Interindividual Difference Questionnaires
+## Multiple items to mirror interindividual difference questionnaires
 
 Researchers may want to use constructs established in interindividual
 difference research for intra-individual difference studies using ILD:
@@ -264,7 +273,7 @@ intra-individual context.
 A researcher wants to measure intra-individual differences in 'Positive
 Affect' and 'Negative Affect', constructs established in the context of
 individual differences research. It is commonly measured with the PANAS
-Schedule (refs). It measures how much positive and negative affect
+Schedule [@watson1988development; @tran2020positive]. It measures how much positive and negative affect
 people tend to generally experience, and is used to study trait
 differences between people in how much positive and negative affect the
 tend to experience, and how this relates to other differences between
@@ -283,38 +292,82 @@ hour.", keeping the remaining the same.
 
 It is important to consider the following:
 
--   constructs established interindividual difference research may be less relevant, or irrelevant for studying intra-individual differences. 
-    
-::: {.callout-tip collapse="true"} 
+-   constructs established interindividual difference research may be
+    less relevant, or irrelevant for studying intra-individual
+    differences.
+
+::: {.callout-tip collapse="true"}
 ## Example PANAS 2
-Based on interindividual difference research, the items "irritable", "guilty", "afraid" (and others) are considered suitable items for establishing consistent differences in 'overall negative affect' among different people (refs). Based on factor modeling studies, it has been established that people that tend to overall feel more irritable than other people, tend to also feel more guilty and afraid than other people. This property is captured in a latent variable, which is considered to capture differences in people's overall 'negative affect'.
 
-If we carry over the 'negative affect' latent variable to intra-individual differences over time, using on the same adjectives as the original scale, we would need to establish the following pattern over time: If a person feels relatively irritable at a certain occasion, that person tends to also feel relatively guilty and afraid at that same occasion. 
+Based on interindividual difference research, the items "irritable",
+"guilty", "afraid" (and others) are considered suitable items for
+establishing consistent differences in 'overall negative affect' among
+different people [@watson1988development]. Based on factor modeling studies [@wedderhoff2021structure], it has been
+established that people that tend to overall feel more irritable than
+other people, tend to also feel more guilty and afraid than other
+people. This property is captured in a latent variable, which is
+considered to capture differences in people's overall 'negative affect'.
 
-Consider, however, that actually whether a person feels irritable at a given occassion, and whether the person also feels guilty and afraid, depends mainly on the context the participant is in at that occasion. For some experiences (participant is publicly called out on a big mistake) they may feel all three emotions to a large extent, while for other experiences (participant encounters an angry swarm of bees during a walk) they may be inclined to feel mostly one of them. 
+This however doesn't mean such a latent variable will also capture differences in a persons' intra-individual differences well, that is, how a person's affect fluctuates over time.
 
-If so, the concept of general negative effect may turn out not so directly relevant for studying how people's emotions fluctuate over time (intra-individual differences); while it is very suitable for studying general tendencies of people compared to other people (interindividual differences).
+If we apply the 'negative affect' latent variable to
+intra-individual differences over time, using the same adjectives as
+the original scale, this would imply the following pattern
+over time: If a person feels relatively irritable at a certain occasion,
+that person tends to also feel relatively guilty and afraid at that same
+occasion.
+
+For example, consider that whether a person feels irritable at a
+given occasion, and whether the person also feels guilty and afraid,
+depends mainly on the context the participant is in at that occasion - rather than this it is a result of a latent variable 'negative affect'. For some experiences they may feel all three emotions to a large extent due to the nature of the event (participant is publicly called out on a big
+mistake), while for other experiences they may be inclined to feel mostly one of them (participant encounters an angry swarm of bees during a walk). 
+
+If so, the concept of general negative effect may not be
+directly relevant for studying how people's emotions fluctuate over time
+(intra-individual differences); while it is very suitable for studying
+general tendencies of people compared to other people (interindividual
+differences).
 :::
 
-- questionnaires for intra-individual difference studies, often need to have different qualities than questionnaires on inter-individual differences. 
+-   questionnaires for intra-individual difference studies, often need
+    to have different qualities than questionnaires on inter-individual
+    differences.
 
-::: {.callout-tip collapse="true"} 
+::: {.callout-tip collapse="true"}
 ## Example: PANAS 3
-Consider the PANAS adjective 'guilty', for which participants now would "Indicate the extent you have felt this way in the last hour." If one collects relatively few repeated measures over a short time span, participants may often or even always respond 'not at all/very slightly' for the majority of measures. This would result in little to no within-person variance in the repeated measures of guilt, making intra-individual difference analyses difficult or impossible.
 
-In comparison, for studying (stable) interindividual differences or traits, the timing of measurements is often less important compared to getting a representative varied sample of participants.
+Consider the PANAS adjective 'guilty', for which participants now would
+"Indicate the extent you have felt this way in the last hour." If one
+collects relatively few repeated measures over a short time span,
+participants may often or even always respond 'not at all/very slightly'
+for the majority of measures. This would result in little to no
+within-person variance in the repeated measures of guilt, making
+intra-individual difference analyses difficult or impossible.
+
+In comparison, for studying (stable) interindividual differences or
+traits, the timing of measurements is often less important compared to
+getting a representative varied sample of observations.
 :::
 
-::: {.callout-tip collapse="true"} 
+::: {.callout-tip collapse="true"}
 ## Example: PANAS 4
-While the original PANAS for interindividual differences consists of 20 items, we may prefer a shorter questionnaire for an intra-individual difference study where we collect repeated measures every hour. 
+
+While the original PANAS for interindividual differences consists of 20
+items, we may prefer a shorter questionnaire for an intra-individual
+difference study where we collect repeated measures every hour.
 :::
 
-- valid and reliable questionnaires from inter-individual difference research, may not be valid and reliable for intra-individual difference research. 
+-   valid and reliable questionnaires from inter-individual difference
+    research, may not be valid and reliable for intra-individual
+    difference research.
 
-::: {.callout-tip collapse="true"} 
+::: {.callout-tip collapse="true"}
 ## Example: PANAS 5
-While the original PANAS for interindividual differences may have a reliability between .8-.9 (refs), an adapted PANAS for intra-individual differences may have a much lower or higher reliability [@schuurman2019measurement].
+
+While the original PANAS for interindividual differences may have a
+reliability between .8-.9 (refs), an adapted PANAS for intra-individual
+differences may have a much lower or higher reliability
+[@schuurman2019measurement].
 :::
 
 Hence, questionnaires or items adapted from interindividual difference
@@ -324,19 +377,20 @@ We generally recommend to avoid copying constructs from interindividual
 research directly to intra-individual difference studies unless there
 are very good theoretical reasons to do so. That is, the constructs need
 to make sense for studying intra-individual differences, for the given
-research question, and context, preferably backed by empirical evidence. In many cases it may be more fruitful to establish (new) constructs tailored to intra-individual differences.
+research question, and context, preferably backed by empirical evidence.
+In many cases it may be necessary, and more fruitful to establish (new) constructs
+tailored to intra-individual differences.
 
-::: {.callout-note collapse="true"} 
-## Read more: Interindividual vs intraindividual differences
+::: {.callout-note collapse="true"}
+## Read more: Interindividual versus intraindividual differences
 
--   [Intra-individual versus Interindividual Difference Studies](/)
-
+-   [Intra-individual versus interindividual difference studies]
 :::
 
+<!-- # Practical Considerations
 
-# Practical Considerations
-
-The following practical considerations are also important for the decision between single vs. multiple items, but are not considered
+The following practical considerations are also important for the
+decision between single vs. multiple items, but are not considered
 further on this website.
 
 -   By measuring constructs with a single item, rather than multiple
@@ -349,17 +403,41 @@ further on this website.
 -   If one wants to correct for measurement error, statistical
     measurement models with multiple items tend to be easier to estimate
     than statistical measurement models with single items
-    [@schuurman2019measurement].
+    [@schuurman2019measurement]. -->
+    
+## Combining different reasons for using multiple items
+A researcher may want to use multiple items for more than one of the reasons discussed above, for example, they want to both cover different kinds of aspects of a construct (content validity), and use multiple items to estimate the reliability of their multiple item measure. It is important to think about for a given construct whether and how these different goals can be reconciled with each other. This will depend on the goals, the nature of the construct, the design of the items, and how the items will be aggregated.
+
+::: {.callout-tip collapse="true"}
+## Example: Social support 5
+
+Max wants to get a good impression of someone's daily experienced
+received social support. They care about both content validity, and they also want to evaluate the measures' reliability, to make sure it captures as little measurement error as possible.
+
+To ensure their measure is content valid, Max breaks down the construct into
+different aspects, measured with different items. 
+
+Rather than using a single item asking 'How much social support did you receive today?",
+they asked multiple questions like "Did you receive help with your job
+today?","Did you feel you could reach out for emotional support from
+your friends/family/colleagues today?", and "Did you rely on financial
+support today?". In this way, various distinct aspects of receiving social support are covered by the multiple items. 
+
+Max uses a reflective factor model to estimate the internal consistent reliability of the items. However, because this reliability estimate relies on the idea that what is reliable is the variance that is shared among the items, all the unique variability in the items is considered measurement error. Hence, all the unique contributions of the items, which is why Max used multiple items with respect to content validity, are not considered in this reliability estimate. As a result, the reliability estimate is likely to underestimate the true reliability of the measure. 
+
+Max' internal consistency reliability approach, does not mesh well with their approach to content validity.
+
+:::
 
 # Related pages
 
--   [Evaluating validity of ILD](/)
--   [Formative versus Reflective Latent Variable Models](/)
--   [Intra-individual versus Interindividual Difference Studies](/)
--   [Internal Consistency Reliability for ILD](/)
--   [Predictive & Convergent/Divergent validity for ILD](/)
--   [Test-Retest Reliability for ILD](/)
--   [Qualitative assessments of measurement quality](/)
--   [When are my measurements 'good enough'?](/)
--   [Multiple item measures: Sum-Scores or Mean-Scores vs Latent Variable Models](/)
--   [Reliability for single item measures](/)
+-   [Evaluating validity of ILD]
+-   [Formative versus reflective latent variable models]
+-   [Intra-individual versus interindividual difference studies]
+-   [Internal consistency reliability for ILD]
+-   [Predictive & convergent/divergent validity for ILD]
+-   [Qualitative assessments of measurement quality]
+-   [When are my measurements 'good enough'?]
+-   [Multiple item measures: Sum-scores or mean-scores vs latent
+    variable models]
+-   [Reliability for single items](..\validation\reliability-single-item-measures.qmd)
