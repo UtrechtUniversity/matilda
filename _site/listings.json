@@ -2,5 +2,37 @@
   {
     "listing": "/experts/schuurman.html",
     "items": []
+  },
+  {
+    "listing": "/experts/andresen.html",
+    "items": []
+  },
+  {
+    "listing": "/experts/berkhout.html",
+    "items": []
+  },
+  {
+    "listing": "/experts/dejong.html",
+    "items": []
+  },
+  {
+    "listing": "/experts/hamaker.html",
+    "items": []
+  },
+  {
+    "listing": "/experts/haqiqatkhah.html",
+    "items": [
+      "/substantive-theory/distributions/floor-effect.html"
+    ]
+  },
+  {
+    "listing": "/experts/leertouwer.html",
+    "items": [
+      "/measurement-theory/validation/reliability-single-items.html"
+    ]
+  },
+  {
+    "listing": "/experts/mulder.html",
+    "items": []
   }
 ]

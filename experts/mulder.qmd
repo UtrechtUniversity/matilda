@@ -1,9 +1,16 @@
 ---
-title: "Pages by Jeroen Mulder"
+title: "Pages by Jeroen D. Mulder"
 listing:
+  contents:
+    - "../measurement-theory/*.qmd"
+    - "../measurement-theory/*/*.qmd"
+    - "../substantive-theory/*.qmd"
+    - "../substantive-theory/*/*.qmd"
+    - "../your-study/*.qmd"
+    - "../your-study/*/*.qmd"
   type: table
   categories: cloud
   fields: [image, title, author]
   include:
-      author: "Jeroen Mulder"
+      author: "Jeroen D. Mulder"
 ---

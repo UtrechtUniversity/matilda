@@ -2,9 +2,9 @@
   {
     "objectID": "experts.html",
     "href": "experts.html",
-    "title": "Our experts",
+    "title": "MATILDA’s Experts",
     "section": "",
-    "text": "DML"
+    "text": "The MATILDA project is led by the Dynamic Modeling Lab at Utrecht University. Its content is developed and reviewed by the lab members together with other experts."
   },
   {
     "objectID": "experts.html#team",
@@ -439,5 +439,75 @@
     "title": "MATILDA",
     "section": "",
     "text": "&lt;div class=\"navbar-brand-container\"&gt;\n&lt;a href=\"https://www.uu.nl/\" class=\"navbar-brand navbar-brand-logo\"&gt;\n&lt;img src=\"./resources/images/uu_blacktext.png\" alt=\"\" class=\"navbar-logo\"&gt;\n&lt;/a&gt;\n\n  &lt;div id=\"quarto-search\" class=\"\" title=\"Search\"&gt;&lt;/div&gt;\n      &lt;button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" onclick=\"if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }\"&gt;"
+  },
+  {
+    "objectID": "experts/andresen.html",
+    "href": "experts/andresen.html",
+    "title": "Pages by Pia K. Andresen",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts.html#dynamic-modeling-lab",
+    "href": "experts.html#dynamic-modeling-lab",
+    "title": "MATILDA’s Experts",
+    "section": "Dynamic Modeling Lab",
+    "text": "Dynamic Modeling Lab\n\n\n\n\n\n\nNoémi Schuurman  MATILDA role Assistant Professor  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nPia Andresen  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nSophie Berkhout  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nEllen Hamaker  MATILDA role Full Professor Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nManuel Haqiqatkhah  MATILDA role PhD Candidate  Utrecht University  Pages\n\n\n\n\n\n\n\n\n\n\nDaan de Jong  MATILDA role Phd Candidate Utrecht University  Pages\n\n\n\n\n\n\n\n\n\nJeroen Mulder  MATILDA role Phd Candidate Utrecht University  Pages"
+  },
+  {
+    "objectID": "experts.html#external-experts",
+    "href": "experts.html#external-experts",
+    "title": "MATILDA’s Experts",
+    "section": "External Experts",
+    "text": "External Experts\n\n\n\n\n\n\nIJsbrand Leertouwer  MATILDA role  Postdoc.  Erasmus University  Pages"
+  },
+  {
+    "objectID": "experts/schuurman.html",
+    "href": "experts/schuurman.html",
+    "title": "Pages by Noémi K. Schuurman",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts/berkhout.html",
+    "href": "experts/berkhout.html",
+    "title": "Pages by Sophie W. Berkhout",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts/dejong.html",
+    "href": "experts/dejong.html",
+    "title": "Pages by Daan de Jong",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts/hamaker.html",
+    "href": "experts/hamaker.html",
+    "title": "Pages by Ellen L. Hamaker",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts/haqiqatkhah.html",
+    "href": "experts/haqiqatkhah.html",
+    "title": "Pages by Mohammadhossein Manuel Haqiqatkhah",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\n\nFloor and Ceiling Effects\n\n\nMohammadhossein Manuel Haqiqatkhah, Noémi Schuurman\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts/leertouwer.html",
+    "href": "experts/leertouwer.html",
+    "title": "Pages by IJsbrand Leertouwer",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\n\nReliability for single item measures\n\n\nIJsbrand Leertouwer, Noémi Schuurman\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experts/mulder.html",
+    "href": "experts/mulder.html",
+    "title": "Pages by Jeroen D. Mulder",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
