@@ -15,10 +15,16 @@ website:
   sidebar:
     style: "docked"
     contents:
-      - section: "Research Question/Aim"
+      - section: "Your study"
         contents:
-          - text: "[Different Goals - Description, Prediction, Causation, Understanding]"
-          - text: "[Intraindividal Differences vs Interindividual Differences]"
+          - href: your-study/your-study.qmd
+            text: "Your study"
+          - href: your-study/research-question.qmd
+            text: "Research Question"
+          - href: your-study/theory.qmd
+            text: "Theory"
+          - href: your-study/constructs.qmd
+            text: "Constructs"
       - section: "Substantive Theory"
         contents:
           - href: substantive-theory/time-scales.qmd
