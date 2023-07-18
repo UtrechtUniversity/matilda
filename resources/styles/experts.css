@@ -1,0 +1,21 @@
+
+/* The flex container for the container of a profile image and text, to list two people next to each other */
+.flex-pcard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The flex container for a profile image and text */
+.flex-pcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+/* The flex item for a profile image or text */
+.flex-pcard-item {
+  width: 50%;
+ }
+ 
