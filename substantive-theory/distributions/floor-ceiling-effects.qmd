@@ -1,5 +1,5 @@
 ---
-title: Floor and Ceiling Effects
+title: Floor and ceiling effects
 date-format: "YYYY-MM-DD"
 date: 2023-06-21
 date-modified: last-modified
@@ -17,8 +17,9 @@ author:
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
+csl: ../../resources/styles/apa.csl
 citation: true
-bibliography: ../../resources/bibliographies/floor-effect_references.bib
+bibliography: ../../resources/bibliographies/floor-ceiling-effects.bib
 google-scholar: true
 ---
 
@@ -31,13 +32,13 @@ This article builds on @haqiqatkhah_2022_SkewnessStagingDoes
 :::
 
 ::: callout-note
-## Want to cite this page? See [citation info](#citation).
+## Want to cite this page? See [citation info](floor-ceiling-effects.html#citation).
 :::
 
 
 This page is about floor and ceiling effects in empirical psychological data, which occur when the measurement instrument has a lower or upper bound. 
 
-For example, floor effects are common in ILD collected for 'Negative Affect': Healthy people often experience failry little positive affect, and hence a lot of their scores will be equal or close to zero.
+For example, floor effects are common in ILD collected for 'Negative Affect': Healthy people often experience fairly little positive affect, and hence a lot of their scores will be equal or close to zero.
 
 It is important to consider these effects, because: 
 
@@ -47,7 +48,7 @@ b) Understanding how and why these effects occur are an important part of unders
 
 c) These effects may have consequences for analyzing and modeling the resulting ILD. Understanding when, how and why these effects occur allow you to find optimal ways to do the analysis/modeling. 
 
-On this page we discuss what floor and ceiling effects are; theories on the possible mechanisms leading to floor and ceiling effects; ways of detecting these effects in a given dataset;  implications and consequences of these effects for common models used in psychological research; and possible ways to deal with these effects.
+On this page we discuss what floor and ceiling effects are; theories on the possible mechanisms leading to floor and ceiling effects; ways of detecting these effects in a given data set;  implications and consequences of these effects for common models used in psychological research; and possible ways to deal with these effects.
 
 <!-- I think this page should discuss both floor and ceiling effects in the end.
 -->
@@ -154,7 +155,7 @@ Or by design: Could for example happen if you do  event-contingent sampling and 
 ::: {.callout-note collapse="true"}
 ### Read more: Sampling Design
 -   [Event-contingent Designs]
--   [Event-Relation in ILD Measurement](../time-scales/event-relations.qmd)
+-   [Event-related constructs](../context-events/event-relations.qmd)
 :::
 
 ## Floor effects due to the nature of the measured construct or process
@@ -188,4 +189,4 @@ It is worth noting that such processes can explain the excess number of zero val
 # Related pages
 
 -   [Event-contingent Designs]
--   [Event-Relation in ILD Measurement](../time-scales/event-relations.qmd)
+-   [Event-related constructs](../context-events/event-relations.qmd)

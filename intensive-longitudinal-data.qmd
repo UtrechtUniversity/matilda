@@ -1,0 +1,35 @@
+---
+title: "About Intensive Longitudinal Data"
+categories: ['Intensive Longitudinal Data', 'Landing page']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-07-17
+date-modified: last-modified
+author:
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: resources/styles/apa.csl
+citation: true
+bibliography: resources/bibliographies/reliability-single-item-measures.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](intensive-longitudinal-data.html#citation).
+:::
+
+In the context of the social sciences and Psychology, intensive longitudinal data (ILD for short) are data that consist of many repeated measures (say 25 or more), for multiple persons (units), for one or more variables. These data are typically collected via self-report with smart phone surveys, or via observation or trackers (MATILDA focuses on self-report with smart phone surveys).
+
+Data that consist of many repeated measures for a single unit and variable is called a <i>time series</i>.
+In other words, ILD consist of time series for multiple persons, for one or more variables. In practice however, sometimes ILD is also used to refer to the time series of one unit or person. 
+
+This type of data stands in contrast with other common data types in Psychology, such as <i> cross-sectional data </i> and <i> panel data </i>. Cross-sectional data consist of scores measured at a single time points for many persons. Panel data consist of a few repeated measures, for many persons. 

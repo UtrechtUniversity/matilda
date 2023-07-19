@@ -1,20 +1,25 @@
 ---
-title: "Time Scales Landing Page"
+title: "Time scale landing Page"
 date-format: "YYYY-MM-DD"
 date: 2023-06-26
 date-modified: last-modified
 author:
-  - name: Ellen Hamaker
+  - name:
+      given: Ellen L.
+      family: Hamaker
     email: e.l.hamaker@uu.nl
     orcid: 
     corresponding: true
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
-  - name: Noémi Schuurman
+  - name:
+      given: Noémi K.
+      family: Schuurman
     email: n.k.schuurman@uu.nl
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
 citation: true
 bibliography: ../resources/bibliographies/pagename_references.bib
 google-scholar: true
@@ -25,12 +30,10 @@ google-scholar: true
 :::
 
 ::: callout-note
-## Want to cite this page? See [citation info](#citation).
+## Want to cite this page? See [citation info](time-scale.html#citation).
 :::
 
 This is the landing page for everything related to the <i> time scales </i> of constructs of interest.
-
-# Time Scales: A Key Consideration for Measuring ILD
 
 To ensure the measurement of a process aligns with the theory and research questions we have, it is paramount to determine the time scale at which the process is assumed to unfold, and match this with the time scale at which we observe the process.
 
@@ -56,35 +59,35 @@ c.  It may be the case that there are various processes that operate at differen
 Steve is interested in studying the relation between accuracy and speed in a typing task. When considering the relation between accuracy and speed at a short time scale (minute to minute), it becomes clear that these variables are negatively correlated: Tasks on which a participant types faster are characterized by more mistakes. Yet, when allowing the participant to train a lot, it becomes clear that both speed and accuracy increase over time: This shows the effect of learning, which takes place at a longer time scale.
 :::
 
-## Think More About Time Scales
+## Think more about time scales
 
 There are many things to consider with respect to substantive theory, measurement theory, and measurement design that relate to time scales. We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
-## Read more: Time Scales - General Information
+## Read more: Time scales - general information
 
--   [Key design aspects related to time scales: time frame, interval, number of measurements](time-scales/measurement-coverage.qmd)
+-   [Key design aspects related to time scales: time frame, interval, number of measurements](time-scale/measurement-coverage-time-span-granularity.qmd)
 
--   [Jargon: Time span & Granularity](time-scales/measurement-coverage.qmd)
+-   [Jargon: Time span & Granularity](time-scale/measurement-coverage-time-span-granularity.qmd)
 
--   [Measuring and Relating Multiple Constructs Measured at Different Timescales](time-scales/relating-constructs.qmd)
+-   [Relating Constructs Measured at Different Timescales](time-scale/relating-constructs-time-scales.qmd)
 :::
 
 ::: {.callout-note collapse="false"}
-## Read more: Time Scales - Capturing Specific Events
+## Read more: Capturing specific events
 
--   [Capturing Regime Switches](time-scales/regime-switches.qmd)
+-   [Regimes-switching processes](ergodicity/regime-switching-processes.qmd)
 
--   [Event-Relations in ILD Measurement](time-scales/event-relations.qmd)
+-   [Event-relations](context-events/event-relations.qmd)
 
 -   \[Measurement Burst Designs\]
 :::
-
+<!--
 # Practical Considerations
 
 The following practical considerations are also important for the decision about time scales, but are not considered further on this website.
 
--   Material considerations (funding, available personnel, available measurement applications) will naturally affect the duration of a study, and how many and how intensively one may collect repeated measures, and hence what time scales may be studied.
+-   Material considerations (funding, available personnel, available measurement applications) will naturally affect the duration of a study, and how many and how intensively one may collect repeated measures, and hence what time scales may be studied.-->
 
 ```{=html}
 <!--

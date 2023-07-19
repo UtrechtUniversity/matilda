@@ -1,22 +1,22 @@
 ---
-title: Measuring and Relating Multiple Constructs Measured at Different Timescales
+title: Relating constructs measured at different time scales
+categories: ['Substantive theory', 'Time scale', 'Multivariate', 'Association']
+title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-05-26
 date-modified: last-modified
 author:
-  - name: Sophie Berkhout
+  - name:
+      given: Sophie W.
+      family: Berkhout
     email: s.w.berkhout@uu.nl
     corresponding: true
     orcid: 0000-0002-4890-2754
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
-  - name: Noémi Schuurman
-    email: n.k.schuurman@uu.nl
-    orcid: 0000-0002-6437-5966
-    affiliations:
-      - name: Methods &amp; Statistics Department, Utrecht University
+csl: ../../resources/styles/apa.csl
 citation: true
-bibliography: ../../resources/bibliographies/pagename_references.bib
+bibliography: ../../resources/bibliographies/reliability-single-item-measures.bib
 google-scholar: true
 ---
 
@@ -30,16 +30,16 @@ google-scholar: true
 
 This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.
 
-The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Time Scales: Landing Page](../time-scales.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different time scales in some way or form.
+The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Time scale landing page](../time-scale.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different time scales in some way or form.
 
 It is important to think about differences in time scales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
 
 Below, we discuss various examples of this, including specific common cases in which this occurs: "lagged and implicitly lagged variables", and "event-unconditional and event-contingent variables". We discuss various things to consider when studying these variables.
 
 
-# Studying Multiple Constructs with Different Timescales
+# Studying constructs with different time scales
 
-Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Time Scales: Landing Page](../time-scales.qmd)). 
+Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Time scale landing page](../time-scale.qmd). 
 
 Different constructs may develop over time at a different timescale. For example, there is general consensus that affect develops over time on a moment-to-moment basis (i.e., intervals of about an hour or even shorter), whereas personality traits are assumed to be relatively stable over time (e.g., intervals of a year or longer). 
 
@@ -51,7 +51,7 @@ Therefore, when researchers are interested in studying multiple constructs, the 
 Batu wants to study how someone's sleep quality effects their positive affect throughout the day. He decides to measure positive affect five times a day using ESM, and to add the item 'I slept well' to the first ESM measurement of the day that is prompted in the morning.
 :::
 
-## Three Key Considerations 
+## Three key considerations 
 
 When studying the relation between multiple constructs with different measurement frequencies, it is important to consider three key points:
 
@@ -79,11 +79,11 @@ c\) Aggregation of measurements (e.g., averages) may lead to different theoretic
 Gulce is interested in a similar relation as Batu between sleep quality and positive affect. However, she believes that sleep quality of the preceding night influences a person's average positive affect of the following day.
 :::
 
-# Different Types of Multiple Variables with Different Time Scales
+# Different types of variables with different time scales
 
 In the following we discuss a few general ways in which constructs may have differing time scales, specifically, "explicitly versus implicitly lagged measurements", "unconditional versus event-contingent constructs", and "aggregated versus non-aggregated constructs". 
 
-## Explicitly and Implicitly Lagged Measurements
+## Explicitly and implicitly lagged measurements
 
 Repeated measurements refer to a specific time point or interval. Explicitly lagged measurements are repeated measures that refer to the specific time point of each measurement occasion. The lag is the interval between the time stamps of the measurements.
 
@@ -109,7 +109,7 @@ When considering only one variable, the difference in lag interpretation between
 Batu measures sleep quality in the morning at the same time of the first measurement of positive affect. However, the measurement of sleep quality refers to the preceding night, which is an interval of time that happens *before* the measurement is taken. The items for positive affect refer to how the participant feels *at the moment* and therefore refer to that specific measurement occasion.
 :::
 
-## Unconditional versus Event-Contingent Measurements
+## Unconditional versus event-contingent measurements
 Event-contingent measurements are taken only when a specific event takes place, while unconditional measurements are always scheduled. When combining event-contingent and unconditional measurements, it is important to consider that the event-contingent measures are not observed in absence of the event.
 
 ::: {.callout-tip collapse="true"}
@@ -121,12 +121,12 @@ Koen measures smoking multiple times a day ("Have you smoked since the last meas
 ::: {.callout-note collapse="true"}
 ## Read more: Contextual and situational influences
 
--   [Event contingent constructs](event-relations.qmd)
+-   [Event contingent constructs](../context-events/event-relations.qmd)
 
--   [Regimes-switching constructs](regime-switches.qmd)
+-   [Regimes-switching constructs](../ergodicity/regime-switching-processes.qmd)
 :::
 
-## Time-Aggregated vs Non-Time-Aggregated Measurements
+## Time-aggregated vs non-time-aggregated measurements
 
 When a measurement refers to a previous interval, it usually indicates a time-aggregated behavior (e.g., "in the past hour"). Non-time-aggregated items refer to behavior at the time of the measurement occasion (i.e., "at the moment"). 
 
@@ -147,7 +147,7 @@ The different types of multiple measurements explained above generally intertwin
 
 Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking.
 ::: 
-
+<!--
 # Practical Considerations
 
 The following practical considerations are also important for the decision about the frequency of measurements of multiple constructs, but are not considered further on this website.
@@ -159,11 +159,11 @@ The following practical considerations are also important for the decision about
 -   Combining measurements of different variables at the same measurement occasion would reduce the burden of participants, but may restrict the researcher the measure a variable at the right timescale.
 
 -   Measuring multiple constructs with different measurement frequencies will not only lead to differences in the lengths of the intervals, but also to differences in the amount of observations per variable.
-
+-->
 # Related pages
 
--   [Event contingent constructs](event-relations.qmd)
+-   [Event-related constructs](../context-events/event-relations.qmd)
 
--   [Regimes-switching constructs](regime-switches.qmd)
+-   [Regimes-switching constructs](../ergodicity/regime-switching-processes.qmd)
 
--   [Time Scales: Landing Page](../time-scales.qmd)
+-   [Time Scales: Landing Page](../time-scale.qmd)

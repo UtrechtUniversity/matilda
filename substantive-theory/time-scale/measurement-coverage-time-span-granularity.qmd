@@ -1,22 +1,22 @@
 ---
-title: "Time scales: Measurement coverage, time span, & granularity"
+title: "Measurement coverage, time span, and granularity."
+categories: ['Substantive theory', 'Time scale', 'Granularity', 'Time span', 'Time interval', 'Number of measurements', 'Time frame']
+title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-06-20
 date-modified: last-modified
 author:
-  - name: Ellen Hamaker
+  - name:
+      given: Ellen L.
+      family: Hamaker
     email: e.l.hamaker@uu.nl
-    corresponding: true
     orcid: 
+    corresponding: true
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
-  - name: Name Second Author
-    email: mail second author
-    orcid: 
-    affiliations:
-      - name: affiliation second author
+csl: ../../resources/styles/apa.csl
 citation: true
-bibliography: ../../resources/bibliographies/pagename_references.bib
+bibliography: ../../resources/bibliographies/reliability-single-item-measures.bib
 google-scholar: true
 ---
 
@@ -25,7 +25,7 @@ google-scholar: true
 :::
 
 ::: callout-note
-## Want to cite this page? See [citation info](#citation).
+## Want to cite this page? See [citation info](measurement-coverage-time-span-granularity.html#citation).
 :::
 
 This page is about how specific key design aspects determine how well our repeated measures cover a given process of interest. Two important concepts that determine this coverage are
@@ -107,7 +107,7 @@ Jennifer performed a panel study, with intervals between the measurements of 6 m
 
 ## Read more: Time Intervals between Measurements
 
--   [Constructs Measured at Different Timescales](relating-constructs.qmd)
+-   [Constructs Measured at Different Timescales](/RelationConstructs.html)
 
 -   [Theory: What happens in the intervals between my measurements?]
 
@@ -242,7 +242,7 @@ Jack performed a panel study consisting of 3 waves, with a measurement interval 
 
 -   [External Validity for ILD]
 
--   [Event-Related Constructs](event-relations.qmd)
+-   [Event-Related Constructs](../context-events/event-relations.qmd)
 
 :::
 # Practical Considerations
@@ -259,10 +259,10 @@ The following practical considerations are also very important for the decision 
 
 -   [Designing a measurement instrument to target between-person or within-person variance]
 -   [Equally Spaced vs Un-Equally Spaced measurements]
--   [Event-Related Constructs](event-relations.qmd)
+-   [Event-Related Constructs](../context-events/event-relations.qmd)
 -   [External Validity for ILD]
 -   [How many repeated measurements do I need?]
--   [Constructs Measured at Different Timescales](relating-constructs.qmd)
+-   [Relation constructs measured at different time scales](relating-constructs-time-scales.qmd)
 -   [Measurement Burst Designs]
 -   [Measurement Burst Designs: Event Contingent Bursts]
 -   [Remembering vs Experiencing Self]
