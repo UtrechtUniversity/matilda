@@ -15,25 +15,47 @@ website:
   sidebar:
     style: "docked"
     contents:
-      - section: "Research Question/Aim"
+      - href: intensive-longitudinal-data.qmd
+        text: "About ILD"
+      - href: processes.qmd
+        text: "About processes"
+      - text: "---"
+      - section: "Your study"
         contents:
-          - text: "[Different Goals - Description, Prediction, Causation, Understanding]"
-          - text: "[Intraindividal Differences vs Interindividual Differences]"
-      - section: "Substantive Theory"
+          - href: your-study/your-study.qmd
+            text: "Your study"
+          - href: your-study/research-question.qmd
+            text: "Research question"
+          - href: your-study/theory.qmd
+            text: "Theory"
+          - href: your-study/constructs.qmd
+            text: "Constructs"
+      - section: "Substantive theory"
         contents:
-          - href: substantive-theory/time-scales.qmd
-            text: "Time Scale"
+          - href: substantive-theory/substantive-theory.qmd
+            text: "Substantive theory"
+          - href: substantive-theory/time-scale.qmd
+            text: "Time scale"
+          - href: substantive-theory/ergodicity.qmd
+            text: "Ergodicity"
+          - href: substantive-theory/context-events.qmd
+            text: "Context and events"
           - href: substantive-theory/distributions.qmd
             text: "Distributions"
-          - text: "[Context and Events]"
-      - section: "Measurement Theory"
+      - section: "Measurement theory"
         contents:
-          - text: "[Conceptually Defining your Variable]"
-          - href: measurement-theory/item-design.qmd
-            text: "Item Design"
-          - text: "[Measurement Modeling]"
+          - href: measurement-theory/measurement-theory.qmd
+            text: "Measurement theory"
+          - href: measurement-theory/item.qmd
+            text: "Item"
+          - href: measurement-theory/instrument.qmd
+            text: "Instrument"
+          - href: measurement-theory/sampling.qmd
+            text: "Sampling"
           - href: measurement-theory/validation.qmd
             text: "Validation"
+          - href: measurement-theory/measurement-model.qmd
+            text: "Measurement model"
       - text: "---"
       - href: template.qmd
         text: "Template Page"

@@ -1,20 +1,19 @@
 ---
-title: "Validation Landing Page"
+title: "Validation landing page"
+categories: ['Measurement theory', 'Validation', 'Landing page']
+title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-06-26
 date-modified: last-modified
 author:
-  - name: Ellen Hamaker
-    email: e.l.hamaker@uu.nl
-    orcid: 
-    corresponding: true
-    affiliations:
-      - name: Methodology &amp; Statistics, Utrecht University
-  - name: Noémi Schuurman
+  - name:
+      given: Noémi K.
+      family: Schuurman
     email: n.k.schuurman@uu.nl
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
 citation: true
 bibliography: ../resources/bibliographies/pagename_references.bib
 google-scholar: true
@@ -25,61 +24,48 @@ google-scholar: true
 :::
 
 ::: callout-note
-## Want to cite this page? See [citation info](#citation).
+## Want to cite this page? See [citation info](validation.html#citation).
 :::
 
-This is the landing page for everything related to the <i> validation </i> of measurements.
+This is the landing page for topics related to the <i> validation </i> of measurements.
 
-# Validation: A Key Consideration for Measuring ILD
+Validating a measurement means to evaluate whether our measurement instrument is measuring what it is supposed to measure. Validating measurement instruments is a key part of doing any study, ILD studies included: if our measures are invalid, our results may be more or less meaningless. 
 
-To illustrate the importance of considering the validation of a measurement, consider:
+There are various approaches to validating a measurement instrument, ranging from doing qualitative studies to see what participants make of the items you designed, to using statistical models to estimate the reliability of an item. Typically, it will require multiple of these approaches together (triangulation) to ensure our measurement instrument is actually valid. 
 
-a.  Consideration a
-
-b.  Consideration b
-
-c.  Consideration c
+Read more about various topics related to the validation of ILD studies below.
 
 ## Think More About Validation
 
 We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
-## Read more: Validation - Reliability
-
--   [Reliability for Single Item Measures](validation/reliability-single-items.qmd)
+## Read more: Validation - General
+-   [When are my measurements good enough?]
+-   [Validity for ILD]
+-   [Reliability for ILD]
 :::
 
-<!-- ::: {.callout-note collapse="false"} -->
+::: {.callout-note collapse="false"}
+## Read more: Validation - Validity approaches
+-   [Face validity for ILD]
+-   [Content validity for ILD]
+-   [Predictive, convergent, and divergent validity for ILD]
+-   [Qualitative evaluations of measurement instruments]
+:::
 
-<!-- ## Read more: Time Scales - Capturing Specific Events -->
+::: {.callout-note collapse="false"}
+## Read more: Validation - Reliability approaches
+-   [Reliability for single items](validation\reliability-single-item-measures.qmd)
+-   [Reliability for Multiple Item Measures]
+:::
 
-<!-- -   [Capturing Regime Switches](/TScale_Switches.html) -->
 
-<!-- -   [Event-Relations in ILD Measurement](/EventRelations.html) -->
 
-<!-- -   \[Measurement Burst Designs\] -->
-
-<!-- ::: -->
+<!--  
 
 # Practical Considerations
 
 The following practical considerations are also important for the decision about validation, but are not considered further on this website.
 
--   Practical consideration 1.
-
-```{=html}
-<!--
-# Related pages
-
--   [Measurement coverage, time span, & granularity.](/TScale_MeasCoverage.html)
-
--   [Measuring and Relating Multiple Constructs Measured at Different Timescales](/TScale_RelatingConstructs.html)
-
--   [Capturing Regime Switches](/TScale_Switches.html)
-
--   [Event-Relations in ILD Measurement](/EventRelations.html)
-
--   [Measurement Burst Designs]
--->
-```
+-   Practical consideration 1.-->

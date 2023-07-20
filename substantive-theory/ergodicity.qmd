@@ -1,0 +1,84 @@
+---
+title: "Ergodicity landing page"
+categories: ['Ergodicity', 'Landing page', 'Stationarity', 'Homogeneity']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-06-26
+date-modified: last-modified
+author:
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
+citation: true
+bibliography: ../resources/bibliographies/pagename_references.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](ergodicity.html#citation).
+:::
+
+This is the landing page for everything related to the <i> ergodicity </i> of the process you are studying.
+
+If a process is ergodic, it does not matter *when* we measure it, or for *what units* (i.e., what persons) we measure it, the process always has the same distributional characteristics: The process is the same in terms of mean, variance, etc. 
+
+In that case, on the population level relationships between variables obtained from inter-individual differences are the same as the relationships between those variables obtained from intra-individual differences.
+
+For a process to be ergodic it needs to be a) stationary and b) homogenous. Whether a process is stationary or homogenous are research questions, and the answer to those questions are important:
+
+- for how we should measure the process, that is, to what extent we should worry about for whom or what time points we measure the process;
+- for how we should analyze the process, that is, do we need to allow for changes in the process across time or across units;
+- for what conclusions we can draw, that is, can we generalize our results to all time points, and all units, or not.
+
+
+## Think more about ergodicity
+
+We have collected various topics for you to read more about below.
+
+::: {.callout-note collapse="false"}
+## Read more: (Non-)Stationarity
+-   [Stationarity]
+-   [Capturing sudden transitions or regime switches](ergodicity/regime-switching-processes.qmd)
+:::
+
+::: {.callout-note collapse="false"}
+## Read more: (Non-)Homogeneity
+-   [Homogeneity]
+:::
+
+::: {.callout-note collapse="false"}
+## Read more: Consequences of non-ergodicity
+-   [Intra-individual differences or inter-individual differences]
+-   [The 'Within/Between' Problem]
+:::
+
+<!--# Practical Considerations
+
+The following practical considerations are also important for the decision about item design, but are not considered further on this website.
+
+-   Practical consideration 1. -->
+
+```{=html}
+<!--
+# Related pages
+
+-   [Measurement coverage, time span, & granularity.](/TScale_MeasCoverage.html)
+
+-   [Measuring and Relating Multiple Constructs Measured at Different Timescales](/TScale_RelatingConstructs.html)
+
+-   [Capturing Regime Switches](/TScale_Switches.html)
+
+-   [Event-Relations in ILD Measurement](/EventRelations.html)
+
+-   [Measurement Burst Designs]
+-->
+```

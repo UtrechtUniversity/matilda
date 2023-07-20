@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -149,27 +149,58 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../intensive-longitudinal-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About ILD</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../processes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About processes</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Research Question/Aim</span></a>
+ <span class="menu-text">Your study</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">[Different Goals - Description, Prediction, Causation, Understanding]</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../your-study/your-study.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Your study</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">[Intraindividal Differences vs Interindividual Differences]</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../your-study/research-question.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research question</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../your-study/theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../your-study/constructs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Constructs</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Substantive Theory</span></a>
+ <span class="menu-text">Substantive theory</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,8 +208,26 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../substantive-theory/time-scales.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Time Scale</span></a>
+  <a href="../substantive-theory/substantive-theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Substantive theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../substantive-theory/time-scale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Time scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../substantive-theory/ergodicity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ergodicity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../substantive-theory/context-events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Context and events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -187,36 +236,51 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Distributions</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
- <span class="menu-text">[Context and Events]</span>
-  </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Measurement Theory</span></a>
+ <span class="menu-text">Measurement theory</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">[Conceptually Defining your Variable]</span>
-  </li>
-          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../measurement-theory/item-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Item Design</span></a>
+  <a href="../measurement-theory/measurement-theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measurement theory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">[Measurement Modeling]</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/item.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Item</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/instrument.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instrument</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/sampling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sampling</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../measurement-theory/validation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Validation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../measurement-theory/measurement-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measurement model</span></a>
   </div>
 </li>
       </ul>
@@ -235,7 +299,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Ergodicity"><span class="quarto-category-count category-cloud-10">Ergodicity</span></div><div class="category" data-category="Non-stationarity"><span class="quarto-category-count category-cloud-10">Non-stationarity</span></div><div class="category" data-category="Regime-switching"><span class="quarto-category-count category-cloud-10">Regime-switching</span></div><div class="category" data-category="Substantive theory"><span class="quarto-category-count category-cloud-10">Substantive theory</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -295,6 +359,17 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-categories="Substantive theory,Ergodicity,Non-stationarity,Regime-switching" data-listing-date-sort="1685052000000" data-listing-file-modified-sort="1689695671568" data-listing-date-modified-sort="1689695671000" data-listing-reading-time-sort="4" data-listing-title-sort="Regime-switching processes" data-listing-filename-sort="regime-switching-processes.qmd">
+<td>
+<span class="listing-image"><!-- img(9CEB782EFEE6)[progressive=false, height=40px]:substantive-theory/ergodicity/regime-switching-processes.html --></span>
+</td>
+<td>
+<a href="../substantive-theory/ergodicity/regime-switching-processes.html" class="title listing-title">Regime-switching processes</a>
+</td>
+<td>
+<span class="listing-author">Daan de Jong</span>
+</td>
+</tr>
 </tbody>
 
 </table>

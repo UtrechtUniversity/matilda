@@ -1,20 +1,19 @@
 ---
-title: "Distributions Landing Page"
+title: "Distribution landing Page"
+categories: ['Substantive theory','Distributions', 'Landing page']
+title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-06-26
 date-modified: last-modified
 author:
-  - name: Ellen Hamaker
-    email: e.l.hamaker@uu.nl
-    orcid: 
-    corresponding: true
-    affiliations:
-      - name: Methodology &amp; Statistics, Utrecht University
-  - name: Noémi Schuurman
+  - name:
+      given: Noémi K.
+      family: Schuurman
     email: n.k.schuurman@uu.nl
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
 citation: true
 bibliography: ../resources/bibliographies/pagename_references.bib
 google-scholar: true
@@ -25,48 +24,36 @@ google-scholar: true
 :::
 
 ::: callout-note
-## Want to cite this page? See [citation info](#citation).
+## Want to cite this page? See [citation info](distributions.html#citation).
 :::
 
-This is the landing page for everything related to the <i> distributions </i> of constructs of interest.
+This is the landing page for everything related to the <i> distributions </i> of your constructs of interest.
 
-# Distributions: A Key Consideration for Measuring ILD
+With distribution we mean how your scores are distributed across the units you are studying. For ILD we are often interested in how scores are distributed over time for a given unit (e.g., a person). We may also be interested in how scores are distributed across units (e.g., multiple persons). 
 
-To illustrate the importance of considering the distribution of a process, consider:
-
-a.  Consideration a
-
-b.  Consideration b
-
-c.  Consideration c
-
+The distributions of variables imply what scores you should expect for the process you are studying. Having knowledge about the distribution of your variables of interest is useful for informing your designing your measurement instrument and sampling design. It is also important to take into account when you analyse collected data.
 
 ## Think More About Distributions
 
-There are many things to consider with respect to substantive theory, measurement theory, and measurement design that relate to distributions. We have collected various topics for you to read more about below.
+We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
-## Read more: Distributions - General Information
-
--   [Floor and Ceiling Effects](distributions/floor-effect.qmd)
-
+## Read more: Distributions general 
+-   [Discrete or continuous constructs]
+-   [Types of distributions]
+-   [Distributional characteristics]
+-   [Measurement levels]
+-   [Floor and Ceiling Effects](distributions/floor-ceiling-effects.qmd)
 :::
 
-<!-- ::: {.callout-note collapse="false"} -->
-<!-- ## Read more: Time Scales - Capturing Specific Events -->
 
-<!-- -   [Capturing Regime Switches](/TScale_Switches.html) -->
-
-<!-- -   [Event-Relations in ILD Measurement](/EventRelations.html) -->
-
-<!-- -   \[Measurement Burst Designs\] -->
-<!-- ::: -->
+<!-- 
 
 # Practical Considerations
 
 The following practical considerations are also important for the decision about distributions, but are not considered further on this website.
 
--   Practical consideration 1.
+-   Practical consideration 1.-->
 
 ```{=html}
 <!--

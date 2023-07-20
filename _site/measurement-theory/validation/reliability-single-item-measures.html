@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-06-23">
+
+<title>Reliability for single item measures</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../resources/styles/styles.css">
+<meta name="citation_title" content="Reliability for single item measures">
+<meta name="citation_publication_date" content="2023-06-23">
+<meta name="citation_cover_date" content="2023-06-23">
+<meta name="citation_year" content="2023">
+<meta name="citation_online_date" content="2023-06-23">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Measurement error and person-specific reliability in multilevel autoregressive modeling.;,citation_author=Noémi K Schuurman;,citation_author=Ellen L Hamaker;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_issue=1;,citation_issn=1939-1463;,citation_volume=24;,citation_journal_title=Psychological methods;">
+<meta name="citation_reference" content="citation_title=Incorporating measurement error in n= 1 psychological autoregressive modeling;,citation_author=Noémi K Schuurman;,citation_author=Jan H Houtveen;,citation_author=Ellen L Hamaker;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_issn=1664-1078;,citation_volume=6;,citation_journal_title=Frontiers in psychology;">
+<meta name="citation_reference" content="citation_title=Assessing the reliability of single-item momentary affective measurements in experience sampling.;,citation_author=Egon Dejonckheere;,citation_author=Febe Demeyer;,citation_author=Birte Geusens;,citation_author=Maarten Piot;,citation_author=Francis Tuerlinckx;,citation_author=Stijn Verdonck;,citation_author=Merijn Mestdagh;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_issue=12;,citation_issn=1939-134X;,citation_volume=34;,citation_journal_title=Psychological Assessment;">
+<meta name="citation_reference" content="citation_title=Statistical theories of mental test scores;,citation_author=Frederic M Lord;,citation_author=Melvin R Novick;,citation_publication_date=2008;,citation_cover_date=2008;,citation_year=2008;,citation_isbn=1-60752-961-0;">
+<meta name="citation_reference" content="citation_title=A practical guide to estimating reliability of intensive longitudinal data;,citation_author=IJsbrand Leertouwer;,citation_author=Eeske Roekel;,citation_author=Loes Keijsers;,citation_author=Noémi K Schuurman;">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="https://www.uu.nl/" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/images/uu_blacktext.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">MATILDA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../navigation.html" rel="" target="">
+ <span class="menu-text">Where do I start?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../experts.html" rel="" target="">
+ <span class="menu-text">Our experts</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Reliability for single item measures</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../intensive-longitudinal-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About ILD</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../processes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About processes</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Your study</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../your-study/your-study.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Your study</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../your-study/research-question.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research question</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../your-study/theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../your-study/constructs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Constructs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Substantive theory</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/substantive-theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Substantive theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/time-scale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Time scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/ergodicity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ergodicity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/context-events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Context and events</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../substantive-theory/distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Distributions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Measurement theory</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/measurement-theory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measurement theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/item.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Item</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/instrument.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instrument</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/sampling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sampling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/validation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Validation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../measurement-theory/measurement-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measurement model</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Template Page</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-test-retest-framework-for-classical-test-theory" id="toc-the-test-retest-framework-for-classical-test-theory" class="nav-link active" data-scroll-target="#the-test-retest-framework-for-classical-test-theory">The test-retest framework for classical test theory</a>
+  <ul class="collapse">
+  <li><a href="#the-test-retest-framework-for-ild" id="toc-the-test-retest-framework-for-ild" class="nav-link" data-scroll-target="#the-test-retest-framework-for-ild">The test-retest framework for ILD</a></li>
+  </ul></li>
+  <li><a href="#the-measurement-error-autoregressive-model" id="toc-the-measurement-error-autoregressive-model" class="nav-link" data-scroll-target="#the-measurement-error-autoregressive-model">The Measurement Error Autoregressive Model</a>
+  <ul class="collapse">
+  <li><a href="#extensions-of-the-mear1-approach" id="toc-extensions-of-the-mear1-approach" class="nav-link" data-scroll-target="#extensions-of-the-mear1-approach">Extensions of the MEAR(1) approach</a></li>
+  </ul></li>
+  <li><a href="#the-immediate-trt-method" id="toc-the-immediate-trt-method" class="nav-link" data-scroll-target="#the-immediate-trt-method">The immediate TRT method</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Reliability for single item measures</h1>
+  </div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">IJsbrand Leertouwer <a href="https://orcid.org/0000-0003-0866-3725" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Youth &amp; Family department, Erasmus University Rotterdam
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Noémi K. Schuurman <a href="https://orcid.org/0000-0002-6437-5966" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Methods &amp; Statistics department, Utrecht University
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-06-23</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2023-07-18</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+This page has not been peer-reviewed yet.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Want to cite this page? See <a href="reliability-single-item-measures.html#citation">citation info</a>.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>This page is about methods for determining the reliability of <i> <a href="../../measurement-theory/instrument/single-item-multiple-item-measures.html">single item measures</a></i>.</p>
+<p>Reliability is a prerequisite for the validity of your item. Unreliable measurements can lead to inaccurate and/or biased parameter estimates when you analyse them.</p>
+<p>So far, the available methods for determining the reliability of single item measures are based on the test-retest framework. In the following, we first discuss this framework, followed by two methods for estimating reliability for single item measures.</p>
+<section id="the-test-retest-framework-for-classical-test-theory" class="level1">
+<h1>The test-retest framework for classical test theory</h1>
+<p>The main idea behind the test-retest framework is that when a construct does not change, repeated measurements of that construct should produce the same result. If the results of the measurements indeed do not change they are reliable. If the results of the repeated measurements differ, this can be ascribed to measurement error.</p>
+<p>In classical test theory, this implies that each measurement <span class="math inline">\(y_t\)</span> at timepoint <span class="math inline">\(t\)</span> consists of a stable part of the score <span class="math inline">\(\theta\)</span> that is refered to as the <em>true score</em>, and a <em>measurement error</em> <span class="math inline">\(\epsilon_t\)</span> that is specific to the measurement:</p>
+<p><span class="math display">\[
+y_{t} = \theta + \epsilon_{t}.
+\]</span> In this scenario, measurement error can be separated from true scores by determining what part of the measurements is stable over time, and what is variable over time.</p>
+<section id="the-test-retest-framework-for-ild" class="level2">
+<h2 class="anchored" data-anchor-id="the-test-retest-framework-for-ild">The test-retest framework for ILD</h2>
+<p>The challenge for ILD is that the true score is often expected to vary over time:</p>
+<p><span class="math display">\[
+y_{t} = \theta_t + \epsilon_{t}.
+\]</span> As such, we need a way to distinguish the variance in the true score from variance due to measurement error for a single item in our repeated measures, if we want to use a test-retest approach. This generally requires making some assumptions about how the true score and measurement error vary over time.</p>
+<p>Below we will discuss two methods that do this, and that can be used for measurements of single items and single or multiple participants: The ‘measurement error autoregressive model’ and the ‘immediate test-retest method’.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Other approaches to reliability (for muliple item measures)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>[Internal consistency reliability for ILD]</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="the-measurement-error-autoregressive-model" class="level1">
+<h1>The Measurement Error Autoregressive Model</h1>
+<!-- Ik denk dat dit een stuk vriendelijker uitgelegd kan worden, met een wat rustigere/logischere opbouw, maar dat kunnen we later nog aanpassen (ik zal later een suggestie/edit doen). Fijne voorbeelden. -->
+<p>The Measurement Error Autoregressive Model (MEAR(1) model) uses a dynamic model - the autoregressive model - to separate what are true scores from what are random measurement errors <span class="citation" data-cites="schuurman_measurement_2019 schuurman_incorporating_2015">(<a href="#ref-schuurman_incorporating_2015" role="doc-biblioref">Schuurman et al., 2015</a>; <a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>. The part of the scores that are a result of the autoregressive process (including residuals) are considered the true part of the scores. The remainder is considered measurement error.</p>
+<div id="fig-MEAR1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../../resources/images/MEAR(1).png" class="img-fluid figure-img" width="500"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: MEAR(1) Model</figcaption>
+</figure>
+</div>
+<p>The model is depicted graphically in <a href="#fig-MEAR1">Figure&nbsp;1</a>. The model is specified as follows with two equations (note: we use the notation consistent with <span class="citation" data-cites="schuurman_measurement_2019">Schuurman &amp; Hamaker (<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">2019</a>)</span>). Firstly, the measurement equation (measurement model) is specified as:</p>
+<p><span class="math display">\[
+y_t = \mu +\tilde{y}_t + \epsilon_t.\\
+\]</span> In the above equation the observed score at each timepoint <span class="math inline">\(t\)</span>, <span class="math inline">\(\theta_t\)</span> , consists of</p>
+<ol type="1">
+<li>mean <span class="math inline">\(\mu\)</span> that is stable over time;</li>
+<li><span class="math inline">\(\tilde{y}_t\)</span> which is the part of the score that is the result of an autoregressive process at each time point;</li>
+<li><span class="math inline">\(\epsilon\_{t}\)</span> which is the part of the score that is the result of measurement error at each time point.</li>
+</ol>
+<p>The measurement errors $_t $ are assumed to be normally distributed with a mean of zero, and a measurement error variance <span class="math inline">\(\sigma_\epsilon^2\)</span>.</p>
+<p>The autoregressive process for <span class="math inline">\(\tilde{y}_t\)</span> is specified as follows in the transition equation of the model:</p>
+<p><span class="math display">\[
+\tilde{y}_t = \phi \tilde{y}_{t-1} + \omega_t
+\]</span> Here, current scores <span class="math inline">\(\tilde{y}_{t}\)</span> is predicted by itself at the nearest previous occassion <span class="math inline">\(\tilde{y}_{t-1}\)</span> through autoregressive parameter <span class="math inline">\(\phi\)</span>. Given that the scores are only predicted by the nearest previous occassion, this is an autoregressive model of order 1 (an AR(1) model). The dynamic residuals <span class="math inline">\(\omega_t\)</span>, are assumed to be normally distributed with a mean of zero and variance <span class="math inline">\(\sigma_\omega^2\)</span>.</p>
+<p>Important to note is that the dynamic residuals have a key feature that distinguishes them from measurement errors: The dynamic residuals carry over from one occassion to the next via the autoregressive effect, while the measurement error do not <span class="citation" data-cites="schuurman_measurement_2019 schuurman_incorporating_2015">(<a href="#ref-schuurman_incorporating_2015" role="doc-biblioref">Schuurman et al., 2015</a>; <a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>. This can also be seen from tracing the arrows in <a href="#fig-MEAR1">Figure&nbsp;1</a>.</p>
+<!-- Misschien iets zeggen over hoe dynamic 'error' misschien niet het beste woord is omdat het deel is van de ware score, en dat sommige mensen dit dus ook innovations noemen, of je zou het dynamic residuals kunnen noemen -->
+<!-- Nu al iets herschreven -->
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: dynamic residuals
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Ayoko wants to study the dynamics in her enthusiasm. She gathers personal measurements on her phone in the morning, in the afternoon and in the evening. On Sunday afternoon she goes to the cinema and greatly enjoys a movie. This results in a spike in her enthusiasm. The effect of seeing this movie on her enthusiasm still lingers in the evening. In other words, the autoregressive effect has “carried over” this “dynamic residual” from the afternoon to the evening.</p>
+</div>
+</div>
+</div>
+<p>Dynamic residuals are sometimes also referred to as ‘innovations’ or ‘dynamic errors’. However, note that even though they are sometimes referred to as errors, they are in fact part of the variance in the true scores.</p>
+<p>For the MEAR(1) model, the variance of the true scores is given by:</p>
+<p><span class="math display">\[
+\sigma_{\tilde{y}}^2 = \frac{\sigma_\omega^2}{1-\phi^2}.
+\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: measurement error
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>On Tuesday morning, Ayoko’s finger slips when rating her enthusiasm on her phone, and she accidentally records the highest possible value. The effect of this error is limited to this single measurement and will not affect the next measurement.</p>
+</div>
+</div>
+</div>
+<p>The total variance of the observed scores <span class="math inline">\(y_{t}\)</span> in the MEAR(1) model consists of the variance due to the autoregressive process <span class="math inline">\(\sigma_{\tilde{y}}^2\)</span> and the measurement error variance <span class="math inline">\(\sigma_\epsilon^2\)</span>.</p>
+<p>In order to calculate the reliability of the construct we calculate the proportion of total variance <span class="math inline">\(y_{t}\)</span> to the true score variance <span class="math inline">\(\sigma_{\tilde{y}}^2\)</span>:</p>
+<p><span class="math display">\[
+rel(y) = \frac{\sigma_{\tilde{y}}^2}{\sigma_{\tilde{y}}^2 + \sigma_\epsilon^2}
+\]</span></p>
+<p>It is important to note that dynamic residuals <span class="math inline">\(\omega_t\)</span> and measurement errors <span class="math inline">\(\epsilon_t\)</span> can only be distinguished from each other by the fact that the effect of the dynamic residuals carry over to the next measurement. This has several important implications.</p>
+<ul>
+<li>First, it means that any unobserved effect that is not carried over to the next measurement is ascribed to measurement error. As such, the reliability estimate of the MEAR(1) model is likely to be an underestimate of the true reliability.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: measurement error?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>On Thursday afternoon, Ayoko has a tasty cookie right before a measuring her enthusiasm. The effect of this cookie on her enthusiasm likely does not carry over to the measurement in the evening. However, the cookie did temporarily boost her enthusiasm. Hence, the boost was a true score, but the MEAR(1) model will consider it measurement error. Hence, the reliability will be underestimated.</p>
+<p>What would have happened if Ayoko gathered measurements every 5 minutes?</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Second, it means that when the autoregressive parameter is zero and dynamic residuals do not carry over, the model is not identified. The closer the autoregressive parameter is to zero, the harder it will be to estimate the model <span class="citation" data-cites="schuurman_measurement_2019 schuurman_incorporating_2015">(<a href="#ref-schuurman_incorporating_2015" role="doc-biblioref">Schuurman et al., 2015</a>; <a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</li>
+</ul>
+<p>Moreover, note that the MEAR(1) assumes a specific model to separate dynamic process from measurement errors. If the model is incorrect, this will affect the reliability estimates as well. However, the MEAR(1) may be extended in various ways (see below).</p>
+<p>The example “measurement error?” above illustrates that if not all dynamics are accounted for in the model, this may for lead to an underestimation of the reliability. In that case, for example, the chosen time interval may also affect the reliability estimates <span class="citation" data-cites="schuurman_measurement_2019">(<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Choosing a time interval
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>[<a href="../../substantive-theory/time-scale/measurement-coverage-time-span-granularity.html">Key design aspects related to time scales: time frame, interval, number of measurements</a>]</li>
+</ul>
+</div>
+</div>
+</div>
+<section id="extensions-of-the-mear1-approach" class="level2">
+<h2 class="anchored" data-anchor-id="extensions-of-the-mear1-approach">Extensions of the MEAR(1) approach</h2>
+<p>The MEAR(1) model can be extended to capture more complicated dynamics - in essence, the idea behind it can be generalized to any dynamic model; where the dynamic model part is considered the reliable part of scores, and the remainder measurement error. So far, the MEAR(1) model has been extended to account for multiple variables with a VAR(1) model with correlated measurement errors, and to multilevel data (modeling multiple participants) <span class="citation" data-cites="schuurman_measurement_2019">(<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Practical application
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<!-- Ik denk dat dit bij beide methods moet (nu zie je dit alleen onder TRT) -->
+<ul>
+<li>Scripts for R and Mplus are available in the supplementary materials of <span class="citation" data-cites="leertouwer_practical">Leertouwer et al. (<a href="#ref-leertouwer_practical" role="doc-biblioref">n.d.</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Ik zou hier nog iets opmerken over dat je dit met elk willekeurig dynamisch model kan doen, niet alleen ar(1) modellen, bv in een aparte subsubsectie 'extensies', oid -->
+</section>
+</section>
+<section id="the-immediate-trt-method" class="level1">
+<h1>The immediate TRT method</h1>
+<p>In the immediate test-retest (TRT) method <span class="citation" data-cites="dejonckheere_assessing_2022">(<a href="#ref-dejonckheere_assessing_2022" role="doc-biblioref">Dejonckheere et al., 2022</a>)</span> makes use of an adjusted sampling design: In this method, measurements of the construct of interest are quickly followed by another measurement. For example, within a questionnaire of eight items, one of the items would be repeated after these eight items, with a minimum number of items in between.</p>
+<!-- onderstaande zin meer een voorbeeld van hoe je dat zou kunnen doen op een zinnge manier. Gebruik wat meer zinnen om uit te leggen wat ze doen, dit is nog niet duidelijk. Misschien is het goed om hier een example box van te maken met ref naar dejonckheere. -->
+<!-- For example, .. do this by ..  within a questionnaire of several items, one or some items are repeated with only a few items in between.  -->
+<p>The reasoning behind this method is that it is unlikely that the true score changed between the first and second measurement of the construct. Hence, any difference between these repeated measurements, which are taken very close in time, is considered to be measurement error.</p>
+<p>Specifically, under this assumption measurement error variance can be expressed as the expected value (i.e., average) of the squared differences between the first and repeated measurements, divided by two:</p>
+<p><span class="math display">\[
+\sigma_\epsilon^2 = \frac{E[\Delta_{trt}^2]}{2}
+\]</span> In order to calculate reliability, this measurement error variance can be divided by the variance of all measurements that have a replicate measurement:</p>
+<p><span class="math display">\[
+rel(y) = \frac{\sigma_\epsilon^2}{\sigma_{trt}^2}
+\]</span></p>
+<p>The clear benefit of this method is that can easily be calculated. However, it does require some additional assumptions:</p>
+<ul>
+<li><ol type="1">
+<li>The first assumption was already mentioned; this is that the true score does not change between the initial and replicate measurement.</li>
+</ol></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: No measurement error?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Ayoko also wants to measure and model Tobias’ enthusiasm. She is not particularly interested in the dynamics of his experiences, but rather in his average experiences over a week of time. She again gathers personal measurements in the morning, afternoon and evening, and wants to know how reliable Tobias’ responses are. She uses the immediate test-retest method in order to get an estimate.</p>
+<p>Like Ayoko, Tobias likes cookies. During his afternoon he eats a cookie just in between the original measurement of enthusiasm and the repetition. He answers according to his true scores - but they are different for the first and replicate measurement. This would lead to an underestimate of the reliability by the immediate RTR method.</p>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li><p>There are no recall effects among the initial and replicate measurement.</p></li>
+<li><p>People do not always strive for consistency of their responses.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example 2: No measurement error?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>During a particular measurement, Tobias is not very sure how enthusiastic he feels. He decides to just go with a number and feels that 45 should be relatively close. Quickly after giving this rating Tobias is presented with another question about his enthusiasm. Didn’t I already fill this in? Tobias thinks to himself. What was it again? 45? He fills in 45 again. What does this do for the estimated measurement error, and hence the reliability?</p>
+<p>The first measurement had some measurement error in it, the replicate measurement is identical. There is hence no difference between the first and replicate measurement, which for the TRT method implies there is no measurement error. Hence, in this case, the TRT method would overestimate the reliability.</p>
+<!-- I think this example is fine, but it can be made more explicit/obvious why this is a problem; He feels the same at each measurement, but 45 is not the true score, and still repeats it. This will result in overestimating reliability -->
+<!-- Here are additional options: There could be one where the participants remembers the initial score and repeats it although they feel differently at the replicate measure, or perhaps one where they feel different, realize this change, and then go back to the first score and change their initial rating to be consistent with the replicate measurement (although this latter one does not have to affect the reliability estimate in a negative way, it surely messes up your measurements). etc -->
+</div>
+</div>
+</div>
+<!-- it could be both inflated or deflated or neither  depending on what the participants do , right?
+Note, violating the first assumption would deflate reliability, so lower bound. So hard to say if it is an upper or lower bound estimate overall
+-->
+<!-- In the example, the difference is zero  while it could only have been higher if Tobias did not remember the previous score. Striving for consistency would always deflate the measurement error estimate I believe. But you are right that the first example cancels this out-->
+<!-- Ergens moet nog iets over dat je met het ene kan corrigeren voor meetfout en schatten van betrouwbaarheid, en voor de ander alleen schatten. Even bedenken waar. Evt een tabel met voor/nadelen van elke approach oid. -->
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more: Practical application
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<!-- Ik denk dat dit bij beide methods moet (nu zie je dit alleen onder TRT) -->
+<ul>
+<li>Scripts for R and Mplus are available in the supplementary materials of <span class="citation" data-cites="leertouwer_practical">Leertouwer et al. (<a href="#ref-leertouwer_practical" role="doc-biblioref">n.d.</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-dejonckheere_assessing_2022" class="csl-entry" role="listitem">
+Dejonckheere, E., Demeyer, F., Geusens, B., Piot, M., Tuerlinckx, F., Verdonck, S., &amp; Mestdagh, M. (2022). Assessing the reliability of single-item momentary affective measurements in experience sampling. <em>Psychological Assessment</em>, <em>34</em>(12), 1138.
+</div>
+<div id="ref-leertouwer_practical" class="csl-entry" role="listitem">
+Leertouwer, Ij., Roekel, E. van, Keijsers, L., &amp; Schuurman, N. K. (n.d.). <em>A practical guide to estimating reliability of intensive longitudinal data</em>.
+</div>
+<div id="ref-schuurman_measurement_2019" class="csl-entry" role="listitem">
+Schuurman, N. K., &amp; Hamaker, E. L. (2019). Measurement error and person-specific reliability in multilevel autoregressive modeling. <em>Psychological Methods</em>, <em>24</em>(1), 70.
+</div>
+<div id="ref-schuurman_incorporating_2015" class="csl-entry" role="listitem">
+Schuurman, N. K., Houtveen, J. H., &amp; Hamaker, E. L. (2015). Incorporating measurement error in n= 1 psychological autoregressive modeling. <em>Frontiers in Psychology</em>, <em>6</em>, 1038.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{leertouwer2023,
+  author = {Leertouwer, IJsbrand and Schuurman, Noémi K.},
+  title = {Reliability for Single Item Measures},
+  date = {2023-06-23},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-leertouwer2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Leertouwer, Ij., &amp; Schuurman, N. K. (2023, June 23). <em>Reliability
+for single item measures</em>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
