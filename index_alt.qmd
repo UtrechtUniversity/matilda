@@ -1,20 +1,25 @@
 ---
-title: "Measurement and Theory for Intensive Longitudinal Data"
-fontfamily: Merriweather
-about:
-  template: jolla
-  image: resources/images/banner.svg
-  image-shape: rectangle
-  image-width: 100%
+title: "MATILDA"
+toc: false
+filters: 
+    - remove_title.lua
 ---
+
+::: {style="margin: auto;   width: 100%;"}
+![](resources/images/bannertest.png)
+:::
+
+:::{style="margin: auto;   width: 100%;text-align: center;"}
+## Measurement and Theory for Intensive Longitudinal Data
 
 [MATILDA provides information for researchers <br> that want to study processes with intensive longitudinal data.]{style="font-size: 20px;"}
 
 ##### [**MATILDA haiku:**]{style="font-family:Merriweather;"}
 
-[MATILDA helps researchers consider their <br> goals, substantive theory, measurement theory & design <br> and how all these intertwine.]{style="font-size: 18px;font-family: Merriweather;"}
+[*MATILDA helps researchers consider their <br> goals, substantive theory, measurement theory & design <br> and how all these intertwine.*]{style="font-size: 18px;font-family: Merriweather;"}
 
 [MATILDA's content is developed and maintained by experts, <br> and is peer-reviewed.]{style="font-size: 20px;"}
+:::
 
 ::: grid
 ::: g-col-6
