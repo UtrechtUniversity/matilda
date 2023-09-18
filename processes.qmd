@@ -1,0 +1,30 @@
+---
+title: "About processes"
+categories: ['processes', 'Landing page']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-07-17
+date-modified: last-modified
+author:
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: resources/styles/apa.csl
+citation: true
+bibliography: resources/bibliographies/reliability-single-item-measures.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](PageTemplate.html#citation).
+:::
+
+A process is a mechanism that determines how a unit changes over time.

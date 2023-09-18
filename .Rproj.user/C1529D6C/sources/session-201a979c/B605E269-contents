@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "matilda"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: quiz.qmd
+        text: Where do I start?
+      - experts.qmd
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "Research Question/Aim"
+        contents:
+          - text: "[Different Goals - Description, Prediction, Causation, Understanding]"
+          - text: "[Intraindividal Differences vs Interindividual Differences]"
+      - section: "Substantive Theory"
+        contents:
+          - href: TScale_General.qmd
+            text: "Time Scale"
+          - href: Distributions_General.qmd
+            text: "Distribution"
+          - text: "[Context and Events]"
+      - section: "Measurement Theory"
+        contents:
+          - text: "[Conceptually Defining your Variable]"
+          - href: ItemDesign_General.qmd
+            text: "Item Design"
+          - text: "[Measurement Modeling]"
+          - href: Validation_General.qmd
+            text: "Validation"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

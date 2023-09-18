@@ -1,0 +1,28 @@
+/* css styles */
+/*
+very hacky way to get the uu logo on top of the
+navigation bar.
+this does not work when the browser width is small, e.g. on phones...
+*/
+
+.navbar-brand {
+    margin-top: -146px;
+    background: white;
+    width: 1200px;
+    height: 90px;
+}
+
+.navbar {
+    margin-top: 90px;
+    height: 56px;
+}
+
+.navbar-logo {
+    max-height: 61px;
+    margin-left: 29px;
+    margin-top: 10px
+}
+
+.navbar-nav {
+  margin-left: -1125px;
+}
