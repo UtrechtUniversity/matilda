@@ -117,7 +117,7 @@ a2 = {
   if (q2.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/time-scales/event-relations.html";
+    link2.href = "substantive-theory/context-events/event-relations.html";
     link2.appendChild(document.createTextNode("Event - Relation in ILD Measurement"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -125,7 +125,7 @@ a2 = {
   if (q2.some((element) => element == 3)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/time-scales/regime-switches.html";
+    link2.href = "substantive-theory/ergodicity/regime-switching-processes.html";
     link2.appendChild(document.createTextNode("Regime Switches"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -179,7 +179,7 @@ a3 = {
   if (q3.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/time-scales.html";
+    link2.href = "substantive-theory/time-scale.html";
     link2.appendChild(document.createTextNode("Time Scales"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -187,7 +187,7 @@ a3 = {
   if (q3.some((element) => element == 3)) {
     const li3 = document.createElement("li");
     const link3 = document.createElement("a");
-    link3.href = "substantive-theory/time-scales.html";
+    link3.href = "substantive-theory/time-scale.html";
     link3.appendChild(document.createTextNode("Time Scales"))
     li3.appendChild(link3);
     ul.appendChild(li3);
@@ -222,7 +222,7 @@ a3b = {
   if (q3b.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/time-scales/relating-constructs.html";
+    link2.href = "substantive-theory/time-scale/relating-constructs-time-scales.html";
     link2.appendChild(document.createTextNode("link2"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -230,7 +230,7 @@ a3b = {
   if (q3b.some((element) => element == 3)) {
     const li3 = document.createElement("li");
     const link3 = document.createElement("a");
-    link3.href = "substantive-theory/time-scales.html";
+    link3.href = "substantive-theory/time-scale.html";
     link3.appendChild(document.createTextNode("Time Scales"))
     li3.appendChild(link3);
     ul.appendChild(li3);
@@ -309,7 +309,7 @@ a5 = {
   if (q5.some((element) => element == 1)) {
     const li1 = document.createElement("li");
     var link = document.createElement("a");
-    link.href = "measurement-theory/validation/reliability-single-items.html";
+    link.href = "measurement-theory/validation/reliability-single-item-measures.html";
     link.appendChild(document.createTextNode("Reliability for single item measures"));
     li1.appendChild(link);
     ul.appendChild(li1);
@@ -325,7 +325,7 @@ a5 = {
   if (q5.some((element) => element == 3)) {
     const li3 = document.createElement("li");
     const link3 = document.createElement("a");
-    link3.href = "measurement-theory/item-design/single-multiple-items.html";
+    link3.href = "measurement-theory/instrument/single-item-multiple-item-measures.html";
     link3.appendChild(document.createTextNode("Measuring a Construct with Single vs. Multiple Items"))
     li3.appendChild(link3);
     ul.appendChild(li3);
