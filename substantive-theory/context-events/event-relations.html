@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-05-26">
+<meta name="dcterms.date" content="2023-06-19">
 
-<title>Relating constructs measured at different time scales</title>
+<title>Event-Relations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,20 +62,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../resources/styles/styles.css">
-<meta name="citation_title" content="Relating constructs measured at different time scales">
-<meta name="citation_publication_date" content="2023-05-26">
-<meta name="citation_cover_date" content="2023-05-26">
+<meta name="citation_title" content="Event-Relations">
+<meta name="citation_publication_date" content="2023-06-19">
+<meta name="citation_cover_date" content="2023-06-19">
 <meta name="citation_year" content="2023">
-<meta name="citation_online_date" content="2023-05-26">
-<meta name="citation_fulltext_html_url" content="https://sophieberkhout.github.io/matilda//substantive-theory/time-scale/relating-constructs-time-scales.html">
+<meta name="citation_online_date" content="2023-06-19">
+<meta name="citation_fulltext_html_url" content="https://sophieberkhout.github.io/matilda//substantive-theory/context-events/event-relations.html">
 <meta name="citation_language" content="en">
-<meta name="citation_reference" content="citation_title=Measurement error and person-specific reliability in multilevel autoregressive modeling.;,citation_author=Noémi K Schuurman;,citation_author=Ellen L Hamaker;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_issue=1;,citation_issn=1939-1463;,citation_volume=24;,citation_journal_title=Psychological methods;">
-<meta name="citation_reference" content="citation_title=Incorporating measurement error in n= 1 psychological autoregressive modeling;,citation_author=Noémi K Schuurman;,citation_author=Jan H Houtveen;,citation_author=Ellen L Hamaker;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_issn=1664-1078;,citation_volume=6;,citation_journal_title=Frontiers in psychology;">
-<meta name="citation_reference" content="citation_title=Assessing the reliability of single-item momentary affective measurements in experience sampling.;,citation_author=Egon Dejonckheere;,citation_author=Febe Demeyer;,citation_author=Birte Geusens;,citation_author=Maarten Piot;,citation_author=Francis Tuerlinckx;,citation_author=Stijn Verdonck;,citation_author=Merijn Mestdagh;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_issue=12;,citation_issn=1939-134X;,citation_volume=34;,citation_journal_title=Psychological Assessment;">
-<meta name="citation_reference" content="citation_title=Statistical theories of mental test scores;,citation_author=Frederic M Lord;,citation_author=Melvin R Novick;,citation_publication_date=2008;,citation_cover_date=2008;,citation_year=2008;,citation_isbn=1-60752-961-0;">
-<meta name="citation_reference" content="citation_title=A practical guide to estimating reliability of intensive longitudinal data;,citation_author=IJsbrand Leertouwer;,citation_author=Eeske Roekel;,citation_author=Loes Keijsers;,citation_author=Noémi K Schuurman;">
+<meta name="citation_reference" content="citation_title=Title of a paper.;,citation_author=P. Fado;,citation_author=P. K. Melkor;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_issue=1;,citation_volume=24;,citation_journal_title=Psychological methods;,citation_publisher=American Psychological Association;">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -118,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Relating constructs measured at different time scales</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Event-Relations</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -283,18 +281,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#studying-constructs-with-different-time-scales" id="toc-studying-constructs-with-different-time-scales" class="nav-link active" data-scroll-target="#studying-constructs-with-different-time-scales">Studying constructs with different time scales</a>
+  <li><a href="#explicit-and-implicit-assumptions-about-event-relations" id="toc-explicit-and-implicit-assumptions-about-event-relations" class="nav-link active" data-scroll-target="#explicit-and-implicit-assumptions-about-event-relations">Explicit and implicit assumptions about event-relations</a>
   <ul class="collapse">
-  <li><a href="#three-key-considerations" id="toc-three-key-considerations" class="nav-link" data-scroll-target="#three-key-considerations">Three key considerations</a></li>
+  <li><a href="#disregarding-event-relations-unconditional-constructs" id="toc-disregarding-event-relations-unconditional-constructs" class="nav-link" data-scroll-target="#disregarding-event-relations-unconditional-constructs">Disregarding event-relations: Unconditional Constructs</a></li>
   </ul></li>
-  <li><a href="#different-types-of-variables-with-different-time-scales" id="toc-different-types-of-variables-with-different-time-scales" class="nav-link" data-scroll-target="#different-types-of-variables-with-different-time-scales">Different types of variables with different time scales</a>
+  <li><a href="#what-kinds-of-event-relations-can-i-assume" id="toc-what-kinds-of-event-relations-can-i-assume" class="nav-link" data-scroll-target="#what-kinds-of-event-relations-can-i-assume">What kinds of event-relations can I assume?</a>
   <ul class="collapse">
-  <li><a href="#explicitly-and-implicitly-lagged-measurements" id="toc-explicitly-and-implicitly-lagged-measurements" class="nav-link" data-scroll-target="#explicitly-and-implicitly-lagged-measurements">Explicitly and implicitly lagged measurements</a></li>
-  <li><a href="#unconditional-versus-event-contingent-measurements" id="toc-unconditional-versus-event-contingent-measurements" class="nav-link" data-scroll-target="#unconditional-versus-event-contingent-measurements">Unconditional versus event-contingent measurements</a></li>
-  <li><a href="#time-aggregated-vs-non-time-aggregated-measurements" id="toc-time-aggregated-vs-non-time-aggregated-measurements" class="nav-link" data-scroll-target="#time-aggregated-vs-non-time-aggregated-measurements">Time-aggregated vs non-time-aggregated measurements</a></li>
-  <li><a href="#combinations-of-the-above" id="toc-combinations-of-the-above" class="nav-link" data-scroll-target="#combinations-of-the-above">Combinations of the above</a></li>
+  <li><a href="#contrasts-constructs-affected-by-events" id="toc-contrasts-constructs-affected-by-events" class="nav-link" data-scroll-target="#contrasts-constructs-affected-by-events">Contrasts: Constructs affected by Events</a></li>
+  <li><a href="#conditional-event-relations-of-constructs" id="toc-conditional-event-relations-of-constructs" class="nav-link" data-scroll-target="#conditional-event-relations-of-constructs">Conditional Event-Relations of Constructs:</a>
+  <ul class="collapse">
+  <li><a href="#substantive-assumptions-1" id="toc-substantive-assumptions-1" class="nav-link" data-scroll-target="#substantive-assumptions-1">Substantive Assumptions</a></li>
   </ul></li>
-  <li><a href="#related-pages" id="toc-related-pages" class="nav-link" data-scroll-target="#related-pages">Related pages</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -303,7 +301,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Relating constructs measured at different time scales</h1>
+<h1 class="title">Event-Relations</h1>
   </div>
 
 
@@ -312,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Sophie W. Berkhout <a href="https://orcid.org/0000-0002-4890-2754" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author">Pia K. Andresen <a href="https://orcid.org/0000-0001-8060-6448" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -327,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2023-05-26</p>
+      <p class="date">2023-06-19</p>
     </div>
   </div>
   
@@ -362,266 +360,242 @@ This page has not been peer-reviewed yet.
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Want to cite this page? See <a href="#citation">citation info</a>.
+Want to cite this page? See <a href="event-relations.html#citation">citation info</a>.
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
-<p>This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.</p>
-<p>The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: <a href="../../substantive-theory/time-scale.html">Time scale landing page</a>). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different time scales in some way or form.</p>
-<p>It is important to think about differences in time scales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them.</p>
-<p>Below, we discuss various examples of this, including specific common cases in which this occurs: “lagged and implicitly lagged variables”, and “event-unconditional and event-contingent variables”. We discuss various things to consider when studying these variables.</p>
-<section id="studying-constructs-with-different-time-scales" class="level1">
-<h1>Studying constructs with different time scales</h1>
-<p>Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: <a href="../../substantive-theory/time-scale.html">Time scale landing page</a>.</p>
-<p>Different constructs may develop over time at a different timescale. For example, there is general consensus that affect develops over time on a moment-to-moment basis (i.e., intervals of about an hour or even shorter), whereas personality traits are assumed to be relatively stable over time (e.g., intervals of a year or longer).</p>
-<p>Therefore, when researchers are interested in studying multiple constructs, the frequency of measurement for these constructs may differ.</p>
+<p>In everyday life, people constantly engage with their environment. Consequently, many psychological constructs assessed with ILD should substantively be assumed to be event-related.</p>
+<p>On this page, we will introduce you to several substantive assumptions that you introduce to a study design, by (not) accounting for specific types of event-relations.</p>
+<section id="explicit-and-implicit-assumptions-about-event-relations" class="level1">
+<h1>Explicit and implicit assumptions about event-relations</h1>
+<p>Many ILD designs do not explicitly account for event-relations in behavior. However, this does not mean that no assumptions are being made about event-relations for the construct of interest.</p>
+<p>Participants will always encounter a number of situations every day, and many of those potentially impact measurement of the construct. If we do not explicitly account for these influences, we are assuming we can ignore those influences when answering our research question. This is often an implicit assumption. If we do want to account for these influences, we typically need to make more explicit assumptions about the mechanism behind these influences.</p>
+<section id="disregarding-event-relations-unconditional-constructs" class="level2">
+<h2 class="anchored" data-anchor-id="disregarding-event-relations-unconditional-constructs">Disregarding event-relations: Unconditional Constructs</h2>
+<!-- I've adjusted the above and below paragraph a bit, so you have new section like this here, that pairs well with the next two. I think then this paragraph should fall under section 2 (the intro for that then needs some adaptation) -->
+<p>When collecting ILD from the everyday life of participants, measurements likely almost always capture some degree of situational influences on the measured construct. However, not all of these influences necessarily need to be accounted for in an ILD design:</p>
+<p>When we do not explicitly account for situational influences on our constructs, we implicitly treat those influences as random error. This random error is in turn assumed to cancel itself out - some influences are positive, some negative - over a sufficiently large number of independent observations. Depending on the specific research context, this may be a more or less appropriate assumption to make.</p>
+<p>In any case, making this assumption is most reasonable if ones substantive theory states that situational factors are not of a big importance to the process under study. In this case, the process is treated to be <i>unconditional</i>, that is, independent of (unobserved) situational influences. This means, when the research question concerns a construct which can be reasonably argued to vary or change independently of situational influences, one may not need to explicitly measure situational factors in an ILD design.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Sleep quality and positive affect 1
+Example 1: Conscientiousness in Daily Life
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Batu wants to study how someone’s sleep quality effects their positive affect throughout the day. He decides to measure positive affect five times a day using ESM, and to add the item ‘I slept well’ to the first ESM measurement of the day that is prompted in the morning.</p>
+<p>Francesca is interested in studying the manifestation of trait conscientiousness in daily life. Three times a day, the ESM protocol asks participants “How conscientious are you right now?”. No situational variables are measured.</p>
+<p>In the resulting time series, the means of the conscientiousness scores of different people correlate highly with trait conscientiousness measured with a cross-sectional personality trait questionnaire.</p>
+<p>The researcher interprets this result in the following way: Trait conscientiousness manifests as the <em>unconditional mean</em> (i.e.&nbsp;the mean of the entire time series; not corrected for situational factors) of being conscientious in daily life.</p>
 </div>
 </div>
 </div>
-<section id="three-key-considerations" class="level2">
-<h2 class="anchored" data-anchor-id="three-key-considerations">Three key considerations</h2>
-<p>When studying the relation between multiple constructs with different measurement frequencies, it is important to consider three key points:</p>
-<p>a) The relation between these constructs may not be straightforward. It is important to carefully think about how one construct relates to the other, and more specifically <em>when</em>. Does the construct always affect the other, or does it only occur at a specific time?</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Sleep quality and positive affect 2
+Substantive assumptions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Batu believes that a person’s sleep quality only influences their positive affect in the morning and early afternoon. During the day, the effect of sleep quality on positive affect wears off.</p>
+<p>If you believe the construct is unconditional and can be measured without accounting for context, you are making an number of implicit assumptions:</p>
+<ul>
+<li>The construct occurs independently of specific situational factors (e.g.&nbsp;mood)</li>
+<li>There is not important change or variation in the construct that is due to situational factors (e.g.”How do you feel in general?” vs.&nbsp;“How do you feel after a fight?”)</li>
+<li>The construct is well-defined</li>
+</ul>
+<section id="read-more" class="level2">
+<h2 class="anchored" data-anchor-id="read-more">Read more:</h2>
+<ul>
+<li>[When is a construct well-defined?]</li>
+</ul>
+</section>
 </div>
 </div>
 </div>
-<p>b) Different measurements may refer to different time points or intervals. It is important to consider to what time point or interval a measurement refers to, in order to concretely hypothesize about the dynamic relations between variables.</p>
+<p>Often it is not reasonable to assume that situations and context play no role in our measurements.In the next section, two ways of accounting for event-relation of constructs will be discussed.</p>
+</section>
+</section>
+<section id="what-kinds-of-event-relations-can-i-assume" class="level1">
+<h1>What kinds of event-relations can I assume?</h1>
+<!-- I think that in the below sentence ' an independent occurance' is confusing, because it is kind of not independent. The two are dependent in statistical terms at least for sure. Maybe just leave that bit out.
+I removed it now: "is an independent occurrence from the construct, but it"-->
+<p>In general, constructs measured in ILD can be related to measurements of events/situations in two ways:</p>
+<ul>
+<li><p>The event influences the construct to change in some way (i.e.&nbsp;there is some causal relationship between the event and the construct).</p></li>
+<li><p>The event is a necessary condition for the construct to occur.</p></li>
+</ul>
+<p>We will discuss both options in more detail next.</p>
+<p>Note that these two options should usually considered as mutually exclusive:An important pre-condition for assuming a causal relationship is that the cause and the outcome are conceptually independent from each other. That is, if two things are interdependent, it is hard to argue for a causal relationship. The same is true for accounting for event-relations: If a construct is defined such that it cannot occur indepedntly of a specific situation (e.g.&nbsp;“socializing” requires people around), it is confusing to argue that the context causes the construct (e.g.&nbsp;do people cause socializing?).</p>
+<section id="contrasts-constructs-affected-by-events" class="level2">
+<h2 class="anchored" data-anchor-id="contrasts-constructs-affected-by-events">Contrasts: Constructs affected by Events</h2>
+<p>Often, research questions either concern a) the effect that specific situations have on a construct or b) the degree to which a person is prone to reacting to specific events. This means, we are interested in measuring how a construct changes <em>after</em> an event occured. Here, we call these kinds of event-relations <i>contrasts</i>.</p>
+<p>In a contrast event-relation, we are interested in the difference in a construct before and after an event occurred. In other words, we are interested in capturing the increase in construct <em>Y</em>, that is due to situation/event <em>S</em>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Sleep quality and positive affect 3
+Contrasts as Model Features
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Batu measures sleep quality in the morning at the same time of the first measurement of positive affect. However, the measurement of sleep quality refers to the preceding night, which is an interval of time that happens <em>before</em> the measurement is taken. The items for positive affect refer to how the participant feels <em>at the moment</em> and therefore refer to that specific measurement occasion.</p>
+<p>Contrasts can be assessed by defining the hypothesiszed effects in a model. For example, we can express them as:</p>
+<p><span class="math display">\[Y{t} = c + b1*S{t-1} + e{t}\]</span> Here, coefficient <em>b1</em> expresses the reaction/contrast created by the event. If no event is reported, <em>b1</em> will not influence <em>Y</em> at time point <em>t</em>.</p>
+<p>Note: this is a simple example meant to illustrate the functionality of model features to account for event-relations. In practice models can be more complicated or account for contrast event-relations in alternative ways, for example by measuring <em>S</em> as continuous and defining cross-lagged effects.</p>
+<!-- Maybe note that this is a very simple example of such a relationship, and that other functional forms are possible too. Or make the simple linear effect an example box too, and use a super general notation in the main text like : y = f(x) , so it is clear that y is a function of x, and it could be any function. -->
 </div>
 </div>
 </div>
-<p>c) Aggregation of measurements (e.g., averages) may lead to different theoretical interpretations. It is important to consider the difference between measurements and aggregated measurements with regards to the substantive interpretation of the relations between variables.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Sleep quality and positive affect 4
+Example 2: Conscientiousness in Daily Life
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Gulce is interested in a similar relation as Batu between sleep quality and positive affect. However, she believes that sleep quality of the preceding night influences a person’s average positive affect of the following day.</p>
+<!-- if same researcher, use a name and use the same name here -->
+<p>Francesca would also like to study people’s reactions to mess in the workplace as a sign of trait conscientiousness. The hypothesis is that very conscientious people, will strongly react to encountering mess and will report to feel uncomfortable after. For this, they come up with an esm protocol measuring two variables, multiple times a day. The first variable is <em>S = “Right now, to what extend are you in a messy environment?”</em>, the second variable is <em>Y = “comfort/discomfort”Right now, to what extend did you feel comfortable/uncomfortable?</em>.</p>
+<p>In a model, <em>S</em> can be defined to have a lag-1 to lag-d relationship with current measures of <em>Y</em>. With this, the researcher is able to estimate the effect of <em>S</em> on <em>Y</em>. This coefficient can be interpreted to represent a participants tendency to be <em>reactive to</em> mess.</p>
+<p>Note: defining and measuring such effects heavily assumes an appropriate selection of time scales.</p>
 </div>
 </div>
 </div>
-</section>
-</section>
-<section id="different-types-of-variables-with-different-time-scales" class="level1">
-<h1>Different types of variables with different time scales</h1>
-<p>In the following we discuss a few general ways in which constructs may have differing time scales, specifically, “explicitly versus implicitly lagged measurements”, “unconditional versus event-contingent constructs”, and “aggregated versus non-aggregated constructs”.</p>
-<section id="explicitly-and-implicitly-lagged-measurements" class="level2">
-<h2 class="anchored" data-anchor-id="explicitly-and-implicitly-lagged-measurements">Explicitly and implicitly lagged measurements</h2>
-<p>Repeated measurements refer to a specific time point or interval. Explicitly lagged measurements are repeated measures that refer to the specific time point of each measurement occasion. The lag is the interval between the time stamps of the measurements.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<p>In summary, contrast event-relations require the measurement of relevant situational factors, such that central constructs (and changes therein) can be related to the occurrence of events in later models. Through this, we can assess a) if certain situations affect a construct, but also b) to what extend people are reactive/sensitive to particular types of events.</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Positive affect 1
+Constrasts: Substantive assumptions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Fiona set up an ESM study where participants receive positive affect items every hour. Each item refers to how the participants feel at the moment. E.g., “I feel satisfied at the moment”.</p>
+<p>If you believe there is a contrast relationship like the above, you are making an number of implicit assumptions:</p>
+<ul>
+<li><em>Y</em> and <em>S</em> are conceptually distinct constructs</li>
+<li>You are interested in the (causal) effect of <em>S</em> on <em>Y</em></li>
+<li>You are assuming that the variables are measured at the correct time scale</li>
+<li>You are assuming that <em>Y</em> is a function of <em>S</em></li>
+<li>You are assuming that <em>Y</em> and <em>S</em> are well-defined</li>
+<li>You are assuming that you are measuring the construct at an appropriate time scale.</li>
+</ul>
 </div>
 </div>
 </div>
-<p>Implicitly lagged measurements are measures that refer to a previous time point or interval, and are therefore inherently lagged: The time stamp of the measurement occasion is not the time point or interval which the measurement refers to. In contrast to explicitly lagged variables, the lag is not the interval between time stamps of the measurement, but the interval between the time indications of the measurements.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Positive affect 2
+Read more: Measuring at the appropriate time scale
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Mark set up an ESM study where participants receive positive affect items every hour. However, each item refers to how the participants have felt in the past hour. E.g., “In the past hour, I felt satisfied”.</p>
+<ul>
+<li><p><a href="../../substantive-theory/time-scale.html">Time scale landing page</a></p></li>
+<li><p>[Causal Inference with ILD]</p></li>
+</ul>
 </div>
 </div>
 </div>
-<p>When considering only one variable, the difference in lag interpretation between implicitly and explicitly lagged measurements is trivial. Yet, when considering multiple variables, it is important to think about the lag interpretation between these variables. Both variables could be measured at the same time, but refer to a different time point or interval.</p>
+</section>
+<section id="conditional-event-relations-of-constructs" class="level2">
+<h2 class="anchored" data-anchor-id="conditional-event-relations-of-constructs">Conditional Event-Relations of Constructs:</h2>
+<p>Conditional event-relations differ from contrasts in the substantive assumptions about the relationship between <em>Y</em> and <em>S</em>. Concretely, here we assume that <em>Y</em> only occurs or is only measurable within occurrences of <em>S</em>. This is the case if a construct, per definition, cannot be observed in absence of a situational pre-condition. <em>Y</em> and <em>S</em> may therefore be measured retrospectively and at the same time. As <em>S</em> is a necessary condition for <em>Y</em>, no lag between the constructs has to be specified. In ESM studies, we often see this in the from of event-contingent designs: a more elaborate questionnaire protocol is initiated only after a specific type of event was reported.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Sleep quality and positive affect 3
+Example 3: Conscientiousness in Daily Life
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Batu measures sleep quality in the morning at the same time of the first measurement of positive affect. However, the measurement of sleep quality refers to the preceding night, which is an interval of time that happens <em>before</em> the measurement is taken. The items for positive affect refer to how the participant feels <em>at the moment</em> and therefore refer to that specific measurement occasion.</p>
+<p>Furthermore, Francesca is interested in assessing another state measure of daily conscientiousness. Concretely, she thinks “hardworkingness” is an interesting variable to consider and that high means in state-hardworkingness will correlate with trait Conscientiousness. At first glance, <em>hardworkingness</em> appeared to be a normal state variable, which could be measured without accounting for situational factors.</p>
+<p>However, at second glance Francesca encounters a problem: When measuring “How hardworking are you right now?”, not all measurement occasions are equally important, as there simply is not a lot of <em>work to do</em> during weekends or in the evening. Therefore, Francesca includes a situational variable <em>S</em> into the procedure, and couples the assessment of <em>Y</em> to positive responses on <em>S</em>. If “Right now, is there work to be done?” (<em>S</em>) is answered with ‘yes’, <em>Y</em> (“How hardworking are you right now?”) can be asked.</p>
 </div>
 </div>
 </div>
-</section>
-<section id="unconditional-versus-event-contingent-measurements" class="level2">
-<h2 class="anchored" data-anchor-id="unconditional-versus-event-contingent-measurements">Unconditional versus event-contingent measurements</h2>
-<p>Event-contingent measurements are taken only when a specific event takes place, while unconditional measurements are always scheduled. When combining event-contingent and unconditional measurements, it is important to consider that the event-contingent measures are not observed in absence of the event.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<section id="substantive-assumptions-1" class="level3">
+<h3 class="anchored" data-anchor-id="substantive-assumptions-1">Substantive Assumptions</h3>
+<p>If you believe the construct is conditional and needs to be measured within specific contexts, you are making an number of implicit assumptions:</p>
+<ul>
+<li>You are assuming that <em>S</em> and <em>Y</em> are conceptually inter-dependent rather than causally connected</li>
+<li>You are assuming that you can only gain a valid measurement of construct <em>Y</em> if <em>S</em> currently occurs</li>
+<li>You are assuming your construct is well-defined</li>
+<li>You are assuming that you are measuring the construct at an appropriate time scale.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Smoking and positive affect 1
+Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Koen measures smoking multiple times a day (“Have you smoked since the last measurement?”), but only measures positive affect when a participant indicates that they have smoked.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Read more: Contextual and situational influences
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
 <ul>
-<li><p><a href="../../substantive-theory/context-events/event-relations.html">Event contingent constructs</a></p></li>
-<li><p><a href="../../substantive-theory/ergodicity/regime-switching-processes.html">Regimes-switching constructs</a></p></li>
+<li>[Event-Contingent Design]</li>
+<li>[ESM/EMA protocols for measuring events (link to ESM textbook)]</li>
 </ul>
-</div>
-</div>
-</div>
-</section>
-<section id="time-aggregated-vs-non-time-aggregated-measurements" class="level2">
-<h2 class="anchored" data-anchor-id="time-aggregated-vs-non-time-aggregated-measurements">Time-aggregated vs non-time-aggregated measurements</h2>
-<p>When a measurement refers to a previous interval, it usually indicates a time-aggregated behavior (e.g., “in the past hour”). Non-time-aggregated items refer to behavior at the time of the measurement occasion (i.e., “at the moment”).</p>
-<p>When considering dynamic relations among a time-aggregated variable and a non-time-aggregated variable, it is important to consider how the aggregation effects the relations. Furthermore, the substantive interpretation should include the aggregation (e.g., “x relates to the average of y”).</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Example: Smoking and positive affect 2
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Emilie combines daily measures of smoking and momentary measures of positive affect. The participants receive the momentary measures of positive affect every hour (e.g., “I feel satisfied at the moment”), and they also receive a daily diary at the end of the day about the amount of cigarretes they smoked that day. With these measures, Emilie may find that participants with overall more positive affect also on average smoke less per day.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="combinations-of-the-above" class="level2">
-<h2 class="anchored" data-anchor-id="combinations-of-the-above">Combinations of the above</h2>
-<p>The different types of multiple measurements explained above generally intertwine. Implicitly lagged measurements are usually also time-aggregated, and for event-contingent measurements the event measurement or the conditional measurement may also be implicitly lagged or time-aggregated.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Example: Smoking and positive affect 3
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-13" class="callout-13-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Koen measures smoking multiple times a day (“Have you smoked since the last measurement?”), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking.</p>
 </div>
 </div>
 </div>
 <!--
 # Practical Considerations
 
-The following practical considerations are also important for the decision about the frequency of measurements of multiple constructs, but are not considered further on this website.
+The following practical considerations are also important for the decision studying event-relation with ILD, but are not considered further on this website.
 
--   Most dynamic models are not by default equipped to model relations between variables with different interval lengths. For example, an assumption of the commonly used vector autoregressive (VAR) model is that the intervals of all measurements are equidistant. However, Berkhout et al. (in preparation) developed a couple of approaches to incorporate these variables into dynamic models.
-
-- Variables measured at the same time scale, may have missing observations at different rates, which may result in differently spaced measurements for different variables if missings are not appropriately dealt with.
-
--   Combining measurements of different variables at the same measurement occasion would reduce the burden of participants, but may restrict the researcher the measure a variable at the right timescale.
-
--   Measuring multiple constructs with different measurement frequencies will not only lead to differences in the lengths of the intervals, but also to differences in the amount of observations per variable.
+- Available resources for the measurement of events (e.g. restrictions of N of prompts per day)
+- Participant burden
 -->
-</section>
-</section>
-<section id="related-pages" class="level1">
-<h1>Related pages</h1>
-<ul>
-<li><p><a href="../../substantive-theory/context-events/event-relations.html">Event-related constructs</a></p></li>
-<li><p><a href="../../substantive-theory/ergodicity/regime-switching-processes.html">Regimes-switching constructs</a></p></li>
-<li><p><a href="../../substantive-theory/time-scale.html">Time Scales: Landing Page</a></p></li>
-</ul>
 
 
 </section>
+</section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{berkhout2023,
-  author = {Berkhout, Sophie W.},
-  title = {Relating Constructs Measured at Different Time Scales},
-  date = {2023-05-26},
-  url = {https://sophieberkhout.github.io/matilda//substantive-theory/time-scale/relating-constructs-time-scales.html},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{andresen2023,
+  author = {Andresen, Pia K.},
+  title = {Event-Relations},
+  date = {2023-06-19},
+  url = {https://sophieberkhout.github.io/matilda//substantive-theory/context-events/event-relations.html},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-berkhout2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Berkhout, S. W. (2023, May 26). <em>Relating constructs measured at
-different time scales</em>. <a href="https://sophieberkhout.github.io/matilda//substantive-theory/time-scale/relating-constructs-time-scales.html">https://sophieberkhout.github.io/matilda//substantive-theory/time-scale/relating-constructs-time-scales.html</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-andresen2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Andresen, P. K. (2023, June 19). <em>Event-Relations</em>. <a href="https://sophieberkhout.github.io/matilda//substantive-theory/context-events/event-relations.html">https://sophieberkhout.github.io/matilda//substantive-theory/context-events/event-relations.html</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

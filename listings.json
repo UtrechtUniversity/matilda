@@ -1,0 +1,67 @@
+[
+  {
+    "listing": "/experts/mulder.html",
+    "items": []
+  },
+  {
+    "listing": "/experts/haqiqatkhah.html",
+    "items": [
+      "/substantive-theory/distributions/floor-ceiling-effects.html"
+    ]
+  },
+  {
+    "listing": "/experts/dejong.html",
+    "items": [
+      "/substantive-theory/ergodicity/regime-switching-processes.html"
+    ]
+  },
+  {
+    "listing": "/experts/andresen.html",
+    "items": [
+      "/substantive-theory/context-events/event-relations.html",
+      "/measurement-theory/instrument/single-item-multiple-item-measures.html"
+    ]
+  },
+  {
+    "listing": "/experts/berkhout.html",
+    "items": [
+      "/substantive-theory/time-scale/relating-constructs-time-scales.html",
+      "/measurement-theory/instrument/single-item-multiple-item-measures.html"
+    ]
+  },
+  {
+    "listing": "/experts/hamaker.html",
+    "items": [
+      "/substantive-theory/time-scale/measurement-coverage-time-span-granularity.html",
+      "/substantive-theory/time-scale.html"
+    ]
+  },
+  {
+    "listing": "/experts/leertouwer.html",
+    "items": [
+      "/measurement-theory/validation/reliability-single-item-measures.html"
+    ]
+  },
+  {
+    "listing": "/experts/schuurman.html",
+    "items": [
+      "/your-study/constructs.html",
+      "/substantive-theory/context-events.html",
+      "/substantive-theory/distributions.html",
+      "/substantive-theory/ergodicity.html",
+      "/measurement-theory/instrument.html",
+      "/measurement-theory/item.html",
+      "/measurement-theory/measurement-model.html",
+      "/measurement-theory/measurement-theory.html",
+      "/measurement-theory/validation/reliability-single-item-measures.html",
+      "/your-study/research-question.html",
+      "/measurement-theory/sampling.html",
+      "/measurement-theory/instrument/single-item-multiple-item-measures.html",
+      "/substantive-theory/substantive-theory.html",
+      "/your-study/theory.html",
+      "/substantive-theory/time-scale.html",
+      "/measurement-theory/validation.html",
+      "/your-study/your-study.html"
+    ]
+  }
+]
