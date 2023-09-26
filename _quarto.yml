@@ -57,6 +57,10 @@ website:
       - text: "---"
       - href: template.qmd
         text: "Template Page"
+  page-footer:
+    left: "Copyright 2023, Dynamic Modelling Lab"
+    right: |
+      [![](resources/images/erc.png){fig-alt="European Research Council" width=200px}](https://erc.europa.eu/homepage)
 
 format:
   html:
