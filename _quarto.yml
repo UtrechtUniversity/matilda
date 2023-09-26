@@ -60,7 +60,7 @@ website:
   page-footer:
     left: "Copyright 2023, Dynamic Modelling Lab"
     right: |
-      [![](resources/images/erc.png){fig-alt="European Research Council" width=200px}](https://erc.europa.eu/homepage)
+      [![](https://erc.europa.eu/sites/default/files/inline-images/LOGO_ERC-FLAG_FP.png){fig-alt="European Research Council" width=200px}](https://erc.europa.eu/homepage)
 
 format:
   html:
