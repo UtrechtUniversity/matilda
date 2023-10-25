@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](instrument.html#citation).
 :::
 
-This is the landing page for everything related to the <i> measurement instrument </i> used for measuring your constructs of interest. Note that if you use a single item measure to measure your construct, that item is your instrument (and the [item landing page](item.qmd) may be most helpful).
+This is the landing page for everything related to the <i> measurement instrument </i> used for measuring your [constructs](../your-study/constructs.qmd) of interest. Note that if you use a single item to measure your construct, that item is your instrument (and then the [item landing page](item.qmd) may be most helpful).
 
 They way your instrument is designed, from the order of your items to the length of your questionnaire, will directly impact what you measure. 
 
@@ -55,12 +55,7 @@ We have collected various topics for you to read more about below.
 -   [Reliability for single items](validation/reliability-single-item-measures.qmd)
 -   [Reliability for multiple item measures]
 :::
-<!--
-# Practical Considerations
 
-The following practical considerations are also important for the decision about item design, but are not considered further on this website.
-
--   Practical consideration 1. -->
 
 ```{=html}
 <!--

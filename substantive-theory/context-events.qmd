@@ -27,9 +27,9 @@ google-scholar: true
 ## Want to cite this page? See [citation info](context-events.html#citation).
 :::
 
-This is the landing page for everything related to the <i> context and events </i> that may affect the process you are studying.
+This is the landing page for everything related to the <i> context and events </i> that may affect the [process](../processes.qmd) you are studying.
 
-Psychological or other social science processes are likely to be affected by the context the process operates in, and external events that may occur along the way. It is important to consider the importance of the context and events for your process of interest, so you know what to measure about the context and events in addition to the core constructs of your process. You may also tailor your measurements and sampling design to events. 
+Psychological or other social science processes are likely to be affected by the context the process operates in, and external events that may occur along the way. It is important to consider the importance of the context and events for your process of interest, so you know what to measure about the context and events in addition to the core [constructs](../your-study/constructs.qmd) of your process. You may also tailor your [sampling design](../measurement-theory/sampling.qmd) to events. 
 
 ## Think more about context and events
 
@@ -41,11 +41,6 @@ We have collected various topics for you to read more about below.
 -   [Event-contingent sampling designs]
 :::
 
-<!--# Practical Considerations
-
-The following practical considerations are also important for the decision about item design, but are not considered further on this website.
-
--   Practical consideration 1. -->
 
 ```{=html}
 <!--

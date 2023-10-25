@@ -29,7 +29,7 @@ google-scholar: true
 
 This is the landing page for topics related to the <i> validation </i> of measurements.
 
-Validating a measurement means to evaluate whether our measurement instrument is measuring what it is supposed to measure. Validating measurement instruments is a key part of doing any study, ILD studies included: if our measures are invalid, our results may be more or less meaningless. 
+Validating a [measurement instrument](../instrument.qmd) means to evaluate whether our measurement instrument is measuring what it is supposed to measure. Validating measurement instruments is a key part of doing any study, [ILD](../intensive-longitudinal-data.qmd) studies included: if our measures are invalid, our results may be more or less meaningless. 
 
 There are various approaches to validating a measurement instrument, ranging from doing qualitative studies to see what participants make of the items you designed, to using statistical models to estimate the reliability of an item. Typically, it will require multiple of these approaches together (triangulation) to ensure our measurement instrument is actually valid. 
 
@@ -60,12 +60,3 @@ We have collected various topics for you to read more about below.
 -   [Reliability for Multiple Item Measures]
 :::
 
-
-
-<!--  
-
-# Practical Considerations
-
-The following practical considerations are also important for the decision about validation, but are not considered further on this website.
-
--   Practical consideration 1.-->
