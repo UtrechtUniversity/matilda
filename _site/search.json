@@ -39,7 +39,7 @@
     "href": "intensive-longitudinal-data.html",
     "title": "About Intensive Longitudinal Data",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\n\n\n\n\n\n\n\n\n\n\n\n\nWant to cite this page? See citation info.\n\n\n\n\n\n\nIn the context of the social sciences and Psychology, intensive longitudinal data (ILD for short) are data that consist of many repeated measures (say 25 or more), for multiple persons (units), for one or more variables. These data are typically collected via self-report with smart phone surveys, or via observation or trackers (MATILDA focuses on self-report with smart phone surveys).\nData that consist of many repeated measures for a single unit and variable is called a time series. In other words, ILD consist of time series for multiple persons, for one or more variables. In practice however, sometimes ILD is also used to refer to the time series of one unit or person.\nThis type of data stands in contrast with other common data types in Psychology, such as  cross-sectional data  and  panel data . Cross-sectional data consist of scores measured at a single time points for many persons. Panel data consist of a few repeated measures, for many persons.\n\n\n\nCitationBibTeX citation:@online{schuurman2023,\n  author = {Schuurman, Noémi K.},\n  title = {About {Intensive} {Longitudinal} {Data}},\n  date = {2023-07-17},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchuurman, N. K. (2023, July 17). About Intensive Longitudinal\nData."
+    "text": "This page has not been peer-reviewed yet.\n\n\n\n\n\n\n\n\n\n\n\n\nWant to cite this page? See citation info.\n\n\n\n\n\n\nIn the context of Psychology, intensive longitudinal data (ILD) are data that consist of many repeated measures for multiple units (e.g., more than 25 repeated measures for multiple persons), for one or more variables. These data are typically collected through self-report with repeatedly administered smart phone surveys, through observation, or through real time trackers. For now, MATILDA focuses mainly on self-report ILD, collected via surveys.\nData that consist of many repeated measures for a single unit and variable is called a time series. In other words, ILD consist of time series for multiple persons (or other units, such as dyads or teams), for one or more variables. In practice however, sometimes ILD is also used to refer to the time series of one person.\nThis type of data stands in contrast with other common data types in Psychology, such as  cross-sectional data  and  panel data . Cross-sectional data consist of scores measured at a single time points for many persons. Panel data consist of a few repeated measures, for many persons.\n\n\n\nCitationBibTeX citation:@online{schuurman2023,\n  author = {Schuurman, Noémi K.},\n  title = {About {Intensive} {Longitudinal} {Data}},\n  date = {2023-07-17},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchuurman, N. K. (2023, July 17). About Intensive Longitudinal\nData."
   },
   {
     "objectID": "index.html#measurement-and-theory-for-intensive-longitudinal-data",
@@ -74,7 +74,7 @@
     "href": "measurement-theory/validation.html",
     "title": "Validation landing page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for topics related to the  validation  of measurements.\nValidating a measurement means to evaluate whether our measurement instrument is measuring what it is supposed to measure. Validating measurement instruments is a key part of doing any study, ILD studies included: if our measures are invalid, our results may be more or less meaningless.\nThere are various approaches to validating a measurement instrument, ranging from doing qualitative studies to see what participants make of the items you designed, to using statistical models to estimate the reliability of an item. Typically, it will require multiple of these approaches together (triangulation) to ensure our measurement instrument is actually valid.\nRead more about various topics related to the validation of ILD studies below."
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for topics related to the  validation  of measurements.\nValidating a measurement instrument means to evaluate whether our measurement instrument is measuring what it is supposed to measure. Validating measurement instruments is a key part of doing any study, ILD studies included: if our measures are invalid, our results may be more or less meaningless.\nThere are various approaches to validating a measurement instrument, ranging from doing qualitative studies to see what participants make of the items you designed, to using statistical models to estimate the reliability of an item. Typically, it will require multiple of these approaches together (triangulation) to ensure our measurement instrument is actually valid.\nRead more about various topics related to the validation of ILD studies below."
   },
   {
     "objectID": "measurement-theory/validation.html#think-more-about-validation",
@@ -123,7 +123,7 @@
     "href": "substantive-theory/context-events.html",
     "title": "Context and events landing page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  context and events  that may affect the process you are studying.\nPsychological or other social science processes are likely to be affected by the context the process operates in, and external events that may occur along the way. It is important to consider the importance of the context and events for your process of interest, so you know what to measure about the context and events in addition to the core constructs of your process. You may also tailor your measurements and sampling design to events."
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  context and events  that may affect the process you are studying.\nPsychological or other social science processes are likely to be affected by the context the process operates in, and external events that may occur along the way. It is important to consider the importance of the context and events for your process of interest, so you know what to measure about the context and events in addition to the core constructs of your process. You may also tailor your sampling design to events."
   },
   {
     "objectID": "substantive-theory/context-events.html#think-more-about-context-and-events",
@@ -172,7 +172,7 @@
     "href": "substantive-theory/distributions.html",
     "title": "Distribution landing Page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  distributions  of your constructs of interest.\nWith distribution we mean how your scores are distributed across the units you are studying. For ILD we are often interested in how scores are distributed over time for a given unit (e.g., a person). We may also be interested in how scores are distributed across units (e.g., multiple persons).\nThe distributions of variables imply what scores you should expect for the process you are studying. Having knowledge about the distribution of your variables of interest is useful for informing your designing your measurement instrument and sampling design. It is also important to take into account when you analyse collected data."
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  distributions  of your constructs of interest.\nWith distribution we mean how your scores are distributed across the units you are studying. For intensive longitudinal data we are often interested in how scores are distributed over time within a given unit (e.g., within a person). We may also be interested in how scores are distributed across units (e.g., across multiple persons).\nThe distributions of variables imply what scores you should expect for the process you are studying. Having knowledge about the distribution of your variables of interest is useful for informing your designing your measurement instrument and sampling design. It is also important to take into account when you analyse collected data."
   },
   {
     "objectID": "substantive-theory/distributions.html#think-more-about-distributions",
@@ -193,7 +193,7 @@
     "href": "substantive-theory/ergodicity.html",
     "title": "Ergodicity landing page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  ergodicity  of the process you are studying.\nIf a process is ergodic, it does not matter when we measure it, or for what units (i.e., what persons) we measure it, the process always has the same distributional characteristics: The process is the same in terms of mean, variance, etc.\nIn that case, on the population level relationships between variables obtained from inter-individual differences are the same as the relationships between those variables obtained from intra-individual differences.\nFor a process to be ergodic it needs to be a) stationary and b) homogenous. Whether a process is stationary or homogenous are research questions, and the answer to those questions are important:"
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  ergodicity  of the process you are studying.\nIf a process is ergodic, it does not matter when we measure it, or for what units (i.e., what persons) we measure it, the process always has the same distributional characteristics: The process is the same in terms of mean, variance, etc.\nIn that case, on the population level relationships between variables obtained from inter-individual differences are the same as the relationships between those variables obtained from intra-individual differences.\nFor a process to be ergodic it needs to be a) stationary and b) homogeneous. Whether a process is stationary or homogeneous are research questions, and the answer to those questions are important:"
   },
   {
     "objectID": "substantive-theory/ergodicity.html#think-more-about-ergodicity",
@@ -270,21 +270,21 @@
     "href": "substantive-theory/time-scale.html#think-more-about-time-scales",
     "title": "Time scale landing Page",
     "section": "Think more about time scales",
-    "text": "Think more about time scales\nThere are many things to consider with respect to substantive theory, measurement theory, and measurement design that relate to time scales. We have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Time scales - general information\n\n\n\n\n\n\nKey design aspects related to time scales: time frame, interval, number of measurements\nJargon: Time span & Granularity\nRelating Constructs Measured at Different Timescales\n\n\n\n\n\n\n\n\n\n\nRead more: Capturing specific events\n\n\n\n\n\n\nRegimes-switching processes\nEvent-relations\n[Measurement Burst Designs]"
+    "text": "Think more about time scales\nThere are many things to consider with respect to substantive theory, measurement theory, and measurement design that relate to time scales. We have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Time scales - general information\n\n\n\n\n\n\nKey design aspects related to time scales: time frame, interval, number of measurements\nJargon: Time span & granularity\nRelating constructs measured at different time scales\n\n\n\n\n\n\n\n\n\n\nRead more: Capturing specific events\n\n\n\n\n\n\nRegimes-switching processes\nEvent-relations\n[Measurement Burst Designs]"
   },
   {
     "objectID": "your-study/constructs.html",
     "href": "your-study/constructs.html",
     "title": "Constructs landing page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for topics related to defining your  constructs  for your ILD study.\nYour constructs are the things you want to measure. In the social sciences, we often cannot directly observe the constructs we are interested in. Instead, we try to indirectly measure them, for example with questionnaires.\nIn order to measure our constructs well, we need to build a good understanding of them. This is a key part of both our substantive and measurement theories. A first step is to conceptually define your construct - you define what you mean exactly with your construct. After that, you can figure out how to operationally define your construct - how to measure it.\nBelow we have specified multiple topics that may help conceptually define your construct."
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for topics related to defining your  constructs  for your intensive longitudinal study.\nYour constructs are the things you want to measure. In the social sciences, we often cannot directly observe the constructs we are interested in. Instead, we try to indirectly measure them, for example with questionnaires.\nIn order to measure our constructs well, we need to build a good understanding of them. This is a key part of both our substantive theories and measurement theories. A first step is to conceptually define your construct - you define what you mean exactly with your construct. After that, you can figure out how to operationally define your construct - how to measure it.\nBelow we have specified multiple topics that may help conceptually define your construct."
   },
   {
     "objectID": "your-study/constructs.html#think-more-about-your-research-question",
     "href": "your-study/constructs.html#think-more-about-your-research-question",
     "title": "Constructs landing page",
     "section": "Think more about your research question",
-    "text": "Think more about your research question\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Conceptually defining your construct\n\n\n\n\n\n\n[Conceptually defining your construct]\n[The ontology of your construct]\n[Substantive theory]\n[Measurement theory]"
+    "text": "Think more about your research question\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Conceptually defining your construct\n\n\n\n\n\n\n[Conceptually defining your construct]\n[The ontology of your construct]\nSubstantive theory\nMeasurement theory"
   },
   {
     "objectID": "your-study/research-question.html",
@@ -319,7 +319,7 @@
     "href": "your-study/your-study.html",
     "title": "Your study landing page",
     "section": "",
-    "text": "This page has not been peer-reviewed yet.\nYour study consists of your research question, theory, conceptual definitions, measurement design, procedural design, analyses, results, and conclusions. A good study, all of these different parts of a study are tailored to each other.\nThe MATILDA website aims to help you align your research question with your measurement design in the context of studies that use intensive longitudinal data (ILD) to study social science processes.\nBelow we have specified multiple topics to think about with respect to the outset of your study - such as your research question and goals, theory, and research paradigm."
+    "text": "This page has not been peer-reviewed yet.\nYour study consists of your research question, theory, conceptual definitions, measurement design, procedural design, analyses, results, and conclusions. In a good study, all of these different parts of a study are tailored to each other.\nThe MATILDA website aims to help you align your research question with your measurement design and analyses, in the context of studies that use intensive longitudinal data (ILD) to study social science processes.\nBelow we have specified various topics to think about with respect to the outset of your study - such as your research question and goals, theory, and research paradigm."
   },
   {
     "objectID": "your-study/your-study.html#think-more-about-your-research-question",
@@ -348,5 +348,19 @@
     "title": "",
     "section": "Measurement and Theory for Intensive Longitudinal Data",
     "text": "Measurement and Theory for Intensive Longitudinal Data\nMATILDA provides information for researchers  that want to study processes with intensive longitudinal data.\n\nMATILDA haiku:\nMATILDA helps researchers consider their  goals, substantive theory, measurement theory & design  and how all these intertwine.\nMATILDA’s content is developed and maintained by experts,  and is peer-reviewed."
+  },
+  {
+    "objectID": "measurement-theory/item.html",
+    "href": "measurement-theory/item.html",
+    "title": "Item landing page",
+    "section": "",
+    "text": "This page has not been peer-reviewed yet.\nThis is the landing page for everything related to the  items  used for measuring your constructs of interest.\nThey way your items are designed, from the questions you ask to the answer options you provide, will directly impact what you measure."
+  },
+  {
+    "objectID": "measurement-theory/item.html#think-more-about-item-design",
+    "href": "measurement-theory/item.html#think-more-about-item-design",
+    "title": "Item landing page",
+    "section": "Think more about item design",
+    "text": "Think more about item design\nWe have collected various topics for you to read more about below.\n\n\n\n\n\n\nRead more: Item design\n\n\n\n\n\n\n[Answer option design]\n[Question design]\nFloor and ceiling effects\n\n\n\n\n\n\n\n\n\n\nRead more: Item validation\n\n\n\n\n\n\nValidation landing page\n[Qualitative assessment of your items]\n[Face validity for ILD items]\nReliability for single items"
   }
 ]

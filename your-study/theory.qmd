@@ -27,9 +27,9 @@ google-scholar: true
 ## Want to cite this page? See [citation info](theory.html#citation).
 :::
 
-This is the landing page for topics related to establishing your <i> theory </i> that ties into your research.
+This is the landing page for topics related to establishing the <i> theory </i> that ties into your [intensive longitudinal](../intensive-longitudinal-data.qmd) research.
 
-A theory explains why or how your process of interest works the way it does. Theory formation, the building and specification of a theory, is an essential part of ILD research: It helps establish what knowledge we have about about our process, and where we have knowledge gaps. These gaps can then be translated into research questions.
+A theory explains why or how your [process](../processes.qmd) of interest works the way it does. Theory formation - the building and specification of a theory - is an essential part of ILD research: It helps establish what knowledge we have about about our process, and where we have knowledge gaps. These gaps can then be translated into research questions.
 
 Below we have specified multiple pages where you can read more about theory and theory formation.
 
@@ -47,11 +47,3 @@ We have collected various topics for you to read more about below.
 -   [From research question to theory]
 :::
 
-
-<!--  
-
-# Practical Considerations
-
-The following practical considerations are also important for the decision about validation, but are not considered further on this website.
-
--   Practical consideration 1.-->
