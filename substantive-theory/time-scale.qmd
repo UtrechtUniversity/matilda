@@ -66,9 +66,7 @@ There are many things to consider with respect to [substantive theory](substanti
 ::: {.callout-note collapse="false"}
 ## Read more: Time scales - general information
 
--   [Key design aspects related to time scales: time frame, interval, number of measurements](time-scale/measurement-coverage-time-span-granularity.qmd)
-
--   [Jargon: Time span & granularity](time-scale/measurement-coverage-time-span-granularity.qmd)
+-   [Key design aspects related to time scales: measurement coverage, time span, and granularity](time-scale/measurement-coverage-time-span-granularity.qmd)
 
 -   [Relating constructs measured at different time scales](time-scale/relating-constructs-time-scales.qmd)
 :::

@@ -38,7 +38,7 @@ aTimeScale = {
     const li1 = document.createElement("li");
     var link = document.createElement("a");
     link.href = "time-scale/measurement-coverage-time-span-granularity.html";
-    link.appendChild(document.createTextNode("Key design aspects related to time scales: time frame, interval, number of measurements"));
+    link.appendChild(document.createTextNode("Key design aspects related to time scales: measurement coverage, time span, and granularity"));
     li1.appendChild(link);
     ul.appendChild(li1);
   }
