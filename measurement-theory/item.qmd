@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](item.html#citation).
 :::
 
-This is the landing page for everything related to the <i> items </i> used for measuring your constructs of interest.
+This is the landing page for everything related to the <i> items </i> used for measuring your [constructs](../your-study/constructs.qmd) of interest.
 
 They way your items are designed, from the questions you ask to the answer options you provide, will directly impact what you measure. 
 
@@ -54,12 +54,7 @@ We have collected various topics for you to read more about below.
 -   [Reliability for single items](validation/reliability-single-item-measures.qmd)
 
 :::
-<!--
-# Practical Considerations
 
-The following practical considerations are also important for the decision about item design, but are not considered further on this website.
-
--   Practical consideration 1. -->
 
 ```{=html}
 <!--
