@@ -5,6 +5,10 @@ filters:
     - remove_title.lua
 ---
 
+::: callout-caution
+## This website serves as an example and any content may be subject to change.
+:::
+
 ::: {style="margin: auto;   width: 100%;"}
 ![](resources/images/bannertest.png)
 :::

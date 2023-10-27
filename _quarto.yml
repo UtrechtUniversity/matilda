@@ -54,6 +54,7 @@ website:
             text: "Validation"
           - href: measurement-theory/measurement-model.qmd
             text: "Measurement model"
+      - section: "Analysis"
       - text: "---"
       - href: template.qmd
         text: "Template Page"
