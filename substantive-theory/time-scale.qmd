@@ -1,5 +1,5 @@
 ---
-title: "Time scale landing Page"
+title: "Time scale landing page"
 date-format: "YYYY-MM-DD"
 date: 2023-06-26
 date-modified: last-modified

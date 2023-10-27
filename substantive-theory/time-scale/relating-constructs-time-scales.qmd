@@ -30,16 +30,16 @@ google-scholar: true
 
 This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.
 
-The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Time scale landing page](../time-scale.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different time scales in some way or form.
+The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to time scales: time frame, interval, number of measurements](../time-scale/measurement-coverage-time-span-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different time scales in some way or form.
 
 It is important to think about differences in time scales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
 
-Below, we discuss various examples of this, including specific common cases in which this occurs: "lagged and implicitly lagged variables", and "event-unconditional and event-contingent variables". We discuss various things to consider when studying these variables.
+Below, we discuss various examples of this, including specific common cases in which this occurs: "explicitly versus implicitly lagged measurements", "unconditional versus event-contingent constructs", and "aggregated versus non-aggregated constructs". We discuss various things to consider when studying these variables.
 
 
 # Studying constructs with different time scales
 
-Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Time scale landing page](../time-scale.qmd). 
+Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Time scale landing page](../time-scale.qmd)). 
 
 Different constructs may develop over time at a different timescale. For example, there is general consensus that affect develops over time on a moment-to-moment basis (i.e., intervals of about an hour or even shorter), whereas personality traits are assumed to be relatively stable over time (e.g., intervals of a year or longer). 
 
@@ -147,19 +147,15 @@ The different types of multiple measurements explained above generally intertwin
 
 Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking.
 ::: 
-<!--
+
 # Practical Considerations
 
 The following practical considerations are also important for the decision about the frequency of measurements of multiple constructs, but are not considered further on this website.
 
--   Most dynamic models are not by default equipped to model relations between variables with different interval lengths. For example, an assumption of the commonly used vector autoregressive (VAR) model is that the intervals of all measurements are equidistant. However, Berkhout et al. (in preparation) developed a couple of approaches to incorporate these variables into dynamic models.
-
-- Variables measured at the same time scale, may have missing observations at different rates, which may result in differently spaced measurements for different variables if missings are not appropriately dealt with.
-
 -   Combining measurements of different variables at the same measurement occasion would reduce the burden of participants, but may restrict the researcher the measure a variable at the right timescale.
 
 -   Measuring multiple constructs with different measurement frequencies will not only lead to differences in the lengths of the intervals, but also to differences in the amount of observations per variable.
--->
+
 # Related pages
 
 -   [Event-related constructs](../context-events/event-relations.qmd)
