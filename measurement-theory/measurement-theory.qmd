@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](measurement-theory.html#citation).
 :::
 
-With measurement theory we mean the theory that explains how the true values of your construct lead to the observed scores obtained through your measurements. 
+With measurement theory we mean the [theory](../your-study/theory.qmd) that explains how the true values of your [construct](../your-study/constructs.qmd) lead to the observed scores obtained through your [measurement instrument](../measurement-theory/instrument.qmd). 
 
 Below we have specified multiple topics to think about with respect to this.
 
@@ -45,10 +45,3 @@ We have collected various topics for you to read more about below.
 
 :::
 
-<!--  
-
-# Practical Considerations
-
-The following practical considerations are also important for the decision about validation, but are not considered further on this website.
-
--   Practical consideration 1.-->

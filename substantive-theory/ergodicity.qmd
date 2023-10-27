@@ -27,13 +27,13 @@ google-scholar: true
 ## Want to cite this page? See [citation info](ergodicity.html#citation).
 :::
 
-This is the landing page for everything related to the <i> ergodicity </i> of the process you are studying.
+This is the landing page for everything related to the <i> ergodicity </i> of the [process](../processes.qmd) you are studying.
 
 If a process is ergodic, it does not matter *when* we measure it, or for *what units* (i.e., what persons) we measure it, the process always has the same distributional characteristics: The process is the same in terms of mean, variance, etc. 
 
 In that case, on the population level relationships between variables obtained from inter-individual differences are the same as the relationships between those variables obtained from intra-individual differences.
 
-For a process to be ergodic it needs to be a) stationary and b) homogenous. Whether a process is stationary or homogenous are research questions, and the answer to those questions are important:
+For a process to be ergodic it needs to be a) stationary and b) homogeneous. Whether a process is stationary or homogeneous are [research questions](../your-study/research-questions.qmd), and the answer to those questions are important:
 
 - for how we should measure the process, that is, to what extent we should worry about for whom or what time points we measure the process;
 - for how we should analyze the process, that is, do we need to allow for changes in the process across time or across units;
@@ -61,11 +61,6 @@ We have collected various topics for you to read more about below.
 -   [The 'Within/Between' Problem]
 :::
 
-<!--# Practical Considerations
-
-The following practical considerations are also important for the decision about item design, but are not considered further on this website.
-
--   Practical consideration 1. -->
 
 ```{=html}
 <!--

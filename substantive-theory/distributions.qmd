@@ -27,11 +27,11 @@ google-scholar: true
 ## Want to cite this page? See [citation info](distributions.html#citation).
 :::
 
-This is the landing page for everything related to the <i> distributions </i> of your constructs of interest.
+This is the landing page for everything related to the <i> distributions </i> of your [constructs](../your-study/constructs.qmd) of interest.
 
-With distribution we mean how your scores are distributed across the units you are studying. For ILD we are often interested in how scores are distributed over time for a given unit (e.g., a person). We may also be interested in how scores are distributed across units (e.g., multiple persons). 
+With distribution we mean how your scores are distributed across the units you are studying. For [intensive longitudinal data](../intensive-longitudinal-data.qmd) we are often interested in how scores are distributed over time within a given unit (e.g., within a person). We may also be interested in how scores are distributed across units (e.g., across multiple persons). 
 
-The distributions of variables imply what scores you should expect for the process you are studying. Having knowledge about the distribution of your variables of interest is useful for informing your designing your measurement instrument and sampling design. It is also important to take into account when you analyse collected data.
+The distributions of variables imply what scores you should expect for the [process](../processes.qmd) you are studying. Having knowledge about the distribution of your variables of interest is useful for informing your designing your [measurement instrument](../measurement-theory/instrument.qmd) and [sampling design](../measurement-theory/sampling.qmd). It is also important to take into account when you analyse collected data.
 
 ## Think More About Distributions
 
@@ -43,17 +43,9 @@ We have collected various topics for you to read more about below.
 -   [Types of distributions]
 -   [Distributional characteristics]
 -   [Measurement levels]
--   [Floor and Ceiling Effects](distributions/floor-ceiling-effects.qmd)
+-   [Floor and ceiling effects](distributions/floor-ceiling-effects.qmd)
 :::
 
-
-<!-- 
-
-# Practical Considerations
-
-The following practical considerations are also important for the decision about distributions, but are not considered further on this website.
-
--   Practical consideration 1.-->
 
 ```{=html}
 <!--

@@ -27,13 +27,13 @@ google-scholar: true
 ## Want to cite this page? See [citation info](measurement-model.html#citation).
 :::
 
-This is the landing page for everything related to the <i> measurement model </i> that applies to your measurement instrument.
+This is the landing page for everything related to the <i> measurement model </i> that applies to your [constructs](../your-study/constructs.qmd) and [measurement instrument](instrument.qmd).
 
 Your measurement model represents how the true scores of your construct result in the observations you make with your measurement instrument. 
 
-Measurement models are useful for gaining an in-depth understanding about your measurement procedure, which is in turn essential for knowing what you can and cannot learn based on your measurements. This understanding is attained by using the measurement model to make explicit what is known about the measurement mechanism, and what is unknown or assumed about the measurement mechanism, preferable in math. 
+Measurement models are useful for gaining an understanding about your measurement procedure, which is in turn essential for knowing what you can and cannot learn based on your measurements. This understanding is attained by using the measurement model to make explicit what is known about the measurement mechanism, and what is unknown or assumed about the measurement mechanism, preferably in math. 
 
-If the measurement model can be fitted to your data, it can also be a useful tool for example for filtering out measurement error, or estimating the reliability of your instrument.
+If the measurement model can be fitted to your data, it can also be a useful tool, for example to filter out measurement error during analyses, or estimating the reliability of your instrument.
 
 ## Think more about you sampling design
 
@@ -54,13 +54,6 @@ We have collected various topics for you to read more about below.
 
 :::
 
-
-<!--
-# Practical Considerations
-
-The following practical considerations are also important for the decision about item design, but are not considered further on this website.
-
--   Practical consideration 1. -->
 
 ```{=html}
 <!--
