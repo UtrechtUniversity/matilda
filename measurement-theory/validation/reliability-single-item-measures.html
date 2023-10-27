@@ -269,6 +269,10 @@ div.csl-indent {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Analysis</span></span>
+  </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
@@ -342,7 +346,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2023-09-18</p>
+      <p class="date-modified">2023-10-27</p>
     </div>
   </div>
     
@@ -378,7 +382,7 @@ Want to cite this page? See <a href="reliability-single-item-measures.html#citat
 </div>
 </div>
 <p>This page is about methods for determining the reliability of <i> <a href="../../measurement-theory/instrument/single-item-multiple-item-measures.html">single item measures</a></i>.</p>
-<p>Reliability is a prerequisite for the validity of your item. Unreliable measurements can lead to inaccurate and/or biased parameter estimates when you analyse them.</p>
+<p>Reliability is a prerequisite for the <a href="../../measurement-theory/validation.html">validity</a> of your item. Unreliable measurements can lead to biased and hence inaccurate parameter estimates when you analyse them.</p>
 <p>So far, the available methods for determining the reliability of single item measures are based on the test-retest framework. In the following, we first discuss this framework, followed by two methods for estimating reliability for single item measures.</p>
 <section id="the-test-retest-framework-for-classical-test-theory" class="level1">
 <h1>The test-retest framework for classical test theory</h1>
@@ -416,8 +420,7 @@ Read more: Other approaches to reliability (for muliple item measures)
 </section>
 <section id="the-measurement-error-autoregressive-model" class="level1">
 <h1>The Measurement Error Autoregressive Model</h1>
-<!-- Ik denk dat dit een stuk vriendelijker uitgelegd kan worden, met een wat rustigere/logischere opbouw, maar dat kunnen we later nog aanpassen (ik zal later een suggestie/edit doen). Fijne voorbeelden. -->
-<p>The Measurement Error Autoregressive Model (MEAR(1) model) uses a dynamic model - the autoregressive model - to separate what are true scores from what are random measurement errors <span class="citation" data-cites="schuurman_measurement_2019 schuurman_incorporating_2015">(<a href="#ref-schuurman_incorporating_2015" role="doc-biblioref">Schuurman et al., 2015</a>; <a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>. The part of the scores that are a result of the autoregressive process (including residuals) are considered the true part of the scores. The remainder is considered measurement error.</p>
+<p>The Measurement Error Autoregressive Model (MEAR(1) model) uses a dynamic model - the autoregressive model - to separate what are true scores from what are random measurement errors <span class="citation" data-cites="schuurman_measurement_2019 schuurman_incorporating_2015">(<a href="#ref-schuurman_incorporating_2015" role="doc-biblioref">Schuurman et al., 2015</a>; see <a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>. The part of the scores that are a result of the autoregressive process (including residuals) are considered the true part of the scores. The remainder is considered measurement error.</p>
 <div id="fig-MEAR1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="../../resources/images/MEAR(1).png" class="img-fluid figure-img" width="500"></p>
@@ -500,63 +503,51 @@ Example: measurement error?
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>On Thursday afternoon, Ayoko has a tasty cookie right before a measuring her enthusiasm. The effect of this cookie on her enthusiasm likely does not carry over to the measurement in the evening. However, the cookie did temporarily boost her enthusiasm. Hence, the boost was a true score, but the MEAR(1) model will consider it measurement error. Hence, the reliability will be underestimated.</p>
-<p>What would have happened if Ayoko gathered measurements every 5 minutes?</p>
 </div>
 </div>
 </div>
 <ul>
 <li>Second, it means that when the autoregressive parameter is zero and dynamic residuals do not carry over, the model is not identified. The closer the autoregressive parameter is to zero, the harder it will be to estimate the model <span class="citation" data-cites="schuurman_measurement_2019 schuurman_incorporating_2015">(<a href="#ref-schuurman_incorporating_2015" role="doc-biblioref">Schuurman et al., 2015</a>; <a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</li>
 </ul>
-<p>Moreover, note that the MEAR(1) assumes a specific model to separate dynamic process from measurement errors. If the model is incorrect, this will affect the reliability estimates as well. However, the MEAR(1) may be extended in various ways (see below).</p>
-<p>The example “measurement error?” above illustrates that if not all dynamics are accounted for in the model, this may for lead to an underestimation of the reliability. In that case, for example, the chosen time interval may also affect the reliability estimates <span class="citation" data-cites="schuurman_measurement_2019">(<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</p>
+<p>In general, note that the MEAR(1) assumes a specific model to separate dynamic process from measurement errors. If the model is incorrect, this will affect the reliability estimates. For example, Example “measurement error?” above illustrates that if not all dynamics are accounted for in the model, this may for lead to an underestimation of the reliability. In that case, the chosen time interval may also affect the reliability estimates for example <span class="citation" data-cites="schuurman_measurement_2019">(<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</p>
+<p>Note that the MEAR(1) has been extended in various ways, and the general idea behind it can also be applied to other dynamic models (see below).</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Read more: Choosing a time interval
+Read more: Choosing an appropriate time interval
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>[<a href="../../substantive-theory/time-scale/measurement-coverage-time-span-granularity.html">Key design aspects related to time scales: time frame, interval, number of measurements</a>]</li>
+<li><a href="../../substantive-theory/time-scale/measurement-coverage-time-span-granularity.html">Key design aspects related to time scales: time frame, interval, number of measurements</a>]</li>
 </ul>
 </div>
 </div>
 </div>
 <section id="extensions-of-the-mear1-approach" class="level2">
 <h2 class="anchored" data-anchor-id="extensions-of-the-mear1-approach">Extensions of the MEAR(1) approach</h2>
-<p>The MEAR(1) model can be extended to capture more complicated dynamics - in essence, the idea behind it can be generalized to any dynamic model; where the dynamic model part is considered the reliable part of scores, and the remainder measurement error. So far, the MEAR(1) model has been extended to account for multiple variables with a VAR(1) model with correlated measurement errors, and to multilevel data (modeling multiple participants) <span class="citation" data-cites="schuurman_measurement_2019">(<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Read more: Practical application
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<!-- Ik denk dat dit bij beide methods moet (nu zie je dit alleen onder TRT) -->
-<ul>
-<li>Scripts for R and Mplus are available in the supplementary materials of <span class="citation" data-cites="leertouwer_practical">Leertouwer et al. (<a href="#ref-leertouwer_practical" role="doc-biblioref">n.d.</a>)</span></li>
-</ul>
-</div>
-</div>
-</div>
-<!-- Ik zou hier nog iets opmerken over dat je dit met elk willekeurig dynamisch model kan doen, niet alleen ar(1) modellen, bv in een aparte subsubsectie 'extensies', oid -->
+<p>The MEAR(1) model can be extended to capture more complicated dynamics - in essence, the idea behind it can be generalized to any dynamic model; where the dynamic model part is considered the reliable part of scores, and the remainder measurement error. So far, the MEAR(1) model has been extended to account for multiple variables with a VAR(1) model with correlated measurement errors, and to multilevel data (modeling multiple persons) <span class="citation" data-cites="schuurman_measurement_2019">(<a href="#ref-schuurman_measurement_2019" role="doc-biblioref">Schuurman &amp; Hamaker, 2019</a>)</span>.</p>
+<!-- 
+::: {.callout-note collapse="true"}
+## Read more: Practical application
+
+
+
+-   Scripts for R and Mplus are available in the supplementary materials
+    of @leertouwer_practical
+:::
+
+-->
 </section>
 </section>
 <section id="the-immediate-trt-method" class="level1">
 <h1>The immediate TRT method</h1>
 <p>In the immediate test-retest (TRT) method <span class="citation" data-cites="dejonckheere_assessing_2022">(<a href="#ref-dejonckheere_assessing_2022" role="doc-biblioref">Dejonckheere et al., 2022</a>)</span> makes use of an adjusted sampling design: In this method, measurements of the construct of interest are quickly followed by another measurement. For example, within a questionnaire of eight items, one of the items would be repeated after these eight items, with a minimum number of items in between.</p>
-<!-- onderstaande zin meer een voorbeeld van hoe je dat zou kunnen doen op een zinnge manier. Gebruik wat meer zinnen om uit te leggen wat ze doen, dit is nog niet duidelijk. Misschien is het goed om hier een example box van te maken met ref naar dejonckheere. -->
-<!-- For example, .. do this by ..  within a questionnaire of several items, one or some items are repeated with only a few items in between.  -->
 <p>The reasoning behind this method is that it is unlikely that the true score changed between the first and second measurement of the construct. Hence, any difference between these repeated measurements, which are taken very close in time, is considered to be measurement error.</p>
 <p>Specifically, under this assumption measurement error variance can be expressed as the expected value (i.e., average) of the squared differences between the first and repeated measurements, divided by two:</p>
 <p><span class="math display">\[
@@ -565,14 +556,14 @@ Read more: Practical application
 <p><span class="math display">\[
 rel(y) = \frac{\sigma_\epsilon^2}{\sigma_{trt}^2}
 \]</span></p>
-<p>The clear benefit of this method is that can easily be calculated. However, it does require some additional assumptions:</p>
+<p>The clear benefit of this method is that can easily be calculated. However, it does require various assumptions:</p>
 <ul>
 <li><ol type="1">
-<li>The first assumption was already mentioned; this is that the true score does not change between the initial and replicate measurement.</li>
+<li>The true score does not change between the initial and replicate measurement.</li>
 </ol></li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -581,9 +572,9 @@ Example: No measurement error?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Ayoko also wants to measure and model Tobias’ enthusiasm. She is not particularly interested in the dynamics of his experiences, but rather in his average experiences over a week of time. She again gathers personal measurements in the morning, afternoon and evening, and wants to know how reliable Tobias’ responses are. She uses the immediate test-retest method in order to get an estimate.</p>
+<p>Ayoko also wants to measure and model Tobias’ enthusiasm. She gathers personal measurements in the morning, afternoon and evening, and wants to know how reliable Tobias’ responses are. She uses the immediate test-retest method in order to get an estimate.</p>
 <p>Like Ayoko, Tobias likes cookies. During his afternoon he eats a cookie just in between the original measurement of enthusiasm and the repetition. He answers according to his true scores - but they are different for the first and replicate measurement. This would lead to an underestimate of the reliability by the immediate RTR method.</p>
 </div>
 </div>
@@ -593,7 +584,7 @@ Example: No measurement error?
 <li><p>People do not always strive for consistency of their responses.</p></li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -602,39 +593,23 @@ Example 2: No measurement error?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>During a particular measurement, Tobias is not very sure how enthusiastic he feels. He decides to just go with a number and feels that 45 should be relatively close. Quickly after giving this rating Tobias is presented with another question about his enthusiasm. Didn’t I already fill this in? Tobias thinks to himself. What was it again? 45? He fills in 45 again. What does this do for the estimated measurement error, and hence the reliability?</p>
-<p>The first measurement had some measurement error in it, the replicate measurement is identical. There is hence no difference between the first and replicate measurement, which for the TRT method implies there is no measurement error. Hence, in this case, the TRT method would overestimate the reliability.</p>
-<!-- I think this example is fine, but it can be made more explicit/obvious why this is a problem; He feels the same at each measurement, but 45 is not the true score, and still repeats it. This will result in overestimating reliability -->
+<p>During a particular measurement, Tobias is not very sure how enthusiastic he feels. He decides to just go with a number and feels that 45 should be relatively close. Quickly after giving this rating Tobias is presented with another question about his enthusiasm. “Didn’t I already fill this out?” Tobias thinks to himself. “What was it again? 45?” He responds 45 again.</p>
+<p>The first measurement had some measurement error in it, and the replicate measurement is identical due to remembrance effects and Tobias’ desire to be consistent. There is hence no difference between the first and replicate measurement, which for the TRT method implies there is no measurement error. Hence, in this case, the TRT method would overestimate the reliability.</p>
 <!-- Here are additional options: There could be one where the participants remembers the initial score and repeats it although they feel differently at the replicate measure, or perhaps one where they feel different, realize this change, and then go back to the first score and change their initial rating to be consistent with the replicate measurement (although this latter one does not have to affect the reliability estimate in a negative way, it surely messes up your measurements). etc -->
 </div>
 </div>
 </div>
-<!-- it could be both inflated or deflated or neither  depending on what the participants do , right?
-Note, violating the first assumption would deflate reliability, so lower bound. So hard to say if it is an upper or lower bound estimate overall
+<p>If these assumptions are violated, the reliability estimate based on this test-retest method may be either underestimated or overestimated, depending on the violation(s).</p>
+<!--
+::: {.callout-note collapse="true"}
+## Read more: Practical application
+
+-   Scripts for R and Mplus are available in the supplementary materials
+    of @leertouwer_practical
+:::  
 -->
-<!-- In the example, the difference is zero  while it could only have been higher if Tobias did not remember the previous score. Striving for consistency would always deflate the measurement error estimate I believe. But you are right that the first example cancels this out-->
-<!-- Ergens moet nog iets over dat je met het ene kan corrigeren voor meetfout en schatten van betrouwbaarheid, en voor de ander alleen schatten. Even bedenken waar. Evt een tabel met voor/nadelen van elke approach oid. -->
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Read more: Practical application
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<!-- Ik denk dat dit bij beide methods moet (nu zie je dit alleen onder TRT) -->
-<ul>
-<li>Scripts for R and Mplus are available in the supplementary materials of <span class="citation" data-cites="leertouwer_practical">Leertouwer et al. (<a href="#ref-leertouwer_practical" role="doc-biblioref">n.d.</a>)</span></li>
-</ul>
-</div>
-</div>
-</div>
 
 
 
@@ -643,9 +618,6 @@ Read more: Practical application
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
 <div id="ref-dejonckheere_assessing_2022" class="csl-entry" role="listitem">
 Dejonckheere, E., Demeyer, F., Geusens, B., Piot, M., Tuerlinckx, F., Verdonck, S., &amp; Mestdagh, M. (2022). Assessing the reliability of single-item momentary affective measurements in experience sampling. <em>Psychological Assessment</em>, <em>34</em>(12), 1138.
-</div>
-<div id="ref-leertouwer_practical" class="csl-entry" role="listitem">
-Leertouwer, Ij., Roekel, E. van, Keijsers, L., &amp; Schuurman, N. K. (n.d.). <em>A practical guide to estimating reliability of intensive longitudinal data</em>.
 </div>
 <div id="ref-schuurman_measurement_2019" class="csl-entry" role="listitem">
 Schuurman, N. K., &amp; Hamaker, E. L. (2019). Measurement error and person-specific reliability in multilevel autoregressive modeling. <em>Psychological Methods</em>, <em>24</em>(1), 70.

@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Noémi Schuurman">
 <meta name="dcterms.date" content="2023-06-21">
 
 <title>Floor and ceiling effects</title>
@@ -87,7 +86,6 @@ div.csl-indent {
 
 <link rel="stylesheet" href="../../resources/styles/styles.css">
 <meta name="citation_title" content="Floor and ceiling effects">
-<meta name="citation_author" content="Noémi Schuurman">
 <meta name="citation_publication_date" content="2023-06-21">
 <meta name="citation_cover_date" content="2023-06-21">
 <meta name="citation_year" content="2023">
@@ -104,6 +102,9 @@ div.csl-indent {
 <meta name="citation_reference" content="citation_title=Studying dietary intake in daily life through multilevel two-part modelling: A novel analytical approach and its practical application;,citation_author=Alea Ruf;,citation_author=Andreas B. Neubauer;,citation_author=Ulrich Ebner-Priemer;,citation_author=Andreas Reif;,citation_author=Silke Matura;,citation_publication_date=2021-09-27;,citation_cover_date=2021-09-27;,citation_year=2021;,citation_fulltext_html_url=https://doi.org/10.1186/s12966-021-01187-8;,citation_issue=1;,citation_doi=10.1186/s12966-021-01187-8;,citation_volume=18;,citation_journal_title=International Journal of Behavioral Nutrition and Physical Activity;">
 <meta name="citation_reference" content="citation_title=Growth curve models for zero-inflated count data: An application to smoking behavior;,citation_author=Hui Liu;,citation_publication_date=2007-05-01;,citation_cover_date=2007-05-01;,citation_year=2007;,citation_fulltext_html_url=https://doi.org/10.1080/10705510709336746;,citation_issue=2;,citation_doi=10.1080/10705510709336746;,citation_volume=14;,citation_journal_title=Structural Equation Modeling: A Multidisciplinary Journal;">
 <meta name="citation_reference" content="citation_title=Zero-Inflated Regime-Switching Stochastic Differential Equation Models for Highly Unbalanced Multivariate, Multi-Subject Time-Series Data;,citation_author=Zhao-Hua Lu;,citation_author=Sy-Miin Chow;,citation_author=Nilam Ram;,citation_author=Pamela M. Cole;,citation_publication_date=2019-06-01;,citation_cover_date=2019-06-01;,citation_year=2019;,citation_fulltext_html_url=https://doi.org/10.1007/s11336-019-09664-7;,citation_issue=2;,citation_doi=10.1007/s11336-019-09664-7;,citation_volume=84;,citation_language=en;,citation_journal_title=Psychometrika;">
+<meta name="citation_reference" content="citation_title=Skewness and staging: Does the floor effect induce bias in multilevel AR(1) models?;,citation_author=MohammadHossein Manuel Haqiqatkhah;,citation_author=Oisín Ryan;,citation_author=Ellen L. Hamaker;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://psyarxiv.com/myuvr/;,citation_doi=10.1080/00273171.2023.2254769;,citation_language=en-us;,citation_journal_title=Multivariate Behavioral Research;">
+<meta name="citation_reference" content="citation_title=Daily interpersonal and affective dynamics in personality disorder;,citation_author=Aidan G. C. Wright;,citation_author=Christopher J. Hopwood;,citation_author=Leonard J. Simms;,citation_publication_date=2015-08;,citation_cover_date=2015-08;,citation_year=2015;,citation_fulltext_html_url=https://guilfordjournals.com/doi/abs/10.1521/pedi.2015.29.4.503;,citation_issue=4;,citation_doi=10.1521/pedi.2015.29.4.503;,citation_volume=29;,citation_journal_title=Journal of Personality Disorders;">
+<meta name="citation_reference" content="citation_title=Stability and fluctuation of personality disorder features in daily life;,citation_author=Aidan G. C. Wright;,citation_author=Leonard J. Simms;,citation_publication_date=2016;,citation_cover_date=2016;,citation_year=2016;,citation_doi=10.1037/abn0000169;,citation_volume=125;,citation_journal_title=Journal of Abnormal Psychology;">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -276,6 +277,10 @@ div.csl-indent {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Analysis</span></span>
+  </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
@@ -293,21 +298,24 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sec-what-is-floor-effect" id="toc-sec-what-is-floor-effect" class="nav-link active" data-scroll-target="#sec-what-is-floor-effect">What are floor effects?</a></li>
-  <li><a href="#sec-how-floor-effect-emerges" id="toc-sec-how-floor-effect-emerges" class="nav-link" data-scroll-target="#sec-how-floor-effect-emerges">Why Do Floor Effects Occur?</a>
+  <li><a href="#sec-what-is-floor-effect" id="toc-sec-what-is-floor-effect" class="nav-link active" data-scroll-target="#sec-what-is-floor-effect">What is the floor effect?</a></li>
+  <li><a href="#sec-how-floor-effect-emerges" id="toc-sec-how-floor-effect-emerges" class="nav-link" data-scroll-target="#sec-how-floor-effect-emerges">Why does the floor effect occur?</a>
   <ul class="collapse">
-  <li><a href="#floor-effects-due-to-the-measurement-design-or-intrument" id="toc-floor-effects-due-to-the-measurement-design-or-intrument" class="nav-link" data-scroll-target="#floor-effects-due-to-the-measurement-design-or-intrument">Floor effects due to the measurement design or intrument</a>
+  <li><a href="#floor-effects-due-to-the-measurement-design-or-instrument" id="toc-floor-effects-due-to-the-measurement-design-or-instrument" class="nav-link" data-scroll-target="#floor-effects-due-to-the-measurement-design-or-instrument">Floor effects due to the measurement design or instrument</a>
   <ul class="collapse">
-  <li><a href="#a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale" id="toc-a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale" class="nav-link" data-scroll-target="#a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale">A. Censoring as a result of coarse-grained categories at the bottom of the scale</a></li>
+  <li><a href="#a.-censoring-as-a-result-of-coarse-grained-categories-at-the-end-of-the-scale" id="toc-a.-censoring-as-a-result-of-coarse-grained-categories-at-the-end-of-the-scale" class="nav-link" data-scroll-target="#a.-censoring-as-a-result-of-coarse-grained-categories-at-the-end-of-the-scale">A. Censoring as a result of coarse-grained categories at the end of the scale</a></li>
   <li><a href="#b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale" id="toc-b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale" class="nav-link" data-scroll-target="#b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale">B. Censoring as a result of measuring a bipolar construct with a unipolar scale</a></li>
   <li><a href="#c.-censoring-by-participants" id="toc-c.-censoring-by-participants" class="nav-link" data-scroll-target="#c.-censoring-by-participants">C. Censoring by participants</a></li>
   <li><a href="#d.-sampling-issues-or-non-at-random-missing-observations." id="toc-d.-sampling-issues-or-non-at-random-missing-observations." class="nav-link" data-scroll-target="#d.-sampling-issues-or-non-at-random-missing-observations.">D. Sampling issues or non-at random missing observations.</a></li>
   </ul></li>
-  <li><a href="#floor-effects-due-to-the-nature-of-the-measured-construct-or-process" id="toc-floor-effects-due-to-the-nature-of-the-measured-construct-or-process" class="nav-link" data-scroll-target="#floor-effects-due-to-the-nature-of-the-measured-construct-or-process">Floor effects due to the nature of the measured construct or process</a></li>
+  <li><a href="#floor-effects-due-to-the-nature-of-the-measured-construct-or-process" id="toc-floor-effects-due-to-the-nature-of-the-measured-construct-or-process" class="nav-link" data-scroll-target="#floor-effects-due-to-the-nature-of-the-measured-construct-or-process">Floor effects due to the nature of the measured construct or process</a>
+  <ul class="collapse">
   <li><a href="#e.-processes-with-specific-distributional-nature" id="toc-e.-processes-with-specific-distributional-nature" class="nav-link" data-scroll-target="#e.-processes-with-specific-distributional-nature">E. Processes with specific distributional nature</a></li>
   <li><a href="#f.-processes-consisting-of-two-sub-processes-zero-inflation" id="toc-f.-processes-consisting-of-two-sub-processes-zero-inflation" class="nav-link" data-scroll-target="#f.-processes-consisting-of-two-sub-processes-zero-inflation">F. Processes consisting of two sub-processes (zero-inflation)</a></li>
   </ul></li>
-  <li><a href="#related-pages" id="toc-related-pages" class="nav-link" data-scroll-target="#related-pages">Related pages</a></li>
+  </ul></li>
+  <li><a href="#sec-detecting-floor-effect" id="toc-sec-detecting-floor-effect" class="nav-link" data-scroll-target="#sec-detecting-floor-effect">Detecting the floor effect in empirical data</a></li>
+  <li><a href="#consequences-for-common-models-used-in-psychological-research" id="toc-consequences-for-common-models-used-in-psychological-research" class="nav-link" data-scroll-target="#consequences-for-common-models-used-in-psychological-research">Consequences for common models used in psychological research</a></li>
   </ul>
 </nav>
     </div>
@@ -317,23 +325,15 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Floor and ceiling effects</h1>
-</div>
+  </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Author</div>
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
     <p class="author">Mohammadhossein Manuel Haqiqatkhah <a href="https://orcid.org/0000-0002-2513-3761" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Methods &amp; Statistics Department, Utrecht University
-          </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-    <p class="author">Noémi Schuurman <a href="https://orcid.org/0000-0002-6437-5966" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -355,7 +355,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2023-09-18</p>
+      <p class="date-modified">2023-10-27</p>
     </div>
   </div>
     
@@ -403,91 +403,136 @@ Want to cite this page? See <a href="floor-ceiling-effects.html#citation">citati
 
 </div>
 </div>
-<p>This page is about floor and ceiling effects in empirical psychological data, which occur when the measurement instrument has a lower or upper bound.</p>
-<p>For example, floor effects are common in ILD collected for ‘Negative Affect’: Healthy people often experience fairly little positive affect, and hence a lot of their scores will be equal or close to zero.</p>
+<p>This page is about floor and ceiling effects in empirical psychological data, which occur when a <a href="../../measurement-theory/instrument.html">measurement instrument</a> has a lower or upper bound that leads to the clustering of scores around the ends of the scale.</p>
+<p>The floor effect is common in <a href="../../intensive-longitudinal-data.html">intensive longitudinal</a> measurements of Negative Affect (NA) items, especially when the sample contains non-clinical individuals: Healthy individuals tend to experience fairly little negative emotions, and hence a lot of their scores will be equal or close to zero. Similarly, the ceiling effect may occur in Positive Affect (PA) items of the individuals with higher mental well-being.</p>
 <p>It is important to consider these effects, because:</p>
-<ol type="a">
-<li><p>Understanding how and why these effects occur are an important part of understanding and controlling the measurement process (measurement theory);</p></li>
-<li><p>Understanding how and why these effects occur are an important part of understanding the substantive process under study (substantive theory);</p></li>
-<li><p>These effects may have consequences for analyzing and modeling the resulting ILD. Understanding when, how and why these effects occur allow you to find optimal ways to do the analysis/modeling.</p></li>
+<ol type="A">
+<li><p>Understanding how and why these effects occur are an important part of understanding and controlling the measurement process (<a href="../../measurement-theory/measurement-theory.html">measurement theory</a>);</p></li>
+<li><p>Understanding how and why these effects occur are an important part of understanding the substantive process under study (<a href="../../substantive-theory/substantive-theory.html">substantive theory</a>);</p></li>
+<li><p>These effects may have consequences for analyzing and modeling the resulting intensive longitudinal data (ILD). Understanding when, how and why these effects occur allow you to find optimal ways to do the analysis/modeling.</p></li>
 </ol>
-<p>On this page we discuss what floor and ceiling effects are; theories on the possible mechanisms leading to floor and ceiling effects; ways of detecting these effects in a given data set; implications and consequences of these effects for common models used in psychological research; and possible ways to deal with these effects.</p>
-<!-- I think this page should discuss both floor and ceiling effects in the end.
--->
-<!-- This content for now may be a bit much/ not enough on measurement theoretical level. Maybe we need to split this into multiple pages, for example a basic one of floor/ceiling effects, another on the staging effect, another on consequences/modeling (maybe the latter is more for a modeling site). For now, I have removed a lot from this page. 
--->
+<p>On this page we discuss what floor and ceiling effects are (with an emphasis on the former), theories on the possible mechanisms leading to them, ways of detecting these effects in a given data set, and the implications and consequences of these effects for common models used in psychological research.</p>
 <section id="sec-what-is-floor-effect" class="level1">
-<h1>What are floor effects?</h1>
-<p>Many scales used in psychological research have a lower bound. This means that individuals cannot or do not score less than a certain value on the scale.</p>
+<h1>What is the floor effect?</h1>
+<p>Many of the common scales used in psychological research measure counts or unipolar constructs, and are thus lower-bounded, meaning that individuals cannot score less than a certain value on the scale: A person cannot sleep less than zero hours, smoke less than no cigarettes a day, face less than zero stressful events in a day, or feel negative distress.</p>
+<p>Due to the lower bound on the scale, certain (groups of) individuals, especially those with lower average values of the measure, are expected to provide answers close—or equal to—the lowest value on the scale. This essentially leads to a clustering of measurements around the lower bound of the scale, thus leading to a positively skewed distribution of responses, with with relatively small variability for that construct. This phenomenon is often referred to as a <em>floor effect</em>, which is reflected in the individual histograms of responses.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Count Variables
+Example (Likert scale): Daily distress
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Count variables - variables that measure how many times something occurs - often have a clear lower bound:</p>
-<ul>
-<li><p>Hours of sleep - a person cannot sleep less than zero hours.</p></li>
-<li><p>Smoking frequency - a person cannot sleep less than zero cigarettes.</p></li>
-<li><p>Stressfull events - a person cannot face less than zero stressful events in a day.</p></li>
-</ul>
+<p>Like many other affective items, the daily (or momentary) distress is often measured on a Likert scale from “Not at all” to “To a great extent”. An individual cannot report values below ‘not at all’, and hence the scale is bounded.</p>
+<p><a href="#fig-hist-cogito-distress">Figure&nbsp;1</a> shows individual histograms of distress scores of individuals in the COGITO dataset <span class="citation" data-cites="schmiedek_2010_HundredDaysCognitive">(<a href="#ref-schmiedek_2010_HundredDaysCognitive" role="doc-biblioref">Schmiedek et al., 2010</a>)</span>, sorted by individual mean. Individuals were measured for around 100 consecutive days. A strong floor effect is evident for more than half of the individuals.</p>
+<div id="fig-hist-cogito-distress" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../../resources/images/hist-cogito-distress.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Individual histograms of distress scores of individuals in the COGITO dataset, sorted by individual means. Figure is adapted from <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>)</span>.</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<p>Some individuals may typically score at or close to the lower bound of the scale for a given construct. This results in a clustering of measurements around the lower bound of the scale, which results in a positively skewed distribution of responses, with relatively small variability for that construct. This phenomenon is often referred to as a <em>floor effect</em>.</p>
-<p>In interindividual difference variables, floor effects occur when many of the participants score at the lower bound. In intra-individual difference variables, floor effects occur for single participants, when many of the repeated measures of that participant are at the lower bound.</p>
-<p>Floor effect can arise for both discrete and continuous variables, and for various types of scales, including likert and sliding scales.</p>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Floor effects in distress measurements
+Example (count variable): Daily alcohol consumption
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<!-- Think about credit/copyright of the figure, and openness of the data -->
-<p><a href="#fig-cogito-distress-histograms">Figure&nbsp;1</a> shows histograms for each participants’ repeated measures of distress, from the COGITO dataset <span class="citation" data-cites="schmiedek_2010_HundredDaysCognitive">(<a href="#ref-schmiedek_2010_HundredDaysCognitive" role="doc-biblioref">Schmiedek et al., 2010</a>)</span>. Participants’ distress was measured for about 100 consecutive days.</p>
-<p>The histograms are sorted by the mean distress scores of the individuals, from low to high means. A strong floor effect is evident for more than half of the individuals.</p>
-<!-- note that for the last participant there is a ceiling effect -->
-<div id="fig-cogito-distress-histograms" class="quarto-figure quarto-figure-center anchored">
+<p>If we measure the amount of daily alcohol consumption of individuals, we will have non-negative values, as it is impossible to consume less than zero amount of alcohol. <a href="#fig-hist-wright-alcohol">Figure&nbsp;2</a> shows the number of alcohol unit consumed per day (measured as a count variable) in 98 individuals participating in a daily diary study conducted by <span class="citation" data-cites="wright_2015_DailyInterpersonalAffective">Wright et al. (<a href="#ref-wright_2015_DailyInterpersonalAffective" role="doc-biblioref">2015</a>)</span>. Almost all individuals show various degrees of the floor effect.</p>
+<div id="fig-hist-wright-alcohol" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="images/cogito-distress-histograms.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Individual histograms of distress scores of individuals in the COGITO dataset, sorted by individual mean. Figure is adapted from <span class="citation" data-cites="haqiqatkhah_2022_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2022_SkewnessStagingDoes" role="doc-biblioref">n.d.</a>)</span>.</figcaption>
+<p><img src="../../resources/images/hist-wright-alcohol.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: Daily alcohol consumption in a sample of individuals in <span class="citation" data-cites="wright_2015_DailyInterpersonalAffective">Wright et al. (<a href="#ref-wright_2015_DailyInterpersonalAffective" role="doc-biblioref">2015</a>)</span>, sorted by individual means.</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example (semi-continuous variable): Daily expression of personality disorders
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The floor effect may emerge if the data is collected using nearly-continuous scales (such as a 0-100 visually assisted scale [VAS]), or if the data is an aggregate or average of multiple items measured on discrete-valued (e.g., Likert) scales. <a href="#fig-hist-wright-dpds">Figure&nbsp;3</a> shows the average values of 32 items measuring daily expression of personality disorders <span class="citation" data-cites="wright_2016_StabilityFluctuationPersonality">(<a href="#ref-wright_2016_StabilityFluctuationPersonality" role="doc-biblioref">Wright &amp; Simms, 2016</a>)</span> in the dataset collected by <span class="citation" data-cites="wright_2015_DailyInterpersonalAffective">Wright et al. (<a href="#ref-wright_2015_DailyInterpersonalAffective" role="doc-biblioref">2015</a>)</span>. Almost one-third of individuals show the floor effect to some degree.</p>
+<div id="fig-hist-wright-dpds" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../../resources/images/hist-wright-dpds.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;3: Average values of 32 items measuring daily expression of personality disorders of a sample of individuals in <span class="citation" data-cites="wright_2015_DailyInterpersonalAffective">Wright et al. (<a href="#ref-wright_2015_DailyInterpersonalAffective" role="doc-biblioref">2015</a>)</span>, sorted by individual means.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Note that the floor effect in ILD is primarily a within-person (level-1) phenomenon (i.e., for single participants, when many of the repeated measures of that participant are at the lower bound). However, it can also occur at a between-person level (i.e., with many of the participants score low on the construct), either when individuals are measured cross-sectionally, or when person-specific (i.e., level-2) averages are calculated. As explained in <a href="#sec-detecting-floor-effect">Section&nbsp;3</a>, a floor effect at level-1 can lead to floor effects at level-2.</p>
 </section>
 <section id="sec-how-floor-effect-emerges" class="level1">
-<h1>Why Do Floor Effects Occur?</h1>
-<p>Multiple factors may induce the floor effect in empirical data.</p>
-<p>It can be due to the properties of the measurement design or instrument, due to the nature of measured construct and process — or due to a combination of these factors.</p>
+<h1>Why does the floor effect occur?</h1>
+<p>Multiple factors may induce the floor effect in empirical data; it can be due to the properties of the measurement design or instrument, due to the nature of measured construct and process — or due to a combination of these factors.</p>
 <!-- I think we should link these reasons to known jargon in the literature, also related to distributions.
 That is, censoring -->
-<section id="floor-effects-due-to-the-measurement-design-or-intrument" class="level2">
-<h2 class="anchored" data-anchor-id="floor-effects-due-to-the-measurement-design-or-intrument">Floor effects due to the measurement design or intrument</h2>
-<section id="a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale" class="level3">
-<h3 class="anchored" data-anchor-id="a.-censoring-as-a-result-of-coarse-grained-categories-at-the-bottom-of-the-scale">A. Censoring as a result of coarse-grained categories at the bottom of the scale</h3>
-<!-- Explain what this means in general terms, then do the headache example in an example box 
+<section id="floor-effects-due-to-the-measurement-design-or-instrument" class="level2">
+<h2 class="anchored" data-anchor-id="floor-effects-due-to-the-measurement-design-or-instrument">Floor effects due to the measurement design or instrument</h2>
+<section id="a.-censoring-as-a-result-of-coarse-grained-categories-at-the-end-of-the-scale" class="level3">
+<h3 class="anchored" data-anchor-id="a.-censoring-as-a-result-of-coarse-grained-categories-at-the-end-of-the-scale">A. Censoring as a result of coarse-grained categories at the end of the scale</h3>
+<!-- Explain what this means in general terms, then do the headache example in an example box
 Note: I think this is actually censoring as well, because you essentially make a '> slight headache' bound -->
-<p>Imagine a scale with the lowest item being “No headache at all or very slight headache”. The item will be selected by those who are experiencing no headache at all as well as those who have a small amount of headache, meaning that the item has low resolution and low sensitivity in measuring those with small amount of headache. For a more elaborate account, see <span class="citation" data-cites="vermeersch_2000_OutcomeQuestionnaireItem">Vermeersch et al. (<a href="#ref-vermeersch_2000_OutcomeQuestionnaireItem" role="doc-biblioref">2000</a>)</span>.</p>
-<!-- why is the below relevant for floor/ceiling effects? Either remove or make that link explicit and clear 
-From a psychometric perspective, such lack of sensitivity may also arise due to extreme formulation of the items, causing the *difficulty parameter* (or *threshold*) of the item to become high[@vandenoord_1997_NoteUseTobit], thus making it difficult accurately to distinguish between levels of the construct across individuals or its change over time within an individual [@guyatt_1988_MeasuringHealthStatus].
-
--->
+<p>In some cases, the lowest (or highest) item on the scale either has a low resolution (which can accommodate multiple values) or has an arbitrary cut-off threshold. In such cases, the scale lacks sensitivity in distinguishing changes in the levels of the construct at the ends of the scales, which can lead to floor and ceiling effects. See <span class="citation" data-cites="vermeersch_2000_OutcomeQuestionnaireItem">Vermeersch et al. (<a href="#ref-vermeersch_2000_OutcomeQuestionnaireItem" role="doc-biblioref">2000</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Low sensitivity at the bottom of the scale when measuring headache
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Imagine a scale with the lowest item being “No headache at all or very slight headache”. The item will be selected by those who are experiencing no headache at all as well as those who have a very slight of headache, meaning that the item has low resolution in measuring those with small amounts of headache.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Arbitrary cut-off at the top of the scale when measuring counts
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In some cases, the uncommonly large values of a measure are collapsed into a single category. For instance, as many individuals do not sleep more than 12 hours a day, the measurement scale may have an arbitrary ceiling of “12 hours or more”.</p>
+<p>Another example is measuring the number of smoked cigarettes (or alcohol units consumed) throughout a day; although it is possible to smoke dozens of cigarettes (or consume multiple liters of alcohol) in a single day, most individuals do not smoke more than, say, 20, cigarettes a day (or consume more than 10 units of alcohol). In such cases, the highest value on the scale can be set to be “20 cigarettes or more” (or “10 units of alcohol or more”).</p>
+</div>
+</div>
+</div>
+<p>From a psychometric perspective, such lack of sensitivity may also arise due to extreme formulation of the items, causing the <em>difficulty parameter</em> (or <em>threshold</em>) of the item to become high <span class="citation" data-cites="vandenoord_1997_NoteUseTobit">(<a href="#ref-vandenoord_1997_NoteUseTobit" role="doc-biblioref">Oord &amp; Ark, 1997</a>)</span>, thus making it difficult accurately to distinguish between levels of the construct across individuals or its change over time within an individual <span class="citation" data-cites="guyatt_1988_MeasuringHealthStatus">(<a href="#ref-guyatt_1988_MeasuringHealthStatus" role="doc-biblioref">Guyatt, 1988</a>)</span>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -496,7 +541,7 @@ Read more: Response options
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>[Censored data]</li>
@@ -508,10 +553,11 @@ Read more: Response options
 </section>
 <section id="b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale" class="level3">
 <h3 class="anchored" data-anchor-id="b.-censoring-as-a-result-of-measuring-a-bipolar-construct-with-a-unipolar-scale">B. Censoring as a result of measuring a bipolar construct with a unipolar scale</h3>
-<!-- Explain what this means in general terms, then do the happy/sad example in an example box -->
-<p>Some affect and mood items, like <em>sad</em>, can be thought of as measuring one half of a bipolar latent continuum, say, <em>happy–sad</em>. As such, being <em>not at all sad</em> is equivalent to being <em>neither happy nor sad</em>. In this case, measuring one half of the latent construct with a unipolar scale can be thought of as systematically left-sensoring the data. As <span class="citation" data-cites="falcaro_2013_AnalysingCensoredLongitudinal">Falcaro et al. (<a href="#ref-falcaro_2013_AnalysingCensoredLongitudinal" role="doc-biblioref">2013, p. 12</a>)</span> put it:</p>
+<p>Some affect and mood items, like “sad” can be thought of as measuring one half of a bipolar latent continuum, say, “happy–sad”. As such, being “Not at all sad” is equivalent to being “Neither happy nor sad”.</p>
+<p>Another example is the item “distressed” (see <a href="#fig-hist-cogito-distress">Figure&nbsp;1</a>), which can be thought of as being one half of the “relaxed–distressed” continuum.</p>
+<p>In such cases, measuring one half of the latent construct with a unipolar scale can be thought of as systematically left-censoring the data.As <span class="citation" data-cites="falcaro_2013_AnalysingCensoredLongitudinal">Falcaro et al. (<a href="#ref-falcaro_2013_AnalysingCensoredLongitudinal" role="doc-biblioref">2013, p. 12</a>)</span> put it:</p>
 <blockquote class="blockquote">
-<p>The depression score variable in this study suffered a marked floor effect at 0. We decided to treat this as a special case of interval censoring. Under this model we are assuming that those who score at the floor of the test could have been further differentiated into varying levels of non-depression if there had been appropriate additional items. Most people would call such variation in non-depression variation in happiness but, in the absence of actual happiness items and evidence of their tapping the same dimension as the depression items, the labelling of any such implicit variability is best left open.</p>
+<p>“The depression score variable in this study suffered a marked floor effect at 0. We decided to treat this as a special case of interval censoring. Under this model we are assuming that those who score at the floor of the test could have been further differentiated into varying levels of non-depression if there had been appropriate additional items. Most people would call such variation in non-depression variation in happiness but, in the absence of actual happiness items and evidence of their tapping the same dimension as the depression items, the labeling of any such implicit variability is best left open.”</p>
 </blockquote>
 </section>
 <section id="c.-censoring-by-participants" class="level3">
@@ -546,9 +592,9 @@ Warning
 <p>This section is a stub.</p>
 </div>
 </div>
-<p>People only fill out questionnaires when they are at the lower end of the scale. Either participant induced: Missing non-at random observations. (tending to miss extreme scores at the end of the scale, e.g., for feeling anger) Or by design: Could for example happen if you do event-contingent sampling and only observe variables in the context of relative extreme events (you only measure people when they have a panic attack, resulting in seeming ceiling effects for anxiety).</p>
+<p>People only fill out questionnaires when they are at the lower end of the scale. Either participant induced: Missing non-at random observations. (tending to miss extreme scores at the end of the scale, e.g., for feeling anger) Or by design: Could for example happen if you do event-contingent sampling and only observe variables in the context of relatively extreme events (you only measure people when they have a panic attack, resulting in apparent ceiling effects for anxiety).</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -557,11 +603,11 @@ Read more: Sampling Design
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>[Event-contingent Designs]</li>
-<li><a href="../../substantive-theory/context-events/event-relations.html">Event-related constructs</a></li>
+<li><a href="\EventRelations.qmd">Event-Relation in ILD Measurement</a></li>
 </ul>
 </div>
 </div>
@@ -570,12 +616,24 @@ Read more: Sampling Design
 </section>
 <section id="floor-effects-due-to-the-nature-of-the-measured-construct-or-process" class="level2">
 <h2 class="anchored" data-anchor-id="floor-effects-due-to-the-nature-of-the-measured-construct-or-process">Floor effects due to the nature of the measured construct or process</h2>
-</section>
-<section id="e.-processes-with-specific-distributional-nature" class="level2">
-<h2 class="anchored" data-anchor-id="e.-processes-with-specific-distributional-nature">E. Processes with specific distributional nature</h2>
+<section id="e.-processes-with-specific-distributional-nature" class="level3">
+<h3 class="anchored" data-anchor-id="e.-processes-with-specific-distributional-nature">E. Processes with specific distributional nature</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is a stub.</p>
+</div>
+</div>
 <!-- This can use some polishing -->
 <!-- First explain in general terms, than use examples in separate example boxes. -->
-<!-- Some ideas for sensible examples: 
+<!-- Some ideas for sensible examples:
 E.g., maybe strong emotions like 'inspired' only occur with specific relatively rare events, then you would expect ceiling effects if you have a sampling design that measures throughout the day rather than only those events.
 
 Most healthy people simply don't experience a lot of symptoms throughout the day.
@@ -584,21 +642,87 @@ Count variables would again be a good example box
 -->
 <p>It is possible that some psychological processes, in nature, produce data with non-symmetric distributions, such that they have a higher density (or mass) near zero. Such processes, especially when dealing with counts—or constructs that can be approximated with counts—may follow, for instance, the binomial distribution <span class="citation" data-cites="iachina_2012_MeasuringReliableChange">(see <a href="#ref-iachina_2012_MeasuringReliableChange" role="doc-biblioref">Iachina &amp; Bilenberg, 2012</a>)</span>, Poisson distribution, or skewed distributions akin to the <span class="math inline">\(\chi^2\)</span> distribution.</p>
 <!-- Maybe add this ref below in a read more box, and also cite it in the previous sentence -->
-<p>See <span class="citation" data-cites="haqiqatkhah_2022_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2022_SkewnessStagingDoes" role="doc-biblioref">n.d.</a>)</span> for an elaborated account of three plausible processes.</p>
+<p>See <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>)</span> for an elaborate account of three plausible processes.</p>
 </section>
-<section id="f.-processes-consisting-of-two-sub-processes-zero-inflation" class="level2">
-<h2 class="anchored" data-anchor-id="f.-processes-consisting-of-two-sub-processes-zero-inflation">F. Processes consisting of two sub-processes (zero-inflation)</h2>
-<!-- This can use some polishing -->
-<!-- First explain in general terms, than use examples (diet/smoking/etc in separate example boxes) -->
+<section id="f.-processes-consisting-of-two-sub-processes-zero-inflation" class="level3">
+<h3 class="anchored" data-anchor-id="f.-processes-consisting-of-two-sub-processes-zero-inflation">F. Processes consisting of two sub-processes (zero-inflation)</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is a stub.</p>
+</div>
+</div>
 <p>Some behavioral and psychological processes can be thought of as a mixture of two processes: One acting as an on–off switch (determining whether the process is active or not), and another process generating non-zero values. It has been suggested that dietary intake <span class="citation" data-cites="ruf_2021_StudyingDietaryIntake">(<a href="#ref-ruf_2021_StudyingDietaryIntake" role="doc-biblioref">Ruf et al., 2021</a>)</span>, smoking behavior <span class="citation" data-cites="liu_2007_GrowthCurveModels">(<a href="#ref-liu_2007_GrowthCurveModels" role="doc-biblioref">Liu, 2007</a>)</span>, and certain affective processes <span class="citation" data-cites="lu_2019_ZeroInflatedRegimeSwitchingStochastic">(<a href="#ref-lu_2019_ZeroInflatedRegimeSwitchingStochastic" role="doc-biblioref">Lu et al., 2019</a>)</span> might be better explained in this framework. It is worth noting that such processes can explain the excess number of zero values (or zero inflation) in the data; if the data skewed beyond zero inflation, the “on” process still needs to account for a “floor effect” that is present above zero.</p>
 </section>
 </section>
-<section id="related-pages" class="level1">
-<h1>Related pages</h1>
-<ul>
-<li>[Event-contingent Designs]</li>
-<li><a href="../../substantive-theory/context-events/event-relations.html">Event-related constructs</a></li>
-</ul>
+</section>
+<section id="sec-detecting-floor-effect" class="level1">
+<h1>Detecting the floor effect in empirical data</h1>
+<p>As shown in <a href="#fig-hist-cogito-distress">Figure&nbsp;1</a>, <a href="#fig-hist-wright-alcohol">Figure&nbsp;2</a>, and <a href="#fig-hist-wright-dpds">Figure&nbsp;3</a>, the floor effect in the responses of individuals is reflected in their person-specific histograms. It is also possible to methodologically investigate the presence of the floor (and the ceiling) effect in a dataset consisting of many individuals by studying the pairwise distributions of individuals means, variances, and skewness values.</p>
+<p>As mentioned earlier, the floor effect is characterized by the co-occurrence of low mean, small variance, and a positive skewness of an individual’s response distribution. Thus, at the presence of the floor effect in the data, we would expect to see a positive correlation between the individuals’ mean and the variance (low means coincide with low variance), negative correlations between the skewness and the mean (low means coincide with high positive skewness), and negative correlations between the skewness and the variance (low variance coincides with high positive skewness). See <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>, Appendix A)</span> for more details.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Investigating the floor effect in distress
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In <a href="#fig-cogito-distress-pairplots">Figure&nbsp;4</a> we show the relevant sample statistics and their correlations for the <em>distress</em> variable from the COGITO dataset <span class="citation" data-cites="schmiedek_2010_HundredDaysCognitive">(<a href="#ref-schmiedek_2010_HundredDaysCognitive" role="doc-biblioref">Schmiedek et al., 2010</a>)</span>. The diagonal panels show the distribution of individual means, variances and skewness values, lower off-diagonal panels show pairwise scatter plots of the summary statistics, and the upper panels show their Pearson correlations. It can be seen from <a href="#fig-cogito-distress-pairplots">Figure&nbsp;4</a> that lower means of distress very often coincide with smaller variability (leading to a positive correlation between mean and variances) and more asymmetry (leading to a negative correlation between mean and skewness), which is characteristic of data with a floor effect. The lower left panel of this figure (the scatter plot of skewness given mean) shows that most of the individuals have very low means and very high skewnesses, indicating that the floor effect in individuals (at level 1) brings about skewness in means (at level 2).</p>
+<div id="fig-cogito-distress-pairplots" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../../resources/images/cogito-distress-pairplots.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;4: Histograms and pair-wise scatter plots of the individual summary statistics (<span class="math inline">\(\mu_i, \sigma^2_i, \gamma_i\)</span>) of distress scores in the COGITO dataset, and the Pearson correlations between them (with *, **, and *** respectively denoting <span class="math inline">\(p&lt;.05\)</span>, <span class="math inline">\(p&lt;.01\)</span>, and <span class="math inline">\(p&lt;.001\)</span>). The dotted and dashed lines, respectively, mark the conventional thresholds of moderate (<span class="math inline">\(\gamma = \pm 0.5\)</span>) and high (<span class="math inline">\(\gamma = \pm 1\)</span>) skewness. Figure is adapted from <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>, Appendix A)</span>.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>On the other hand, if the data shows the ceiling effect, we would expect a negative correlation between individuals’ skewness and mean (high negative skewness values due to the ceiling effect values coinciding with high means), a negative correlation between mean and variance (distributions with higher means have lower variances) and a positive correlation between skewness and variance <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">(<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">Haqiqatkhah et al., 2023</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Investigating the ceiling effect in positive affect
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In <a href="#fig-cogito-pa-histograms">Figure&nbsp;5</a> we show the individual histograms of the Positive Affect (PA) from the COGITO dataset <span class="citation" data-cites="schmiedek_2010_HundredDaysCognitive">(<a href="#ref-schmiedek_2010_HundredDaysCognitive" role="doc-biblioref">Schmiedek et al., 2010</a>)</span>, which is the unweighted average of 10 positive emotion items. It can be seen that some individuals are characterized by the floor effect, and some with the ceiling effect.</p>
+<div id="fig-cogito-pa-histograms" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../../resources/images/cogito-pa-histograms.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;5: Individual histograms of PA scores (<span class="math inline">\(X_{i,t}\)</span>) of individuals in the COGITO dataset, sorted by individual means (<span class="math inline">\(\mu_i\)</span>). Figure is adapted from <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>, Appendix A)</span>.</figcaption>
+</figure>
+</div>
+<p><a href="#fig-cogito-pa-pairplots">Figure&nbsp;6</a> shows the distribution of summary statistics of PA. We observe that the distribution of means is more symmetrical (upper left panel); however, as the histogram of skewnesses shows (lower right panel), many individuals have either positively or negatively skewed responses (notice that many of the skewnesses are either more than 1 or less than <span class="math inline">\(-1\)</span>, typically used as thresholds for high positive and negative skewness). We observe a negative correlation between mean and skewness, and mean and variance, which likely indicates that more individuals are characterized by the ceiling effect for this variable.</p>
+<div id="fig-cogito-pa-pairplots" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../../resources/images/cogito-pa-pairplots.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;6: Histograms and pair-wise scatter plots of the individual summary statistics (<span class="math inline">\(\mu_i, \sigma^2_i, \gamma_i\)</span>) of PA scores in the COGITO dataset, and the Pearson correlations between them (with *, **, and *** respectively denoting <span class="math inline">\(p&lt;.05\)</span>, <span class="math inline">\(p&lt;.01\)</span>, and <span class="math inline">\(p&lt;.001\)</span>). The dotted and dashed lines, respectively, mark the conventional thresholds of moderate (<span class="math inline">\(\gamma = \pm 0.5\)</span>) and high (<span class="math inline">\(\gamma = \pm 1\)</span>) skewness. Figure is adapted from <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>, Appendix A)</span>.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="consequences-for-common-models-used-in-psychological-research" class="level1">
+<h1>Consequences for common models used in psychological research</h1>
+<p>The floor effect may makes it harder to detect changes different groups of individuals (e.g., in clinical studies) and within individuals (e.g., in panel studies). In intensive longitudinal data analysis, the floor effect leads to biased estimates of the autoregressive effect in multilevel AR(1) models <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">(<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">Haqiqatkhah et al., 2023</a>)</span>, and the direction and degree of bias depends on the model being used. When modeling the data with fixed residual variance, the dominant practice in the psychological literature, the floor effect leads to negative bias in the level-2 correlation between the autoregressive parameter and the mean, whereas estimating residual variance as random effects leads to positive bias in the said parameter. See <span class="citation" data-cites="haqiqatkhah_2023_SkewnessStagingDoes">Haqiqatkhah et al. (<a href="#ref-haqiqatkhah_2023_SkewnessStagingDoes" role="doc-biblioref">2023</a>)</span> for more details.</p>
 
 
 
@@ -608,8 +732,14 @@ Count variables would again be a good example box
 <div id="ref-falcaro_2013_AnalysingCensoredLongitudinal" class="csl-entry" role="listitem">
 Falcaro, M., Pendleton, N., &amp; Pickles, A. (2013). Analysing censored longitudinal data with non-ignorable missing values: depression in older age. <em>Journal of the Royal Statistical Society: Series A (Statistics in Society)</em>, <em>176</em>(2), 415–430. <a href="https://doi.org/10.1111/j.1467-985X.2011.01034.x">https://doi.org/10.1111/j.1467-985X.2011.01034.x</a>
 </div>
+<div id="ref-guyatt_1988_MeasuringHealthStatus" class="csl-entry" role="listitem">
+Guyatt, G. (1988). Measuring health status in chronic airflow limitation. <em>European Respiratory Journal</em>, <em>1</em>(6), 560–564. <a href="https://doi.org/10.1183/09031936.93.01060560">https://doi.org/10.1183/09031936.93.01060560</a>
+</div>
 <div id="ref-haqiqatkhah_2022_SkewnessStagingDoes" class="csl-entry" role="listitem">
 Haqiqatkhah, M. M., Ryan, O., &amp; Hamaker, E. L. (n.d.). <em>Skewness and staging: Does the floor effect induce bias in multilevel AR(1) models?</em> <a href="https://doi.org/10.31234/osf.io/myuvr">https://doi.org/10.31234/osf.io/myuvr</a>
+</div>
+<div id="ref-haqiqatkhah_2023_SkewnessStagingDoes" class="csl-entry" role="listitem">
+Haqiqatkhah, M. M., Ryan, O., &amp; Hamaker, E. L. (2023). Skewness and staging: Does the floor effect induce bias in multilevel AR(1) models? <em>Multivariate Behavioral Research</em>. <a href="https://doi.org/10.1080/00273171.2023.2254769">https://doi.org/10.1080/00273171.2023.2254769</a>
 </div>
 <div id="ref-iachina_2012_MeasuringReliableChange" class="csl-entry" role="listitem">
 Iachina, M., &amp; Bilenberg, N. (2012). Measuring reliable change of emotional and behavioural problems in children. <em>Psychiatry Research</em>, <em>200</em>(2), 867–871. <a href="https://doi.org/10.1016/j.psychres.2012.06.023">https://doi.org/10.1016/j.psychres.2012.06.023</a>
@@ -620,6 +750,9 @@ Liu, H. (2007). Growth curve models for zero-inflated count data: An application
 <div id="ref-lu_2019_ZeroInflatedRegimeSwitchingStochastic" class="csl-entry" role="listitem">
 Lu, Z.-H., Chow, S.-M., Ram, N., &amp; Cole, P. M. (2019). Zero-Inflated Regime-Switching Stochastic Differential Equation Models for Highly Unbalanced Multivariate, Multi-Subject Time-Series Data. <em>Psychometrika</em>, <em>84</em>(2), 611–645. <a href="https://doi.org/10.1007/s11336-019-09664-7">https://doi.org/10.1007/s11336-019-09664-7</a>
 </div>
+<div id="ref-vandenoord_1997_NoteUseTobit" class="csl-entry" role="listitem">
+Oord, E. J. C. G. van den, &amp; Ark, L. A. van der. (1997). A note on the use of the Tobit approach for tests scores with floor or ceiling effects. <em>British Journal of Mathematical and Statistical Psychology</em>, <em>50</em>(2), 351–364. <a href="https://doi.org/10.1111/j.2044-8317.1997.tb01150.x">https://doi.org/10.1111/j.2044-8317.1997.tb01150.x</a>
+</div>
 <div id="ref-ruf_2021_StudyingDietaryIntake" class="csl-entry" role="listitem">
 Ruf, A., Neubauer, A. B., Ebner-Priemer, U., Reif, A., &amp; Matura, S. (2021). Studying dietary intake in daily life through multilevel two-part modelling: A novel analytical approach and its practical application. <em>International Journal of Behavioral Nutrition and Physical Activity</em>, <em>18</em>(1), 130. <a href="https://doi.org/10.1186/s12966-021-01187-8">https://doi.org/10.1186/s12966-021-01187-8</a>
 </div>
@@ -629,16 +762,22 @@ Schmiedek, F., Lövdén, M., &amp; Lindenberger, U. (2010). Hundred days of cogn
 <div id="ref-vermeersch_2000_OutcomeQuestionnaireItem" class="csl-entry" role="listitem">
 Vermeersch, D. A., Lambert, M. J., &amp; Burlingame, G. M. (2000). Outcome Questionnaire: Item Sensitivity to Change. <em>Journal of Personality Assessment</em>, <em>74</em>(2), 242–261. <a href="https://doi.org/10.1207/S15327752JPA7402_6">https://doi.org/10.1207/S15327752JPA7402_6</a>
 </div>
+<div id="ref-wright_2015_DailyInterpersonalAffective" class="csl-entry" role="listitem">
+Wright, A. G. C., Hopwood, C. J., &amp; Simms, L. J. (2015). Daily interpersonal and affective dynamics in personality disorder. <em>Journal of Personality Disorders</em>, <em>29</em>(4), 503–525. <a href="https://doi.org/10.1521/pedi.2015.29.4.503">https://doi.org/10.1521/pedi.2015.29.4.503</a>
+</div>
+<div id="ref-wright_2016_StabilityFluctuationPersonality" class="csl-entry" role="listitem">
+Wright, A. G. C., &amp; Simms, L. J. (2016). Stability and fluctuation of personality disorder features in daily life. <em>Journal of Abnormal Psychology</em>, <em>125</em>, 641–656. <a href="https://doi.org/10.1037/abn0000169">https://doi.org/10.1037/abn0000169</a>
+</div>
 </div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{haqiqatkhah2023,
-  author = {Haqiqatkhah, Mohammadhossein Manuel and Schuurman, Noémi},
+  author = {Haqiqatkhah, Mohammadhossein Manuel},
   title = {Floor and Ceiling Effects},
   date = {2023-06-21},
   url = {https://sophieberkhout.github.io/matilda//substantive-theory/distributions/floor-ceiling-effects.html},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-haqiqatkhah2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Haqiqatkhah, M. M., &amp; Schuurman, N. (2023, June 21). <em>Floor and
-ceiling effects</em>. <a href="https://sophieberkhout.github.io/matilda//substantive-theory/distributions/floor-ceiling-effects.html">https://sophieberkhout.github.io/matilda//substantive-theory/distributions/floor-ceiling-effects.html</a>
+Haqiqatkhah, M. M. (2023, June 21). <em>Floor and ceiling effects</em>.
+<a href="https://sophieberkhout.github.io/matilda//substantive-theory/distributions/floor-ceiling-effects.html">https://sophieberkhout.github.io/matilda//substantive-theory/distributions/floor-ceiling-effects.html</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
