@@ -25,7 +25,7 @@ google-scholar: true
 :::
 
 ::: callout-note
-This article builds on @haqiqatkhah_2022_SkewnessStagingDoes
+This article builds on @haqiqatkhah_2023_SkewnessStagingDoes
 :::
 
 ::: callout-note
@@ -168,7 +168,7 @@ Either participant induced: Missing non-at random observations.
 ### Read more: Sampling Design
 
 -   \[Event-contingent Designs\]
--   [Event-Relation in ILD Measurement](\EventRelations.qmd)
+-   [Event-relation in ILD measurement](../context-events/event-relations.qmd)
 :::
 
 ## Floor effects due to the nature of the measured construct or process
