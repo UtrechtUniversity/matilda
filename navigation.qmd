@@ -31,10 +31,10 @@ qTimeScaleB_show = {
 aTimeScale = {
   const p = document.createElement("p");
   const ul = document.createElement("ul");
-  if (qTimeScale.length | qTimeScaleB.length) {
+  if (qTimeScale.some((element) => element == 2) | qTimeScale.some((element) => element == 3) | qTimeScaleB.length) {
     p.appendChild(document.createElement("strong")).appendChild(document.createTextNode("We recommend the following pages:"));
   }
-  if (qTimeScale.some((element) => element == 1)) {
+  if (qTimeScaleB.some((element) => element == 1)) {
     const li1 = document.createElement("li");
     var link = document.createElement("a");
     link.href = "time-scale/measurement-coverage-time-span-granularity.html";
@@ -50,7 +50,7 @@ aTimeScale = {
     li2.appendChild(link2);
     ul.appendChild(li2);
   }
-  if (qTimeScaleB.some((element) => element == 1)) {
+  if (qTimeScaleB.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
     link2.href = "substantive-theory/time-scale/relating-constructs-time-scales.html";
