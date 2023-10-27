@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: ""
   navbar:
     logo: resources/images/uu_blacktext.png
     logo-href: "https://www.uu.nl/"
