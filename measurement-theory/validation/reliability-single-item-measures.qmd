@@ -289,9 +289,7 @@ $$
 The clear benefit of this method is that can easily be calculated.
 However, it does require various assumptions:
 
--   
-
-    1.  The true score does not change between the initial and replicate
+1.  The true score does not change between the initial and replicate
         measurement.
 
 ::: {.callout-tip collapse="true"}
