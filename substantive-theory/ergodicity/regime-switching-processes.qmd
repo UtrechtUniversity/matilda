@@ -60,7 +60,7 @@ A system in isolation would not change regimes, given that the system itself doe
 
 # How should I measure a regime-switching process?
 
-Depending on your goal, there are different questions to address in the measurement design of a regime-switching process. Here are three goals you can have in mind, each with some measurement questions you could consider:
+Depending on your goal, there are different theoretical considerations to address in the measurement design of a regime-switching process. Here, we explain what to consider when you want to: establish the existence of multiple regimes in a process; predict when the system switches between regimes.
 
 ## Establish the existence of multiple regimes in a process
   
