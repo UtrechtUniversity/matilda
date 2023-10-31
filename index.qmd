@@ -14,7 +14,7 @@ filters:
 :::
 
 :::{style="margin: auto;   width: 100%;text-align: center;"}
-## Measurement and Theory for Intensive Longitudinal Data
+## Measurement, Analysis & Theory for Intensive Longitudinal Data
 
 [MATILDA provides information for researchers <br> that want to study processes with intensive longitudinal data.]{style="font-size: 20px;"}
 

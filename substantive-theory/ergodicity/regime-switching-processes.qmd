@@ -38,7 +38,7 @@ google-scholar: true
 
 This page is about capturing sudden transitions or regime switches in psychological pocesses.
 
-Many psychological processes switch between two or more different **regimes**. For example, an individual can alter between healthy and depressed states over a period of time, or an emotion process may switch between negative, neutral and positive moods.
+Many psychological processes switch between two or more different regimes, or stable states. For example, an individual can alter between healthy and depressed states over a period of time, or an emotion process may switch between negative, neutral and positive moods.
 
 If a psychological process has multiple regimes it switches between, it is important to think about how to capture these regime switches in your measurements.
 
@@ -46,13 +46,15 @@ In the following, we discuss how we define a regime and some theoretical conside
 
 # What is a regime?
 
-There is no clear-cut definition of what a regime is, but every regime has a certain degree of **stability**. Stability has something to do with the notion of a **stable state** in dynamical systems theory, also called stable equilibrium or attractor state. At the value(s) of a stable state, "things" are in balance. Small perturbations away from the state will have a short-lived effect, because the system will always return back to the stable state. A regime can be considered *the dynamic process around this stable state*. 
+There is no clear-cut definition of what a regime is, but every regime has a certain degree of **stability**. Stability has something to do with the notion of a **stable state** in dynamical systems theory, also called stable equilibrium or attractor state. Perturbations away from the state will have a short-lived effect, because the system will always return back to the stable state. A regime can be considered as a set of parameter values, such as the mean, variance, and autoregression.
 
-When a system has multiple stable states, we can observe multiple regimes when we measure this system over time. These regimes will be processes that each move around a different value, because the corresponding stable states are also (by definition) characterized by different values. Additionally, they may also differ in their dynamical features. For example, in a depression regime, the autoregressive effect may be larger than is the case in a healthy regime. So, regimes are defined by a mean value and the dynamics around this mean value.
+A system may have multiple stable states, which we can observe when we measure this system over time. These regimes will characterized by different sets of parameter values. For example, each regime may have a different mean, such as a low average of sadness in a healthy regima and a high average of sadness in a depression regime. Additionally, they may differ in their dynamical features. For example, in a depression regime, the autoregressive effect may be larger than is the case in a healthy regime.
 
 # Regime switching
 
-A main topic of research is when and how regime switches take place. Regime switches are often sudden: from one moment to the next, the process of interest is completely taken over by a different regime. When some regimes are more preferable than others (e.g., relapse vs. recovery in addiction processes), we would like to prevent certain switches from happening, and trigger others to happen. This is especially the case for switches that are irreversible, think of global warming, that will have permanent consequences for the planet if not held under a certain maximum. Another type of switching that is possible but difficult to reverse is hysteresis. 
+A main topic of research is *when* and *how* regime switches take place. Regime switches are often sudden: from one moment to the next, the process of interest is completely taken over by a different regime (but a regime could also be varying continuously over time, see [Time-varying processes]).
+
+When some regimes are more preferable than others (e.g., relapse vs. recovery in addiction processes), we would like to prevent certain switches from happening, and trigger others to happen. This is especially the case for switches that are irreversible, think of global warming, that will have permanent consequences for the planet if not held under a certain maximum. Another type of switching that is possible but difficult to reverse is hysteresis. 
 
 A system in isolation would not change regimes, given that the system itself does not change. After all, a regime is stable by definition. So, a regime switch must be caused by an external event. There are several events we could think of, for example, the death of a loved one will almost certainly put a person in a regime of grief. Other events are more subtle, for example, the gradual decrease of public trust that suddenly leads to rioting behavior at a certain threshold. In this case, public trust is called a **control variable**. Because the change in the control variable is often gradual, the regime switch can be quite unpredictable, and the change in the outcome variable quite disproportionate. For this reason, this kind of regime switches have intrigued researchers for a long time, and has found is own mathematical (sub)disciplines in bifurcation theory and catastrophe theory.
 
@@ -60,13 +62,23 @@ A system in isolation would not change regimes, given that the system itself doe
 
 Depending on your goal, there are different questions to address in the measurement design of a regime-switching process. Here are three goals you can have in mind, each with some measurement questions you could consider:
 
-1. I want to establish the existence of regimes in a process
-    - How many regimes do you think there are to distinguish?
-    - How long do you think one regime will typically last?
-    - What do I want to capture about the regimes? Only differences in means, or also in dynamics? For the latter, you will need to have higher granularity.
+## Establish the existence of multiple regimes in a process
+  
+- How many regimes do you think there are to distinguish?
+- How long do you think one regime will typically last?
+- What do I want to capture about the regimes? Only differences in means, or also in dynamics? For the latter, you will need to have higher granularity.
 
-2. I want to predict regime switches
-    - What do you think triggers the switches? If it is a control variable crossing a threshold, what are possible control variables you can measure?
+## Predict regime switches
+- What do you think triggers the switches? 
+- What are possible control variables you can measure?
+
+# Practical Considerations
+
+- If you do not know whether there is a control variable that determines when a regime switch takes place and want to measure several different possibilities, this increases the bruden on participants.
+
+# Related pages
+
+- [Stationarity]
 
 
 
