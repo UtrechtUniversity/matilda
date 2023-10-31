@@ -1,5 +1,5 @@
 ---
-title: Regime-switching processes
+title: Capturing sudden transitions or regime switches
 categories: ['Substantive theory', 'Ergodicity', 'Non-stationarity', 'Regime-switching']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
@@ -10,7 +10,14 @@ author:
       given: Daan
       family: de Jong
     email: d.dejong@uu.nl
+    affiliations:
+      - name: Methods &amp; Statistics Department, Utrecht University
+  - name:
+      given: Sophie W.
+      family: Berkhout
+    email: s.w.berkhout@uu.nl
     corresponding: true
+    orcid: 0000-0002-4890-2754
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
 csl: ../../resources/styles/apa.csl
@@ -29,7 +36,13 @@ google-scholar: true
 ## Want to cite this page? See [citation info](regime-switching-processes.html#citation).
 :::
 
-Many psychological processes switch between two or more different **regimes**. For example, an individual can alter between healthy and depressed periods over a period of time. Or an emotion process may show switches between negative, neutral and positive moods. You will find some theoretical considerations on this page for when you want to measure such psychological processes.
+This page is about capturing sudden transitions or regime switches in psychological pocesses.
+
+Many psychological processes switch between two or more different **regimes**. For example, an individual can alter between healthy and depressed states over a period of time, or an emotion process may switch between negative, neutral and positive moods.
+
+If a psychological process has multiple regimes it switches between, it is important to think about how to capture these regime switches in your measurements.
+
+In the following, we discuss how we define a regime and some theoretical considerations for when you want to measure a regime-switching process.
 
 # What is a regime?
 
