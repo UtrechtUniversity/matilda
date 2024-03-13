@@ -1,17 +1,11 @@
 ---
-title: Capturing sudden transitions or regime switches
+title: Regime switching processes
 categories: ['Substantive theory', 'Ergodicity', 'Non-stationarity', 'Regime-switching']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-05-26
 date-modified: last-modified
 author:
-  - name:
-      given: Daan
-      family: de Jong
-    email: d.dejong@uu.nl
-    affiliations:
-      - name: Methods &amp; Statistics Department, Utrecht University
   - name:
       given: Sophie W.
       family: Berkhout
@@ -20,9 +14,15 @@ author:
     orcid: 0000-0002-4890-2754
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
+  - name:
+      given: Daan
+      family: de Jong
+    email: d.dejong@uu.nl
+    affiliations:
+      - name: Methods &amp; Statistics Department, Utrecht University
 csl: ../../resources/styles/apa.csl
 citation: true
-bibliography: ../../resources/bibliographies/pagename_references.bib
+bibliography: ../../resources/bibliographies/regime-switching-processes.bib
 google-scholar: true
 ---
 
@@ -36,49 +36,105 @@ google-scholar: true
 ## Want to cite this page? See [citation info](regime-switching-processes.html#citation).
 :::
 
-This page is about capturing sudden transitions or regime switches in psychological pocesses.
+This page is about what it means when a proces has sudden transitions or multiple regimes, and how to capture these.
 
-Many psychological processes switch between two or more different regimes, or stable states. For example, an individual can alter between healthy and depressed states over a period of time, or an emotion process may switch between negative, neutral and positive moods.
+Many processes are not stable over time but may have multiple stable states or regimes. For example, an individual can alter between healthy and depressed states over a period of time, or a couple may switch between conflict, neutral, and happy states.
 
-If a psychological process has multiple regimes it switches between, it is important to think about how to capture these regime switches in your measurements.
+If a process consist of multiple regimes it switches between, it is important to think about how to capture these different regimes and how to capture when a regime switches in your measurements.
 
 In the following, we discuss how we define a regime and some theoretical considerations for when you want to measure a regime-switching process.
 
 # What is a regime?
 
-There is no clear-cut definition of what a regime is, but every regime has a certain degree of **stability**. Stability has something to do with the notion of a **stable state** in dynamical systems theory, also called stable equilibrium or attractor state. Perturbations away from the state will have a short-lived effect, because the system will always return back to the stable state. A regime can be considered as a set of parameter values, such as the mean, variance, and autoregression.
+There is no clear-cut definition of what a regime is, but every regime has a certain degree of **stability**. Stability has something to do with the notion of a **stable state** in dynamical systems theory, also called stable equilibrium or attractor state [see e.g., @HartelmanEtAl1998]. Perturbations away from the state will have a short-lived effect, because the system will always return back to the stable state.
 
-A system may have multiple stable states, which we can observe when we measure this system over time. These regimes will characterized by different sets of parameter values. For example, each regime may have a different mean, such as a low average of sadness in a healthy regima and a high average of sadness in a depression regime. Additionally, they may differ in their dynamical features. For example, in a depression regime, the autoregressive effect may be larger than is the case in a healthy regime.
+A process (i.e., system) may have multiple regimes or stable states, which we can observe when we measure this process over time. Each regimes is characterized by certain (statistical) properties, such as a set of parameter values. For example, regimes could have a different mean or inertia.
+
+::: {.callout-tip collapse="true"}
+
+## Example: Two regimes with different means
+
+Gideon wants to see how negative affect evolves over time in a patient diagnosed with bipolar disorder. The patient switches between depressive and manic states while Gideon tracks their negative affect. By looking at the trajectory of negative affect, Gideon can roughly distinguish periods with a high average of negative affect and low average of negative affect.
+
+:::
+
+::: {.callout-tip collapse="true"}
+
+## Example: Two regimes with different inertia
+
+Kate studies how negative affect evolves over time in a patients diagnosed with depression that are currently being treated. She finds overall that when patients are in a state of depression, their momentary negative affect generaly tends to deviate from their average negative affect in the same direction, whereas when patients are in a state of recovery, their momentary negative affect fluctuates more randomly around their average negative affect. When analyzing the autoregressive effect of negative affect per state (i.e., depression and recovery), she finds a smaller autoregressive effect (also known as inertia) in the recovery state compared to the depression state.
+
+:::
 
 # Regime switching
 
-A main topic of research is *when* and *how* regime switches take place. Regime switches are often sudden: from one moment to the next, the process of interest is completely taken over by a different regime (but a regime could also be varying continuously over time, see [Time-varying processes]).
+A main topic of research is *how* and *when* regime switches take place. Regime switches can be sudden: from one moment to the next, the process of interest is completely taken over by a different regime (but a regime could also be varying continuously over time, see [Time-varying processes]).
 
-When some regimes are more preferable than others (e.g., relapse vs. recovery in addiction processes), we would like to prevent certain switches from happening, and trigger others to happen. This is especially the case for switches that are irreversible, think of global warming, that will have permanent consequences for the planet if not held under a certain maximum. Another type of switching that is possible but difficult to reverse is hysteresis. 
+## Regime switching mechanisms
 
-A system in isolation would not change regimes, given that the system itself does not change. After all, a regime is stable by definition. So, a regime switch must be caused by an external event. There are several events we could think of, for example, the death of a loved one will almost certainly put a person in a regime of grief. Other events are more subtle, for example, the gradual decrease of public trust that suddenly leads to rioting behavior at a certain threshold. In this case, public trust is called a **control variable**. Because the change in the control variable is often gradual, the regime switch can be quite unpredictable, and the change in the outcome variable quite disproportionate. For this reason, this kind of regime switches have intrigued researchers for a long time, and has found is own mathematical (sub)disciplines in bifurcation theory and catastrophe theory.
+We can distinguish three mechanisms for how regime switches take place, namely a process can excite itself to switch between regimes, an observable control variable causes regime switching in a process, or a latent control variable causes regime switching in a process.
 
-# How should I measure a regime-switching process?
+### Self-excited regime switching
+A process may switch between regimes due to a change in its own properties. These properties are required to vary over time, otherwise a process would always stay in the same regime. There is a feedback loop that regulates the process when (some of) its properties become too extreme. To capture a self-excited regime switch in a process, you need to observe the relevant changes in properties.
 
-Depending on your goal, there are different theoretical considerations to address in the measurement design of a regime-switching process. Here, we explain what to consider when you want to: establish the existence of multiple regimes in a process; predict when the system switches between regimes.
+::: {.callout-tip collapse="true"}
 
-## Establish the existence of multiple regimes in a process
-  
-- How many regimes do you think there are to distinguish?
-- How long do you think one regime will typically last?
-- What do I want to capture about the regimes? Only differences in means, or also in dynamics? For the latter, you will need to have higher granularity.
+## Example: Binge drinking
 
-## Predict regime switches
-- What do you think triggers the switches? 
-- What are possible control variables you can measure?
+Marissa studies individuals that suffer from binge drinking. When the participants start a binge drinking episode, they report the amount of alcoholic beverages consumed in the past hour. When participants consumed at least one alcoholic beverage they were more likely to consume more alcoholic beverages in the near future. However, when they reached a certain total amount of alcoholic beverages during the binge drinking epsiode, their alchohol consumption decreased.
+
+:::
+
+### Manifest regime switching
+There may be an observable variable that controls the regime switches of a process. This manifest variable needs to vary over time as otherwise it cannot control switches in regimes of a process. To capture a regime switch controlled by a change in a manifest variable, one needs to observe this change.
+
+::: {.callout-tip collapse="true"}
+
+## Example: Workload
+
+Akash works for a big company and investigates the effect of workload experienced by his colleagues on burnout symptoms. He measures perceived workload and severness of several burnout symptoms on a weekly basis and finds that while a higher workload is associated with worse burnout symptoms the following week, overall burnout symptoms bounce back quickly and tend to fluctuate around a healthy average. However, when a colleague persistantly perceives a high workload for at least 6 weeks, the burnout symptoms start fluctuating around a non-healthy average.
+
+:::
+
+### Latent regime switching
+Regime switching in a process may also be caused by an unobserved latent construct. To capture a latent regime switching process, one needs to be able to estimate this latent construct in some way. Note that regime switching may also take place based on probabilities and this probabilistic process is also seen as latent.
+
+::: {.callout-tip collapse="true"}
+
+## Example: Depression
+
+Ilja studies how the interplay of several depression symptoms cause individuals to switch between depressive and healthy states. He measures the severness of depression symptoms in participants multiple times per day over several days. On each occasion, he estimates the correlation between the variables and finds overall that when all the correlations are high, an individual is more likely to be in a depressive state at the next moment.
+
+:::
+
+## Regime switching timing
+
+The regime switching mechanism may only be understood if regime switching takes place during the measurement period. Therefore, it is important to think about the timescale of the regime switching process. If regime switching occurs more frequently than the frequency of the measurements, regime switches will be missed.
+
+::: {.callout-tip collapse="true"}
+
+## Example: Social anxiety
+
+Flora tracks daily social anxiety in a single participant. At the end of each day in the study, the participant reports how socially anxious they felt that day on average. Flora finds that the participant's social anxiety is very stable over time. However, the participant feels very distinct states of anxiety or no anxiety during the day depending on whether or not they are in a social situatio which is not captured in the daily average.
+:::
+
+::: {.callout-note collapse="true"}
+## Read more: Timescales
+
+-   [Key design aspects related to time scales: measurement coverage, time span, and granularity](../time-scale/measurement-coverage-time-span-granularity.qmd)
+
+:::
 
 # Practical Considerations
 
-- If you do not know whether there is a control variable that determines when a regime switch takes place and want to measure several different possibilities, this increases the bruden on participants.
+- There may not always be strong theories to determine the amount of regimes in a process. Exploratory analyses may be necessary, where the process needs to be monitored long enough to establish the existance of multiple regimes.
+- If you do not know whether there is a control variable that determines when a regime switch takes place and want to measure several different possibilities, bare in mind that longer questionnaires increase the burden on participants and reduce compliance.
+- If you want to esimate specific statistical properties within regimes, be aware that some statistical properties may require a larger sample size than others (e.g., a mean needs fewer observations than an autoregression).
 
 # Related pages
 
 - [Stationarity]
+- [Event-related constructs](../context-events/event-relations.qmd)
 
 
 
