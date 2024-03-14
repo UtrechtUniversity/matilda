@@ -121,7 +121,7 @@ Flora tracks daily social anxiety in a single participant. At the end of each da
 ::: {.callout-note collapse="true"}
 ## Read more: Timescales
 
--   [Key design aspects related to time scales: measurement coverage, time span, and granularity](../time-scale/measurement-coverage-time-span-granularity.qmd)
+-   [Key design aspects related to timescales: measurement coverage, time span, and granularity](../timescale/measurement-coverage-time-span-granularity.qmd)
 
 :::
 

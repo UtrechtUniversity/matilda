@@ -34,8 +34,8 @@ website:
       - section: "Substantive theory"
         href: substantive-theory/substantive-theory.qmd
         contents:
-          - href: substantive-theory/time-scale.qmd
-            text: "Time scale"
+          - href: substantive-theory/timescale.qmd
+            text: "Timescale"
           - href: substantive-theory/ergodicity.qmd
             text: "Ergodicity"
           - href: substantive-theory/context-events.qmd

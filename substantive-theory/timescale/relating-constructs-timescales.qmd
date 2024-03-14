@@ -1,6 +1,6 @@
 ---
-title: Relating constructs measured at different time scales
-categories: ['Substantive theory', 'Time scale', 'Multivariate', 'Association']
+title: Relating constructs measured at different timescales
+categories: ['Substantive theory', 'Timescale', 'Multivariate', 'Association']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-05-26
@@ -30,16 +30,16 @@ google-scholar: true
 
 This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.
 
-The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to time scales: time frame, interval, number of measurements](../time-scale/measurement-coverage-time-span-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different time scales in some way or form.
+The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to timescales: time frame, interval, number of measurements](../timescale/measurement-coverage-time-span-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
 
-It is important to think about differences in time scales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
+It is important to think about differences in timescales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
 
 Below, we discuss various examples of this, including specific common cases in which this occurs: "explicitly versus implicitly lagged measurements", "unconditional versus event-contingent constructs", and "aggregated versus non-aggregated constructs". We discuss various things to consider when studying these variables.
 
 
-# Key considerations for studying constructs with different time scales
+# Key considerations for studying constructs with different timescales
 
-Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Time scale landing page](../time-scale.qmd)). 
+Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Timescale landing page](../timescale.qmd)). 
 
 Different constructs may develop over time at a different timescale. For example, there is general consensus that affect develops over time on a moment-to-moment basis (i.e., intervals of about an hour or even shorter), whereas personality traits are assumed to be relatively stable over time (e.g., intervals of a year or longer). 
 
@@ -59,7 +59,7 @@ It is important to carefully think about how one construct relates to the other,
 Batu believes that a person's sleep quality only influences their positive affect in the morning and early afternoon. During the day, the effect of sleep quality on positive affect wears off.
 :::
 
-The relation between these constructs may not be straightforward. We discuss a few general ways in which constructs may have differing time scales and how this impacts their relation.
+The relation between these constructs may not be straightforward. We discuss a few general ways in which constructs may have differing timescales and how this impacts their relation.
 
 ## Explicitly and implicitly lagged measurements
 
@@ -147,6 +147,6 @@ The following practical considerations are also important for the decision about
 
 -   [Event-related constructs](../context-events/event-relations.qmd)
 
--   [Regimes-switching constructs](../ergodicity/regime-switching-processes.qmd)
+-   [Regimes-switching processes](../ergodicity/regime-switching-processes.qmd)
 
--   [Time Scales: Landing Page](../time-scale.qmd)
+-   [Time Scales: Landing Page](../timescale.qmd)

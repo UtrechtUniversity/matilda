@@ -42,7 +42,7 @@ We have collected various topics for you to read more about below.
 -   [Types of sampling designs]
 -   [Missing observations]
 -   [Ecological Momentary Assessment versus Ecological Retrospective Assessment]
--   [Key design aspects related to time scales: time frame, interval, number of measurements](../../substantive-theory/time-scale/measurement-coverage-time-span-granularity.qmd)]
+-   [Key design aspects related to timescales: time frame, interval, number of measurements](../../substantive-theory/timescale/measurement-coverage-time-span-granularity.qmd)]
 
 
 :::

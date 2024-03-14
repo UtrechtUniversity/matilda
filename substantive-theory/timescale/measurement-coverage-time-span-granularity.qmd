@@ -1,6 +1,6 @@
 ---
 title: "Measurement coverage, time span, and granularity."
-categories: ['Substantive theory', 'Time scale', 'Granularity', 'Time span', 'Time interval', 'Number of measurements', 'Time frame']
+categories: ['Substantive theory', 'Timescale', 'Granularity', 'Time span', 'Time interval', 'Number of measurements', 'Time frame']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-06-20
@@ -34,7 +34,7 @@ This page is about how specific key design aspects determine how well our repeat
 
 - the <i>granularity</i> of our measurements, which is the temporal resolution with which we observe the process: it can be more or less fine-grained. 
 
-The time span and granularity of a measurement design to a large extent determine at which time scales we can study a given process. In the following, we discuss three important design aspects that determine the time span and granularity of a study.
+The time span and granularity of a measurement design to a large extent determine at which timescales we can study a given process. In the following, we discuss three important design aspects that determine the time span and granularity of a study.
 
 
 # Key design aspects that determine measurement coverage
@@ -262,7 +262,7 @@ The following practical considerations are also very important for the decision 
 -   [Event-Related Constructs](../context-events/event-relations.qmd)
 -   [External Validity for ILD]
 -   [How many repeated measurements do I need?]
--   [Relation constructs measured at different time scales](relating-constructs-time-scales.qmd)
+-   [Relation constructs measured at different timescales](relating-constructs-timescales.qmd)
 -   [Measurement Burst Designs]
 -   [Measurement Burst Designs: Event Contingent Bursts]
 -   [Remembering vs Experiencing Self]

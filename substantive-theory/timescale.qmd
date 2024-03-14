@@ -1,0 +1,104 @@
+---
+title: "Timescale landing page"
+date-format: "YYYY-MM-DD"
+date: 2023-06-26
+date-modified: last-modified
+author:
+  - name:
+      given: Ellen L.
+      family: Hamaker
+    email: e.l.hamaker@uu.nl
+    orcid: 
+    corresponding: true
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
+citation: true
+bibliography: ../resources/bibliographies/pagename_references.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](timescale.html#citation).
+:::
+
+This is the landing page for everything related to the <i> timescales </i> of [constructs](../your-study/constructs.qmd) of interest.
+
+To ensure the measurement of a [process](../processes.qmd) aligns with the [theory](../your-study/theory.qmd) and [research questions](../your-study/research-question.qmd) we have, it is paramount to determine the timescale at which the process is assumed to unfold, and match this with the timescale at which we observe the process.
+
+To illustrate the importance of considering the timescale of a process, consider:
+
+a.  The answer to a research question may differ depending on the timescale considered.
+
+::: {.callout-tip collapse="true"}
+## Example: Raising kids
+
+Louise studies how specific actions from the parents affect the behavior of their children. When focusing on how to best handle the tantrums of a toddler who demands a cookie, it becomes clear that in the short-run, it is beneficial to give the toddler a cookie: They calm down and the tantrum seems to dissipate. But in the longer run, when the parent keeps offering cookies whenever the toddler is upset, the number of tantrums increases and the toddler is demanding cookies much more frequently and more fiercely. Thus, while providing a cookie represents an instant gratification at the lower timescale, repeatedly providing a cookie teaches the child to behave in a certain way to get it their way.
+:::
+
+b.  Different research questions may require studies at different timescales, even if they are about the same general constructs.
+
+<!-- Another good example -->
+
+c.  It may be the case that there are various processes that operate at different timescales, that all contribute to our measurements (whether we like it or not). For instance, at a shorter timescale (e.g., minute-to-minute), a regulatory process may be at play, while at a longer timescale (e.g., week-to-week), a developmental process may be taking place.
+
+::: {.callout-tip collapse="true"}
+## Example: Typing
+
+Steve is interested in studying the relation between accuracy and speed in a typing task. When considering the relation between accuracy and speed at a short timescale (minute to minute), it becomes clear that these variables are negatively correlated: Tasks on which a participant types faster are characterized by more mistakes. Yet, when allowing the participant to train a lot, it becomes clear that both speed and accuracy increase over time: This shows the effect of learning, which takes place at a longer timescale.
+:::
+
+## Think more about timescales
+
+There are many things to consider with respect to [substantive theory](substantive-theory.qmd), [measurement theory](../measurement-theory/measurement-theory.qmd), and measurement design that relate to timescales. We have collected various topics for you to read more about below.
+
+::: {.callout-note collapse="false"}
+## Read more: Timescales - general information
+
+-   [Key design aspects related to timescales: measurement coverage, time span, and granularity](timescale/measurement-coverage-time-span-granularity.qmd)
+
+-   [Relating constructs measured at different timescales](timescale/relating-constructs-timescales.qmd)
+:::
+
+::: {.callout-note collapse="false"}
+## Read more: Capturing specific events
+
+-   [Regimes-switching processes](ergodicity/regime-switching-processes.qmd)
+
+-   [Event-relations](context-events/event-relations.qmd)
+
+-   \[Measurement Burst Designs\]
+:::
+<!--
+# Practical Considerations
+
+The following practical considerations are also important for the decision about timescales, but are not considered further on this website.
+
+-   Material considerations (funding, available personnel, available measurement applications) will naturally affect the duration of a study, and how many and how intensively one may collect repeated measures, and hence what timescales may be studied.-->
+
+```{=html}
+<!--
+# Related pages
+
+-   [Measurement coverage, time span, & granularity.](/TScale_MeasCoverage.html)
+
+-   [Measuring and Relating Multiple Constructs Measured at Different Timescales](/TScale_RelatingConstructs.html)
+
+-   [Capturing Regime Switches](/TScale_Switches.html)
+
+-   [Event-Relations in ILD Measurement](/EventRelations.html)
+
+-   [Measurement Burst Designs]
+-->
+```

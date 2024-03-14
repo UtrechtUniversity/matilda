@@ -6,7 +6,7 @@ title: "Navigation tool"
 //| echo: false
 
 viewof qTimeScale = {
-  const form = Inputs.checkbox(new Map([["Yes", 1], ["No", 2], ["I am not sure", 3]]), {label: "Do you know at what time scale your construct varies?"})
+  const form = Inputs.checkbox(new Map([["Yes", 1], ["No", 2], ["I am not sure", 3]]), {label: "Do you know at what timescale your construct varies?"})
   const scope = DOM.uid().id;
   form.classList.add(scope);
   form.append(htl.html`<style>
@@ -37,15 +37,15 @@ aTimeScale = {
   if (qTimeScaleB.some((element) => element == 1)) {
     const li1 = document.createElement("li");
     var link = document.createElement("a");
-    link.href = "time-scale/measurement-coverage-time-span-granularity.html";
-    link.appendChild(document.createTextNode("Key design aspects related to time scales: measurement coverage, time span, and granularity"));
+    link.href = "timescale/measurement-coverage-time-span-granularity.html";
+    link.appendChild(document.createTextNode("Key design aspects related to timescales: measurement coverage, time span, and granularity"));
     li1.appendChild(link);
     ul.appendChild(li1);
   }
   if (qTimeScale.some((element) => element == 2) | qTimeScale.some((element) => element == 3) | qTimeScaleB.some((element) => element == 3)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/time-scale.html";
+    link2.href = "substantive-theory/timescale.html";
     link2.appendChild(document.createTextNode("Time Scales"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -53,8 +53,8 @@ aTimeScale = {
   if (qTimeScaleB.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/time-scale/relating-constructs-time-scales.html";
-    link2.appendChild(document.createTextNode("Relating constructs measured at different time scales"))
+    link2.href = "substantive-theory/timescale/relating-constructs-timescales.html";
+    link2.appendChild(document.createTextNode("Relating constructs measured at different timescales"))
     li2.appendChild(link2);
     ul.appendChild(li2);
   }
@@ -68,7 +68,7 @@ aTimeScale = {
 //| include: false
 
 viewof qTimeScaleB = {
-  const form = Inputs.checkbox(new Map([["Yes", 1], ["No", 2], ["I am not sure", 3]]), {label: "Strictly speaking, do all constructs vary at the same time scale?"})
+  const form = Inputs.checkbox(new Map([["Yes", 1], ["No", 2], ["I am not sure", 3]]), {label: "Strictly speaking, do all constructs vary at the same timescale?"})
   const scope = DOM.uid().id;
   form.classList.add(scope);
   form.append(htl.html`<style>

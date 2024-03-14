@@ -121,7 +121,7 @@ Francesca would also like to study people's reactions to mess in the workplace a
 
 In a model, *S* can be defined to have a lag-1 to lag-d relationship with current measures of *Y*. With this, the researcher is able to estimate the effect of *S* on *Y*. This coefficient can be interpreted to represent a participants tendency to be *reactive to* mess. 
 
-Note: defining and measuring such effects heavily assumes an appropriate selection of time scales.
+Note: defining and measuring such effects heavily assumes an appropriate selection of timescales.
 :::
 
 In summary, contrast event-relations require the measurement of relevant situational factors, such that central constructs (and changes therein) can be related to the occurrence of events in later models. Through this, we can assess a) if certain situations affect a construct, but also b) to what extend people are reactive/sensitive to particular types of events.
@@ -132,15 +132,15 @@ If you believe there is a contrast relationship like the above, you are making a
 
 - *Y* and *S* are conceptually distinct constructs
 - You are interested in the (causal) effect of *S* on *Y*
-- You are assuming that the variables are measured at the correct time scale
+- You are assuming that the variables are measured at the correct timescale
 - You are assuming that *Y* is a function of *S* 
 - You are assuming that *Y* and *S* are well-defined
-- You are assuming that you are measuring the construct at an appropriate time scale.
+- You are assuming that you are measuring the construct at an appropriate timescale.
 :::
 ::: {.callout-note collapse="true"}
-## Read more: Measuring at the appropriate time scale
+## Read more: Measuring at the appropriate timescale
 
-- [Time scale landing page](../time-scale.qmd)
+- [Timescale landing page](../timescale.qmd)
 
 - [Causal Inference with ILD]
 
@@ -166,7 +166,7 @@ If you believe the construct is conditional and needs to be measured within spec
 - You are assuming that *S* and *Y* are conceptually inter-dependent rather than causally connected
 - You are assuming that you can only gain a valid measurement of construct *Y* if *S* currently occurs
 - You are assuming your construct is well-defined
-- You are assuming that you are measuring the construct at an appropriate time scale.
+- You are assuming that you are measuring the construct at an appropriate timescale.
 
 
 ::: {.callout-note collapse="true"}

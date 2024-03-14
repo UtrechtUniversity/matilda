@@ -37,7 +37,7 @@ We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
 ## Read more: Substantive theory
--   [Time scale](time-scale.qmd)
+-   [Timescale](timescale.qmd)
 -   [Ergodicity](ergodicity.qmd)
 -   [Context and Events](context-events.qmd)
 -   [Distributions](distributions.qmd) 
