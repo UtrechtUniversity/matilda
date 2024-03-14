@@ -47,7 +47,7 @@ We have collected various topics for you to read more about below.
 ::: {.callout-note collapse="false"}
 ## Read more: (Non-)Stationarity
 -   [Stationarity]
--   [Capturing sudden transitions or regime switches](ergodicity/regime-switching-processes.qmd)
+-   [Regime switching processes](ergodicity/regime-switching-processes.qmd)
 :::
 
 ::: {.callout-note collapse="false"}
