@@ -107,15 +107,15 @@ Ilja studies how the interplay of several depression symptoms cause individuals 
 
 :::
 
-## Regime switching timing
+## Timing of regime switches
 
-The regime switching mechanism may only be understood if regime switching takes place during the measurement period. Therefore, it is important to think about the timescale of the regime switching process. If regime switching occurs more frequently than the frequency of the measurements, regime switches will be missed.
+The regime switching mechanism may only be understood if regime switching takes place during the measurement period. Therefore, it is important to think about the timescale of the regime switching process. For example, if regime switching occurs more frequently than the frequency of the measurements, regime switches may be missed.
 
 ::: {.callout-tip collapse="true"}
 
 ## Example: Social anxiety
 
-Flora tracks daily social anxiety in a single participant. At the end of each day in the study, the participant reports how socially anxious they felt that day on average. Flora finds that the participant's social anxiety is very stable over time. However, the participant feels very distinct states of anxiety or no anxiety during the day depending on whether or not they are in a social situatio which is not captured in the daily average.
+Flora tracks daily social anxiety in a single participant. At the end of each day in the study, the participant reports how socially anxious they felt that day on average. Flora finds that the participant's social anxiety is very stable over time. However, the participant feels very distinct states of anxiety or no anxiety during the day depending on whether or not they are in a social situation which is not captured in the daily average.
 :::
 
 ::: {.callout-note collapse="true"}
@@ -134,6 +134,7 @@ Flora tracks daily social anxiety in a single participant. At the end of each da
 # Related pages
 
 - [Stationarity]
+- [Time-varying processes]
 - [Event-related constructs](../context-events/event-relations.qmd)
 
 
