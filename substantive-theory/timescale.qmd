@@ -66,7 +66,7 @@ There are many things to consider with respect to [substantive theory](substanti
 ::: {.callout-note collapse="false"}
 ## Read more: Timescales - general information
 
--   [Key design aspects related to timescales: measurement coverage, time span, and granularity](timescale/measurement-coverage-time-span-granularity.qmd)
+-   [Key design aspects related to timescales: Time span, process coverage, and granularity](timescale/time-span-process-coverage-granularity.qmd)
 
 -   [Relating constructs measured at different timescales](timescale/relating-constructs-timescales.qmd)
 :::

@@ -48,7 +48,7 @@ We have collected various topics for you to read more about below.
 -   [Modern test theory]
 -   [Common measurement models: Reflective and formative measurement models]
 -   [Means and sum scores versus latent variable models]
--   [[Key design aspects related to timescales: time frame, interval, number of measurements](../../substantive-theory/timescale/measurement-coverage-time-span-granularity.qmd)]
+-   [Key design aspects related to timescales: Time span, process coverage, and granularity](../../substantive-theory/timescale/time-span-process-coverage-granularity.qmd)]
 -   [Using single item or multiple item measures](instrument/single-item-multiple-item-measures.qmd)
 
 

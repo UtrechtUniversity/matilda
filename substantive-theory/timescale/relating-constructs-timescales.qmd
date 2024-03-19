@@ -30,7 +30,7 @@ google-scholar: true
 
 This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.
 
-The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to timescales: time frame, interval, number of measurements](../timescale/measurement-coverage-time-span-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
+The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to timescales: Time span, process coverage, and granularity](../timescale/time-span-process-coverage-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
 
 It is important to think about differences in timescales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
 

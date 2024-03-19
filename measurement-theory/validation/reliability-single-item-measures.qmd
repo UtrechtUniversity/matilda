@@ -232,7 +232,7 @@ Note that the MEAR(1) has been extended in various ways, and the general idea be
 ::: {.callout-note collapse="true"}
 ## Read more: Choosing an appropriate time interval
 
--   [Key design aspects related to timescales: time frame, interval, number of measurements](../../substantive-theory/timescale/measurement-coverage-time-span-granularity.qmd)]
+-   [Key design aspects related to timescales: Time span, process coverage, and granularity](../../substantive-theory/timescale/time-span-process-coverage-granularity.qmd)]
 
 :::
 

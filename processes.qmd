@@ -7,15 +7,16 @@ date: 2023-07-17
 date-modified: last-modified
 author:
   - name:
-      given: Noémi K.
-      family: Schuurman
-    email: n.k.schuurman@uu.nl
-    orcid: 0000-0002-6437-5966
+      given: Ellen L.
+      family: Hamaker
+    email: e.l.hamaker@uu.nl
+    orcid: 
+    corresponding: true
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
 csl: resources/styles/apa.csl
 citation: true
-bibliography: resources/bibliographies/reliability-single-item-measures.bib
+# bibliography: resources/bibliographies/reliability-single-item-measures.bib
 google-scholar: true
 ---
 
@@ -24,7 +25,60 @@ google-scholar: true
 :::
 
 ::: callout-note
-## Want to cite this page? See [citation info](PageTemplate.html#citation).
+## Want to cite this page? See [citation info](processes.html#citation).
 :::
 
-A process is a mechanism that determines how a unit changes over time.
+The Cambridge Dictionary defines the term _process_ as "a series of actions that you take in order to achieve a result" or "a series of changes that happen naturally". 
+
+Two fundamental features stand out here: 
+
+a) a process is a series, which implies it takes place _over time_;
+
+b) a process is concerned with _variation_ over time, either in the form of different actions, or through (naturally occurring) changes.
+
+# Processes are central
+
+Processes are central to psychology, as many of the concepts in psychology concern processes. Examples are: development, learning, perception, information processing, adaption, regulation, social interaction, motivation, goal attainment, identity formation, (dys)functioning, interpretation, etc.. 
+
+Moreover, many concepts that may be consider static at first, such as personality traits, actually are concerned with specific features of processes. For instance, neuroticism is characterized by experiencing negative emotions more often and more intensely. Individuals high on neuroticism tend to have stronger reactions to stressors and negative events, are more likely to interpret minor set-backs as extremely problematic, and engage in excessive worrying and rumination. All of these characteristics are inherently processual. 
+
+Similarly, when considering a cognitive trait like intelligence, we see that individuals high on intelligence tend to have well-developed problem solving skills, and they are good at reasoning and learning. These examples show that traits---although defined as enduring and thus implying stablility over time---are fundamentally associated with processes that manifest themselves over time. Specifically, traits seem to refer to particular features of temporal patterns in affect, behavior, and cognition.    
+
+# Two different categories of processes
+
+We can distinguish between two main categories of processes that tend to be studied in psychology:
+
+a) _Stationary processes_, which are characterized by variation over time in the absence of a trend or structural changes; examples are mood regulation, maintaining physical fitness through regular exercise, and taking turns in a social interaction. 
+
+b) _Developmental processes_, which are characterized by longer-lasting changes that are (more or less) irreversible, such as a growth trend, or a stage transition; examples are the increase in vocabulary, the mastering of a specific skill like walking or being able to solve a second-order differential equation, or shifting from being single into a relationship or becoming a parent. Note that decline (as in slowly or more suddenly losing the ability to perform a certain task for instance) may also be considered an example of such a process. 
+
+This distinction should not be taken as categorical or absolute, and it tends to be related to the [timescale](../timescale.qmd) at which we are focusing. There are many examples where we may see a that a process is stationary in the short run, but is characterized by development if we zoom out further and consider a longer period.
+
+::: {.callout-tip collapse="true"}
+## Example: Development in day-to-day dynamics
+
+Mood regulation may be studied at a day-to-day basis, but if we consider this day-to-day dynamic across various years or decades of a person's life, we may well see that the dynamics change. Hence, while the process seems stationary in the short-run, this does not imply that there is no developmental process going on at a larger time span. 
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Example: A friendly conversation
+
+If we focus on a single social interaction between two friends, we may find that the episode can be divided into different phases that are distinct in for instance the pace at which the two friends take turns, or the emotional content of the information that is shared. The beginning of an interaction may be characterized by more rapid changes in taking turns while the content is light, whereas this changes to one of the people involved talking for much longer periods of time and sharing more emotional content when discussing their latest struggles at work, etc.. When considering multiple of such interactions, where we average over the entire interaction, it may be interpreted as a stationary process, but if we zoom in on one particular conversation, we may see a developmental process consisting of different phases, each of which is characterized by its own dynamics.  
+
+:::
+
+Hence, developmental processes may be characterized by episodes of more or less stationary processes when we zoom in; but similarly, a stationary process may be characterized by episodes that actually exhibit different dynamics when we zoom in even further. To what extent the data we obtain reflect a stationary or developmental process depends on how our measurement design relates to the timescale of the process, but also on how we analyze the data. 
+
+# Studying psychological processes
+
+In general, most psychological processes can be studied at various timescales, and there is not one particular timescale that is correct. It is important to consider the various timescales at which a process may manifest itself, and to consider how the evolution of a process at different timescales can be related.
+
+::: {.callout-tip collapse="true"}
+## Example: Learning how to verbally communicate
+
+Learning how to talk involves many processes, including developing one's vocabulary and mastering the grammar of a language, but also being able to take someone else's perspective. All of these aspects can be studied at various timescales, ranging from real time (truly momentary) to across the lifespan. 
+
+:::
+
+<!-- A process is a mechanism that determines how a unit changes over time.-->

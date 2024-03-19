@@ -49,7 +49,7 @@ We have collected various topics for you to read more about below.
 ## Read more: Refining research questions
 -   [Different research goals: Description, prediction, causal inference, intervention, explanation]
 -   [Conceptually defining your constructs]
--   [Studying inter-individual differences versus intra-individual differences]
+-   [Intra-individual versus inter-individual variation](../your-study/research-question/intra-vs-inter-individual-variation.qmd)
 :::
 
 
