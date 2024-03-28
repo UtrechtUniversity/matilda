@@ -76,39 +76,15 @@ The MATILDA project is led by the Dynamic Modeling Lab at Utrecht University. It
 
 ::: {.flex-pcard style="width: 45%;"}
 ::: flex-pcard-item
-![](resources/images/daan.jpg){width="150"}
-:::
-
-::: flex-pcard-item
-**Daan de Jong** <br> *MATILDA role* <br>Phd Candidate<br> Utrecht University <br> [Pages](experts/dejong.qmd)
-:::
-:::
-:::
-
-::: flex-pcard-container
-::: {.flex-pcard style="width: 45%;"}
-::: flex-pcard-item
 ![](resources/images/jeroen.jpg){width="150"}
 :::
 
 ::: flex-pcard-item
-**Jeroen Mulder** <br> *MATILDA role* <br>Phd Candidate<br> Utrecht University <br> [Pages](experts/mulder.qmd)
+**Jeroen Mulder** <br> *MATILDA role* <br>PhD Candidate<br> Utrecht University <br> [Pages](experts/mulder.qmd)
+:::
 :::
 :::
 
-::: {.flex-pcard style="width: 10%;"}
-:::
-
-::: {.flex-pcard style="width: 45%;"}
-::: flex-pcard-item
-
-:::
-
-::: flex-pcard-item
-
-:::
-:::
-:::
 ## External Experts
 
 ::: flex-pcard-container
@@ -118,7 +94,7 @@ The MATILDA project is led by the Dynamic Modeling Lab at Utrecht University. It
 :::
 
 ::: flex-pcard-item
-**IJsbrand Leertouwer** <br> *MATILDA role* <br> Postdoc. <br> Erasmus University <br> [Pages](experts/leertouwer.qmd)
+**IJsbrand Leertouwer** <br> *MATILDA role* <br> Postdoc <br> Erasmus University <br> [Pages](experts/leertouwer.qmd)
 :::
 :::
 
@@ -127,10 +103,11 @@ The MATILDA project is led by the Dynamic Modeling Lab at Utrecht University. It
 
 ::: {.flex-pcard style="width: 45%;"}
 ::: flex-pcard-item
+![](resources/images/daan.jpg){width="150"}
 :::
 
 ::: flex-pcard-item
-
+**Daan de Jong** <br> *MATILDA role* <br>DML Alumnus<br> Utrecht University <br> [Pages](experts/dejong.qmd)
 :::
 :::
 :::
