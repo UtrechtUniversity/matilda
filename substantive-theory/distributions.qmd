@@ -46,6 +46,11 @@ We have collected various topics for you to read more about below.
 -   [Floor and ceiling effects](distributions/floor-ceiling-effects.qmd)
 :::
 
+::: {.callout-note collapse="false"}
+## Read more: Distributions and timescales 
+-   [Key design aspects related to timescales: Time span, process coverage, and granularity](timescale/time-span-process-coverage-granularity.qmd)
+:::
+
 
 ```{=html}
 <!--

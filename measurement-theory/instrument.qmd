@@ -41,6 +41,7 @@ We have collected various topics for you to read more about below.
 
 -   [Using single item or multiple item measures](instrument/single-item-multiple-item-measures.qmd)
 -   [Questionnaire design]
+-   [Ordering questions in your questionnaire]
 -   [Sum or mean scores versus measurement models]
 
 
@@ -51,9 +52,12 @@ We have collected various topics for you to read more about below.
 ## Read more: Instrument Validation
 -   [Validation landing page](validation.qmd)
 -   [When are my measurements good enough?]
--   [Qualitative assessment of your instrument]
+-   [Qualitative evaluations of measurement instruments]
 -   [Reliability for single items](validation/reliability-single-item-measures.qmd)
 -   [Reliability for multiple item measures]
+-   [Face validity for ILD][Content validity for ILD]
+-   [Predictive, convergent, and divergent validity for ILD]
+
 :::
 
 

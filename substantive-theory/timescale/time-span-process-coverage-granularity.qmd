@@ -81,7 +81,7 @@ The time frame needs to be chosen such that we are not averaging over the fluctu
 
 Yet, time frames that are too narrow may also be problematic, in that they contain a lot of variation that is rather momentary and may be considered measurement error from the perspective of the actual process we are interested in. For instance, if we are interested in an adolescent's well-being (a concept that is concerned with somewhat more general, longer-lasting experiences rather than momentary experiences), then having ESM measures may contain more momentary information than we are interested in.    
 
-Hence, the [timescale](../your-study/timescale.qmd) at which a process is considered to operate, is critical in deciding what time frame of the the measurements is appropriate. 
+Hence, the [timescale](../timescale.qmd) at which a process is considered to operate, is critical in deciding what time frame of the the measurements is appropriate. 
 
 Furthermore, when using self-report, the time frame also is assumed to play a critical role in the mental processes that underlie the response people give. When the time frame is very short, then it is assumed that people make use of the episodic memory to arrive at an answer. As the time frame increases, it is assumed that individuals at some point switch to their semantic memory [REFERENCE?]. This has also been related to the difference between the experiencing self and the remembering self [REFERENCE?]. 
 
@@ -119,7 +119,7 @@ Pia is performing an ESM/EMA study, in which participants are asked multiple tim
 Jennifer is interested in the relation between semester reports and motivations of students. She therefore performed a panel study, with intervals between the measurements of 6 months.  
 :::
 
-Again, the [timescale](../your-study/timescale.qmd) at which the process of interest operates, is important here. If we want to study a process that takes place within a day, we need to obtain multiple measurements within a day, and the time interval between the measurements therefore need to be (much) shorter than a day. If our interest is in a developmental process that takes place over years, than the intervals between the measurements will typically be half a year or a year.
+Again, the [timescale](../timescale.qmd) at which the process of interest operates, is important here. If we want to study a process that takes place within a day, we need to obtain multiple measurements within a day, and the time interval between the measurements therefore need to be (much) shorter than a day. If our interest is in a developmental process that takes place over years, than the intervals between the measurements will typically be half a year or a year.
 
 
 ::: {.callout-tip collapse="true"}
@@ -377,7 +377,7 @@ The following practical considerations are also very important for the decision 
 -   [Event-Related Constructs](../context-events/event-relations.qmd)
 -   [External Validity for ILD]
 -   [How many repeated measurements do I need?]
--   [Relation constructs measured at different timescales](relating-constructs-time-scales.qmd)
+-   [Relating constructs measured at different timescales](relating-constructs-timescales.qmd)
 -   [Measurement Burst Designs]
 -   [Measurement Burst Designs: Event Contingent Bursts]
 -   [Remembering vs Experiencing Self]

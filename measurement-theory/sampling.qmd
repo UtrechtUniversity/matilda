@@ -41,9 +41,12 @@ We have collected various topics for you to read more about below.
 
 -   [Types of sampling designs]
 -   [Missing observations]
+-   [Night gaps in sampling designs]
+-   [Number of questions and measurements]
+-   [Timing of measurements]
+-   [Key design aspects related to timescales: Time span, process coverage, and granularity](../substantive-theory/timescale/time-span-process-coverage-granularity.qmd)
+-   [The distribution of a construct](../substantive-theory/distributions.qmd)
 -   [Ecological Momentary Assessment versus Ecological Retrospective Assessment]
--   [Key design aspects related to timescales: Time span, process coverage, and granularity](../../substantive-theory/timescale/time-span-process-coverage-granularity.qmd)]
-
 
 :::
 

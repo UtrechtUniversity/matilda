@@ -47,9 +47,9 @@ a) _stationary_, which implies there are no structural, longer-lasting changes o
 
 b) _homogeneous_, which implies that each unit from the ensemble (which we freely translate to: each individual from a population) are characterized by the same distributional properties (meaning, they have the same mean, variance, etc.)
 
-Since both requirements are unlikely to be met in practice when considering psychological processes, we should expect non-ergodicity to be the norm. When there is no ergodicity, this places limitations on how results can be generalized: We cannot generalize results form the population to the individual or vice versa (sometimes referred to as the generalization slip or [ecological fallacy](../your-study/ecological_fallacy.qmd)), nor can we simply generalize results from one individual to another.
+Since both requirements are unlikely to be met in practice when considering psychological processes, we should expect non-ergodicity to be the norm. When there is no ergodicity, this places limitations on how results can be generalized: We cannot generalize results form the population to the individual or vice versa (sometimes referred to as the generalization slip or ecological fallacy), nor can we simply generalize results from one individual to another.
 
-Whether a process is stationary and/or homogeneous are [research questions](../your-study/research-questions.qmd), and the answer to those questions are important for:
+Whether a process is stationary and/or homogeneous are [research questions](../your-study/research-question.qmd), and the answer to those questions are important for:
 
 - how we should measure the process; that is, to what extent should we worry about for whom or what time points we measure the process?
 - how we should analyze the process; that is, do we need to allow for more structural changes in the process across time and/or differences in the process across units?
@@ -66,6 +66,8 @@ We have collected various topics for you to read more about below.
 ## Read more: (Non-)Stationarity
 -   [Stationarity]
 -   [Regime switching processes](ergodicity/regime-switching-processes.qmd)
+-   [Time-varying processes]
+-   [Cycles, periodicities, and seasonality]
 :::
 
 ::: {.callout-note collapse="false"}

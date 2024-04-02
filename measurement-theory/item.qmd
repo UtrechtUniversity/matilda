@@ -42,6 +42,10 @@ We have collected various topics for you to read more about below.
 -   [Answer option design]
 -   [Question design]
 -   [Floor and ceiling effects](../substantive-theory/distributions/floor-ceiling-effects.qmd)
+-   [Measurement scales] 
+-   [Anchoring for answer options]
+-   [Ecological Momentary Assessment vs Ecological Retrospective Assessment]
+-   [Response bias]
 
 :::
 
@@ -49,9 +53,12 @@ We have collected various topics for you to read more about below.
 
 ## Read more: Item validation
 -   [Validation landing page](validation.qmd)
--   [Qualitative assessment of your items]
--   [Face validity for ILD items]
+-   [Face validity for ILD]
+-   [Content validity for ILD]
 -   [Reliability for single items](validation/reliability-single-item-measures.qmd)
+-   [Reliability for multiple item measures]
+-   [Predictive, convergent, and divergent validity for ILD]
+-   [Qualitative evaluations of measurement instruments]
 
 :::
 

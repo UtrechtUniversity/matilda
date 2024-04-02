@@ -45,5 +45,6 @@ We have collected various topics for you to read more about below.
 -   [Phenomena]
 -   [From theory to research question]
 -   [From research question to theory]
+-   [Aligning Theory, Design and Modeling Approach]
 :::
 
