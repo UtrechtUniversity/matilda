@@ -77,7 +77,7 @@ We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
 ## Read more: Consequences of non-ergodicity
--   [Intra-individual differences or inter-individual differences]
+-   [Intra-individual versus inter-individual variation](../your-study/research-question/intra-vs-inter-individual-variation.qmd)
 -   [The 'Within/Between' Problem]
 :::
 

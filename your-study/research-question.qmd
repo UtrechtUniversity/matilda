@@ -42,14 +42,14 @@ We have collected various topics for you to read more about below.
 -   [Theory formation]
 -   [From theory to research question]
 -   [Formulating a clear research question] 
--   [Substantive theory]
--   [Measurement theory]
+-   [Substantive theory](../substantive-theory/substantive-theory.qmd)
+-   [Measurement theory](../measurement-theory/measurement-theory.qmd)
 :::
 
 ::: {.callout-note collapse="false"}
 ## Read more: Refining research questions
 -   [Different research goals: Description, prediction, causal inference, intervention, explanation]
--   [Conceptually defining your constructs]
+-   [Conceptually defining your construct]
 -   [Intra-individual versus inter-individual variation](../your-study/research-question/intra-vs-inter-individual-variation.qmd)
 :::
 
