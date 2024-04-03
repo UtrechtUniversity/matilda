@@ -1,5 +1,5 @@
 ---
-title: Event-Relations
+title: (Not) Accounting for Event-Relations 
 categories: ['Substantive theory', 'Event-relations', 'Events', 'Event-contingent', 'Context']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
@@ -20,165 +20,160 @@ google-scholar: true
 ---
 
 ::: callout-caution
-
 ## This page has not been peer-reviewed yet.
-
 :::
 
-::: {.callout-note}
+::: callout-note
 ## Want to cite this page? See [citation info](event-relations.html#citation).
 :::
 
-In everyday life, people constantly engage with their environment. Consequently, many psychological constructs assessed with ILD should substantively be assumed to be event-related. 
+In everyday life, people constantly engage with their environment. Consequently, many psychological constructs assessed with ILD should substantively be assumed to be event-related.
 
 However, even when event-relation is not explicitly discussed in substantive theory, the set-up of an ILD design can implicitly make assumptions about event-relation in constructs.
 
 On this page, we will introduce you to several substantive assumptions that you introduce to a study design, by (not) accounting for specific types of event-relations.
 
-# Explicit and implicit assumptions about event-relations 
+# Explicit and implicit assumptions about event-relations
 
-Many ILD designs do not explicitly account for event-relations in behavior. However, this does not mean that no assumptions are being made about event-relations for the construct of interest. 
+Many ILD designs do not explicitly account for event-relations in behavior. However, this does not mean that no assumptions are being made about event-relations for the construct of interest. Participants will always encounter a number of situations every day, and many of those potentially impact measurement of the construct - and interpretability of study outcomes later on.
 
-Participants will always encounter a number of situations every day, and many of those potentially impact measurement of the construct. If we do not explicitly account for these influences, we are assuming we can ignore those influences when answering our research question. - we are assuming that the construct is varying independently of context. This is often an implicit assumption. If we do want to account for these influences, we typically need to make more explicit assumptions about the mechanism behind these influences.
+Not accounting for for event-relations in ILD design <i>explicitly</i>, means that we are <i>implicitly</i> assuming that events and context can be averaged out - that they are not of theoretical relevance to the research question.
 
-##  Unconditional Processes: Constructs independent of Context
+If we do explicitly account for event-relations, there are still subtle design differences which can imply vastly different substantive assumptions. Roughly, we can think of three different types of event-relation.
+
+## Unconditional Processes: What it means when we do not account for context.
 
 When collecting ILD from the everyday life of participants, measurements likely almost always capture some degree of situational influences on the measured construct. However, not all of these influences necessarily need to be accounted for in an ILD design:
 
-When we do not explicitly account for situational influences on our constructs, we implicitly treat those influences as random error. This random error is in turn assumed to cancel itself out - some influences are positive, some negative - over a sufficiently large number of independent observations. This means that we are assuming the construct to be changing independently of concrete contexts or experiences a person encounters. This could for example be the case for measuring severe forms of (irrational) negative affect where real experiences have little to no relevance for the affective experience of individuals or for qualities believed to be dispositional like personality.
+When we do not explicitly account for situational influences on our constructs, we implicitly treat those influences as random, independent measurement error. This random error is in turn assumed to cancel itself out - some influences are positive, some negative - over a sufficiently large number of independent observations. This means two things: First, it assumes that situational influences have no structural relationship with the construct under observations, or with each other. That is, there should be no plausible substantive explanation for the occurrence of random error. Second, if the first statement is true, this simultaneously implies that the construct under study occurs and changes independently of the context in which it may be observed. For example, we might assume that individuals suffering from chronic stress experience a general feeling of tension in their daily lives <i>regardless</i> of whether they are currently in a stressful work meeting, or spending their free time.
 
-In any case, making this assumption is most reasonable if ones substantive theory states that situational factors are not of a big importance to the process under study. In this case, the process is treated to be <i>unconditional</i>, that is, independent of (unobserved) situational influences. This means, when the research question concerns a construct which can be reasonably argued to vary or change independently of situational influences, one may not need to explicitly measure situational factors in an ILD design.
-Research aiming to study constructs which are substantively assumed to be independent of context hence need not account for situational factors. Research not accounting for situational factors is automatically assuming that the construct of interest is an *unconditional process*.
+In this case, the process is treated to be <i>unconditional</i>, that is, independent of (unobserved) situational influences.Research aiming to study constructs which are substantively assumed to be independent of context hence need not account for situational factors. On the other hand, research not accounting for situational factors automatically assumes that the construct of interest is an *unconditional process*.
 
 ::: {.callout-tip collapse="true"}
-
 ## Example 1: Conscientiousness in Daily Life
 
-Francesca is interested in studying the manifestation of trait conscientiousness in daily life. Three times a day, the ESM protocol asks participants "How conscientious are you right now?". No situational variables are measured. 
+Francesca is interested in studying the manifestation of trait conscientiousness in daily life. Three times a day, the ESM protocol asks participants "How conscientious are you right now?". No situational variables are measured.
 
-In the resulting time series, the means of the conscientiousness scores of different people correlate highly with trait conscientiousness measured with a cross-sectional personality trait questionnaire. 
+In the resulting time series, the means of all conscientiousness scores of a timeseries correlate highly with trait conscientiousness measured with a cross-sectional personality trait questionnaire.
 
-The researcher interprets this result in the following way: Trait conscientiousness manifests as the *unconditional mean* (i.e. the mean of the entire time series; not corrected for situational factors) of being conscientious in daily life.
-
+Francesca interprets this result in the following way: Trait conscientiousness is an internal, static characteristic of a person. Therefore, it manifests as an *unconditional process* in daily life. Some people are in general simply more conscientious than others! 
 :::
 
 ::: {.callout-note collapse="true"}
 ## Substantive assumptions
+
 If you believe the construct is unconditional and can be measured without accounting for context, you are making an number of implicit assumptions:
 
-- The construct occurs independently of specific situational factors (e.g. mood)
-- There is not important change or variation in the construct that is due to situational factors (e.g."How do you feel in general?" vs. "How do you feel after a fight?")
-- The construct is well-defined
+-   The construct occurs independently of specific situational factors 
+-   There is not important change or variation in the construct that is due to situational factors (e.g."How do you feel in general?" vs. "How do you feel after a fight?")
+-   The construct is well-defined, such that one can be sure that the prior two can be assumed
 
 ## Read more:
 
-- [When is a construct well-defined?]
-
-
+-   \[When is a construct well-defined?\]
 :::
+
 Often it is not reasonable to assume that situations and context play no role in our measurements.In the next section, two ways of accounting for event-relation of constructs will be discussed.
 
-
 # What kinds of event-relations can I assume?
+
+```{=html}
 <!-- I think that in the below sentence ' an independent occurance' is confusing, because it is kind of not independent. The two are dependent in statistical terms at least for sure. Maybe just leave that bit out.
 I removed it now: "is an independent occurrence from the construct, but it"-->
+```
+In general, constructs measured in ILD can be related to measurements of events/situations in two ways:
 
-In general, constructs measured in ILD can be related to measurements of events/situations in two ways: 
+-   The event influences the construct to change in some way (i.e. the research question may be of causal nature)
 
-- The event influences the construct to change in some way (i.e. there is some causal relationship between the event and the construct). 
-
-- The event is a necessary condition for the construct to occur. 
+-   The construct can only be observed in specific contexts (i.e. the event is a necessary condition for the construct)
 
 We will discuss both options in more detail next.
 
-Note that these two options should usually considered as mutually exclusive:An important pre-condition for assuming a causal relationship is that the cause and the outcome are conceptually independent from each other. That is, if two things are interdependent, it is hard to argue for a causal relationship. The same is true for accounting for event-relations: If a construct is defined such that it cannot occur indepedntly of a specific situation (e.g. "socializing" requires people around), it is confusing to argue that the context causes the construct (e.g. do people cause socializing?).
+::: {.callout-note collapse="true"}
+## Important Note
+Note that these two options should usually considered as mutually exclusive: An important pre-condition for assuming a causal relationship is that the cause and the outcome are conceptually independent from each other. That is, if two things can only be observed at the same time, or the outcome cannot occur without the event, relationships between the two cannot be interpreted clearly.
+Being at a busy social gathering may cause a person to either feel "uneasy" or "happy. Both experiences can be felt outside of the social context, hence establishing a relationship between the social situation and feeling more "uneasy" or "happy" is meaningful. Conversely, a stochastic relationship between attending a social gathering and "socializing" is substantially harder to interpret as it is essentially impossible to socialize without being in a social context.
+:::
 
 ## Contrasts Processes: Constructs affected by Events
 
-Often, research questions either concern a) the effect that specific situations have on a construct or b) the degree to which a person is prone to reacting to specific events. This means, we are interested in measuring how a construct changes *after* an event occured. Here, we call these kinds of event-relations <i>contrasts</i>.
+Often, research questions either concern a) the effect that specific situations have on a construct or b) the degree to which a person is prone to reacting to specific events. This means, we are interested in measuring how a construct changes *after* an event occurred. Here, we call these kinds of event-relations <i>contrasts</i>.
 
 In a contrast event-relation, we are interested in the difference in a construct before and after an event occurred. In other words, we are interested in capturing the increase in construct *Y*, that is due to situation/event *S*.
 
 ::: {.callout-tip collapse="true"}
 ## Contrasts as Model Features
 
-Contrasts can be assessed by defining the hypothesiszed effects in a model.
-For example, we can express them as:
+Contrasts can be assessed by defining the hypothesized effects in a model. For example, we can express them as:
 
-$$Y_{t} = c + b_1*S_{t-1} + e_{t}$$
-Here, coefficient *b1* expresses the reaction/contrast created by the event. If no event is reported, *b1* will not influence *Y* at time point *t*.
+$$Y_{t} = c + b_1*S_{t-1} + e_{t}$$ Here, coefficient *b1* expresses the reaction/contrast created by the event. If no event is reported, *b1* will not influence *Y* at time point *t*.
 
-Note: this is a simple example meant to illustrate the functionality of model features to account for event-relations. In practice models can be more complicated or account for contrast event-relations in alternative ways, for example by measuring *S* as continuous and defining cross-lagged effects. 
-
-
+Note: This is an exemplary model to illustrate the functionality of model features to account for event-relations. In practice models can be more complicated or account for contrast event-relations in alternative ways, for example by measuring *S* as continuous and defining cross-lagged effects.
 :::
 
 ::: {.callout-tip collapse="true"}
-
 ## Example 2: Conscientiousness in Daily Life
-<!-- if same researcher, use a name and use the same name here -->
-Francesca would also like to study people's reactions to mess in the workplace as a sign of trait conscientiousness. The hypothesis is that very conscientious people, will strongly react to encountering mess and will report to feel uncomfortable after. For this, they come up with an esm protocol measuring two variables, multiple times a day. The first variable is  *S = "Right now, to what extend are you in a messy environment?"*, the second variable is *Y = "comfort/discomfort "Right now, to what extend did you feel comfortable/uncomfortable?*.
 
-In a model, *S* can be defined to have a lag-1 to lag-d relationship with current measures of *Y*. With this, the researcher is able to estimate the effect of *S* on *Y*. This coefficient can be interpreted to represent a participants tendency to be *reactive to* mess. 
 
-Note: defining and measuring such effects heavily assumes an appropriate selection of timescales.
+Francesca would also like to study people's reactions to mess in the workplace as a sign of trait conscientiousness. The hypothesis is that very conscientious people, will strongly react to encountering mess and will report to feel uncomfortable after. For this, they come up with an esm protocol measuring two variables, multiple times a day. The first variable is *S = "Right now, to what extend are you in a messy environment?"*, the second variable is *Y = "comfort/discomfort"Right now, to what extend did you feel comfortable/uncomfortable?*.
+
+In a model, *S* can be defined to have a lag-1 to lag-d relationship with current measures of *Y*. With this, Francesca is able to estimate the effect of *S* on *Y*. This coefficient can be interpreted to represent a participants tendency to be *reactive to* mess.
+
+Note: defining and measuring lagged effects heavily assumes an appropriate selection of time scales.
 :::
 
 In summary, contrast event-relations require the measurement of relevant situational factors, such that central constructs (and changes therein) can be related to the occurrence of events in later models. Through this, we can assess a) if certain situations affect a construct, but also b) to what extend people are reactive/sensitive to particular types of events.
 
 ::: {.callout-note collapse="true"}
 ### Constrasts: Substantive assumptions
+
 If you believe there is a contrast relationship like the above, you are making an number of implicit assumptions:
 
-- *Y* and *S* are conceptually distinct constructs
-- You are interested in the (causal) effect of *S* on *Y*
-- You are assuming that the variables are measured at the correct timescale
-- You are assuming that *Y* is a function of *S* 
-- You are assuming that *Y* and *S* are well-defined
-- You are assuming that you are measuring the construct at an appropriate timescale.
+-   *Y* and *S* are conceptually distinct constructs (i.e. it is conceivable that they can be observed indepently of each other)
+-   You are interested in the (causal) effect of *S* on *Y*
+-   You are assuming that the variables are measured at the correct timescale
+-   You are assuming that *Y* is a function of *S*
+-   You are assuming that *Y* and *S* are well-defined
 :::
+
 ::: {.callout-note collapse="true"}
-## Read more: Measuring at the appropriate timescale
+## Read more: Measuring at the appropriate time scale
 
-- [Timescale landing page](../timescale.qmd)
+-   [Time scale landing page](../timescale.qmd)
 
-- [Causal Inference with ILD]
-
+-   \[Causal Inference with ILD\]
 :::
-
 
 ## Conditional Processes: Constructs defined as part of a Context
 
-Conditional event-relations differ from contrasts in the substantive assumptions about the relationship between *Y* and *S*. Concretely, here we assume that *Y* only occurs or is only measurable within occurrences of *S*. This is the case if a construct, per definition, cannot be observed in absence of a situational pre-condition. *Y* and *S* may therefore be measured retrospectively and at the same time. As *S* is a necessary condition for *Y*, no lag between the constructs has to be specified. In ESM studies, we often see this in the form of event-contingent designs: a more elaborate questionnaire protocol is initiated only after a specific type of event was reported.
+Conditional event-relations differ from contrasts in the substantive assumptions about the relationship between *Y* and *S*. Concretely, here we assume that *Y* only occurs or is only measurable while *S* occurs. This is the case if a construct, per definition, cannot be observed in absence of a situational pre-condition. *Y* and *S* may therefore be measured retrospectively and at the same time. As *S* is a necessary condition for *Y*, no lag between the constructs has to be specified. In ESM studies, we often see this in the form of event-contingent designs: a more elaborate questionnaire protocol is initiated only after a specific type of event was reported.
 
 ::: {.callout-tip collapse="true"}
-
 ## Example 3: Conscientiousness in Daily Life
 
-Furthermore, Francesca is interested in assessing another state measure of daily conscientiousness. Concretely, she thinks "hardworkingness" is an interesting variable to consider and that high means in state-hardworkingness will correlate with trait Conscientiousness. At first glance, *hardworkingness* appeared to be a normal state variable, which could be measured without accounting for situational factors. 
+Furthermore, Francesca is interested in assessing another state measure of daily conscientiousness. Concretely, she thinks "hardworkingness" is an interesting variable to consider and that high means in state-hardworkingness will correlate with trait Conscientiousness. At first glance, *hardworkingness* appeared to be a normal state variable, which could be measured the same way as the general state-conscientiousness measure.
 
-However, at second glance Francesca encounters a problem: When measuring "How hardworking are you right now?", not all measurement occasions are equally important, as there simply is not a lot of *work to do* during weekends or in the evening. Therefore, Francesca includes a situational variable *S* into the procedure, and couples the assessment of *Y* to positive responses on *S*. If "Right now, is there work to be done?" (*S*) is answered with 'yes', *Y* ("How hardworking are you right now?") can be asked.
+However, at second glance Francesca encounters a problem: When measuring "How hardworking are you right now?", not all measurement occasions are equally important, as there simply is not a lot of *work to do* during weekends or in the evening. Therefore, Francesca includes a situational variable *S* into the procedure, and couples the assessment of *Y* to positive responses on *S*. If "Right now, is there work to be done?" (*S*) is answered with 'yes', a prompt to report *Y* ("How hardworking are you right now?") will be triggered.
 :::
 
 ### Substantive Assumptions
+
 If you believe the construct is conditional and needs to be measured within specific contexts, you are making an number of implicit assumptions:
 
-- You are assuming that *S* and *Y* are conceptually inter-dependent rather than causally connected
-- You are assuming that you can only gain a valid measurement of construct *Y* if *S* currently occurs
-- You are assuming your construct is well-defined
-- You are assuming that you are measuring the construct at an appropriate timescale.
-
+-   You are assuming that *S* and *Y* are conceptually inter-dependent rather than causally connected
+-   You are assuming that you can only gain a valid measurement of construct *Y* if *S* currently occurs
+-   You are assuming your construct is well-defined
+-   You are assuming that you are measuring the construct at an appropriate timescale.
 
 ::: {.callout-note collapse="true"}
 ## Read more
 
-- [Event-Contingent Design]
-- [ESM/EMA protocols for measuring events (link to ESM textbook)]
-
+-   \[Event-Contingent Design\]
+-   \[ESM/EMA protocols for measuring events (link to ESM textbook)\]
 :::
 
 # Practical Considerations
 
 The following practical considerations are also important for the decision studying event-relation with ILD, but are not considered further on this website.
 
-- ESM/EMA protocols for measuring events (link to ESM textbook)
+-   ESM/EMA protocols for measuring events (link to ESM textbook)
