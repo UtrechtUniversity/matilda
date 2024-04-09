@@ -16,7 +16,7 @@ author:
       - name: Methodology &amp; Statistics, Utrecht University
 csl: ../../resources/styles/apa.csl
 citation: true
-# bibliography: ../../resources/bibliographies/reliability-single-item-measures.bib
+bibliography: ../../resources/bibliographies/time-span-process-coverage-granularity.bib
 google-scholar: true
 ---
 
@@ -25,7 +25,7 @@ google-scholar: true
 :::
 
 ::: callout-note
-This article builds on @hamaker-24
+This article builds on @hamaker-23
 :::
 
 
@@ -278,11 +278,6 @@ When the time frame of the measurement instrument and the time interval between 
 
 Patrick is conducting a panel study with measurements being one year apart, asking people to rate their well-being over the past year. Hence, the time frame of the measurements is identical to the time interval between the measurements, such that for the entire time span of the study, every moment of the process is captured by exactly one measurement frame. 
 :::
-
-::: {.callout-tip collapse="true"}
-
-
-
 
 ::: {.callout-tip collapse="true"}
 ## Example: Daily diary study
