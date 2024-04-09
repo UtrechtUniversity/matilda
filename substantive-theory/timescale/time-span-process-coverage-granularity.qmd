@@ -1,5 +1,5 @@
 ---
-title: "Time span, process coverage, and granularity."
+title: "Time span, process coverage, and granularity"
 categories: ['Substantive theory', 'Timescale', 'Granularity', 'Time span', 'Time interval', 'Number of measurements', 'Time frame']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
