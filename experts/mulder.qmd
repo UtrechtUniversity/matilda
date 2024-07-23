@@ -2,8 +2,8 @@
 title: "Pages by Jeroen D. Mulder"
 listing:
   contents:
-    - "../measurement-theory/*.qmd"
-    - "../measurement-theory/*/*.qmd"
+    - "../measurement/*.qmd"
+    - "../measurement/*/*.qmd"
     - "../substantive-theory/*.qmd"
     - "../substantive-theory/*/*.qmd"
     - "../your-study/*.qmd"

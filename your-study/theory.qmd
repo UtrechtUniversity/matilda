@@ -40,7 +40,7 @@ We have collected various topics for you to read more about below.
 ::: {.callout-note collapse="false"}
 ## Read more: Theory
 -   [Substantive theory](../substantive-theory/substantive-theory.qmd)
--   [Measurement theory](../measurement-theory/measurement-theory.qmd)
+-   [Measurement theory](../measurement/measurement.qmd)
 -   [Theory formation]
 -   [Phenomena]
 -   [From theory to research question]

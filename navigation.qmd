@@ -116,7 +116,7 @@ aItem = {
   if (qItem.some((element) => element == 1)) {
     const li1 = document.createElement("li");
     var link = document.createElement("a");
-    link.href = "measurement-theory/validation/reliability-single-item-measures.html";
+    link.href = "measurement/validation/reliability-single-item-measures.html";
     link.appendChild(document.createTextNode("Reliability for single item measures"));
     li1.appendChild(link);
     ul.appendChild(li1);
@@ -124,7 +124,7 @@ aItem = {
   if (qItem.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "measurement-theory/validation.html";
+    link2.href = "measurement/validation.html";
     link2.appendChild(document.createTextNode("Validation landing page"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -132,7 +132,7 @@ aItem = {
   if (qItem.some((element) => element == 3)) {
     const li3 = document.createElement("li");
     const link3 = document.createElement("a");
-    link3.href = "measurement-theory/instrument/single-item-multiple-item-measures.html";
+    link3.href = "measurement/instrument/single-item-multiple-item-measures.html";
     link3.appendChild(document.createTextNode("Using single item or multiple item measures"))
     li3.appendChild(link3);
     ul.appendChild(li3);

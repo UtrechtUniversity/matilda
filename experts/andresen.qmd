@@ -2,8 +2,8 @@
 title: "Pages by Pia K. Andresen"
 listing:
   contents:
-    - "../measurement-theory/*.qmd"
-    - "../measurement-theory/*/*.qmd"
+    - "../measurement/*.qmd"
+    - "../measurement/*/*.qmd"
     - "../substantive-theory/*.qmd"
     - "../substantive-theory/*/*.qmd"
     - "../your-study/*.qmd"

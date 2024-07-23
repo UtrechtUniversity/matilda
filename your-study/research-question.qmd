@@ -43,7 +43,7 @@ We have collected various topics for you to read more about below.
 -   [From theory to research question]
 -   [Formulating a clear research question] 
 -   [Substantive theory](../substantive-theory/substantive-theory.qmd)
--   [Measurement theory](../measurement-theory/measurement-theory.qmd)
+-   [Measurement theory](../measurement/measurement.qmd)
 :::
 
 ::: {.callout-note collapse="false"}
