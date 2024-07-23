@@ -30,45 +30,39 @@ This page concerns the difference between intra-individual variability and inter
 
 ![Cattell's data box showing how intra-individual N=1 data differ from inter-individual cross-sectional data.](../../resources/images/databox.svg){#fig-databox}
 
-
 @cattell-52 indicated that data can be thought of as a sample from a data box that is characterized by three dimensions: variables, persons, and occasions.
 
 # Single-subject, cross-sectional, and panel research
 
- _Cross-sectional data_ consists of data obtained form many persons, and typically of multiple variables, at one particular occasion. _Panel data_ consists of a sample of multiple persons, one or more variables, and a small number of occasions. _Time series data_ consist of data from a single person, on one or more variables, obtained at a large number of occasions.
+*Cross-sectional data* consists of data obtained form many persons, and typically of multiple variables, at one particular occasion. *Panel data* consists of a sample of multiple persons, one or more variables, and a small number of occasions. *Time series data* consist of data from a single person, on one or more variables, obtained at a large number of occasions.
 
-When referring to _intra-individual variation_, we are concerned with a slice from Cattell's data box that consists of one person and many occasions. Such data are known as a time series, or as N=1 or single subject data. Cattell proposed to factor analyze such data to determine a specific person's unique factor structure; this technique is known as Cattell's P-technique. Others have focused on the temporal order of the observations using techniques from the time series literature; it is focused on the lagged relations between variables, which are important for the dynamics. Examples are dynamic factor analysis, autoregressive moving average modeling, and spectral analysis. 
+When referring to *intra-individual variation*, we are concerned with a slice from Cattell's data box that consists of one person and many occasions. Such data are known as a time series, or as N=1 or single subject data. Cattell proposed to factor analyze such data to determine a specific person's unique factor structure; this technique is known as Cattell's P-technique. Others have focused on the temporal order of the observations using techniques from the time series literature; it is focused on the lagged relations between variables, which are important for the dynamics. Examples are dynamic factor analysis, autoregressive moving average modeling, and spectral analysis.
 
-In contrast, _inter-individual variation_ typically concerns the individual differences at one occasion. Such a slice is referred to as cross-sectional research.  
+In contrast, *inter-individual variation* typically concerns the individual differences at one occasion. Such a slice is referred to as cross-sectional research.
 
-When we obtain a small number of repeated measures from a large sample of individuals (known as panel data), we are also concerned with analyzing inter-individual variation.  
-
+When we obtain a small number of repeated measures from a large sample of individuals (known as panel data), we are also concerned with analyzing inter-individual variation.
 
 # Intra-individual versus inter-individual correlations
 
-Many of the techniques that are used for the analysis of multivariate data are based on considering the correlation structure of these data; examples are regression analysis, mediation analysis, and factor analysis. It is thus helpful to understand why the intra-individual correlation and the inter-individual correlation are different from each other, and how/whether they are related. 
+Many of the techniques that are used for the analysis of multivariate data are based on considering the correlation structure of these data; examples are regression analysis, mediation analysis, and factor analysis. It is thus helpful to understand why the intra-individual correlation and the inter-individual correlation are different from each other, and how/whether they are related.
 
 For the intra-individual correlation, we consider the temporal deviations of a person from their own long-run mean over time; when obtaining these for two variables, we can determine whether the deviations of both variables are related (i.e., correlated).
 
 For the inter-individual correlation (like the cross-sectional correlation, but also the test-retest correlation), we consider the deviation of each person from the grand mean of the population. Subsequently, we can investigate whether across individuals the deviations of individuals on one variable are related to those on another variable.
 
-Hence, when we have the score of a specific person at a specific point in time on a particular variable, this may imply very different deviations depending on whether we consider an intra-individual or an inter-individual perspective: Compared to this person's long-run mean, the score may be quite high, while compared to the grand mean of the population at that occasion it may be quite low. 
+Hence, when we have the score of a specific person at a specific point in time on a particular variable, this may imply very different deviations depending on whether we consider an intra-individual or an inter-individual perspective: Compared to this person's long-run mean, the score may be quite high, while compared to the grand mean of the population at that occasion it may be quite low.
 
-As a result, the cross-sectional correlation based on inter-individual variation may be quite different than the person-specific correlation based on intra-individual variation. You can read more about this in @hamaker-23. Furthermore, [https://noemikschuurman.shinyapps.io/withinbetweenapp/](https://noemikschuurman.shinyapps.io/withinbetweenapp/) provides an interactive tool that allows the user to get more insight in the cross-sectional correlation. 
-
-
+As a result, the cross-sectional correlation based on inter-individual variation may be quite different than the person-specific correlation based on intra-individual variation. You can read more about this in @hamaker-23. Furthermore, <https://noemikschuurman.shinyapps.io/withinbetweenapp/> provides an interactive tool that allows the user to get more insight in the cross-sectional correlation.
 
 # Intra-inter versus within-between
 
-The terms _intra-individual_ and _inter-individual_ are sometimes used interchangeably with the terms _within-person_ and _between-person_. Although there is no consensus on the precise meaning of these four terms, it is important to be aware that the within-between distinction is not necessarily referring to the intra-inter distinction.
+The terms *intra-individual* and *inter-individual* are sometimes used interchangeably with the terms *within-person* and *between-person*. Although there is no consensus on the precise meaning of these four terms, it is important to be aware that the within-between distinction is not necessarily referring to the intra-inter distinction.
 
-The terms intra-individual and inter-individual seem to be mostly used in the context of different slices from Cattell's data box, such that intra-individual is very much specific to a particular individual, and inter-individual is concerned with individual differences often (but not necessarily) at one point in time. 
-The terms within-person and between-person have stronger connections with the mutlilevel literature, in which various levels in the data may be distinguished when data have a nested structure. Longitudinal data from multiple individuals (or dyads) can be thought of as having such a nested structure, with repeated measures nested in persons. In analyzing these data, researchers may want to distinguish between the relation between variables at the within-person level, versus the relation between the same variables at the between-person level.
+The terms intra-individual and inter-individual seem to be mostly used in the context of different slices from Cattell's data box, such that intra-individual is very much specific to a particular individual, and inter-individual is concerned with individual differences often (but not necessarily) at one point in time. The terms within-person and between-person have stronger connections with the mutlilevel literature, in which various levels in the data may be distinguished when data have a nested structure. Longitudinal data from multiple individuals (or dyads) can be thought of as having such a nested structure, with repeated measures nested in persons. In analyzing these data, researchers may want to distinguish between the relation between variables at the within-person level, versus the relation between the same variables at the between-person level.
 
-The connection with intra-individual and inter-individual as described in the context of Cattell's data box can then be understood as follows. The within-person level is closely related to the intra-individual approach, but it may consist of averaging over all the person-specific intra-individual results, or assumes a distribution for the person-specific results. The between-person level is different from the inter-individual result, in that it consists of averaging over time first, whereas the inter-individual result is often based on a single measurement occasion such that averaging over time is not possible. 
+The connection with intra-individual and inter-individual as described in the context of Cattell's data box can then be understood as follows. The within-person level is closely related to the intra-individual approach, but it may consist of averaging over all the person-specific intra-individual results, or assumes a distribution for the person-specific results. The between-person level is different from the inter-individual result, in that it consists of averaging over time first, whereas the inter-individual result is often based on a single measurement occasion such that averaging over time is not possible.
 
-It has been shown that the inter-individual result (such as the cross-sectional correlation) can be thought of as a mix of the (average) intra-individual result and the between-person result (@hamaker-23). 
-
+It has been shown that the inter-individual result (such as the cross-sectional correlation) can be thought of as a mix of the (average) intra-individual result and the between-person result (@hamaker-23).
 
 ## Think more about your research question
 
@@ -76,7 +70,6 @@ We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
 ## Read more: Substantive theory
--  [The 'Within/Between' Problem]
-<!-- -   [Formal model](\FormalModel_General.qmd) -->
-:::
 
+-   \[The 'Within/Between' Problem\] <!-- -   [Formal model](\FormalModel_General.qmd) -->
+:::
