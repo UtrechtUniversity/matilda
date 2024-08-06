@@ -18,7 +18,7 @@ filters:
 
 [MATILDA provides information for researchers <br> that want to study processes with intensive longitudinal data.]{style="font-size: 20px;"}
 
-##### [**MATILDA haiku:**]{style="font-family:Merriweather;"}
+##### [**MATILDA mission:**]{style="font-family:Merriweather;"}
 
 [*MATILDA helps researchers consider their <br> goals, substantive theory, measurement theory & design <br> and how all these intertwine.*]{style="font-size: 18px;font-family: Merriweather;"}
 
