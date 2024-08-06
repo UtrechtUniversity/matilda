@@ -1,0 +1,59 @@
+---
+title: "Context and events landing page"
+categories: ['Context','Events', 'Event-contingent', 'Theory', 'Landing page']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-06-26
+date-modified: last-modified
+author:
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
+citation: true
+bibliography: ../resources/bibliographies/pagename_references.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](context-events.html#citation).
+:::
+
+This is the landing page for everything related to the <i> context and events </i> that may affect the [process](../processes.qmd) you are studying.
+
+Psychological or other social science processes are likely to be affected by the context the process operates in, and external events that may occur along the way. It is important to consider the importance of the context and events for your process of interest, so you know what to measure about the context and events in addition to the core [constructs](../theory/your-study/constructs.qmd) of your process. You may also tailor your [sampling design](../measurement/sampling.qmd) to events. 
+
+## Think more about context and events
+
+We have collected various topics for you to read more about below.
+
+::: {.callout-note collapse="false"}
+## Read more: Context and events
+-   [How do events play into my process of interest?](context-events/event-relations.qmd)
+-   [Event-contingent sampling designs]
+:::
+
+
+```{=html}
+<!--
+# Related pages
+
+-   [Measurement coverage, time span, & granularity.](/TScale_MeasCoverage.html)
+
+-   [Measuring and Relating Multiple Constructs Measured at Different Timescales](/TScale_RelatingConstructs.html)
+
+-   [Capturing Regime Switches](/TScale_Switches.html)
+
+-   [Event-Relations in ILD Measurement](/EventRelations.html)
+
+-   [Measurement Burst Designs]
+-->
+```

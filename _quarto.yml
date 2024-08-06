@@ -22,27 +22,20 @@ website:
       - href: processes.qmd
         text: "About processes"
       - text: "---"
-      - section: "Your study"
-        href: your-study/your-study.qmd
+      - section: "Theory"
+        href: theory/theory.qmd
         contents:
-          - href: your-study/research-question.qmd
-            text: "Research question"
-          - href: your-study/theory.qmd
-            text: "Theory"
-          - href: your-study/constructs.qmd
-            text: "Constructs"
-      - section: "Substantive theory"
-        href: substantive-theory/substantive-theory.qmd
-        contents:
-          - href: substantive-theory/timescale.qmd
+          - href: theory/your-study.qmd
+            text: "Your study"
+          - href: theory/timescale.qmd
             text: "Timescale"
-          - href: substantive-theory/ergodicity.qmd
+          - href: theory/ergodicity.qmd
             text: "Ergodicity"
-          - href: substantive-theory/context-events.qmd
+          - href: theory/context-events.qmd
             text: "Context and events"
-          - href: substantive-theory/distributions.qmd
+          - href: theory/distributions.qmd
             text: "Distributions"
-      - section: "Measurement theory"
+      - section: "Measurement"
         href: measurement/measurement.qmd
         contents:
           - href: measurement/item.qmd

@@ -1,0 +1,99 @@
+---
+title: "Ergodicity landing page"
+categories: ['Ergodicity', 'Landing page', 'Stationarity', 'Homogeneity']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-06-26
+date-modified: last-modified
+author:
+  - name:
+      given: Noémi K.
+      family: Schuurman
+    email: n.k.schuurman@uu.nl
+    orcid: 0000-0002-6437-5966
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+  - name:
+      given: Ellen L.
+      family: Hamaker
+    email: e.l.hamaker@uu.nl
+    affiliations:
+      - name: Methodology &amp; Statistics, Utrecht University
+csl: ../resources/styles/apa.csl
+citation: true
+# bibliography: ../resources/bibliographies/pagename_references.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](ergodicity.html#citation).
+:::
+
+This is the landing page for everything related to the <i> ergodicity </i> of the [process](../processes.qmd) you are studying.
+
+If a process is ergodic, it does not matter *when* we measure it, or for *what units* (e.g., what persons) we measure it: The process always has the same distributional characteristics, meaning, it is the same in terms of mean, variance, covariances, etc.. 
+
+If ergodicity holds, then the mean of a person over time will be identical to the mean of the population at any point in time. Similarly, the covariance (or correlation) between two variables in a person willbe identical to the covariance (or correlation) between the same variables in the population at one point in time. Then analyzing inter-individual differences will lead to the same results and conclusions as analyzing intra-individual differences.
+
+Thus, ergodicity ensures that we can generalize from the level of the population to the individual. But note that this cross-level generalization goes in both direction; hence, ergodicity also implies that we can generalize from any individual to the population!
+
+For a process to be ergodic it needs to be 
+
+a) _stationary_, which implies there are no structural, longer-lasting changes over time; note that this means that developmental processes are by definition non-stationary, and therefore also non-ergodic
+
+b) _homogeneous_, which implies that each unit from the ensemble (which we freely translate to: each individual from a population) are characterized by the same distributional properties (meaning, they have the same mean, variance, etc.)
+
+Since both requirements are unlikely to be met in practice when considering psychological processes, we should expect non-ergodicity to be the norm. When there is no ergodicity, this places limitations on how results can be generalized: We cannot generalize results form the population to the individual or vice versa (sometimes referred to as the generalization slip or ecological fallacy), nor can we simply generalize results from one individual to another.
+
+Whether a process is stationary and/or homogeneous are [research questions](../theory/your-study/research-question.qmd), and the answer to those questions are important for:
+
+- how we should measure the process; that is, to what extent should we worry about for whom or what time points we measure the process?
+- how we should analyze the process; that is, do we need to allow for more structural changes in the process across time and/or differences in the process across units?
+- what conclusions we can draw; that is, can we generalize our results to all time points, and all units, or not?
+
+
+
+
+## Think more about ergodicity
+
+We have collected various topics for you to read more about below.
+
+::: {.callout-note collapse="false"}
+## Read more: (Non-)Stationarity
+-   [Stationarity]
+-   [Regime switching processes](ergodicity/regime-switching-processes.qmd)
+-   [Time-varying processes]
+-   [Cycles, periodicities, and seasonality]
+:::
+
+::: {.callout-note collapse="false"}
+## Read more: (Non-)Homogeneity
+-   [Homogeneity]
+:::
+
+::: {.callout-note collapse="false"}
+## Read more: Consequences of non-ergodicity
+-   [Intra-individual versus inter-individual variation](../theory/your-study/research-question/intra-vs-inter-individual-variation.qmd)
+-   [The 'Within/Between' Problem]
+:::
+
+
+```{=html}
+<!--
+# Related pages
+
+-   [Measurement coverage, time span, & granularity.](/TScale_MeasCoverage.html)
+
+-   [Measuring and Relating Multiple Constructs Measured at Different Timescales](/TScale_RelatingConstructs.html)
+
+-   [Capturing Regime Switches](/TScale_Switches.html)
+
+-   [Event-Relations in ILD Measurement](/EventRelations.html)
+
+-   [Measurement Burst Designs]
+-->
+```

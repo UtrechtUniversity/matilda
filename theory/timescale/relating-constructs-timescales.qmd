@@ -1,0 +1,152 @@
+---
+title: Relating constructs measured at different timescales
+categories: ['Theory', 'Timescale', 'Multivariate', 'Association']
+title-block-categories: false
+date-format: "YYYY-MM-DD"
+date: 2023-05-26
+date-modified: last-modified
+author:
+  - name:
+      given: Sophie W.
+      family: Berkhout
+    email: s.w.berkhout@uu.nl
+    corresponding: true
+    orcid: 0000-0002-4890-2754
+    affiliations:
+      - name: Methods &amp; Statistics Department, Utrecht University
+csl: ../../resources/styles/apa.csl
+citation: true
+bibliography: ../../resources/bibliographies/reliability-single-item-measures.bib
+google-scholar: true
+---
+
+::: callout-caution
+## This page has not been peer-reviewed yet.
+:::
+
+::: callout-note
+## Want to cite this page? See [citation info](#citation).
+:::
+
+This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.
+
+The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to timescales: Time span, process coverage, and granularity](../timescale/time-span-process-coverage-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
+
+It is important to think about differences in timescales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
+
+Below, we discuss various examples of this, including specific common cases in which this occurs: "explicitly versus implicitly lagged measurements", "unconditional versus event-contingent constructs", and "aggregated versus non-aggregated constructs". We discuss various things to consider when studying these variables.
+
+
+# Key considerations for studying constructs with different timescales
+
+Ideally, we want the frequency of measurements for psychological constructs to match the timescale at which they develop (see: [Timescale landing page](../timescale.qmd)). 
+
+Different constructs may develop over time at a different timescale. For example, there is general consensus that affect develops over time on a moment-to-moment basis (i.e., intervals of about an hour or even shorter), whereas personality traits are assumed to be relatively stable over time (e.g., intervals of a year or longer). 
+
+Therefore, when researchers are interested in studying multiple constructs, the frequency of measurement for these constructs may differ.
+
+::: {.callout-tip collapse="true"}
+## Example: Sleep quality and positive affect 1
+
+Batu wants to study how someone's sleep quality effects their positive affect throughout the day. He decides to measure positive affect five times a day using ESM, and to add the item 'I slept well' to the first ESM measurement of the day that is prompted in the morning.
+:::
+
+It is important to carefully think about how one construct relates to the other, and more specifically *when*. Does the construct always affect the other, or does it only occur at a specific time?
+
+::: {.callout-tip collapse="true"}
+## Example: Sleep quality and positive affect 2
+
+Batu believes that a person's sleep quality only influences their positive affect in the morning and early afternoon. During the day, the effect of sleep quality on positive affect wears off.
+:::
+
+The relation between these constructs may not be straightforward. We discuss a few general ways in which constructs may have differing timescales and how this impacts their relation.
+
+## Explicitly and implicitly lagged measurements
+
+Repeated measurements refer to a specific time point or interval. It is important to consider to what time point or interval a measurement refers to, in order to concretely hypothesize about the dynamic relations between variables.
+
+Explicitly lagged measurements are repeated measures that refer to the specific time point of each measurement occasion. The lag is the interval between the time stamps of the measurements.
+
+::: {.callout-tip collapse="true"}
+## Example: Positive affect 1
+
+Fiona set up an ESM study where participants receive positive affect items every hour. Each item refers to how the participants feel at the moment. E.g., "I feel satisfied at the moment".
+:::
+
+Implicitly lagged measurements are measures that refer to a previous time point or interval, and are therefore inherently lagged: The time stamp of the measurement occasion is not the time point or interval which the measurement refers to. In contrast to explicitly lagged variables, the lag is not the interval between time stamps of the measurement, but the interval between the time indications of the measurements.
+
+::: {.callout-tip collapse="true"}
+## Example: Positive affect 2
+
+Mark set up an ESM study where participants receive positive affect items every hour. However, each item refers to how the participants have felt in the past hour. E.g., "In the past hour, I felt satisfied".
+:::
+
+When considering only one variable, the difference in lag interpretation between implicitly and explicitly lagged measurements is trivial. Yet, when considering multiple variables, it is important to think about the lag interpretation between these variables. Both variables could be measured at the same time, but refer to a different time point or interval. 
+
+::: {.callout-tip collapse="true"}
+## Example: Sleep quality and positive affect 3
+
+Batu measures sleep quality in the morning at the same time of the first measurement of positive affect. However, the measurement of sleep quality refers to the preceding night, which is an interval of time that happens *before* the measurement is taken. The items for positive affect refer to how the participant feels *at the moment* and therefore refer to that specific measurement occasion.
+:::
+
+## Unconditional versus event-contingent measurements
+
+Event-contingent measurements are taken only when a specific event takes place, while unconditional measurements are always scheduled. When combining event-contingent and unconditional measurements, it is important to consider that the event-contingent measures are not observed in absence of the event. One must be careful to not draw substantive conclusions for the unobserved relations.
+
+::: {.callout-tip collapse="true"}
+## Example: Smoking and positive affect 1
+
+Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked.
+:::
+
+::: {.callout-note collapse="true"}
+## Read more: Contextual and situational influences
+
+-   [Event contingent constructs](../context-events/event-relations.qmd)
+
+-   [Regimes-switching constructs](../ergodicity/regime-switching-processes.qmd)
+:::
+
+## Time-aggregated vs non-time-aggregated measurements
+
+Aggregation of measurements (e.g., averages) may lead to different theoretical interpretations. It is important to consider the difference between measurements and aggregated measurements with regards to the substantive interpretation of the relations between variables. Furthermore, the substantive interpretation should include the aggregation (e.g., "x relates to the average of y"). 
+
+::: {.callout-tip collapse="true"}
+## Example: Sleep quality and positive affect 4
+
+Gulce is interested in a similar relation as Batu between sleep quality and positive affect. However, she believes that sleep quality of the preceding night influences a person's average positive affect of the following day.
+:::
+
+An implicitly lagged measurement usually indicates a time-aggregated behavior (e.g., "in the past hour"). Non-time-aggregated items refer to behavior at the time of the measurement occasion (i.e., "at the moment"). 
+
+::: {.callout-tip collapse="true"}
+## Example: Smoking and positive affect 2
+
+Emilie combines daily measures of smoking and momentary measures of positive affect. The participants receive the momentary measures of positive affect every hour (e.g., "I feel satisfied at the moment"), and they also receive a daily diary at the end of the day about the amount of cigarretes they smoked that day. With these measures, Emilie may find that participants with overall more positive affect also on average smoke less per day.
+:::
+
+## Combinations of the above
+
+The different types of multiple measurements explained above generally intertwine. Implicitly lagged measurements are usually also time-aggregated, and for event-contingent measurements the event measurement or the conditional measurement may also be implicitly lagged or time-aggregated.
+
+::: {.callout-tip collapse="true"}
+## Example: Smoking and positive affect 3
+
+Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking.
+::: 
+
+# Practical Considerations
+
+The following practical considerations are also important for the decision about the frequency of measurements of multiple constructs, but are not considered further on this website.
+
+-   Combining measurements of different variables at the same measurement occasion would reduce the burden of participants, but may restrict the researcher the measure a variable at the right timescale.
+
+-   Measuring multiple constructs with different measurement frequencies will not only lead to differences in the lengths of the intervals, but also to differences in the amount of observations per variable.
+
+# Related pages
+
+-   [Event-related constructs](../context-events/event-relations.qmd)
+
+-   [Regimes-switching processes](../ergodicity/regime-switching-processes.qmd)
+
+-   [Time Scales: Landing Page](../timescale.qmd)

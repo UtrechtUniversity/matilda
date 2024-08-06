@@ -52,7 +52,7 @@ a) _Stationary processes_, which are characterized by variation over time in the
 
 b) _Developmental processes_, which are characterized by longer-lasting changes that are (more or less) irreversible, such as a growth trend, or a stage transition; examples are the increase in vocabulary, the mastering of a specific skill like walking or being able to solve a second-order differential equation, or shifting from being single into a relationship or becoming a parent. Note that decline (as in slowly or more suddenly losing the ability to perform a certain task for instance) may also be considered an example of such a process. 
 
-This distinction should not be taken as categorical or absolute, and it tends to be related to the [timescale](substantive-theory/timescale.qmd) at which we are focusing. There are many examples where we may see a that a process is stationary in the short run, but is characterized by development if we zoom out further and consider a longer period.
+This distinction should not be taken as categorical or absolute, and it tends to be related to the [timescale](theory/timescale.qmd) at which we are focusing. There are many examples where we may see a that a process is stationary in the short run, but is characterized by development if we zoom out further and consider a longer period.
 
 ::: {.callout-tip collapse="true"}
 ## Example: Development in day-to-day dynamics

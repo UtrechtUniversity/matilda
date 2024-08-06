@@ -45,7 +45,7 @@ aTimeScale = {
   if (qTimeScale.some((element) => element == 2) | qTimeScale.some((element) => element == 3) | qTimeScaleB.some((element) => element == 3)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/timescale.html";
+    link2.href = "theory/timescale.html";
     link2.appendChild(document.createTextNode("Time Scales"))
     li2.appendChild(link2);
     ul.appendChild(li2);
@@ -53,7 +53,7 @@ aTimeScale = {
   if (qTimeScaleB.some((element) => element == 2)) {
     const li2 = document.createElement("li");
     const link2 = document.createElement("a");
-    link2.href = "substantive-theory/timescale/relating-constructs-timescales.html";
+    link2.href = "theory/timescale/relating-constructs-timescales.html";
     link2.appendChild(document.createTextNode("Relating constructs measured at different timescales"))
     li2.appendChild(link2);
     ul.appendChild(li2);

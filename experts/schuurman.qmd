@@ -4,10 +4,10 @@ listing:
   contents:
     - "../measurement/*.qmd"
     - "../measurement/*/*.qmd"
-    - "../substantive-theory/*.qmd"
-    - "../substantive-theory/*/*.qmd"
-    - "../your-study/*.qmd"
-    - "../your-study/*/*.qmd"
+    - "../theory/*.qmd"
+    - "../theory/*/*.qmd"
+    - "../theory/your-study/*.qmd"
+    - "../theory/your-study/*/*.qmd"
   type: table
   categories: cloud
   fields: [image, title, author]
