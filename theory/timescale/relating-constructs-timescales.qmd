@@ -1,5 +1,6 @@
 ---
-title: Relating constructs measured at different timescales
+title: Relating constructs with different timescales
+bread-crumbs: true
 categories: ['Theory', 'Timescale', 'Multivariate', 'Association']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
@@ -28,13 +29,13 @@ google-scholar: true
 ## Want to cite this page? See [citation info](#citation).
 :::
 
-This page is about theoretical implications when studying multiple constructs that develop over time at differing timescales.
+This page is about theoretical implications when studying multiple [constructs](../your-study/constructs.qmd) that develop over time at differing [timescales](../timescale.qmd).
 
-The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Key design aspects related to timescales: Time span, process coverage, and granularity](../timescale/time-span-process-coverage-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
+The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Time span, process coverage, and granularity](../timescale/time-span-process-coverage-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
 
 It is important to think about differences in timescales and measurement frequencies between variables because they have implications for the substantive interpretation of the dynamic relations among them. 
 
-Below, we discuss various examples of this, including specific common cases in which this occurs: "explicitly versus implicitly lagged measurements", "unconditional versus event-contingent constructs", and "aggregated versus non-aggregated constructs". We discuss various things to consider when studying these variables.
+Below, we discuss various examples of this, including specific common cases in which this occurs: "explicitly versus implicitly lagged relations", "unconditional versus event-contingent constructs", and "aggregated versus non-aggregated constructs". We discuss various things to consider when studying these variables.
 
 
 # Key considerations for studying constructs with different timescales
@@ -48,7 +49,9 @@ Therefore, when researchers are interested in studying multiple constructs, the 
 ::: {.callout-tip collapse="true"}
 ## Example: Sleep quality and positive affect 1
 
-Batu wants to study how someone's sleep quality effects their positive affect throughout the day. He decides to measure positive affect five times a day using ESM, and to add the item 'I slept well' to the first ESM measurement of the day that is prompted in the morning.
+Batu wants to study how someone's sleep quality affects their positive affect throughout the day. He decides to measure positive affect three times a day using ESM, and to add the item 'I slept well last night' to the first ESM measurement of the day that is prompted in the morning.
+
+![Graphical representation of the timing of two measurements over two days: daily sleep (i.e., 'I slept well last night') and momentary PA (e.g., 'I feel satisfied at the moment.')](../../resources/images/different_timescales_measurements.svg){#fig-measurements fig-alt="A figure showing an example of the timing of the sleep and positive affect variables." fig-align="center" width=500}
 :::
 
 It is important to carefully think about how one construct relates to the other, and more specifically *when*. Does the construct always affect the other, or does it only occur at a specific time?
@@ -56,37 +59,29 @@ It is important to carefully think about how one construct relates to the other,
 ::: {.callout-tip collapse="true"}
 ## Example: Sleep quality and positive affect 2
 
-Batu believes that a person's sleep quality only influences their positive affect in the morning and early afternoon. During the day, the effect of sleep quality on positive affect wears off.
+Batu believes that a person's sleep quality only affects their positive affect in the morning and at the end of the day. At other moments in the day, sleep quality has no direct effect on positive affect.
+
+![Graphical representation of the relations and timing of two measurements over two days: daily sleep (i.e., 'I slept well last night') and momentary PA (e.g., 'I feel satisfied at the moment.')](../../resources/images/different_timescales_measurements_relations.svg){#fig-measurements fig-alt="A figure showing an example of the relations and timing of the sleep and positive affect variables." fig-align="center" width=500}
 :::
 
 The relation between these constructs may not be straightforward. We discuss a few general ways in which constructs may have differing timescales and how this impacts their relation.
 
-## Explicitly and implicitly lagged measurements
+## Explicitly and implicitly lagged relations
 
 Repeated measurements refer to a specific time point or interval. It is important to consider to what time point or interval a measurement refers to, in order to concretely hypothesize about the dynamic relations between variables.
 
-Explicitly lagged measurements are repeated measures that refer to the specific time point of each measurement occasion. The lag is the interval between the time stamps of the measurements.
+Explicitly lagged relations are relations among repeated measures that refer to the specific time point of each measurement occasion (e.g., "I feel satisfied at the moment"). The lag is the interval between the time stamps of the measurements.
 
-::: {.callout-tip collapse="true"}
-## Example: Positive affect 1
+Implicitly lagged relations are relations among measures that refer to a different time point or interval. A measurement that refers to a previous time point or interval is known as retrospective assessment [LINK: Ecological momentary vs. retrospective assessments] ("In the past hour, I felt satisfied"). Relations among such variables may be inherently lagged: The time stamp of the measurement occasion is not the time point or interval which the measurement refers to. In contrast to explicitly lagged relations, the lag is not the interval between time stamps of the measurement, but the interval between the time indications of the measurements.
 
-Fiona set up an ESM study where participants receive positive affect items every hour. Each item refers to how the participants feel at the moment. E.g., "I feel satisfied at the moment".
-:::
-
-Implicitly lagged measurements are measures that refer to a previous time point or interval, and are therefore inherently lagged: The time stamp of the measurement occasion is not the time point or interval which the measurement refers to. In contrast to explicitly lagged variables, the lag is not the interval between time stamps of the measurement, but the interval between the time indications of the measurements.
-
-::: {.callout-tip collapse="true"}
-## Example: Positive affect 2
-
-Mark set up an ESM study where participants receive positive affect items every hour. However, each item refers to how the participants have felt in the past hour. E.g., "In the past hour, I felt satisfied".
-:::
-
-When considering only one variable, the difference in lag interpretation between implicitly and explicitly lagged measurements is trivial. Yet, when considering multiple variables, it is important to think about the lag interpretation between these variables. Both variables could be measured at the same time, but refer to a different time point or interval. 
+When considering only one variable, the difference in lag interpretation between implicitly and explicitly lagged relations may be trivial. Yet, when considering multiple variables, it is important to think about the lag interpretation between these variables. Both variables could be measured at the same time, but refer to a different time point or interval. 
 
 ::: {.callout-tip collapse="true"}
 ## Example: Sleep quality and positive affect 3
 
 Batu measures sleep quality in the morning at the same time of the first measurement of positive affect. However, the measurement of sleep quality refers to the preceding night, which is an interval of time that happens *before* the measurement is taken. The items for positive affect refer to how the participant feels *at the moment* and therefore refer to that specific measurement occasion.
+
+![Graphical representation of the timing of two measurements over two days: daily sleep (i.e., 'I slept well last night') and momentary PA (e.g., 'I feel satisfied at the moment'). The gray shaded area indicates the timing to which the measurements refers.](../../resources/images/different_timescales_measurements_timing.svg){#fig-measurements fig-alt="A figure showing an example of the timing of the sleep and positive affect variables." fig-align="center" width=500}
 :::
 
 ## Unconditional versus event-contingent measurements
@@ -96,7 +91,7 @@ Event-contingent measurements are taken only when a specific event takes place, 
 ::: {.callout-tip collapse="true"}
 ## Example: Smoking and positive affect 1
 
-Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked.
+Koen measures smoking multiple times a day ("How many cigarettes have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked at least one cigarette. His conclusions about the relation between smoking and positive affect should always include that this relationship is while smoking.
 :::
 
 ::: {.callout-note collapse="true"}
@@ -111,10 +106,12 @@ Koen measures smoking multiple times a day ("Have you smoked since the last meas
 
 Aggregation of measurements (e.g., averages) may lead to different theoretical interpretations. It is important to consider the difference between measurements and aggregated measurements with regards to the substantive interpretation of the relations between variables. Furthermore, the substantive interpretation should include the aggregation (e.g., "x relates to the average of y"). 
 
+There are multiple ways in which a measurement may be aggregated over time: (1) a summary score of multiple repeated measures such as a mean or sum score or (2) implicitly lagged measurements.
+
 ::: {.callout-tip collapse="true"}
 ## Example: Sleep quality and positive affect 4
 
-Gulce is interested in a similar relation as Batu between sleep quality and positive affect. However, she believes that sleep quality of the preceding night influences a person's average positive affect of the following day.
+Gulce is interested in a similar relation as Batu between sleep quality and positive affect. However, she believes that sleep quality of the preceding night influences a person's average positive affect of the following day. She measures sleep quality with one measurement in the morning and positive affect with multiple measurements throughout the day. For the analysis, she computes a daily average of the positive affect measurements. She concludes that there is a relation between sleep quality and daily average positive affect.
 :::
 
 An implicitly lagged measurement usually indicates a time-aggregated behavior (e.g., "in the past hour"). Non-time-aggregated items refer to behavior at the time of the measurement occasion (i.e., "at the moment"). 
@@ -122,7 +119,16 @@ An implicitly lagged measurement usually indicates a time-aggregated behavior (e
 ::: {.callout-tip collapse="true"}
 ## Example: Smoking and positive affect 2
 
-Emilie combines daily measures of smoking and momentary measures of positive affect. The participants receive the momentary measures of positive affect every hour (e.g., "I feel satisfied at the moment"), and they also receive a daily diary at the end of the day about the amount of cigarretes they smoked that day. With these measures, Emilie may find that participants with overall more positive affect also on average smoke less per day.
+Emilie combines daily measures of smoking and momentary measures of positive affect. The participants receive the momentary measures of positive affect every hour (e.g., "I feel satisfied at the moment"), and they also receive a daily diary at the end of the day about the amount of cigarettes they have smoked that day. With these measures, Emilie may find that participants with overall more positive affect also on average smoke less per day.
+:::
+
+::: {.callout-note collapse="true"}
+## Read more: Aggregated measurements
+
+-   [Means and sum scores vs. latent variable models]
+
+- [Ecological momentary vs. retrospective assessments] 
+
 :::
 
 ## Combinations of the above
@@ -132,8 +138,18 @@ The different types of multiple measurements explained above generally intertwin
 ::: {.callout-tip collapse="true"}
 ## Example: Smoking and positive affect 3
 
-Koen measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked. For the positive affect items, he has to decide between measuring positive affect at the moment or since the last measurement like the event (i.e., smoking cigarettes). With the former, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the latter the time-aggregated positive affect may also include positive affect from before smoking.
+Koen is also interested in the relation between smoking and positive affect. He measures smoking multiple times a day ("Have you smoked since the last measurement?"), but only measures positive affect when a participant indicates that they have smoked. For the phrasing of the positive affect items, he considers the following three options:
+
+1. I feel satisfied at the moment.
+2. How satisfied were you since the last measurement?
+3. How satisfied were you since smoking a cigarette?
+
+With the first option, it is clear that the smoking came before the positive affect measurement (an implicit lag), whereas with the second option, the time-aggregated positive affect may also include positive affect from before smoking as we do not know when in this interval the smoking occurred. With the third option, the time-aggregated positive affect only includes the time after the smoking until the measurement occasion, and this interval will differ in lengths. That is, if the person smoked only five minutes before the measurement occasion, the time-aggregation of positive affect is over these five minutes, whereas if the person smoked half an hour before the measurement occasion, this time-aggregation would be over thirty minutes. Koen needs to think about which of these options best aligns with his research question.
 ::: 
+
+# Conclusion
+
+When studying a relation between two variables that are measured at different frequencies, you need to consider the timing of the measurements, whether the measurements are unconditional or event-contingent, and whether the measurements are aggregated over time.
 
 # Practical Considerations
 
@@ -141,7 +157,7 @@ The following practical considerations are also important for the decision about
 
 -   Combining measurements of different variables at the same measurement occasion would reduce the burden of participants, but may restrict the researcher the measure a variable at the right timescale.
 
--   Measuring multiple constructs with different measurement frequencies will not only lead to differences in the lengths of the intervals, but also to differences in the amount of observations per variable.
+-   Measuring multiple constructs with different measurement frequencies will not only lead to differences in the lengths of the intervals, but also to differences in the amount of observations per variable, which most dynamic models are not equipped for.
 
 # Related pages
 

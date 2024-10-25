@@ -1,5 +1,6 @@
 ---
 title: "Your study landing page"
+bread-crumbs: true
 categories: ['Your study', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"

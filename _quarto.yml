@@ -3,12 +3,16 @@ project:
   output-dir: "_site"
 
 website:
+  announcement: 
+   dismissable: false
+   content: "[![](resources/images/uu-logo.svg)](https://www.uu.nl/)"
+   position: above-navbar
+   type: light
   navbar:
-    logo: resources/images/uu_blacktext.png
-    logo-href: "https://www.uu.nl/"
     left:
       - href: index.qmd
         text: MATILDA
+        icon: house-door-fill
       - href: navigation.qmd
         text: Where do I start?
       - href: experts.qmd
@@ -65,6 +69,7 @@ format:
     css: resources/styles/styles.css
     csl: resources/styles/apa.csl
     toc: true
+    number-sections: true
 
 editor: visual
 
