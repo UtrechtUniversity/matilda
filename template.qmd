@@ -15,9 +15,17 @@ author:
     orcid: 
     affiliations:
       - name: Methods &amp; Statistics Department, Utrecht University
+categories: ['Template', 'Submissionn guidelines']
+# categories are tags added to the page internally
+# you can add key words for your page here
+title-block-categories: false
 citation: true
-bibliography: resources/bibliographies/pagename_references.bib
 google-scholar: true
+csl: resources/styles/apa.csl
+bibliography: resources/bibliographies/pagename_references.bib
+# make sure the .bib file is in the same folder as this .qmd file
+# the files in the styles folder give your html file the MATILDA appearance
+# these cannot be altered for individual pages
 ---
 
 ::: callout-caution
@@ -41,19 +49,7 @@ It is important to think about what this page is about, because ...
 
 In the following we discuss...
 
-
-<!-- optional: -->
-::: {.callout-note collapse="true"}
-
-## Need more background info?
-
-- [Name related page 1]
-
-- [Name related page 2]
-
-:::
-
-# Section 1 Heading
+# Section Heading
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium mi sit amet ornare congue. Proin auctor tempor risus, finibus commodo mi sagittis eget. Maecenas suscipit pharetra fringilla. Donec et iaculis velit. Ut eget nisl vitae ligula facilisis pretium vitae a purus. Etiam blandit ultrices neque, et tincidunt massa feugiat [@bibtex_referencename]. 
 
@@ -67,22 +63,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium mi sit amet
 
 Nulla sed congue mi. Praesent urna mauris, pellentesque eu congue ac, varius nec est. Integer id ultricies felis. Nam ultrices ligula nec arcu egestas aliquet. Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at. 
 
+![This is an example of how to add a figure.](/resources/images/figure.pdf){#fig-example fig-alt="A figure showing an example of a plot." fig-align="center" width=500}
 
-::: {.callout-note collapse="true"}
-
-## Read more: Topic
-
-- [Name related page 1](/)
-
-- [Name related page 2](/)
-
-:::
-
-# Section 2 Heading
+# Section Heading
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non vulputate eros. Maecenas luctus nulla eget enim varius, in aliquet turpis vulputate. Nam vehicula egestas risus quis aliquam. Quisque vitae sagittis odio. Duis eget neque tortor. Sed cursus, est ut gravida placerat, nibh nunc lacinia tortor, vel lobortis urna nulla sed erat. Mauris blandit mi quis luctus vehicula. Proin nec metus non nisi euismod scelerisque quis vitae urna.
 
-## Subsection 2.1 Heading
+## Subsection Heading
 
 Nulla sed congue mi. Praesent urna mauris, pellentesque eu congue ac, varius nec est. Integer id ultricies felis. Nam ultrices ligula nec arcu egestas aliquet. Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at.
 
@@ -96,24 +83,13 @@ In hac habitasse platea dictumst. Etiam tincidunt mi ut elit posuere vulputate. 
 
 Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at.
 
-::: {.callout-note collapse="true"}
-
-## Read more: Topic
-
-- [Related Page Name](/)
-
-- [Related Page Name](/)
-
-:::
-
-## Subsection 2.2 Heading
+## Subsection Heading
 
 etc
 
-### Subsubsection 2.2.1 Heading
+### Subsubsection Heading
 
 etc
-
 
 # Practical Considerations
 
@@ -123,6 +99,28 @@ The following practical considerations are also important for the decision about
 
 - Consideration 2
 
-# Related pages
+# Takeaway
+
+This is a short section with the main takeways of your page.
+
+# Further reading
+
+::: {.callout-note collapse="true"}
+
+## Read more: Topic 1
 
 - [Related Page Name](/)
+
+- [Related Page Name](/)
+
+:::
+
+::: {.callout-note collapse="true"}
+
+## Read more: Topic 2
+
+- [Related Page Name](/)
+
+- [Related Page Name](/)
+
+:::
