@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](sampling.html#citation).
 :::
 
-This is the landing page for everything related to the <i> sampling procedure </i> used for measuring your [constructs](../theory/your-study/constructs.qmd) of interest. 
+This is the landing page for everything related to the <i> sampling procedure </i> used for measuring your [constructs](../your-study/constructs.qmd) of interest. 
 
 They way your sampling procedure is designed will directly impact what you will be able to capture about your construct. 
 

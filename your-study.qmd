@@ -1,5 +1,5 @@
 ---
-title: "Your study landing page"
+title: "Your study"
 bread-crumbs: true
 categories: ['Your study', 'Landing page']
 title-block-categories: false
@@ -14,9 +14,9 @@ author:
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
-csl: ../resources/styles/apa.csl
+csl: resources/styles/apa.csl
 citation: true
-bibliography: ../resources/bibliographies/pagename_references.bib
+bibliography: resources/bibliographies/pagename_references.bib
 google-scholar: true
 ---
 
@@ -30,7 +30,7 @@ google-scholar: true
 
 Your study consists of your research question, theory, conceptual definitions, measurement design, procedural design, analyses, results, and conclusions. In a good study, all of these different parts of a study are tailored to each other. 
 
-The MATILDA website aims to help you align your research question with your measurement design and analyses, in the context of studies that use [intensive longitudinal data (ILD)](../intensive-longitudinal-data.qmd) to study social science [processes](../processes.qmd). 
+The MATILDA website aims to help you align your research question with your measurement design and analyses, in the context of studies that use [intensive longitudinal data (ILD)](intensive-longitudinal-data.qmd) to study social science [processes](processes.qmd). 
 
 Below we have specified various topics to think about with respect to the outset of your study - such as your research question and goals, theory, and research paradigm. 
 
@@ -41,7 +41,7 @@ We have collected various topics for you to read more about below.
 ::: {.callout-note collapse="false"}
 ## Read more: The outset of your study
 -   [Research question](your-study/research-question.qmd)
--   [Theory](your-study/theory.qmd)
+-   [Theory](your-study/theory-formation.qmd)
 -   [Constructs](your-study/constructs.qmd)
 :::
 

@@ -39,9 +39,9 @@ The floor effect is common in [intensive longitudinal](../../intensive-longitudi
 
 It is important to consider these effects, because:
 
-A)  Understanding how and why these effects occur are an important part of understanding and controlling the measurement process ([measurement theory](../../measurement/measurement.qmd));
+A)  Understanding how and why these effects occur are an important part of understanding and controlling the measurement process ([measurement theory](../../measurement.qmd));
 
-B)  Understanding how and why these effects occur are an important part of understanding the substantive process under study ([substantive theory](../theory.qmd));
+B)  Understanding how and why these effects occur are an important part of understanding the substantive process under study ([substantive theory](../../theory.qmd));
 
 C)  These effects may have consequences for analyzing and modeling the resulting intensive longitudinal data (ILD). Understanding when, how and why these effects occur allow you to find optimal ways to do the analysis/modeling.
 

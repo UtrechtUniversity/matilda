@@ -31,7 +31,7 @@ editor:
 ## Want to cite this page? See [citation info](single-item-multiple-item-measures.html#citation).
 :::
 
-This page considers several [theoretical](../measurement.qmd) implications for deciding on using single or multiple items to measure a [construct](../../theory/your-study/constructs.qmd).
+This page considers several [theoretical](../../measurement.qmd) implications for deciding on using single or multiple items to measure a [construct](../../your-study/constructs.qmd).
 
 - In case a single item is used, the response to this single item is used
 in further analyses and results for the study. A common example of a

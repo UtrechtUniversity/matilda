@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](distributions.html#citation).
 :::
 
-This is the landing page for everything related to the <i> distributions </i> of your [constructs](../theory/your-study/constructs.qmd) of interest.
+This is the landing page for everything related to the <i> distributions </i> of your [constructs](../your-study/constructs.qmd) of interest.
 
 With distribution we mean how your scores are distributed across the units you are studying. For [intensive longitudinal data](../intensive-longitudinal-data.qmd) we are often interested in how scores are distributed over time within a given unit (e.g., within a person). We may also be interested in how scores are distributed across units (e.g., across multiple persons). 
 

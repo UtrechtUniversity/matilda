@@ -33,9 +33,9 @@ google-scholar: true
 ## Want to cite this page? See [citation info](timescale.html#citation).
 :::
 
-This is the landing page for everything related to the <i> timescales </i> of [constructs](../theory/your-study/constructs.qmd) of interest.
+This is the landing page for everything related to the <i> timescales </i> of [constructs](../your-study/constructs.qmd) of interest.
 
-To ensure the measurement of a [process](../processes.qmd) aligns with the [theory](../thoery/your-study/theory.qmd) and [research questions](../theory/your-study/research-question.qmd) we have, it is paramount to determine the timescale at which the process is assumed to unfold, and match this with the timescale at which we observe the process.
+To ensure the measurement of a [process](../processes.qmd) aligns with the [theory](../theory.qmd) and [research questions](../your-study/research-question.qmd) we have, it is paramount to determine the timescale at which the process is assumed to unfold, and match this with the timescale at which we observe the process.
 
 To illustrate the importance of considering the timescale of a process, consider:
 
@@ -61,7 +61,7 @@ Steve is interested in studying the relation between accuracy and speed in a typ
 
 ## Think more about timescales
 
-There are many things to consider with respect to [substantive theory](theory.qmd), [measurement theory](../measurement/measurement.qmd), and measurement design that relate to timescales. We have collected various topics for you to read more about below.
+There are many things to consider with respect to [substantive theory](../theory.qmd), [measurement theory](../measurement.qmd), and measurement design that relate to timescales. We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
 ## Read more: Timescales - general information

@@ -13,9 +13,9 @@ author:
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
-csl: ../resources/styles/apa.csl
+csl: resources/styles/apa.csl
 citation: true
-bibliography: ../resources/bibliographies/pagename_references.bib
+bibliography: resources/bibliographies/pagename_references.bib
 google-scholar: true
 ---
 
@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](measurement.html#citation).
 :::
 
-With measurement theory we mean the [theory](../theory/theory.qmd) that explains how the true values of your [construct](../theory/your-study/constructs.qmd) lead to the observed scores obtained through your [measurement instrument](../measurement/instrument.qmd). 
+With measurement theory we mean the [theory](theory.qmd) that explains how the true values of your [construct](your-study/constructs.qmd) lead to the observed scores obtained through your [measurement instrument](measurement/instrument.qmd). 
 
 Below we have specified multiple topics to think about with respect to this.
 
@@ -37,11 +37,11 @@ We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
 ## Read more: Measurement theory
--   [Item](\item.qmd)
--   [Instrument](\instrument.qmd)
--   [Sampling](\sampling.qmd)
--   [Validation](\validation.qmd) 
--   [Measurement Model](\measurement-model.qmd) 
+-   [Item](measurement/item.qmd)
+-   [Instrument](measurement/instrument.qmd)
+-   [Sampling](measurement/sampling.qmd)
+-   [Validation](measurement/validation.qmd) 
+-   [Measurement Model](measurement/measurement-model.qmd) 
 
 :::
 

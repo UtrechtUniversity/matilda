@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](instrument.html#citation).
 :::
 
-This is the landing page for everything related to the <i> measurement instrument </i> used for measuring your [constructs](../theory/your-study/constructs.qmd) of interest. Note that if you use a single item to measure your construct, that item is your instrument (and then the [item landing page](item.qmd) may be most helpful).
+This is the landing page for everything related to the <i> measurement instrument </i> used for measuring your [constructs](../your-study/constructs.qmd) of interest. Note that if you use a single item to measure your construct, that item is your instrument (and then the [item landing page](item.qmd) may be most helpful).
 
 They way your instrument is designed, from the order of your items to the length of your questionnaire, will directly impact what you measure. 
 

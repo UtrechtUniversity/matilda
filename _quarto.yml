@@ -5,7 +5,7 @@ project:
 website:
   announcement: 
    dismissable: false
-   content: "[![](resources/images/uu-logo.svg)](https://www.uu.nl/)"
+   content: "[![](/resources/images/uu-logo.svg)](https://www.uu.nl/)"
    position: above-navbar
    type: light
   navbar:
@@ -26,11 +26,14 @@ website:
       - href: processes.qmd
         text: "About processes"
       - text: "---"
-      - section: "Theory"
-        href: theory/theory.qmd
+      - section: your-study.qmd
         contents:
-          - href: theory/your-study.qmd
-            text: "Your study"
+          - href: your-study/research-question.qmd
+          - href: your-study/theory-formation.qmd
+          - href: your-study/constructs.qmd
+      - section: "Theory"
+        href: theory.qmd
+        contents:
           - href: theory/timescale.qmd
             text: "Timescale"
           - href: theory/ergodicity.qmd
@@ -40,7 +43,7 @@ website:
           - href: theory/distributions.qmd
             text: "Distributions"
       - section: "Measurement"
-        href: measurement/measurement.qmd
+        href: measurement.qmd
         contents:
           - href: measurement/item.qmd
             text: "Item"
@@ -57,7 +60,7 @@ website:
       - href: template.qmd
         text: "Template Page"
   page-footer:
-    left: "Copyright 2023, Dynamic Modelling Lab"
+    left: "Copyright 2024, Dynamic Modelling Lab"
     right: |
       [![](https://erc.europa.eu/sites/default/files/inline-images/LOGO_ERC-FLAG_FP.png){fig-alt="European Research Council" width=200px}](https://erc.europa.eu/homepage)
 

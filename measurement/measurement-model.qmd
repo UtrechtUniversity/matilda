@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](measurement-model.html#citation).
 :::
 
-This is the landing page for everything related to the <i> measurement model </i> that applies to your [constructs](../theory/your-study/constructs.qmd) and [measurement instrument](instrument.qmd).
+This is the landing page for everything related to the <i> measurement model </i> that applies to your [constructs](../your-study/constructs.qmd) and [measurement instrument](instrument.qmd).
 
 Your measurement model represents how the true scores of your construct result in the observations you make with your measurement instrument. 
 

@@ -49,7 +49,7 @@ b) _homogeneous_, which implies that each unit from the ensemble (which we freel
 
 Since both requirements are unlikely to be met in practice when considering psychological processes, we should expect non-ergodicity to be the norm. When there is no ergodicity, this places limitations on how results can be generalized: We cannot generalize results form the population to the individual or vice versa (sometimes referred to as the generalization slip or ecological fallacy), nor can we simply generalize results from one individual to another.
 
-Whether a process is stationary and/or homogeneous are [research questions](../theory/your-study/research-question.qmd), and the answer to those questions are important for:
+Whether a process is stationary and/or homogeneous are [research questions](../your-study/research-question.qmd), and the answer to those questions are important for:
 
 - how we should measure the process; that is, to what extent should we worry about for whom or what time points we measure the process?
 - how we should analyze the process; that is, do we need to allow for more structural changes in the process across time and/or differences in the process across units?
@@ -77,7 +77,7 @@ We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
 ## Read more: Consequences of non-ergodicity
--   [Intra-individual versus inter-individual variation](../theory/your-study/research-question/intra-vs-inter-individual-variation.qmd)
+-   [Intra-individual versus inter-individual variation](../your-study/research-question/intra-vs-inter-individual-variation.qmd)
 -   [The 'Within/Between' Problem]
 :::
 

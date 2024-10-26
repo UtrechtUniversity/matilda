@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](item.html#citation).
 :::
 
-This is the landing page for everything related to the <i> items </i> used for measuring your [constructs](../theory/your-study/constructs.qmd) of interest.
+This is the landing page for everything related to the <i> items </i> used for measuring your [constructs](../your-study/constructs.qmd) of interest.
 
 They way your items are designed, from the questions you ask to the answer options you provide, will directly impact what you measure. 
 

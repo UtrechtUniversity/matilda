@@ -29,7 +29,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](#citation).
 :::
 
-This page is about theoretical implications when studying multiple [constructs](../your-study/constructs.qmd) that develop over time at differing [timescales](../timescale.qmd).
+This page is about theoretical implications when studying multiple [constructs](../../your-study/constructs.qmd) that develop over time at differing [timescales](../timescale.qmd).
 
 The timescale at which psychological constructs develop over time give rise to substantive considerations for the measurement frequency of such constructs (see: [Time span, process coverage, and granularity](../timescale/time-span-process-coverage-granularity.qmd)). Oftentimes, researchers are interested in studying (the relations between) multiple constructs that are or need to be measured at different timescales in some way or form.
 

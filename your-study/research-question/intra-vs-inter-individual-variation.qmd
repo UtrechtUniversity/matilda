@@ -12,9 +12,9 @@ author:
     email: e.l.hamaker@uu.nl
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
-csl: ../../../resources/styles/apa.csl
+csl: ../../resources/styles/apa.csl
 citation: true
-bibliography: ../../../resources/bibliographies/intra-vs-inter-individual-variation.bib
+bibliography: ../../resources/bibliographies/intra-vs-inter-individual-variation.bib
 google-scholar: true
 ---
 
