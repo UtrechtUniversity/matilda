@@ -31,30 +31,20 @@ website:
           - href: your-study/research-question.qmd
           - href: your-study/theory-formation.qmd
           - href: your-study/constructs.qmd
-      - section: "Theory"
-        href: theory.qmd
+      - section: theory.qmd
         contents:
           - href: theory/timescale.qmd
-            text: "Timescale"
           - href: theory/ergodicity.qmd
-            text: "Ergodicity"
           - href: theory/context-events.qmd
-            text: "Context and events"
-          - href: theory/distributions.qmd
-            text: "Distributions"
-      - section: "Measurement"
-        href: measurement.qmd
+          - href: theory/distribution.qmd
+      - section:  measurement.qmd
         contents:
+          - href: measurement/measurement-theory.qmd
           - href: measurement/item.qmd
-            text: "Item"
           - href: measurement/instrument.qmd
-            text: "Instrument"
           - href: measurement/sampling.qmd
-            text: "Sampling"
           - href: measurement/validation.qmd
-            text: "Validation"
           - href: measurement/measurement-model.qmd
-            text: "Measurement model"
       - section: "Analysis"
       - text: "---"
       - href: template.qmd
@@ -69,7 +59,6 @@ format:
     theme:
       - resources/styles/custom.scss
     header-includes: <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
-    css: resources/styles/styles.css
     csl: resources/styles/apa.csl
     toc: true
     number-sections: true

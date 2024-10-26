@@ -1,6 +1,6 @@
 ---
-title: "Measurement"
-categories: ['Measurement', 'Landing page']
+title: "Measurement theory"
+categories: ['Measurement theory', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
 date: 2023-06-26
@@ -13,9 +13,9 @@ author:
     orcid: 0000-0002-6437-5966
     affiliations:
       - name: Methodology &amp; Statistics, Utrecht University
-csl: resources/styles/apa.csl
+csl: ../resources/styles/apa.csl
 citation: true
-bibliography: resources/bibliographies/pagename_references.bib
+bibliography: ../resources/bibliographies/pagename_references.bib
 google-scholar: true
 ---
 
@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](measurement.html#citation).
 :::
 
-This is the landing page for everything related to measuring a process. When you measure a [construct](your-study/constructs.qmd), you want to make sure that your measurement instrument captures this construct accurately.
+This is the landing page for everything related to measurement theory. With measurement theory we mean the [theory](theory.qmd) that explains how the true values of your [construct](your-study/constructs.qmd) lead to the observed scores obtained through your [measurement instrument](measurement/instrument.qmd). 
 
 Below we have specified multiple topics to think about with respect to this.
 
@@ -36,8 +36,7 @@ Below we have specified multiple topics to think about with respect to this.
 We have collected various topics for you to read more about below.
 
 ::: {.callout-note collapse="false"}
-## Read more: Measurement
--   [Measurement theory](measurement/measurement-theory.qmd)
+## Read more: Measurement theory
 -   [Item](measurement/item.qmd)
 -   [Instrument](measurement/instrument.qmd)
 -   [Sampling](measurement/sampling.qmd)

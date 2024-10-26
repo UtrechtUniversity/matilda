@@ -1,5 +1,5 @@
 ---
-title: "Context and events landing page"
+title: "Context and events"
 categories: ['Context','Events', 'Event-contingent', 'Theory', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"

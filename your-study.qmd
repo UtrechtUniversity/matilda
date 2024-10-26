@@ -28,7 +28,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](your-study.html#citation).
 :::
 
-Your study consists of your research question, theory, conceptual definitions, measurement design, procedural design, analyses, results, and conclusions. In a good study, all of these different parts of a study are tailored to each other. 
+This is the landing page for everything related to the design of your study. Your study consists of your research question, theory, conceptual definitions, measurement design, procedural design, analyses, results, and conclusions. In a good study, all of these different parts of a study are tailored to each other. 
 
 The MATILDA website aims to help you align your research question with your measurement design and analyses, in the context of studies that use [intensive longitudinal data (ILD)](intensive-longitudinal-data.qmd) to study social science [processes](processes.qmd). 
 

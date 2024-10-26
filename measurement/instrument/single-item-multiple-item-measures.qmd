@@ -324,7 +324,7 @@ collects relatively few repeated measures over a short time span,
 participants may often or even always respond 'not at all/very slightly'
 for the majority of measures. This would result in little to no
 within-person variance in the repeated measures of guilt, making
-intra-individual difference analyses difficult or impossible (see also [floor and ceiling effects](../../theory/distributions/floor-ceiling-effects.qmd)).
+intra-individual difference analyses difficult or impossible (see also [floor and ceiling effects](../../theory/distribution/floor-ceiling-effects.qmd)).
 
 In comparison, for studying interindividual differences in general
 traits, the timing of measurements is often less important for obtaining a representative varied sample of observations.

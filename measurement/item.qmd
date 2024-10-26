@@ -1,5 +1,5 @@
 ---
-title: "Item landing page"
+title: "Item"
 categories: ['Measurement theory','Item', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
@@ -41,7 +41,7 @@ We have collected various topics for you to read more about below.
 
 -   [Answer option design]
 -   [Question design]
--   [Floor and ceiling effects](../theory/distributions/floor-ceiling-effects.qmd)
+-   [Floor and ceiling effects](../theory/distribution/floor-ceiling-effects.qmd)
 -   [Measurement scales] 
 -   [Anchoring for answer options]
 -   [Ecological Momentary Assessment vs Ecological Retrospective Assessment]

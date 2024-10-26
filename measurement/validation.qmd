@@ -1,5 +1,5 @@
 ---
-title: "Validation landing page"
+title: "Validation"
 categories: ['Measurement theory', 'Validation', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"

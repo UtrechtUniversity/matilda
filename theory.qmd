@@ -1,5 +1,5 @@
 ---
-title: "Theory landing page"
+title: "Theory"
 categories: ['Theory', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
@@ -27,7 +27,7 @@ google-scholar: true
 ## Want to cite this page? See [citation info](theory.html#citation).
 :::
 
-With substantive theory we mean the theory that explains how the [process](processes.qmd) you are studying works. 
+This is the landing page for everything related to your theory. With (substantive) theory we mean the theory that explains how the [process](processes.qmd) you are studying works. 
 
 Below we have specified multiple topics to think about with respect to how the process you are studying works - such that you can best capture that process with your measurements and analyses.
 
@@ -40,7 +40,7 @@ We have collected various topics for you to read more about below.
 -   [Timescale](theory/timescale.qmd)
 -   [Ergodicity](theory/ergodicity.qmd)
 -   [Context and Events](theory/context-events.qmd)
--   [Distributions](theory/distributions.qmd) 
+-   [Distributions](theory/distribution.qmd) 
 <!-- -   [Formal model](\FormalModel_General.qmd) -->
 :::
 

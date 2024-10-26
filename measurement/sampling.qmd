@@ -1,5 +1,5 @@
 ---
-title: "Sampling landing page"
+title: "Sampling"
 categories: ['Measurement theory','Sampling', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
@@ -45,7 +45,7 @@ We have collected various topics for you to read more about below.
 -   [Number of questions and measurements]
 -   [Timing of measurements]
 -   [Key design aspects related to timescales: Time span, process coverage, and granularity](../theory/timescale/time-span-process-coverage-granularity.qmd)
--   [The distribution of a construct](../theory/distributions.qmd)
+-   [The distribution of a construct](../theory/distribution.qmd)
 -   [Ecological Momentary Assessment versus Ecological Retrospective Assessment]
 
 :::

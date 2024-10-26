@@ -1,5 +1,5 @@
 ---
-title: "Distribution landing Page"
+title: "Distribution"
 categories: ['Theory','Distributions', 'Landing page']
 title-block-categories: false
 date-format: "YYYY-MM-DD"
