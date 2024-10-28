@@ -1,0 +1,6 @@
+---
+title: "Download template"
+---
+
+This is were we will add a link to download the template.
+[View the template](template.qmd).

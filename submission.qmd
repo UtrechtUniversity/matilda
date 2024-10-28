@@ -1,0 +1,23 @@
+---
+title: "Submision process"
+sidebar: submission
+number-sections: false
+---
+
+We invite authors to submit a page to MATILDA which contributes to our core aim.
+
+The core aim of MATILDA is to **support researchers in reasoning about measurement, analysis, and theory in the context of intensive longitudinal data (ILD) research**, specifically focusing on studying psychological processes as they unfold over time within and/or between individuals.  
+
+# Content principles
+
+The central message of each MATILDA page should answer one key question:   
+
+*“Why is it important to consider [page title] in the context of an ILD study?”*
+
+All content on the MATILDA page, including explanations of terminology, concepts, and examples, should be in service of this central message. Specifically: 
+
+- MATILDA content **focuses on theoretical considerations rather than practical concerns**. The emphasis is on how a process behaves, and how to answer research questions in an ILD study, rather than on (important) practicalities (e.g., participant burden, finances, available software functionality, etc.) that may impact measurement and analysis choices. 
+- MATILDA content is intended to be **educational rather than prescriptive**. Pages provide information, describe options, and may present arguments but do not dictate what should be considered the best approach. 
+- MATILDA content is written in **tutorial style** and is **clear and comprehensibly** to a broad audience of (psychological) researchers with varying levels of experience in ILD research.  
+- MATILDA content **should be understandable to master students in psychology**, especially those interested in ILD, who are familiar with basic psychological study designs (like cross-sectional studies) and have a good grasp of multiple linear regression. 
+- MATILDA content is **highly interconnected**, with pages often linking to one another, reflecting the inherently intertwined nature of study aspect and design, which thus requires iterative learning. 

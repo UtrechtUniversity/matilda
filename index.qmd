@@ -2,6 +2,7 @@
 title: "MATILDA"
 toc: false
 number-sections: false
+sidebar: content
 ---
 
 <style>

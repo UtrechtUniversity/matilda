@@ -1,5 +1,6 @@
 ---
 title: Page title
+sidebar: submission
 date-format: "YYYY-MM-DD"
 date: 2023-06-26
 date-modified: last-modified
@@ -21,8 +22,8 @@ categories: ['Template', 'Submissionn guidelines']
 title-block-categories: false
 citation: true
 google-scholar: true
-csl: resources/styles/apa.csl
-bibliography: resources/bibliographies/pagename_references.bib
+csl: ../resources/styles/apa.csl
+bibliography: ../resources/bibliographies/pagename_references.bib
 # make sure the .bib file is in the same folder as this .qmd file
 # the files in the styles folder give your html file the MATILDA appearance
 # these cannot be altered for individual pages
@@ -63,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium mi sit amet
 
 Nulla sed congue mi. Praesent urna mauris, pellentesque eu congue ac, varius nec est. Integer id ultricies felis. Nam ultrices ligula nec arcu egestas aliquet. Nunc mi ligula, faucibus vitae felis eget, efficitur consequat elit. Ut in volutpat felis, nec blandit nulla. Nullam at fermentum mi. Aenean posuere et nulla vitae aliquet. Aliquam vulputate ut ex ac hendrerit. Sed eget tempor purus. Suspendisse tincidunt nisi nisi, sed ornare velit laoreet at. 
 
-![This is an example of how to add a figure.](/resources/images/figure.png){#fig-example fig-alt="A figure showing an example of a plot." fig-align="center" width=300}
+![This is an example of how to add a figure.](../resources/images/figure.png){#fig-example fig-alt="A figure showing an example of a plot." fig-align="center" width=300}
 
 # Section Heading
 

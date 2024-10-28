@@ -17,38 +17,66 @@ website:
         text: Where do I start?
       - href: experts.qmd
         text: Our experts
+      - href: submission.qmd
+        text: "Submission process"
   sidebar:
-    style: "docked"
-    collapse-level: 1
-    contents:
-      - href: intensive-longitudinal-data.qmd
-        text: "About ILD"
-      - href: processes.qmd
-        text: "About processes"
-      - text: "---"
-      - section: your-study.qmd
-        contents:
-          - href: your-study/research-question.qmd
-          - href: your-study/theory-formation.qmd
-          - href: your-study/constructs.qmd
-      - section: theory.qmd
-        contents:
-          - href: theory/timescale.qmd
-          - href: theory/ergodicity.qmd
-          - href: theory/context-events.qmd
-          - href: theory/distribution.qmd
-      - section:  measurement.qmd
-        contents:
-          - href: measurement/measurement-theory.qmd
-          - href: measurement/item.qmd
-          - href: measurement/instrument.qmd
-          - href: measurement/sampling.qmd
-          - href: measurement/validation.qmd
-          - href: measurement/measurement-model.qmd
-      - section: "Analysis"
-      - text: "---"
-      - href: template.qmd
-        text: "Template Page"
+    - id: content
+      style: "docked"
+      collapse-level: 1
+      contents:
+        - href: intensive-longitudinal-data.qmd
+          text: "About ILD"
+        - href: processes.qmd
+          text: "About processes"
+        - text: "---"
+        - section: your-study.qmd
+          contents:
+            - section: your-study/research-question.qmd
+              contents:
+                - href: your-study/research-question/intra-vs-inter-individual-variation.qmd
+            - href: your-study/theory-formation.qmd
+            - href: your-study/constructs.qmd
+        - section: theory.qmd
+          contents:
+            - section: theory/timescale.qmd
+              contents:
+                - href: theory/timescale/time-span-process-coverage-granularity.qmd
+                - href: theory/timescale/relating-constructs-timescales.qmd
+            - section: theory/ergodicity.qmd
+              contents:
+                - href: theory/ergodicity/regime-switching-processes.qmd
+            - section: theory/context-events.qmd
+              contents:
+                - href: theory/context-events/event-relations.qmd
+            - section: theory/distribution.qmd
+              contents:
+                - href: theory/distribution/floor-ceiling-effects.qmd
+        - section:  measurement.qmd
+          contents:
+            - href: measurement/measurement-theory.qmd
+            - href: measurement/item.qmd
+            - section: measurement/instrument.qmd
+              contents:
+                - href: measurement/instrument/single-item-multiple-item-measures.qmd
+            - href: measurement/sampling.qmd
+            - section: measurement/validation.qmd
+              contents:
+                - href: measurement/validation/reliability-single-item-measures.qmd
+            - href: measurement/measurement-model.qmd
+        - section: "Analysis"
+
+    - id: submission
+      contents:
+        - section: submission.qmd
+          contents:
+            - href: submission/submission-guidelines.qmd
+            - href: submission/reviewer-guidelines.qmd
+            - href: submission/editorial-guidelines.qmd
+            - section: submission/download-template.qmd
+              contents:
+                - href: submission/template.qmd
+                  text: "View template"
+
   page-footer:
     left: "Copyright 2024, Dynamic Modelling Lab"
     right: |
