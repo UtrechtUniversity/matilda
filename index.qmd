@@ -2,9 +2,14 @@
 title: "MATILDA"
 toc: false
 number-sections: false
-filters: 
-    - remove_title.lua
 ---
+
+<style>
+.quarto-title > h1.title {
+  opacity: 0 !important;
+  height: 0px;
+}
+</style>
 
 ::: callout-caution
 ## This website serves as an example and any content may be subject to change.
